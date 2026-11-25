@@ -20,7 +20,8 @@ LETRAS = 'ABCDE'
 DIF = {'B': 'Básica', 'I': 'Intermediária', 'A': 'Avançada'}
 NOME = 'Introdução à Economia'
 STORAGE = 'intro-economia'
-ORDEM = ['consumo', 'producao', 'custos', 'lucro']
+# os arquivos "-b" (2º lote) vêm depois, para não mudar a letra das 50 primeiras
+ORDEM = ['consumo', 'producao', 'custos', 'lucro', 'consumo-b', 'producao-b', 'custos-b', 'lucro-b']
 
 
 def converter(q, codigo, d):
@@ -52,7 +53,7 @@ def main():
     banco = []
     for nome in ORDEM:
         d = json.load(open(os.path.join(RAIZ, 'data', nome + '.json'), encoding='utf-8'))
-        for n, q in enumerate(d['questoes'], 1):
+        for n, q in enumerate(d['questoes'], d.get('inicio', 1)):
             assert len(q['a']) == 5 and len(q['j']) == 5, f"{d['prefixo']}-{n:02d}: precisa de 5 alternativas"
             banco.append(converter(q, f"{d['prefixo']}-{n:02d}", d))
         print(f"{nome}.json: {len(d['questoes'])} questões ({d['category']})")
