@@ -1,0 +1,3721 @@
+[
+ {
+  "id": 1,
+  "code": "CONS-01",
+  "assunto": "consumo",
+  "category": "Teoria do consumo",
+  "subcategory": "Cestas de mercadorias",
+  "difficulty": "Básica",
+  "origem": "nova",
+  "sourceLabel": "Modelo: prova de 20/11 (questões 1 a 3). O livro do notebook não traz teoria do consumidor; conteúdo padrão da disciplina.",
+  "prompt": "Questão - Cestas de mercadorias\nNa teoria do consumidor, o que é uma cesta de mercadorias? Marque a opção CORRETA:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "O valor total de dinheiro que o consumidor tem para gastar em um mês.",
+    "rationale": "Incorreta. Isso é a renda, que entra na restrição orçamentária, não na definição de cesta."
+   },
+   {
+    "letter": "B",
+    "text": "Uma lista com quantidades de um ou mais bens que o consumidor pode escolher.",
+    "rationale": "CORRETA. Cesta é só uma combinação de quantidades (ex.: 3 pães e 2 cafés). É o objeto que o consumidor compara e escolhe."
+   },
+   {
+    "letter": "C",
+    "text": "O conjunto de bens que a empresa consegue fabricar com os fatores fixos.",
+    "rationale": "Incorreta. Isso mistura com a teoria da firma (produção). Cesta é do lado do consumidor."
+   },
+   {
+    "letter": "D",
+    "text": "A combinação de bens que sempre dá a maior satisfação ao consumidor.",
+    "rationale": "Incorreta. Existe uma cesta ótima, mas qualquer combinação de quantidades é uma cesta, boa ou ruim."
+   },
+   {
+    "letter": "E",
+    "text": "A lista de preços que o mercado cobra por dois bens substitutos.",
+    "rationale": "Incorreta. Preços definem a linha do orçamento. A cesta é feita de quantidades, não de preços."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "Cesta = combinação de QUANTIDADES de bens. Preço e renda entram depois, na restrição orçamentária.",
+  "ficha": {
+   "titulo": "Cesta de mercadorias — o que é",
+   "topicos": [
+    {
+     "rotulo": "Definição",
+     "texto": "Uma **lista de quantidades** de um ou mais bens. Ex.: cesta A = (3 pães; 2 cafés).",
+     "sub": []
+    },
+    {
+     "rotulo": "Para que serve",
+     "texto": "É o que o consumidor **compara e ordena** pelas preferências.",
+     "sub": []
+    },
+    {
+     "rotulo": "O que NÃO é",
+     "texto": "Não é renda nem preço. Renda e preços formam a **restrição orçamentária**.",
+     "sub": []
+    }
+   ],
+   "distratores": [
+    {
+     "frase": "Cesta é a combinação que dá a maior satisfação",
+     "porque": "essa é a **cesta ótima** (equilíbrio); qualquer combinação é uma cesta."
+    },
+    {
+     "frase": "Cesta é o dinheiro disponível do consumidor",
+     "porque": "isso é a **renda**."
+    }
+   ],
+   "fonte": "Modelo: prova de 20/11 (questões 1 a 3). O livro do notebook não traz teoria do consumidor; conteúdo padrão da disciplina."
+  },
+  "revisada": true
+ },
+ {
+  "id": 2,
+  "code": "CONS-02",
+  "assunto": "consumo",
+  "category": "Teoria do consumo",
+  "subcategory": "Cestas de mercadorias e a hipótese de que mais é melhor",
+  "difficulty": "Intermediária",
+  "origem": "nova",
+  "sourceLabel": "Modelo: prova de 20/11 (questões 1 a 3). O livro do notebook não traz teoria do consumidor; conteúdo padrão da disciplina.",
+  "prompt": "Questão - Comparando cestas\nUm consumidor pode escolher entre três cestas de pão e café:\nCesta A: 3 pães e 2 cafés\nCesta B: 4 pães e 2 cafés\nCesta C: 2 pães e 3 cafés\nUsando apenas a hipótese de que \"mais é melhor\" (sem conhecer os gostos dele), marque a opção CORRETA:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "A cesta B é preferida à cesta C.",
+    "rationale": "Incorreta. B tem mais pão e menos café que C. Sem conhecer os gostos, não dá para dizer qual é melhor."
+   },
+   {
+    "letter": "B",
+    "text": "A cesta C é preferida à cesta A.",
+    "rationale": "Incorreta. C tem menos pão e mais café que A. Sem as preferências do consumidor, não dá para ordenar."
+   },
+   {
+    "letter": "C",
+    "text": "As cestas A e B dão a mesma satisfação.",
+    "rationale": "Incorreta. B tem mais de um bem e igual do outro. Pela hipótese, B é estritamente melhor, não indiferente."
+   },
+   {
+    "letter": "D",
+    "text": "A cesta A é preferida à cesta C.",
+    "rationale": "Incorreta. A tem mais pão e menos café que C. É uma troca, e a hipótese sozinha não decide."
+   },
+   {
+    "letter": "E",
+    "text": "A cesta B é preferida à cesta A.",
+    "rationale": "CORRETA. B tem 1 pão a mais e o mesmo café que A. Com \"mais é melhor\", B é preferida a A sem precisar saber os gostos."
+   }
+  ],
+  "correctLetter": "E",
+  "clinicalPointers": "\"Mais é melhor\" só ordena cestas quando uma tem MAIS de um bem e NÃO MENOS do outro.",
+  "ficha": {
+   "titulo": "\"Mais é melhor\" — quando dá para comparar cestas",
+   "topicos": [
+    {
+     "rotulo": "Regra",
+     "texto": "Se a cesta tem **mais de um bem e não menos do outro**, ela é preferida.",
+     "sub": []
+    },
+    {
+     "rotulo": "Quando NÃO dá",
+     "texto": "Se uma cesta tem mais de um bem e **menos** do outro, é uma troca. Aí precisa das **curvas de indiferença** do consumidor.",
+     "sub": []
+    },
+    {
+     "rotulo": "Exemplo",
+     "texto": "(4 pães; 2 cafés) é melhor que (3 pães; 2 cafés). Já (4; 2) contra (2; 3) fica em aberto.",
+     "sub": []
+    }
+   ],
+   "distratores": [
+    {
+     "frase": "A cesta com mais itens no total é sempre a preferida",
+     "porque": "somar pães com cafés não vale; só ordena se nenhum bem diminuir."
+    },
+    {
+     "frase": "Cestas com um bem a mais são indiferentes",
+     "porque": "com \"mais é melhor\" ela é **estritamente** preferida."
+    }
+   ],
+   "fonte": "Modelo: prova de 20/11 (questões 1 a 3). O livro do notebook não traz teoria do consumidor; conteúdo padrão da disciplina."
+  },
+  "revisada": true
+ },
+ {
+  "id": 3,
+  "code": "CONS-03",
+  "assunto": "consumo",
+  "category": "Teoria do consumo",
+  "subcategory": "Restrição orçamentária: interceptos e inclinação",
+  "difficulty": "Intermediária",
+  "origem": "nova",
+  "sourceLabel": "Modelo: prova de 20/11 (questões 1 a 3). O livro do notebook não traz teoria do consumidor; conteúdo padrão da disciplina.",
+  "prompt": "Questão - Restrição Orçamentária (RO)\nUma estudante tem renda de R$ 100,00 para gastar com dois bens: X custa R$ 5,00 e Y custa R$ 10,00. Com X no eixo horizontal e Y no eixo vertical, marque a opção CORRETA:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Ela compra no máximo 10 de X ou 20 de Y; a inclinação da RO é -0,5.",
+    "rationale": "Incorreta. Inverteu os interceptos: dividiu a renda pelo preço do outro bem."
+   },
+   {
+    "letter": "B",
+    "text": "Ela compra no máximo 20 de X ou 10 de Y; a inclinação da RO é -2.",
+    "rationale": "Incorreta. Os interceptos estão certos, mas a inclinação foi calculada como -Py/Px (-10/5)."
+   },
+   {
+    "letter": "C",
+    "text": "Ela compra no máximo 20 de X ou 10 de Y; a inclinação da RO é -0,5.",
+    "rationale": "CORRETA. Máximo de X = 100/5 = 20; máximo de Y = 100/10 = 10. Inclinação = -Px/Py = -5/10 = -0,5."
+   },
+   {
+    "letter": "D",
+    "text": "Ela compra no máximo 10 de X ou 20 de Y; a inclinação da RO é -2.",
+    "rationale": "Incorreta. Inverteu os interceptos e a inclinação."
+   },
+   {
+    "letter": "E",
+    "text": "Ela compra no máximo 20 de X ou 10 de Y; a inclinação da RO é -1.",
+    "rationale": "Incorreta. Interceptos certos, mas a inclinação não é -1: ela depende da razão entre os preços (-5/10)."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "Intercepto = Renda / preço do bem daquele eixo. Inclinação = -Px/Py (preço do bem do eixo horizontal em cima).",
+  "ficha": {
+   "titulo": "Restrição orçamentária — conta básica",
+   "topicos": [
+    {
+     "rotulo": "Equação",
+     "texto": "**Px·X + Py·Y = R**. Ex.: 5X + 10Y = 100.",
+     "sub": []
+    },
+    {
+     "rotulo": "Interceptos",
+     "texto": "Máximo de X = **R/Px**; máximo de Y = **R/Py**.",
+     "sub": []
+    },
+    {
+     "rotulo": "Inclinação",
+     "texto": "**-Px/Py** (X no eixo horizontal). Mostra quanto de Y o mercado exige para dar 1 unidade de X.",
+     "sub": []
+    }
+   ],
+   "distratores": [
+    {
+     "frase": "A inclinação é -Py/Px",
+     "porque": "com X no eixo horizontal, o preço de X vai no **numerador**."
+    },
+    {
+     "frase": "O máximo de X é R/Py",
+     "porque": "cada intercepto usa o preço do **próprio** bem."
+    }
+   ],
+   "fonte": "Modelo: prova de 20/11 (questões 1 a 3). O livro do notebook não traz teoria do consumidor; conteúdo padrão da disciplina."
+  },
+  "revisada": true
+ },
+ {
+  "id": 4,
+  "code": "CONS-04",
+  "assunto": "consumo",
+  "category": "Teoria do consumo",
+  "subcategory": "Restrição orçamentária: cesta acessível ou não",
+  "difficulty": "Intermediária",
+  "origem": "nova",
+  "sourceLabel": "Modelo: prova de 20/11 (questões 1 a 3). O livro do notebook não traz teoria do consumidor; conteúdo padrão da disciplina.",
+  "prompt": "Questão - Espaço orçamentário\nUm consumidor tem renda de R$ 120,00. O bem X custa R$ 4,00 e o bem Y custa R$ 6,00. Qual das cestas abaixo está FORA do seu espaço orçamentário (não cabe no bolso)?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "20 unidades de X e 8 unidades de Y.",
+    "rationale": "CORRETA. 4·20 + 6·8 = 80 + 48 = R$ 128,00, mais que a renda de R$ 120,00. Está fora do espaço orçamentário."
+   },
+   {
+    "letter": "B",
+    "text": "12 unidades de X e 12 unidades de Y.",
+    "rationale": "Incorreta. 4·12 + 6·12 = 48 + 72 = R$ 120,00. Está exatamente sobre a linha do orçamento."
+   },
+   {
+    "letter": "C",
+    "text": "15 unidades de X e 10 unidades de Y.",
+    "rationale": "Incorreta. 4·15 + 6·10 = 60 + 60 = R$ 120,00. Está sobre a linha."
+   },
+   {
+    "letter": "D",
+    "text": "6 unidades de X e 16 unidades de Y.",
+    "rationale": "Incorreta. 4·6 + 6·16 = 24 + 96 = R$ 120,00. Está sobre a linha."
+   },
+   {
+    "letter": "E",
+    "text": "10 unidades de X e 5 unidades de Y.",
+    "rationale": "Incorreta. 4·10 + 6·5 = 40 + 30 = R$ 70,00. Está abaixo da linha: cabe e ainda sobra dinheiro."
+   }
+  ],
+  "correctLetter": "A",
+  "clinicalPointers": "Calcule o gasto de cada cesta (Px·X + Py·Y) e compare com a renda. Gasto maior que a renda = fora.",
+  "ficha": {
+   "titulo": "Espaço orçamentário — testar se a cesta cabe",
+   "topicos": [
+    {
+     "rotulo": "Teste",
+     "texto": "Gasto = **Px·X + Py·Y**. Se gasto ≤ renda, a cesta é **acessível**.",
+     "sub": []
+    },
+    {
+     "rotulo": "Sobre a linha",
+     "texto": "Gasto **igual** à renda: gasta tudo.",
+     "sub": []
+    },
+    {
+     "rotulo": "Abaixo da linha",
+     "texto": "Gasto **menor** que a renda: acessível, mas sobra dinheiro.",
+     "sub": []
+    },
+    {
+     "rotulo": "Acima da linha",
+     "texto": "Gasto **maior** que a renda: fora do espaço orçamentário.",
+     "sub": []
+    }
+   ],
+   "distratores": [
+    {
+     "frase": "Só as cestas sobre a linha são acessíveis",
+     "porque": "as cestas **abaixo** da linha também cabem no orçamento."
+    }
+   ],
+   "fonte": "Modelo: prova de 20/11 (questões 1 a 3). O livro do notebook não traz teoria do consumidor; conteúdo padrão da disciplina."
+  },
+  "revisada": true
+ },
+ {
+  "id": 5,
+  "code": "CONS-05",
+  "assunto": "consumo",
+  "category": "Teoria do consumo",
+  "subcategory": "Restrição orçamentária: o que define a inclinação",
+  "difficulty": "Básica",
+  "origem": "nova",
+  "sourceLabel": "Modelo: prova de 20/11 (questões 1 a 3). O livro do notebook não traz teoria do consumidor; conteúdo padrão da disciplina.",
+  "prompt": "Questão - Restrição Orçamentária\nSobre a linha do orçamento do consumidor, marque a opção INCORRETA:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "A linha do orçamento mostra as cestas que custam exatamente a renda do consumidor.",
+    "rationale": "Não é a resposta. Verdadeira. Sobre a linha, Px·X + Py·Y = R."
+   },
+   {
+    "letter": "B",
+    "text": "A inclinação da linha depende da razão entre os preços dos dois bens.",
+    "rationale": "Não é a resposta. Verdadeira. A inclinação é -Px/Py."
+   },
+   {
+    "letter": "C",
+    "text": "As cestas abaixo da linha também cabem no orçamento, mas sobra dinheiro.",
+    "rationale": "Não é a resposta. Verdadeira. O espaço orçamentário inclui a linha e tudo abaixo dela."
+   },
+   {
+    "letter": "D",
+    "text": "Se a renda aumenta e os preços ficam iguais, a inclinação da linha muda.",
+    "rationale": "CORRETA. Esta é a INCORRETA. A inclinação é -Px/Py; a renda não entra nela. Mudar só a renda desloca a linha em paralelo."
+   },
+   {
+    "letter": "E",
+    "text": "Se só o preço de X muda, o ponto máximo de Y no eixo vertical continua igual.",
+    "rationale": "Não é a resposta. Verdadeira. O máximo de Y é R/Py, que não depende de Px."
+   }
+  ],
+  "correctLetter": "D",
+  "clinicalPointers": "Renda mexe na POSIÇÃO da linha (paralela). Preços mexem na INCLINAÇÃO.",
+  "ficha": {
+   "titulo": "Linha do orçamento — renda x preços",
+   "topicos": [
+    {
+     "rotulo": "Renda",
+     "texto": "Muda a **posição** da linha, em paralelo. A inclinação fica igual.",
+     "sub": []
+    },
+    {
+     "rotulo": "Preços",
+     "texto": "Mudam a **inclinação** (-Px/Py). Se muda só um preço, a linha **gira** no intercepto do outro bem.",
+     "sub": []
+    },
+    {
+     "rotulo": "Espaço orçamentário",
+     "texto": "A linha **mais** tudo abaixo dela.",
+     "sub": []
+    }
+   ],
+   "distratores": [
+    {
+     "frase": "Aumento de renda deixa a linha mais inclinada",
+     "porque": "a renda não aparece em **-Px/Py**; a linha só se desloca em paralelo."
+    }
+   ],
+   "fonte": "Modelo: prova de 20/11 (questões 1 a 3). O livro do notebook não traz teoria do consumidor; conteúdo padrão da disciplina."
+  },
+  "revisada": true
+ },
+ {
+  "id": 6,
+  "code": "CONS-06",
+  "assunto": "consumo",
+  "category": "Teoria do consumo",
+  "subcategory": "Deslocamentos da linha do orçamento (I, II, III)",
+  "difficulty": "Intermediária",
+  "origem": "nova",
+  "sourceLabel": "Modelo: prova de 20/11 (questões 1 a 3). O livro do notebook não traz teoria do consumidor; conteúdo padrão da disciplina.",
+  "prompt": "Questão - Mudanças no Orçamento\nAnalise as situações e marque a correta:\nI. Se a renda aumenta e os preços não mudam, a linha do orçamento se desloca em paralelo para a direita.\nII. Se o preço de X cai e o resto não muda, a linha gira para fora no eixo de X, e o ponto máximo de Y não se altera.\nIII. Se a renda e os preços de X e Y dobram ao mesmo tempo, a linha do orçamento não se altera.",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Somente a I é verdadeira.",
+    "rationale": "Incorreta. A II e a III também estão certas."
+   },
+   {
+    "letter": "B",
+    "text": "Todas são verdadeiras.",
+    "rationale": "CORRETA. As três estão certas: I é efeito renda puro; II é giro no eixo de X; III mantém R/Px, R/Py e -Px/Py iguais."
+   },
+   {
+    "letter": "C",
+    "text": "Somente I e II são verdadeiras.",
+    "rationale": "Incorreta. A III também está certa: dobrar tudo mantém os interceptos (2R/2P = R/P) e a inclinação."
+   },
+   {
+    "letter": "D",
+    "text": "Somente II e III são verdadeiras.",
+    "rationale": "Incorreta. A I também está certa: renda maior com preços fixos é deslocamento paralelo para fora."
+   },
+   {
+    "letter": "E",
+    "text": "Nenhuma é verdadeira.",
+    "rationale": "Incorreta. As três afirmações estão corretas."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "Teste cada mudança nos interceptos R/Px e R/Py e na inclinação -Px/Py.",
+  "ficha": {
+   "titulo": "Deslocamentos da RO — os 3 casos",
+   "topicos": [
+    {
+     "rotulo": "Renda ↑ (preços fixos)",
+     "texto": "Deslocamento **paralelo para fora**.",
+     "sub": []
+    },
+    {
+     "rotulo": "Px ↓ (resto fixo)",
+     "texto": "A linha **gira para fora** no eixo de X; o intercepto de Y fica parado.",
+     "sub": []
+    },
+    {
+     "rotulo": "Renda e preços na mesma proporção",
+     "texto": "**Nada muda**: interceptos e inclinação são os mesmos.",
+     "sub": []
+    }
+   ],
+   "distratores": [
+    {
+     "frase": "Renda e preços dobrando, o consumidor compra o dobro",
+     "porque": "o poder de compra fica **igual**; a linha não se move."
+    }
+   ],
+   "fonte": "Modelo: prova de 20/11 (questões 1 a 3). O livro do notebook não traz teoria do consumidor; conteúdo padrão da disciplina."
+  },
+  "revisada": true
+ },
+ {
+  "id": 7,
+  "code": "CONS-07",
+  "assunto": "consumo",
+  "category": "Teoria do consumo",
+  "subcategory": "Deslocamento da RO por queda de preço (cálculo)",
+  "difficulty": "Intermediária",
+  "origem": "nova",
+  "sourceLabel": "Modelo: prova de 20/11 (questões 1 a 3). O livro do notebook não traz teoria do consumidor; conteúdo padrão da disciplina.",
+  "prompt": "Questão - Queda de preço\nUm consumidor tem renda de R$ 200,00. O bem X custa R$ 10,00 e o bem Y custa R$ 20,00. O preço de X cai para R$ 5,00, e o resto não muda. O que acontece com a linha do orçamento?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Desloca em paralelo para fora: o máximo de X vai para 40 e o de Y vai para 20.",
+    "rationale": "Incorreta. Deslocamento paralelo é efeito de renda. Aqui só Px mudou, então o intercepto de Y não sai do lugar."
+   },
+   {
+    "letter": "B",
+    "text": "Gira para dentro no eixo de X: o máximo de X cai de 20 para 10, e o de Y fica em 10.",
+    "rationale": "Incorreta. Preço menor deixa comprar MAIS de X, então a linha gira para fora, não para dentro."
+   },
+   {
+    "letter": "C",
+    "text": "Gira no eixo de Y: o máximo de Y vai de 10 para 20, e o de X fica em 20.",
+    "rationale": "Incorreta. Quem muda é o intercepto do bem cujo preço mudou (X), não o de Y."
+   },
+   {
+    "letter": "D",
+    "text": "Não muda, porque a renda do consumidor continuou a mesma de antes.",
+    "rationale": "Incorreta. Com Px menor, a mesma renda compra mais X. A linha muda mesmo com renda fixa."
+   },
+   {
+    "letter": "E",
+    "text": "Gira para fora no eixo de X: o máximo de X vai de 20 para 40, e o de Y fica em 10.",
+    "rationale": "CORRETA. Antes: 200/10 = 20 de X. Depois: 200/5 = 40 de X. Y fica em 200/20 = 10. A inclinação vai de -0,5 para -0,25."
+   }
+  ],
+  "correctLetter": "E",
+  "clinicalPointers": "Só o intercepto do bem que mudou de preço se move. Preço caiu → gira para fora.",
+  "ficha": {
+   "titulo": "Queda de preço de um bem — giro da RO",
+   "topicos": [
+    {
+     "rotulo": "O que se move",
+     "texto": "Só o intercepto do bem cujo preço mudou: **R/Px**.",
+     "sub": []
+    },
+    {
+     "rotulo": "Sentido",
+     "texto": "Preço **cai** → gira **para fora**. Preço **sobe** → gira para dentro.",
+     "sub": []
+    },
+    {
+     "rotulo": "Inclinação",
+     "texto": "Muda junto: -Px/Py passa de -10/20 = **-0,5** para -5/20 = **-0,25**.",
+     "sub": []
+    }
+   ],
+   "distratores": [
+    {
+     "frase": "Queda de preço desloca a linha em paralelo",
+     "porque": "paralelo é só quando **a renda** muda (ou todos os preços na mesma proporção)."
+    }
+   ],
+   "fonte": "Modelo: prova de 20/11 (questões 1 a 3). O livro do notebook não traz teoria do consumidor; conteúdo padrão da disciplina."
+  },
+  "revisada": true
+ },
+ {
+  "id": 8,
+  "code": "CONS-08",
+  "assunto": "consumo",
+  "category": "Teoria do consumo",
+  "subcategory": "Deslocamento da RO: todos os preços sobem",
+  "difficulty": "Intermediária",
+  "origem": "nova",
+  "sourceLabel": "Modelo: prova de 20/11 (questões 1 a 3). O livro do notebook não traz teoria do consumidor; conteúdo padrão da disciplina.",
+  "prompt": "Questão - Preços dobrando\nOs preços de X e de Y dobram, e a renda do consumidor fica igual. Marque a opção CORRETA sobre a linha do orçamento:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Gira para dentro no eixo de X, e o ponto máximo de Y continua no mesmo lugar.",
+    "rationale": "Incorreta. Os dois preços mudaram, então os dois interceptos caem; não é giro."
+   },
+   {
+    "letter": "B",
+    "text": "Fica igual, porque a razão entre os dois preços não mudou com o aumento.",
+    "rationale": "Incorreta. A inclinação não muda, mas os interceptos caem pela metade. A linha se move."
+   },
+   {
+    "letter": "C",
+    "text": "Desloca em paralelo para dentro, como se a renda tivesse caído pela metade.",
+    "rationale": "CORRETA. Interceptos: R/2Px e R/2Py (metade dos anteriores). Inclinação: -2Px/2Py = -Px/Py, igual. É o mesmo que a renda cair à metade."
+   },
+   {
+    "letter": "D",
+    "text": "Fica duas vezes mais inclinada, porque os dois preços dobraram ao mesmo tempo.",
+    "rationale": "Incorreta. A inclinação é a razão dos preços; dobrando os dois, a razão é a mesma."
+   },
+   {
+    "letter": "E",
+    "text": "Desloca em paralelo para fora, porque os bens passaram a valer mais no mercado.",
+    "rationale": "Incorreta. Preço maior com renda igual reduz o poder de compra: a linha vai para dentro."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "Todos os preços sobem na mesma proporção = queda de renda real. Paralelo para dentro.",
+  "ficha": {
+   "titulo": "Todos os preços sobem igual — efeito renda",
+   "topicos": [
+    {
+     "rotulo": "Interceptos",
+     "texto": "R/(2Px) e R/(2Py): **caem à metade**.",
+     "sub": []
+    },
+    {
+     "rotulo": "Inclinação",
+     "texto": "-2Px/2Py = **-Px/Py**, igual.",
+     "sub": []
+    },
+    {
+     "rotulo": "Leitura",
+     "texto": "Equivale a a **renda cair pela metade**: deslocamento paralelo para dentro.",
+     "sub": []
+    }
+   ],
+   "distratores": [
+    {
+     "frase": "Se a razão de preços não muda, a linha não muda",
+     "porque": "a **inclinação** não muda, mas a **posição** muda, porque a renda real caiu."
+    }
+   ],
+   "fonte": "Modelo: prova de 20/11 (questões 1 a 3). O livro do notebook não traz teoria do consumidor; conteúdo padrão da disciplina."
+  },
+  "revisada": true
+ },
+ {
+  "id": 9,
+  "code": "CONS-09",
+  "assunto": "consumo",
+  "category": "Teoria do consumo",
+  "subcategory": "Hipóteses da preferência: completude",
+  "difficulty": "Básica",
+  "origem": "nova",
+  "sourceLabel": "Modelo: prova de 20/11 (questões 1 a 3). O livro do notebook não traz teoria do consumidor; conteúdo padrão da disciplina.",
+  "prompt": "Questão - Hipóteses sobre as preferências\nA hipótese de que as preferências do consumidor são COMPLETAS significa que:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Ele consegue comparar quaisquer duas cestas, nem que seja indiferente.",
+    "rationale": "CORRETA. Completude = o consumidor sempre consegue ordenar duas cestas quaisquer (A>B, B>A ou A~B)."
+   },
+   {
+    "letter": "B",
+    "text": "Se ele prefere A a B e prefere B a C, então ele também prefere A a C.",
+    "rationale": "Incorreta. Essa é a transitividade."
+   },
+   {
+    "letter": "C",
+    "text": "Qualquer cesta é, para ele, pelo menos tão boa quanto ela mesma.",
+    "rationale": "Incorreta. Essa é a reflexividade."
+   },
+   {
+    "letter": "D",
+    "text": "Ele sempre prefere a cesta que tenha a maior quantidade total de bens.",
+    "rationale": "Incorreta. Essa é a ideia de \"mais é melhor\" (não saciedade), que é outra hipótese."
+   },
+   {
+    "letter": "E",
+    "text": "Ele gasta toda a sua renda e nunca deixa sobrar dinheiro no orçamento.",
+    "rationale": "Incorreta. Isso não é hipótese de preferência; é uma conclusão sobre a escolha ótima."
+   }
+  ],
+  "correctLetter": "A",
+  "clinicalPointers": "Completa = sabe comparar. Transitiva = coerente em cadeia. Reflexiva = A é tão boa quanto A.",
+  "ficha": {
+   "titulo": "Hipóteses da preferência — completude",
+   "topicos": [
+    {
+     "rotulo": "Completas",
+     "texto": "Para **quaisquer** duas cestas, o consumidor diz: prefiro A, prefiro B ou **indiferente**.",
+     "sub": []
+    },
+    {
+     "rotulo": "Transitivas",
+     "texto": "A>B e B>C → **A>C**.",
+     "sub": []
+    },
+    {
+     "rotulo": "Reflexivas",
+     "texto": "Toda cesta é **pelo menos tão boa quanto ela mesma**.",
+     "sub": []
+    }
+   ],
+   "distratores": [
+    {
+     "frase": "Completude: se A>B e B>C então A>C",
+     "porque": "essa é a **transitividade**."
+    },
+    {
+     "frase": "Completude: o consumidor quer sempre mais de tudo",
+     "porque": "isso é \"**mais é melhor**\"."
+    }
+   ],
+   "fonte": "Modelo: prova de 20/11 (questões 1 a 3). O livro do notebook não traz teoria do consumidor; conteúdo padrão da disciplina."
+  },
+  "revisada": true
+ },
+ {
+  "id": 10,
+  "code": "CONS-10",
+  "assunto": "consumo",
+  "category": "Teoria do consumo",
+  "subcategory": "Hipóteses da preferência: transitividade",
+  "difficulty": "Básica",
+  "origem": "nova",
+  "sourceLabel": "Modelo: prova de 20/11 (questões 1 a 3). O livro do notebook não traz teoria do consumidor; conteúdo padrão da disciplina.",
+  "prompt": "Questão - Transitividade\nAna prefere a cesta A à cesta B e prefere a cesta B à cesta C. Se as preferências de Ana são transitivas, marque a opção CORRETA:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Ana prefere a cesta C à cesta A.",
+    "rationale": "Incorreta. Isso contraria a transitividade (seria uma preferência incoerente, circular)."
+   },
+   {
+    "letter": "B",
+    "text": "Ana é indiferente entre as cestas A e C.",
+    "rationale": "Incorreta. Pela transitividade, A é estritamente preferida a C, não indiferente."
+   },
+   {
+    "letter": "C",
+    "text": "Não dá para dizer nada sobre A e C.",
+    "rationale": "Incorreta. A transitividade existe justamente para permitir essa conclusão."
+   },
+   {
+    "letter": "D",
+    "text": "Ana prefere a cesta A à cesta C.",
+    "rationale": "CORRETA. Transitividade: A>B e B>C implicam A>C."
+   },
+   {
+    "letter": "E",
+    "text": "A cesta B é a melhor das três para Ana.",
+    "rationale": "Incorreta. A é preferida a B, então B não é a melhor."
+   }
+  ],
+  "correctLetter": "D",
+  "clinicalPointers": "Transitividade = coerência em cadeia: A>B, B>C → A>C.",
+  "ficha": {
+   "titulo": "Transitividade — coerência das escolhas",
+   "topicos": [
+    {
+     "rotulo": "Regra",
+     "texto": "Se **A>B** e **B>C**, então **A>C**.",
+     "sub": []
+    },
+    {
+     "rotulo": "Para que serve",
+     "texto": "Garante que as escolhas não sejam **circulares** e que as curvas de indiferença **não se cruzem**.",
+     "sub": []
+    }
+   ],
+   "distratores": [
+    {
+     "frase": "Com A>B e B>C, nada se pode concluir sobre A e C",
+     "porque": "a transitividade garante **A>C**."
+    }
+   ],
+   "fonte": "Modelo: prova de 20/11 (questões 1 a 3). O livro do notebook não traz teoria do consumidor; conteúdo padrão da disciplina."
+  },
+  "revisada": true
+ },
+ {
+  "id": 11,
+  "code": "CONS-11",
+  "assunto": "consumo",
+  "category": "Teoria do consumo",
+  "subcategory": "Hipóteses da preferência (I, II, III)",
+  "difficulty": "Intermediária",
+  "origem": "nova",
+  "sourceLabel": "Modelo: prova de 20/11 (questões 1 a 3). O livro do notebook não traz teoria do consumidor; conteúdo padrão da disciplina.",
+  "prompt": "Questão - Preferências do Consumidor\nLeia as frases abaixo e marque a opção CORRETA:\nI. Reflexividade: qualquer cesta é pelo menos tão boa quanto ela mesma.\nII. Transitividade: se A é pelo menos tão boa quanto B e B é pelo menos tão boa quanto C, então A é pelo menos tão boa quanto C.\nIII. Completude: o consumidor pode deixar de comparar algumas cestas quando elas são muito parecidas.",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Somente a I está correta.",
+    "rationale": "Incorreta. A II também está correta."
+   },
+   {
+    "letter": "B",
+    "text": "As frases I e II estão corretas.",
+    "rationale": "CORRETA. I e II definem bem reflexividade e transitividade. A III está errada."
+   },
+   {
+    "letter": "C",
+    "text": "Somente a III está correta.",
+    "rationale": "Incorreta. A III é a única errada: completude diz que o consumidor SEMPRE consegue comparar."
+   },
+   {
+    "letter": "D",
+    "text": "As frases II e III estão corretas.",
+    "rationale": "Incorreta. A III está errada e a I está correta."
+   },
+   {
+    "letter": "E",
+    "text": "Todas as frases estão corretas.",
+    "rationale": "Incorreta. A III contradiz a própria ideia de completude."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "Completude não tem exceção: o consumidor compara TODAS as cestas, mesmo parecidas (pode ser indiferente).",
+  "ficha": {
+   "titulo": "As 3 hipóteses da preferência",
+   "topicos": [
+    {
+     "rotulo": "Completas",
+     "texto": "Compara **todas** as cestas. Se forem parecidas, pode ser **indiferente**, mas compara.",
+     "sub": []
+    },
+    {
+     "rotulo": "Transitivas",
+     "texto": "A≥B e B≥C → **A≥C**.",
+     "sub": []
+    },
+    {
+     "rotulo": "Reflexivas",
+     "texto": "A ≥ A: toda cesta é tão boa quanto ela mesma.",
+     "sub": []
+    }
+   ],
+   "distratores": [
+    {
+     "frase": "Completude permite não comparar cestas parecidas",
+     "porque": "indiferença é uma comparação; **não comparar** viola a completude."
+    }
+   ],
+   "fonte": "Modelo: prova de 20/11 (questões 1 a 3). O livro do notebook não traz teoria do consumidor; conteúdo padrão da disciplina."
+  },
+  "revisada": true
+ },
+ {
+  "id": 12,
+  "code": "CONS-12",
+  "assunto": "consumo",
+  "category": "Teoria do consumo",
+  "subcategory": "Curvas de indiferença: definição",
+  "difficulty": "Básica",
+  "origem": "nova",
+  "sourceLabel": "Modelo: prova de 20/11 (questões 1 a 3). O livro do notebook não traz teoria do consumidor; conteúdo padrão da disciplina.",
+  "prompt": "Questão - Curvas de Indiferença (CI)\nUma curva de indiferença representa:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "As cestas que custam exatamente a renda total do consumidor.",
+    "rationale": "Incorreta. Essa é a linha do orçamento."
+   },
+   {
+    "letter": "B",
+    "text": "As combinações de fatores que geram a mesma produção na firma.",
+    "rationale": "Incorreta. Essa é a isoquanta, da teoria da produção."
+   },
+   {
+    "letter": "C",
+    "text": "As cestas que o consumidor não consegue comprar com a renda.",
+    "rationale": "Incorreta. Isso é a área acima da linha do orçamento."
+   },
+   {
+    "letter": "D",
+    "text": "A relação entre o preço de um bem e a quantidade demandada.",
+    "rationale": "Incorreta. Essa é a curva de demanda."
+   },
+   {
+    "letter": "E",
+    "text": "As cestas que dão ao consumidor o mesmo nível de satisfação.",
+    "rationale": "CORRETA. Todas as cestas sobre a mesma CI dão a mesma utilidade: o consumidor é indiferente entre elas."
+   }
+  ],
+  "correctLetter": "E",
+  "clinicalPointers": "CI = mesma satisfação. RO = mesmo gasto. Isoquanta = mesma produção.",
+  "ficha": {
+   "titulo": "Curva de indiferença — definição",
+   "topicos": [
+    {
+     "rotulo": "Definição",
+     "texto": "Conjunto de cestas com **o mesmo nível de satisfação** (utilidade).",
+     "sub": []
+    },
+    {
+     "rotulo": "Não confundir",
+     "texto": "",
+     "sub": [
+      {
+       "rotulo": "Linha do orçamento",
+       "texto": "cestas com o **mesmo gasto**."
+      },
+      {
+       "rotulo": "Isoquanta",
+       "texto": "combinações de fatores com a **mesma produção**."
+      }
+     ]
+    }
+   ],
+   "distratores": [
+    {
+     "frase": "A CI mostra as cestas que custam a renda toda",
+     "porque": "isso é a **restrição orçamentária**."
+    }
+   ],
+   "fonte": "Modelo: prova de 20/11 (questões 1 a 3). O livro do notebook não traz teoria do consumidor; conteúdo padrão da disciplina."
+  },
+  "revisada": true
+ },
+ {
+  "id": 13,
+  "code": "CONS-13",
+  "assunto": "consumo",
+  "category": "Teoria do consumo",
+  "subcategory": "Curvas de indiferença: propriedades",
+  "difficulty": "Intermediária",
+  "origem": "nova",
+  "sourceLabel": "Modelo: prova de 20/11 (questões 1 a 3). O livro do notebook não traz teoria do consumidor; conteúdo padrão da disciplina.",
+  "prompt": "Questão - Propriedades das Curvas de Indiferença\nSobre as curvas de indiferença de um mesmo consumidor, marque a opção INCORRETA:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "As curvas de indiferença têm inclinação negativa quando os dois bens são desejados.",
+    "rationale": "Não é a resposta. Verdadeira. Para ganhar mais de um bem e ficar igualmente satisfeito, é preciso abrir mão do outro."
+   },
+   {
+    "letter": "B",
+    "text": "Uma curva mais afastada da origem representa um nível de satisfação maior.",
+    "rationale": "Não é a resposta. Verdadeira. Pela hipótese de que mais é melhor, curvas mais altas dão mais satisfação."
+   },
+   {
+    "letter": "C",
+    "text": "Duas curvas de indiferença podem se cruzar quando as preferências são transitivas.",
+    "rationale": "CORRETA. Esta é a INCORRETA. Se duas CIs se cruzassem, uma mesma cesta teria dois níveis de satisfação, o que viola a transitividade."
+   },
+   {
+    "letter": "D",
+    "text": "As curvas de indiferença costumam ser convexas em relação à origem do gráfico.",
+    "rationale": "Não é a resposta. Verdadeira. A convexidade vem da TMS decrescente."
+   },
+   {
+    "letter": "E",
+    "text": "Existe um mapa de indiferença, com infinitas curvas, uma para cada nível de satisfação.",
+    "rationale": "Não é a resposta. Verdadeira. O mapa de indiferença tem uma curva para cada nível de utilidade."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "CIs: inclinação negativa, convexas, não se cruzam, mais longe da origem = melhor.",
+  "ficha": {
+   "titulo": "Curvas de indiferença — 4 propriedades",
+   "topicos": [
+    {
+     "rotulo": "Inclinação negativa",
+     "texto": "Para ter mais de X, **abre mão de Y**.",
+     "sub": []
+    },
+    {
+     "rotulo": "Mais longe = melhor",
+     "texto": "CI mais afastada da origem = **maior satisfação**.",
+     "sub": []
+    },
+    {
+     "rotulo": "Não se cruzam",
+     "texto": "Cruzamento viola a **transitividade**.",
+     "sub": []
+    },
+    {
+     "rotulo": "Convexas",
+     "texto": "Por causa da **TMS decrescente**.",
+     "sub": []
+    }
+   ],
+   "distratores": [
+    {
+     "frase": "CIs podem se cruzar se o consumidor for coerente",
+     "porque": "é justamente a coerência (**transitividade**) que impede o cruzamento."
+    }
+   ],
+   "fonte": "Modelo: prova de 20/11 (questões 1 a 3). O livro do notebook não traz teoria do consumidor; conteúdo padrão da disciplina."
+  },
+  "revisada": true
+ },
+ {
+  "id": 14,
+  "code": "CONS-14",
+  "assunto": "consumo",
+  "category": "Teoria do consumo",
+  "subcategory": "Curvas de indiferença não se cruzam (isto porque)",
+  "difficulty": "Avançada",
+  "origem": "nova",
+  "sourceLabel": "Modelo: prova de 20/11 (questões 1 a 3). O livro do notebook não traz teoria do consumidor; conteúdo padrão da disciplina.",
+  "prompt": "Questão - Curvas de Indiferença\nAnalise as duas assertivas abaixo e, em seguida, escolha a opção CORRETA:\nDuas curvas de indiferença do mesmo consumidor não podem se cruzar.\nISTO PORQUE\nSe elas se cruzassem, as hipóteses de transitividade e de que \"mais é melhor\" seriam violadas.",
+  "options": [
+   {
+    "letter": "A",
+    "text": "As duas são verdadeiras e a segunda justifica a primeira.",
+    "rationale": "CORRETA. A primeira é uma propriedade das CIs, e o motivo é exatamente a segunda: no cruzamento, uma cesta teria duas satisfações diferentes ao mesmo tempo."
+   },
+   {
+    "letter": "B",
+    "text": "As duas são verdadeiras, mas a segunda não justifica a primeira.",
+    "rationale": "Incorreta. A segunda é justamente a razão da primeira; elas se complementam."
+   },
+   {
+    "letter": "C",
+    "text": "A primeira é verdadeira e a segunda é falsa.",
+    "rationale": "Incorreta. A segunda está correta: o cruzamento gera contradição com a transitividade."
+   },
+   {
+    "letter": "D",
+    "text": "A primeira é falsa e a segunda é verdadeira.",
+    "rationale": "Incorreta. A primeira está correta: CIs do mesmo consumidor não se cruzam."
+   },
+   {
+    "letter": "E",
+    "text": "As duas assertivas são falsas.",
+    "rationale": "Incorreta. As duas estão corretas."
+   }
+  ],
+  "correctLetter": "A",
+  "clinicalPointers": "No \"isto porque\", veja primeiro se cada frase é verdadeira; depois, se a segunda explica a primeira.",
+  "ficha": {
+   "titulo": "Por que as CIs não se cruzam",
+   "topicos": [
+    {
+     "rotulo": "Raciocínio",
+     "texto": "No ponto de cruzamento, a cesta estaria em **duas** CIs, com duas satisfações diferentes.",
+     "sub": []
+    },
+    {
+     "rotulo": "Contradição",
+     "texto": "Pela **transitividade**, cestas das duas curvas seriam indiferentes; por **mais é melhor**, uma delas seria melhor. As duas coisas não podem ser verdade.",
+     "sub": []
+    },
+    {
+     "rotulo": "Como resolver \"isto porque\"",
+     "texto": "1) Cada frase é V ou F? 2) Se as duas são V, a segunda **explica** a primeira?",
+     "sub": []
+    }
+   ],
+   "distratores": [
+    {
+     "frase": "As duas são verdadeiras, mas não se complementam",
+     "porque": "a segunda é exatamente o **motivo** da primeira."
+    }
+   ],
+   "fonte": "Modelo: prova de 20/11 (questões 1 a 3). O livro do notebook não traz teoria do consumidor; conteúdo padrão da disciplina."
+  },
+  "revisada": true
+ },
+ {
+  "id": 15,
+  "code": "CONS-15",
+  "assunto": "consumo",
+  "category": "Teoria do consumo",
+  "subcategory": "Taxa marginal de substituição: definição",
+  "difficulty": "Básica",
+  "origem": "nova",
+  "sourceLabel": "Modelo: prova de 20/11 (questões 1 a 3). O livro do notebook não traz teoria do consumidor; conteúdo padrão da disciplina.",
+  "prompt": "Questão - Taxa Marginal de Substituição (TMS)\nA TMS de X por Y mede:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Quanto de Y o mercado exige em troca de uma unidade de X, que é a razão Px/Py.",
+    "rationale": "Incorreta. Isso é a inclinação da linha do orçamento (a troca que o mercado oferece). Só no equilíbrio TMS = Px/Py."
+   },
+   {
+    "letter": "B",
+    "text": "Quanto aumenta a satisfação do consumidor quando ele ganha uma unidade a mais de X.",
+    "rationale": "Incorreta. Isso é a utilidade marginal de X."
+   },
+   {
+    "letter": "C",
+    "text": "Quanto de produto a mais a firma obtém ao contratar mais um trabalhador.",
+    "rationale": "Incorreta. Isso é a produtividade marginal do trabalho, da teoria da firma."
+   },
+   {
+    "letter": "D",
+    "text": "Quanto de Y o consumidor cede por uma unidade a mais de X, com a mesma satisfação.",
+    "rationale": "CORRETA. TMS = quanto de Y a pessoa abre mão por 1 unidade extra de X ficando na mesma CI. É a inclinação (em módulo) da CI."
+   },
+   {
+    "letter": "E",
+    "text": "Quanto a renda do consumidor precisa subir para ele comprar uma unidade a mais de X.",
+    "rationale": "Incorreta. A TMS não envolve renda; ela fica sobre a mesma curva de indiferença."
+   }
+  ],
+  "correctLetter": "D",
+  "clinicalPointers": "TMS = troca que o CONSUMIDOR aceita (inclinação da CI). Px/Py = troca que o MERCADO cobra (inclinação da RO).",
+  "ficha": {
+   "titulo": "TMS — o que mede",
+   "topicos": [
+    {
+     "rotulo": "Definição",
+     "texto": "Quanto de **Y** o consumidor **abre mão** por **1 unidade a mais de X**, na **mesma CI**.",
+     "sub": []
+    },
+    {
+     "rotulo": "Fórmula",
+     "texto": "TMS = **-ΔY/ΔX** ao longo da CI (inclinação da CI, em módulo).",
+     "sub": []
+    },
+    {
+     "rotulo": "Diferença",
+     "texto": "**Px/Py** é a troca do **mercado** (inclinação da RO). Elas só se igualam no **equilíbrio**.",
+     "sub": []
+    }
+   ],
+   "distratores": [
+    {
+     "frase": "TMS é sempre igual a Px/Py",
+     "porque": "só no **ponto ótimo** (tangência)."
+    }
+   ],
+   "fonte": "Modelo: prova de 20/11 (questões 1 a 3). O livro do notebook não traz teoria do consumidor; conteúdo padrão da disciplina."
+  },
+  "revisada": true
+ },
+ {
+  "id": 16,
+  "code": "CONS-16",
+  "assunto": "consumo",
+  "category": "Teoria do consumo",
+  "subcategory": "Taxa marginal de substituição: cálculo na CI",
+  "difficulty": "Intermediária",
+  "origem": "nova",
+  "sourceLabel": "Modelo: prova de 20/11 (questões 1 a 3). O livro do notebook não traz teoria do consumidor; conteúdo padrão da disciplina.",
+  "prompt": "Questão - Calculando a TMS\nSobre uma mesma curva de indiferença, um consumidor passa da cesta (X = 2; Y = 10) para a cesta (X = 3; Y = 7) e depois para a cesta (X = 4; Y = 5). Qual é a TMS em cada trecho e o que isso mostra?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "3 e depois 2; a TMS decrescente mostra que a CI é côncava.",
+    "rationale": "Incorreta. Os números estão certos, mas TMS decrescente gera curva convexa (encurvada para a origem), não côncava."
+   },
+   {
+    "letter": "B",
+    "text": "3 e depois 2; a TMS decrescente mostra que a CI é convexa.",
+    "rationale": "CORRETA. 1º trecho: ΔY = 10-7 = 3 para ΔX = 1 → TMS 3. 2º trecho: 7-5 = 2 para ΔX = 1 → TMS 2. Cai ao longo da curva: CI convexa."
+   },
+   {
+    "letter": "C",
+    "text": "2 e depois 3; a TMS crescente mostra que a CI é convexa.",
+    "rationale": "Incorreta. Inverteu a ordem: a TMS começa em 3 e cai para 2."
+   },
+   {
+    "letter": "D",
+    "text": "7 e depois 5; a TMS mostra a quantidade de Y em cada cesta.",
+    "rationale": "Incorreta. 7 e 5 são as quantidades de Y nas cestas, não quanto de Y foi cedido."
+   },
+   {
+    "letter": "E",
+    "text": "1 e depois 1; a TMS constante mostra que a CI é uma reta.",
+    "rationale": "Incorreta. X aumentou 1 a cada trecho, mas Y caiu 3 e depois 2. A TMS não é 1."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "TMS = quanto Y caiu ÷ quanto X subiu. Se cai ao longo da curva → CI convexa.",
+  "ficha": {
+   "titulo": "TMS — cálculo e convexidade",
+   "topicos": [
+    {
+     "rotulo": "Conta",
+     "texto": "TMS = **ΔY/ΔX** em módulo. (2;10)→(3;7): 3/1 = **3**. (3;7)→(4;5): 2/1 = **2**.",
+     "sub": []
+    },
+    {
+     "rotulo": "TMS decrescente",
+     "texto": "Quanto **mais X** o consumidor já tem, **menos Y** aceita ceder por mais uma unidade de X.",
+     "sub": []
+    },
+    {
+     "rotulo": "Forma da curva",
+     "texto": "TMS decrescente → CI **convexa** à origem.",
+     "sub": []
+    }
+   ],
+   "distratores": [
+    {
+     "frase": "TMS decrescente gera CI côncava",
+     "porque": "gera curva **convexa** (bojo voltado para a origem)."
+    },
+    {
+     "frase": "A TMS é a quantidade de Y na cesta",
+     "porque": "é a **variação** de Y, não o nível."
+    }
+   ],
+   "fonte": "Modelo: prova de 20/11 (questões 1 a 3). O livro do notebook não traz teoria do consumidor; conteúdo padrão da disciplina."
+  },
+  "revisada": true
+ },
+ {
+  "id": 17,
+  "code": "CONS-17",
+  "assunto": "consumo",
+  "category": "Teoria do consumo",
+  "subcategory": "TMS decrescente: interpretação",
+  "difficulty": "Intermediária",
+  "origem": "nova",
+  "sourceLabel": "Modelo: prova de 20/11 (questões 1 a 3). O livro do notebook não traz teoria do consumidor; conteúdo padrão da disciplina.",
+  "prompt": "Questão - TMS decrescente\nPor que a taxa marginal de substituição costuma ser decrescente ao longo de uma curva de indiferença?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Quanto mais X a pessoa já tem, mais Y ela aceita ceder para ganhar mais uma unidade de X.",
+    "rationale": "Incorreta. É o contrário: a disposição de ceder Y cai, não sobe."
+   },
+   {
+    "letter": "B",
+    "text": "Porque o preço de X cai sempre que o consumidor compra mais unidades desse bem.",
+    "rationale": "Incorreta. A TMS vem das preferências, não de mudanças no preço de mercado."
+   },
+   {
+    "letter": "C",
+    "text": "Porque a renda do consumidor diminui à medida que ele se move ao longo da curva.",
+    "rationale": "Incorreta. Ao longo da CI a satisfação é constante; renda é da linha do orçamento."
+   },
+   {
+    "letter": "D",
+    "text": "Porque as curvas de indiferença são retas que descem de um eixo até o outro.",
+    "rationale": "Incorreta. Se a CI fosse uma reta, a TMS seria constante, não decrescente."
+   },
+   {
+    "letter": "E",
+    "text": "Quanto mais X a pessoa já tem, menos Y ela aceita ceder por mais uma unidade de X.",
+    "rationale": "CORRETA. Quem tem pouco X e muito Y valoriza muito o X e cede bastante Y. Com mais X, cada unidade extra vale menos para ele."
+   }
+  ],
+  "correctLetter": "E",
+  "clinicalPointers": "TMS decrescente = o bem que você já tem muito vale menos na margem.",
+  "ficha": {
+   "titulo": "Por que a TMS cai",
+   "topicos": [
+    {
+     "rotulo": "Ideia",
+     "texto": "Com **pouco X**, cada unidade de X vale muito: cede **muito Y**. Com **muito X**, cede **pouco Y**.",
+     "sub": []
+    },
+    {
+     "rotulo": "Consequência",
+     "texto": "CI **convexa**: começa íngreme e vai ficando mais plana.",
+     "sub": []
+    },
+    {
+     "rotulo": "Exceção",
+     "texto": "Bens **substitutos perfeitos**: CI reta e TMS constante.",
+     "sub": []
+    }
+   ],
+   "distratores": [
+    {
+     "frase": "A TMS cai porque o preço de X cai",
+     "porque": "a TMS vem das **preferências**, não dos preços."
+    }
+   ],
+   "fonte": "Modelo: prova de 20/11 (questões 1 a 3). O livro do notebook não traz teoria do consumidor; conteúdo padrão da disciplina."
+  },
+  "revisada": true
+ },
+ {
+  "id": 18,
+  "code": "CONS-18",
+  "assunto": "consumo",
+  "category": "Teoria do consumo",
+  "subcategory": "Escolha ótima: CI tangente à RO",
+  "difficulty": "Avançada",
+  "origem": "nova",
+  "sourceLabel": "Modelo: prova de 20/11 (questões 1 a 3). O livro do notebook não traz teoria do consumidor; conteúdo padrão da disciplina.",
+  "prompt": "Questão - Escolha do consumidor\nJuntando a restrição orçamentária com as curvas de indiferença, onde está a cesta que dá a maior satisfação possível ao consumidor?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "No ponto em que a linha do orçamento corta o eixo do bem mais barato dos dois.",
+    "rationale": "Incorreta. Gastar tudo em um bem só raramente é o ótimo quando a CI é convexa."
+   },
+   {
+    "letter": "B",
+    "text": "Em qualquer ponto em que a CI corte a linha do orçamento, desde que a renda seja gasta.",
+    "rationale": "Incorreta. Se a CI corta a RO, existe uma CI mais alta ainda alcançável. O corte não é o ótimo."
+   },
+   {
+    "letter": "C",
+    "text": "No ponto em que a CI mais alta possível toca a linha do orçamento, onde TMS = Px/Py.",
+    "rationale": "CORRETA. O ótimo é a tangência: a CI mais alta que ainda toca a RO. Ali a troca que o consumidor aceita (TMS) é igual à do mercado (Px/Py)."
+   },
+   {
+    "letter": "D",
+    "text": "Na curva de indiferença mais afastada da origem, mesmo que fique acima da renda.",
+    "rationale": "Incorreta. Cestas acima da RO não cabem no orçamento."
+   },
+   {
+    "letter": "E",
+    "text": "No ponto em que a TMS é a maior possível, no início da curva de indiferença.",
+    "rationale": "Incorreta. TMS máxima não define o ótimo; o ótimo é onde TMS = Px/Py."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "Ótimo = tangência: TMS (inclinação da CI) = Px/Py (inclinação da RO).",
+  "ficha": {
+   "titulo": "Equilíbrio do consumidor — tangência",
+   "topicos": [
+    {
+     "rotulo": "Onde fica",
+     "texto": "Na **CI mais alta** que ainda **toca** a linha do orçamento.",
+     "sub": []
+    },
+    {
+     "rotulo": "Condição",
+     "texto": "**TMS = Px/Py**: inclinação da CI = inclinação da RO.",
+     "sub": []
+    },
+    {
+     "rotulo": "Se a CI corta a RO",
+     "texto": "Ainda dá para subir de curva: **não é o ótimo**.",
+     "sub": []
+    }
+   ],
+   "distratores": [
+    {
+     "frase": "O ótimo é onde a CI corta a RO",
+     "porque": "o ótimo é a **tangência**; no corte há uma CI mais alta acessível."
+    }
+   ],
+   "fonte": "Modelo: prova de 20/11 (questões 1 a 3). O livro do notebook não traz teoria do consumidor; conteúdo padrão da disciplina."
+  },
+  "revisada": true
+ },
+ {
+  "id": 19,
+  "code": "PROD-01",
+  "assunto": "producao",
+  "category": "Teoria da produção",
+  "subcategory": "Função de produção: definição",
+  "difficulty": "Básica",
+  "origem": "nova",
+  "sourceLabel": "Vasconcellos, Economia Micro e Macro, cap. 5 (Produção) · modelo: prova de 20/11 (questões 4, 5 e 7).",
+  "prompt": "Questão - Função de Produção\nA função de produção de uma empresa é:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "A relação técnica entre a quantidade física produzida e os insumos usados na produção.",
+    "rationale": "CORRETA. É um conceito tecnológico: quantidades físicas de insumos (input) geram quantidades físicas de produto (output)."
+   },
+   {
+    "letter": "B",
+    "text": "A relação entre o preço de um produto e a quantidade que a empresa decide ofertar.",
+    "rationale": "Incorreta. Essa é a função oferta, que envolve preços, não só quantidades físicas."
+   },
+   {
+    "letter": "C",
+    "text": "A relação entre os custos da empresa e a quantidade de fatores de produção que ela usa.",
+    "rationale": "Incorreta. Custos entram na teoria dos custos. A função de produção não tem preços nem custos."
+   },
+   {
+    "letter": "D",
+    "text": "A relação de substituição entre capital e mão de obra que deixa o custo constante.",
+    "rationale": "Incorreta. Combinações com o mesmo custo formam a isocusto, não a função de produção."
+   },
+   {
+    "letter": "E",
+    "text": "A relação entre os salários pagos aos trabalhadores e o lucro obtido pela empresa.",
+    "rationale": "Incorreta. Salários e lucros não fazem parte da função de produção."
+   }
+  ],
+  "correctLetter": "A",
+  "clinicalPointers": "Função de produção = só quantidades físicas (insumos → produto). Sem preços.",
+  "ficha": {
+   "titulo": "Função de produção — definição",
+   "topicos": [
+    {
+     "rotulo": "O que é",
+     "texto": "Relação **técnica** entre **insumos** (trabalho, capital, terra) e **produto**, em quantidades físicas.",
+     "sub": []
+    },
+    {
+     "rotulo": "Forma",
+     "texto": "**q = f(N, K)**: N = mão de obra, K = capital.",
+     "sub": []
+    },
+    {
+     "rotulo": "Sem preços",
+     "texto": "Preços e custos entram depois, na **teoria dos custos**.",
+     "sub": []
+    }
+   ],
+   "distratores": [
+    {
+     "frase": "Relaciona o preço do produto com a quantidade ofertada",
+     "porque": "isso é a **função oferta**."
+    }
+   ],
+   "fonte": "Vasconcellos, Economia Micro e Macro, cap. 5 (Produção) · modelo: prova de 20/11 (questões 4, 5 e 7)."
+  },
+  "revisada": true
+ },
+ {
+  "id": 20,
+  "code": "PROD-02",
+  "assunto": "producao",
+  "category": "Teoria da produção",
+  "subcategory": "Função de produção: o que a desloca",
+  "difficulty": "Intermediária",
+  "origem": "nova",
+  "sourceLabel": "Vasconcellos, Economia Micro e Macro, cap. 5 (Produção) · modelo: prova de 20/11 (questões 4, 5 e 7).",
+  "prompt": "Questão - Função de Produção\nA função de produção de uma firma se altera (desloca) sempre que:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "A empresa contrata mais de algum fator variável.",
+    "rationale": "Incorreta. Usar mais de um fator é andar ao longo da mesma função, não deslocá-la."
+   },
+   {
+    "letter": "B",
+    "text": "O preço de venda do produto da empresa aumenta.",
+    "rationale": "Incorreta. A função de produção é física: o preço do produto muda a receita, não a relação técnica entre insumos e produto."
+   },
+   {
+    "letter": "C",
+    "text": "A empresa decide aumentar o seu nível de produção.",
+    "rationale": "Incorreta. Produzir mais é escolher outro ponto da mesma função."
+   },
+   {
+    "letter": "D",
+    "text": "A tecnologia usada na produção sofre modificações.",
+    "rationale": "CORRETA. Só a tecnologia muda a relação técnica entre insumos e produto, deslocando a função."
+   },
+   {
+    "letter": "E",
+    "text": "A demanda pelo produto da empresa aumenta muito.",
+    "rationale": "Incorreta. Demanda não muda a relação técnica entre insumos e produto."
+   }
+  ],
+  "correctLetter": "D",
+  "clinicalPointers": "Mudou a tecnologia → nova função. Mudou a quantidade de insumo → outro ponto da mesma função.",
+  "ficha": {
+   "titulo": "Deslocamento x movimento na função de produção",
+   "topicos": [
+    {
+     "rotulo": "Desloca",
+     "texto": "Fatores **exógenos**, sobretudo **mudança de tecnologia**.",
+     "sub": []
+    },
+    {
+     "rotulo": "Move ao longo",
+     "texto": "Mudar a **quantidade de fatores** usados ou o nível de produção.",
+     "sub": []
+    }
+   ],
+   "distratores": [
+    {
+     "frase": "Contratar mais trabalhadores desloca a função",
+     "porque": "é **movimento ao longo** da mesma função."
+    }
+   ],
+   "fonte": "Vasconcellos, Economia Micro e Macro, cap. 5 (Produção) · modelo: prova de 20/11 (questões 4, 5 e 7)."
+  },
+  "revisada": true
+ },
+ {
+  "id": 21,
+  "code": "PROD-03",
+  "assunto": "producao",
+  "category": "Teoria da produção",
+  "subcategory": "Fatores de produção fixos e variáveis",
+  "difficulty": "Básica",
+  "origem": "nova",
+  "sourceLabel": "Vasconcellos, Economia Micro e Macro, cap. 5 (Produção) · modelo: prova de 20/11 (questões 4, 5 e 7).",
+  "prompt": "Questão - Fatores fixos e variáveis\nUma padaria, no curto prazo, usa: o prédio alugado, os fornos, a farinha e os padeiros contratados por hora. Qual classificação está CORRETA?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Fixos: prédio e farinha. Variáveis: fornos e padeiros.",
+    "rationale": "Incorreta. A farinha varia com a produção; é variável."
+   },
+   {
+    "letter": "B",
+    "text": "Fixos: prédio e fornos. Variáveis: farinha e padeiros.",
+    "rationale": "CORRETA. Prédio e fornos não mudam de quantidade no curto prazo. Farinha e horas de padeiro mudam conforme a produção."
+   },
+   {
+    "letter": "C",
+    "text": "Fixos: fornos e padeiros. Variáveis: prédio e farinha.",
+    "rationale": "Incorreta. Padeiros por hora variam com a produção; o prédio não muda no curto prazo."
+   },
+   {
+    "letter": "D",
+    "text": "Fixos: prédio, fornos e padeiros. Variável: só a farinha.",
+    "rationale": "Incorreta. Padeiros pagos por hora acompanham a produção; são variáveis."
+   },
+   {
+    "letter": "E",
+    "text": "Todos são variáveis, porque a padaria pode fechar a qualquer hora.",
+    "rationale": "Incorreta. No curto prazo, por definição, existe pelo menos um fator fixo."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "Fixo = não muda de quantidade no curto prazo (instalações, máquinas). Variável = acompanha a produção.",
+  "ficha": {
+   "titulo": "Fatores fixos x variáveis",
+   "topicos": [
+    {
+     "rotulo": "Fixos",
+     "texto": "Quantidade **não muda** no curto prazo: prédio, máquinas, tamanho da fábrica.",
+     "sub": []
+    },
+    {
+     "rotulo": "Variáveis",
+     "texto": "Quantidade **muda com a produção**: matéria-prima, horas de trabalho.",
+     "sub": []
+    },
+    {
+     "rotulo": "Longo prazo",
+     "texto": "**Todos** os fatores são variáveis.",
+     "sub": []
+    }
+   ],
+   "distratores": [
+    {
+     "frase": "No curto prazo todos os fatores podem variar",
+     "porque": "curto prazo tem **pelo menos um fator fixo**."
+    }
+   ],
+   "fonte": "Vasconcellos, Economia Micro e Macro, cap. 5 (Produção) · modelo: prova de 20/11 (questões 4, 5 e 7)."
+  },
+  "revisada": true
+ },
+ {
+  "id": 22,
+  "code": "PROD-04",
+  "assunto": "producao",
+  "category": "Teoria da produção",
+  "subcategory": "Curto e longo prazo (I, II, III)",
+  "difficulty": "Básica",
+  "origem": "nova",
+  "sourceLabel": "Vasconcellos, Economia Micro e Macro, cap. 5 (Produção) · modelo: prova de 20/11 (questões 4, 5 e 7).",
+  "prompt": "Questão - Curto e Longo Prazo\nSobre os prazos em economia, avalie as frases:\nI. Curto prazo: período em que a empresa não consegue mudar a quantidade de todos os seus fatores (pelo menos um é fixo).\nII. Longo prazo: período em que a empresa consegue mudar todos os seus fatores, inclusive o tamanho da fábrica.\nIII. O curto prazo é qualquer período de até um ano, e o longo prazo é qualquer período acima de um ano.",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Apenas I está correta.",
+    "rationale": "Incorreta. A II também está correta."
+   },
+   {
+    "letter": "B",
+    "text": "Apenas II e III estão corretas.",
+    "rationale": "Incorreta. A III está errada e a I está correta."
+   },
+   {
+    "letter": "C",
+    "text": "Apenas III está correta.",
+    "rationale": "Incorreta. A III é justamente a errada."
+   },
+   {
+    "letter": "D",
+    "text": "Todas as afirmativas estão corretas.",
+    "rationale": "Incorreta. A III está errada: não existe um número fixo de meses."
+   },
+   {
+    "letter": "E",
+    "text": "Apenas I e II estão corretas.",
+    "rationale": "CORRETA. I e II estão certas. A III está errada: o prazo é definido pela possibilidade de variar os fatores, não pelo calendário."
+   }
+  ],
+  "correctLetter": "E",
+  "clinicalPointers": "Curto x longo prazo = existe ou não fator fixo. Não é contagem de meses.",
+  "ficha": {
+   "titulo": "Curto x longo prazo",
+   "topicos": [
+    {
+     "rotulo": "Curto prazo",
+     "texto": "Há **pelo menos um fator fixo** (ex.: tamanho da fábrica).",
+     "sub": []
+    },
+    {
+     "rotulo": "Longo prazo",
+     "texto": "**Todos** os fatores são **variáveis**.",
+     "sub": []
+    },
+    {
+     "rotulo": "Não é calendário",
+     "texto": "O critério é **técnico**: depende do setor quanto tempo leva para mudar a fábrica.",
+     "sub": []
+    }
+   ],
+   "distratores": [
+    {
+     "frase": "Curto prazo é até 1 ano",
+     "porque": "o critério é a existência de **fator fixo**, não o tempo em meses."
+    }
+   ],
+   "fonte": "Vasconcellos, Economia Micro e Macro, cap. 5 (Produção) · modelo: prova de 20/11 (questões 4, 5 e 7)."
+  },
+  "revisada": true
+ },
+ {
+  "id": 23,
+  "code": "PROD-05",
+  "assunto": "producao",
+  "category": "Teoria da produção",
+  "subcategory": "Longo prazo: todos os fatores variam",
+  "difficulty": "Básica",
+  "origem": "nova",
+  "sourceLabel": "Vasconcellos, Economia Micro e Macro, cap. 5 (Produção) · modelo: prova de 20/11 (questões 4, 5 e 7).",
+  "prompt": "Questão - Análise de longo prazo\nSobre a análise de longo prazo da produção, marque a opção INCORRETA:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "No longo prazo a empresa pode mudar a quantidade de todos os fatores.",
+    "rationale": "Não é a resposta. Verdadeira. É a definição de longo prazo."
+   },
+   {
+    "letter": "B",
+    "text": "No longo prazo não existe custo fixo, pois nenhum fator é fixo.",
+    "rationale": "Não é a resposta. Verdadeira. Sem fator fixo não há custo fixo."
+   },
+   {
+    "letter": "C",
+    "text": "No longo prazo a empresa ainda mantém fixo o tamanho da sua fábrica.",
+    "rationale": "CORRETA. Esta é a INCORRETA. No longo prazo nada é fixo, nem o tamanho da fábrica."
+   },
+   {
+    "letter": "D",
+    "text": "A análise de longo prazo trata dos rendimentos de escala da empresa.",
+    "rationale": "Não é a resposta. Verdadeira. Rendimentos de escala comparam a produção quando todos os fatores mudam juntos."
+   },
+   {
+    "letter": "E",
+    "text": "O longo prazo funciona como um horizonte de planejamento da empresa.",
+    "rationale": "Não é a resposta. Verdadeira. O livro diz que os custos de longo prazo são um horizonte de planejamento."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "Longo prazo: tudo variável → sem custo fixo → análise de rendimentos de ESCALA.",
+  "ficha": {
+   "titulo": "Análise de longo prazo",
+   "topicos": [
+    {
+     "rotulo": "Fatores",
+     "texto": "**Todos variáveis**: pode aumentar a fábrica, comprar máquinas.",
+     "sub": []
+    },
+    {
+     "rotulo": "Custos",
+     "texto": "**Não existe custo fixo** no longo prazo.",
+     "sub": []
+    },
+    {
+     "rotulo": "Assunto central",
+     "texto": "**Rendimentos de escala**: o que acontece quando todos os fatores aumentam juntos.",
+     "sub": []
+    }
+   ],
+   "distratores": [
+    {
+     "frase": "No longo prazo o tamanho da fábrica é fixo",
+     "porque": "isso é **curto prazo**."
+    }
+   ],
+   "fonte": "Vasconcellos, Economia Micro e Macro, cap. 5 (Produção) · modelo: prova de 20/11 (questões 4, 5 e 7)."
+  },
+  "revisada": true
+ },
+ {
+  "id": 24,
+  "code": "PROD-06",
+  "assunto": "producao",
+  "category": "Teoria da produção",
+  "subcategory": "PT, Pme e Pmg: máximo do produto total",
+  "difficulty": "Intermediária",
+  "origem": "nova",
+  "sourceLabel": "Vasconcellos, Economia Micro e Macro, cap. 5 (Produção) · modelo: prova de 20/11 (questões 4, 5 e 7).",
+  "prompt": "Questão - Produto Total e Produtividades\nAssinale a alternativa CORRETA:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "No ponto máximo do produto total, a produtividade marginal é zero.",
+    "rationale": "CORRETA. No topo do PT, mais um trabalhador não acrescenta nada: Pmg = 0."
+   },
+   {
+    "letter": "B",
+    "text": "No ponto máximo do produto total, a produtividade média também é máxima.",
+    "rationale": "Incorreta. A Pme atinge o máximo antes, no ponto em que Pmg = Pme."
+   },
+   {
+    "letter": "C",
+    "text": "Produtividade média é a variação do produto dividida pela variação do fator.",
+    "rationale": "Incorreta. Essa é a definição de produtividade MARGINAL (ΔPT/ΔN)."
+   },
+   {
+    "letter": "D",
+    "text": "Produtividade marginal é o produto total dividido pela quantidade do fator.",
+    "rationale": "Incorreta. Essa é a definição de produtividade MÉDIA (PT/N)."
+   },
+   {
+    "letter": "E",
+    "text": "A produtividade média fica negativa depois do ponto máximo do produto total.",
+    "rationale": "Incorreta. Quem pode ficar negativa é a Pmg. A Pme = PT/N continua positiva enquanto houver produção."
+   }
+  ],
+  "correctLetter": "A",
+  "clinicalPointers": "Pme = PT/N. Pmg = ΔPT/ΔN. PT máximo ↔ Pmg = 0.",
+  "ficha": {
+   "titulo": "PT, Pme e Pmg — definições e PT máximo",
+   "topicos": [
+    {
+     "rotulo": "Pme",
+     "texto": "**PT ÷ N** (produção por trabalhador).",
+     "sub": []
+    },
+    {
+     "rotulo": "Pmg",
+     "texto": "**ΔPT ÷ ΔN** (quanto o último trabalhador acrescentou).",
+     "sub": []
+    },
+    {
+     "rotulo": "PT máximo",
+     "texto": "**Pmg = 0**. Depois disso, Pmg < 0 e o PT cai.",
+     "sub": []
+    }
+   ],
+   "distratores": [
+    {
+     "frase": "No máximo do PT, a Pme é máxima",
+     "porque": "a Pme é máxima **antes**, onde **Pmg = Pme**."
+    },
+    {
+     "frase": "Pme pode ser negativa",
+     "porque": "só a **Pmg** fica negativa."
+    }
+   ],
+   "fonte": "Vasconcellos, Economia Micro e Macro, cap. 5 (Produção) · modelo: prova de 20/11 (questões 4, 5 e 7)."
+  },
+  "revisada": true
+ },
+ {
+  "id": 25,
+  "code": "PROD-07",
+  "assunto": "producao",
+  "category": "Teoria da produção",
+  "subcategory": "Quando o produto total cai",
+  "difficulty": "Intermediária",
+  "origem": "nova",
+  "sourceLabel": "Vasconcellos, Economia Micro e Macro, cap. 5 (Produção) · modelo: prova de 20/11 (questões 4, 5 e 7).",
+  "prompt": "Questão - Produto Total em queda\nQuando o produto total começa a cair, pode-se afirmar que:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "A produtividade média do trabalho ficou negativa.",
+    "rationale": "Incorreta. A Pme = PT/N continua positiva, porque o PT ainda é positivo."
+   },
+   {
+    "letter": "B",
+    "text": "A produtividade marginal do trabalho é igual a zero.",
+    "rationale": "Incorreta. Pmg = 0 é o ponto de máximo do PT. Depois dele, quando o PT cai, a Pmg é negativa."
+   },
+   {
+    "letter": "C",
+    "text": "A produtividade média do trabalho é igual a zero.",
+    "rationale": "Incorreta. A Pme só seria zero se não houvesse produção."
+   },
+   {
+    "letter": "D",
+    "text": "A produtividade marginal do trabalho ficou negativa.",
+    "rationale": "CORRETA. Se o PT cai, o trabalhador extra diminuiu a produção: Pmg < 0. A Pme continua positiva, mas caindo."
+   },
+   {
+    "letter": "E",
+    "text": "A produtividade marginal ficou maior que a média.",
+    "rationale": "Incorreta. Nessa fase a Pmg (negativa) está bem abaixo da Pme (positiva)."
+   }
+  ],
+  "correctLetter": "D",
+  "clinicalPointers": "PT subindo ↔ Pmg > 0. PT no topo ↔ Pmg = 0. PT caindo ↔ Pmg < 0.",
+  "ficha": {
+   "titulo": "Sinal da Pmg e o caminho do PT",
+   "topicos": [
+    {
+     "rotulo": "Pmg > 0",
+     "texto": "PT **sobe**.",
+     "sub": []
+    },
+    {
+     "rotulo": "Pmg = 0",
+     "texto": "PT no **máximo**.",
+     "sub": []
+    },
+    {
+     "rotulo": "Pmg < 0",
+     "texto": "PT **cai**. A Pme continua **positiva**, mas decrescente.",
+     "sub": []
+    }
+   ],
+   "distratores": [
+    {
+     "frase": "Quando o PT cai, a Pme é negativa",
+     "porque": "a Pme é PT/N, que segue **positiva**."
+    }
+   ],
+   "fonte": "Vasconcellos, Economia Micro e Macro, cap. 5 (Produção) · modelo: prova de 20/11 (questões 4, 5 e 7)."
+  },
+  "revisada": true
+ },
+ {
+  "id": 26,
+  "code": "PROD-08",
+  "assunto": "producao",
+  "category": "Teoria da produção",
+  "subcategory": "Relação entre Pmg e Pme",
+  "difficulty": "Avançada",
+  "origem": "nova",
+  "sourceLabel": "Vasconcellos, Economia Micro e Macro, cap. 5 (Produção) · modelo: prova de 20/11 (questões 4, 5 e 7).",
+  "prompt": "Questão - Pmg e Pme\nSobre a relação entre a produtividade marginal (Pmg) e a produtividade média (Pme) do trabalho, marque a opção CORRETA:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Quando a Pmg está acima da Pme, a Pme está caindo; a Pmg corta a Pme no mínimo dela.",
+    "rationale": "Incorreta. Inverteu: Pmg acima da média faz a média subir, e o cruzamento é no máximo da Pme."
+   },
+   {
+    "letter": "B",
+    "text": "Quando a Pmg está acima da Pme, a Pme está subindo; a Pmg corta a Pme no máximo dela.",
+    "rationale": "CORRETA. Se o novo trabalhador produz mais que a média (Pmg > Pme), ele puxa a média para cima. O cruzamento é no topo da Pme."
+   },
+   {
+    "letter": "C",
+    "text": "A Pmg e a Pme são sempre iguais, porque as duas dependem do mesmo produto total.",
+    "rationale": "Incorreta. Elas só são iguais em um ponto: o máximo da Pme."
+   },
+   {
+    "letter": "D",
+    "text": "A Pme corta a Pmg no ponto máximo da Pmg, quando o produto total para de crescer.",
+    "rationale": "Incorreta. O cruzamento é no máximo da Pme, não da Pmg. E o PT para de crescer quando Pmg = 0."
+   },
+   {
+    "letter": "E",
+    "text": "Quando a Pmg está abaixo da Pme, a Pme está subindo, mesmo que devagar.",
+    "rationale": "Incorreta. Pmg abaixo da média puxa a média para baixo."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "Pense em nota: se a nova nota (marginal) é maior que a média, a média sobe.",
+  "ficha": {
+   "titulo": "Pmg x Pme — quem puxa quem",
+   "topicos": [
+    {
+     "rotulo": "Pmg > Pme",
+     "texto": "Pme **sobe**.",
+     "sub": []
+    },
+    {
+     "rotulo": "Pmg < Pme",
+     "texto": "Pme **cai**.",
+     "sub": []
+    },
+    {
+     "rotulo": "Pmg = Pme",
+     "texto": "Pme no **máximo**. A Pmg corta a Pme no **topo** dela.",
+     "sub": []
+    },
+    {
+     "rotulo": "Analogia",
+     "texto": "Média de notas: uma nota nova acima da média **eleva** a média.",
+     "sub": []
+    }
+   ],
+   "distratores": [
+    {
+     "frase": "A Pmg corta a Pme no mínimo da Pme",
+     "porque": "na produção é no **máximo** da Pme (nos custos é que o CMg corta o CMe no **mínimo**)."
+    }
+   ],
+   "fonte": "Vasconcellos, Economia Micro e Macro, cap. 5 (Produção) · modelo: prova de 20/11 (questões 4, 5 e 7)."
+  },
+  "revisada": true
+ },
+ {
+  "id": 27,
+  "code": "PROD-09",
+  "assunto": "producao",
+  "category": "Teoria da produção",
+  "subcategory": "Tabela de produção: cálculo de Pme e Pmg",
+  "difficulty": "Intermediária",
+  "origem": "nova",
+  "sourceLabel": "Vasconcellos, Economia Micro e Macro, cap. 5 (Produção) · modelo: prova de 20/11 (questões 4, 5 e 7).",
+  "prompt": "Questão - Tabela de Produção\nO quadro abaixo mostra a produção de uma oficina de costura com máquinas fixas. Calcule a Pme e a Pmg do trabalho quando a oficina tem 3 trabalhadores, respectivamente:",
+  "visual": {
+   "type": "table",
+   "headers": [
+    "Nº de trabalhadores (N)",
+    "Produto Total (PT)"
+   ],
+   "rows": [
+    [
+     "1",
+     "8"
+    ],
+    [
+     "2",
+     "20"
+    ],
+    [
+     "3",
+     "30"
+    ],
+    [
+     "4",
+     "36"
+    ],
+    [
+     "5",
+     "38"
+    ],
+    [
+     "6",
+     "36"
+    ]
+   ]
+  },
+  "options": [
+   {
+    "letter": "A",
+    "text": "10 e 12",
+    "rationale": "Incorreta. 12 é a Pmg do 2º trabalhador (20 - 8), não do 3º."
+   },
+   {
+    "letter": "B",
+    "text": "30 e 10",
+    "rationale": "Incorreta. 30 é o PT, não a Pme."
+   },
+   {
+    "letter": "C",
+    "text": "12 e 10",
+    "rationale": "Incorreta. Trocou a ordem e usou a Pmg do 2º trabalhador."
+   },
+   {
+    "letter": "D",
+    "text": "9 e 6",
+    "rationale": "Incorreta. 9 e 6 são a Pme e a Pmg com 4 trabalhadores (36/4 e 36 - 30)."
+   },
+   {
+    "letter": "E",
+    "text": "10 e 10",
+    "rationale": "CORRETA. Pme = PT/N = 30/3 = 10. Pmg = PT(3) - PT(2) = 30 - 20 = 10. Pme = Pmg: é o máximo da Pme."
+   }
+  ],
+  "correctLetter": "E",
+  "clinicalPointers": "Pme = PT/N. Pmg = PT de agora - PT anterior.",
+  "ficha": {
+   "titulo": "Tabela de produção — como calcular",
+   "topicos": [
+    {
+     "rotulo": "Pme",
+     "texto": "**PT ÷ N**. Com 3: 30/3 = **10**.",
+     "sub": []
+    },
+    {
+     "rotulo": "Pmg",
+     "texto": "**PT(N) - PT(N-1)**. Do 3º: 30 - 20 = **10**.",
+     "sub": []
+    },
+    {
+     "rotulo": "Leitura da tabela",
+     "texto": "Pmg: 8, 12, 10, 6, 2, **-2**. Com 6 trabalhadores o PT cai (Pmg negativa).",
+     "sub": []
+    }
+   ],
+   "distratores": [
+    {
+     "frase": "Pmg do 3º = 30/3",
+     "porque": "isso é a **Pme**; a Pmg é a **diferença** entre PTs."
+    }
+   ],
+   "fonte": "Vasconcellos, Economia Micro e Macro, cap. 5 (Produção) · modelo: prova de 20/11 (questões 4, 5 e 7)."
+  },
+  "revisada": true
+ },
+ {
+  "id": 28,
+  "code": "PROD-10",
+  "assunto": "producao",
+  "category": "Teoria da produção",
+  "subcategory": "Tabela de produção: início dos rendimentos decrescentes",
+  "difficulty": "Avançada",
+  "origem": "nova",
+  "sourceLabel": "Vasconcellos, Economia Micro e Macro, cap. 5 (Produção) · modelo: prova de 20/11 (questões 4, 5 e 7).",
+  "prompt": "Questão - Lei dos Rendimentos na tabela\nUma fazenda com área fixa tem a produção abaixo. A partir de qual trabalhador começam os rendimentos decrescentes (a Pmg começa a cair)?",
+  "visual": {
+   "type": "table",
+   "headers": [
+    "N",
+    "PT"
+   ],
+   "rows": [
+    [
+     "0",
+     "0"
+    ],
+    [
+     "1",
+     "15"
+    ],
+    [
+     "2",
+     "40"
+    ],
+    [
+     "3",
+     "60"
+    ],
+    [
+     "4",
+     "70"
+    ],
+    [
+     "5",
+     "72"
+    ]
+   ]
+  },
+  "options": [
+   {
+    "letter": "A",
+    "text": "A partir do 2º, cuja Pmg (25) é maior que a do 1º (15).",
+    "rationale": "Incorreta. No 2º a Pmg ainda está subindo (rendimentos crescentes)."
+   },
+   {
+    "letter": "B",
+    "text": "A partir do 4º, cuja Pme (17,5) é menor que a do 3º (20).",
+    "rationale": "Incorreta. A pergunta é sobre a Pmg, não a Pme. A Pme começa a cair no 4º, depois da Pmg."
+   },
+   {
+    "letter": "C",
+    "text": "A partir do 3º, cuja Pmg (20) é menor que a do 2º (25).",
+    "rationale": "CORRETA. Pmg: 15, 25, 20, 10, 2. O máximo é no 2º (25); a partir do 3º ela cai. Ali começam os rendimentos decrescentes."
+   },
+   {
+    "letter": "D",
+    "text": "A partir do 5º, quando o PT quase para de crescer (72).",
+    "rationale": "Incorreta. No 5º a Pmg já vinha caindo havia dois trabalhadores."
+   },
+   {
+    "letter": "E",
+    "text": "Desde o 1º, porque a área da fazenda é fixa desde o início.",
+    "rationale": "Incorreta. Com 1 e 2 trabalhadores a Pmg sobe (15 → 25): ainda não há rendimentos decrescentes."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "Calcule a Pmg de cada trabalhador. Rendimentos decrescentes começam quando ela passa a cair.",
+  "ficha": {
+   "titulo": "Achar o início dos rendimentos decrescentes",
+   "topicos": [
+    {
+     "rotulo": "Passo 1",
+     "texto": "Pmg = diferença entre PTs: **15, 25, 20, 10, 2**.",
+     "sub": []
+    },
+    {
+     "rotulo": "Passo 2",
+     "texto": "Ache o **máximo da Pmg** (25, no 2º).",
+     "sub": []
+    },
+    {
+     "rotulo": "Passo 3",
+     "texto": "Os rendimentos decrescentes começam **logo depois**: no **3º trabalhador**.",
+     "sub": []
+    },
+    {
+     "rotulo": "Atenção",
+     "texto": "PT continua **subindo** com rendimentos decrescentes; só sobe mais devagar.",
+     "sub": []
+    }
+   ],
+   "distratores": [
+    {
+     "frase": "Os rendimentos decrescentes começam quando o PT cai",
+     "porque": "começam quando a **Pmg** cai; o PT ainda cresce."
+    }
+   ],
+   "fonte": "Vasconcellos, Economia Micro e Macro, cap. 5 (Produção) · modelo: prova de 20/11 (questões 4, 5 e 7)."
+  },
+  "revisada": true
+ },
+ {
+  "id": 29,
+  "code": "PROD-11",
+  "assunto": "producao",
+  "category": "Teoria da produção",
+  "subcategory": "Tabela de produção: completar PT e Pmg",
+  "difficulty": "Intermediária",
+  "origem": "nova",
+  "sourceLabel": "Vasconcellos, Economia Micro e Macro, cap. 5 (Produção) · modelo: prova de 20/11 (questões 4, 5 e 7).",
+  "prompt": "Questão - Completando a tabela\nUma fábrica com 4 trabalhadores tem produtividade média de 12,5 unidades por trabalhador. Ao contratar o 5º trabalhador, o produto total passa a ser 55 unidades. Qual é o PT com 4 trabalhadores e a Pmg do 5º, respectivamente?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "50 e 5",
+    "rationale": "CORRETA. PT(4) = Pme × N = 12,5 × 4 = 50. Pmg do 5º = 55 - 50 = 5."
+   },
+   {
+    "letter": "B",
+    "text": "50 e 11",
+    "rationale": "Incorreta. 11 é a Pme com 5 trabalhadores (55/5), não a Pmg."
+   },
+   {
+    "letter": "C",
+    "text": "12,5 e 5",
+    "rationale": "Incorreta. 12,5 é a Pme, não o PT."
+   },
+   {
+    "letter": "D",
+    "text": "55 e 5",
+    "rationale": "Incorreta. 55 é o PT com 5 trabalhadores, não com 4."
+   },
+   {
+    "letter": "E",
+    "text": "50 e 42,5",
+    "rationale": "Incorreta. 42,5 = 55 - 12,5: subtraiu a Pme em vez do PT anterior."
+   }
+  ],
+  "correctLetter": "A",
+  "clinicalPointers": "Se a questão dá a Pme, volte ao PT: PT = Pme × N.",
+  "ficha": {
+   "titulo": "Voltar da Pme para o PT",
+   "topicos": [
+    {
+     "rotulo": "Fórmula invertida",
+     "texto": "**PT = Pme × N**. 12,5 × 4 = **50**.",
+     "sub": []
+    },
+    {
+     "rotulo": "Pmg",
+     "texto": "**55 - 50 = 5**.",
+     "sub": []
+    },
+    {
+     "rotulo": "Pme nova",
+     "texto": "55/5 = 11 (não é o que foi pedido).",
+     "sub": []
+    }
+   ],
+   "distratores": [
+    {
+     "frase": "Pmg = PT novo - Pme",
+     "porque": "a Pmg é **PT novo - PT anterior**."
+    }
+   ],
+   "fonte": "Vasconcellos, Economia Micro e Macro, cap. 5 (Produção) · modelo: prova de 20/11 (questões 4, 5 e 7)."
+  },
+  "revisada": true
+ },
+ {
+  "id": 30,
+  "code": "PROD-12",
+  "assunto": "producao",
+  "category": "Teoria da produção",
+  "subcategory": "Lei dos rendimentos decrescentes: definição",
+  "difficulty": "Básica",
+  "origem": "nova",
+  "sourceLabel": "Vasconcellos, Economia Micro e Macro, cap. 5 (Produção) · modelo: prova de 20/11 (questões 4, 5 e 7).",
+  "prompt": "Questão - Lei dos Rendimentos Decrescentes (Curto Prazo)\nMarque a definição CORRETA da lei dos rendimentos decrescentes:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Somando medidas iguais de um fator variável a um fator fixo, os acréscimos de produção ficam cada vez maiores.",
+    "rationale": "Incorreta. É o contrário: os acréscimos ficam menores (Pmg decrescente)."
+   },
+   {
+    "letter": "B",
+    "text": "Quando a empresa aumenta todos os seus fatores na mesma proporção, a produção total da empresa cai.",
+    "rationale": "Incorreta. Aumentar todos os fatores é longo prazo (rendimentos de escala), não a lei."
+   },
+   {
+    "letter": "C",
+    "text": "No longo prazo, dobrar todos os fatores de produção sempre faz a produção total também dobrar.",
+    "rationale": "Incorreta. Isso descreve rendimentos constantes de escala, que é longo prazo."
+   },
+   {
+    "letter": "D",
+    "text": "Somando medidas iguais de um fator variável a um fator fixo, os acréscimos de produção ficam cada vez menores.",
+    "rationale": "CORRETA. Com um fator fixo (ex.: fábrica), cada trabalhador extra acrescenta menos que o anterior, a partir de certo ponto."
+   },
+   {
+    "letter": "E",
+    "text": "Ela explica o formato em U da curva de custo médio de longo prazo da empresa.",
+    "rationale": "Incorreta. O U do custo médio de LONGO prazo vem de economias e deseconomias de escala. A lei explica o U do custo de curto prazo."
+   }
+  ],
+  "correctLetter": "D",
+  "clinicalPointers": "Lei dos rendimentos decrescentes = CURTO prazo, com fator fixo, Pmg caindo.",
+  "ficha": {
+   "titulo": "Lei dos rendimentos decrescentes",
+   "topicos": [
+    {
+     "rotulo": "Condição",
+     "texto": "**Curto prazo**: pelo menos **um fator fixo**.",
+     "sub": []
+    },
+    {
+     "rotulo": "Enunciado",
+     "texto": "Somando unidades iguais do fator variável, os **acréscimos de produção (Pmg) diminuem** a partir de certo ponto.",
+     "sub": []
+    },
+    {
+     "rotulo": "Fases do PT",
+     "texto": "Cresce a taxas **crescentes**, depois **decrescentes**, atinge o **máximo** e então **cai**.",
+     "sub": []
+    },
+    {
+     "rotulo": "Nos custos",
+     "texto": "Também é chamada de **lei dos custos crescentes**: explica o U dos custos de **curto** prazo.",
+     "sub": []
+    }
+   ],
+   "distratores": [
+    {
+     "frase": "A lei vale quando todos os fatores aumentam",
+     "porque": "com tudo variando é **rendimento de escala** (longo prazo)."
+    }
+   ],
+   "fonte": "Vasconcellos, Economia Micro e Macro, cap. 5 (Produção) · modelo: prova de 20/11 (questões 4, 5 e 7)."
+  },
+  "revisada": true
+ },
+ {
+  "id": 31,
+  "code": "PROD-13",
+  "assunto": "producao",
+  "category": "Teoria da produção",
+  "subcategory": "Lei dos rendimentos x rendimentos de escala",
+  "difficulty": "Intermediária",
+  "origem": "nova",
+  "sourceLabel": "Vasconcellos, Economia Micro e Macro, cap. 5 (Produção) · modelo: prova de 20/11 (questões 4, 5 e 7).",
+  "prompt": "Questão - Rendimentos\nAssinale a alternativa ERRADA:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "A lei dos rendimentos decrescentes vale quando há pelo menos um fator de produção fixo.",
+    "rationale": "Não é a resposta. Verdadeira. Precisa de fator fixo."
+   },
+   {
+    "letter": "B",
+    "text": "A lei dos rendimentos decrescentes é a mesma coisa que os rendimentos decrescentes de escala.",
+    "rationale": "CORRETA. Esta é a ERRADA. A lei é de curto prazo (um fator fixo); rendimentos de escala são de longo prazo (todos variam)."
+   },
+   {
+    "letter": "C",
+    "text": "Há rendimentos decrescentes de escala quando a produção cresce menos que os fatores.",
+    "rationale": "Não é a resposta. Verdadeira. Fatores sobem, por exemplo, 100% e a produção sobe menos que 100%."
+   },
+   {
+    "letter": "D",
+    "text": "Os rendimentos de escala supõem que nenhum fator de produção fica fixo.",
+    "rationale": "Não é a resposta. Verdadeira. É análise de longo prazo."
+   },
+   {
+    "letter": "E",
+    "text": "Com um fator fixo, a produção cresce a taxas crescentes, depois decrescentes, e então cai.",
+    "rationale": "Não é a resposta. Verdadeira. São as fases do produto total no curto prazo."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "Lei dos rendimentos decrescentes (curto prazo) ≠ rendimentos decrescentes de escala (longo prazo).",
+  "ficha": {
+   "titulo": "Lei dos rendimentos x rendimentos de escala",
+   "topicos": [
+    {
+     "rotulo": "Lei dos rendimentos decrescentes",
+     "texto": "**Curto prazo**, um fator fixo, só um fator aumenta.",
+     "sub": []
+    },
+    {
+     "rotulo": "Rendimentos de escala",
+     "texto": "**Longo prazo**, **todos** os fatores aumentam juntos.",
+     "sub": []
+    },
+    {
+     "rotulo": "Decrescentes de escala",
+     "texto": "Produção cresce **menos** que proporcionalmente aos fatores (= deseconomias de escala).",
+     "sub": []
+    }
+   ],
+   "distratores": [
+    {
+     "frase": "Lei dos rendimentos decrescentes = deseconomias de escala",
+     "porque": "uma é de **curto**, a outra de **longo** prazo."
+    }
+   ],
+   "fonte": "Vasconcellos, Economia Micro e Macro, cap. 5 (Produção) · modelo: prova de 20/11 (questões 4, 5 e 7)."
+  },
+  "revisada": true
+ },
+ {
+  "id": 32,
+  "code": "PROD-14",
+  "assunto": "producao",
+  "category": "Teoria da produção",
+  "subcategory": "Fases do produto total com Pmg positiva e decrescente",
+  "difficulty": "Intermediária",
+  "origem": "nova",
+  "sourceLabel": "Vasconcellos, Economia Micro e Macro, cap. 5 (Produção) · modelo: prova de 20/11 (questões 4, 5 e 7).",
+  "prompt": "Questão - Fase dos rendimentos decrescentes\nNa fase em que a produtividade marginal do trabalho é positiva, mas está caindo, o produto total:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Continua crescendo, a taxas cada vez maiores.",
+    "rationale": "Incorreta. Taxas crescentes correspondem à fase de Pmg crescente."
+   },
+   {
+    "letter": "B",
+    "text": "Para de crescer e fica no seu ponto máximo.",
+    "rationale": "Incorreta. O máximo do PT é quando a Pmg chega a zero."
+   },
+   {
+    "letter": "C",
+    "text": "Começa a cair, porque a Pmg está diminuindo.",
+    "rationale": "Incorreta. O PT só cai quando a Pmg fica negativa. Pmg caindo, mas positiva, ainda aumenta o PT."
+   },
+   {
+    "letter": "D",
+    "text": "Fica constante até a Pmg chegar a zero.",
+    "rationale": "Incorreta. Enquanto a Pmg é positiva, o PT aumenta."
+   },
+   {
+    "letter": "E",
+    "text": "Continua crescendo, mas a taxas cada vez menores.",
+    "rationale": "CORRETA. Pmg positiva = cada trabalhador ainda soma produção; Pmg caindo = soma cada vez menos. O PT sobe mais devagar."
+   }
+  ],
+  "correctLetter": "E",
+  "clinicalPointers": "Pmg caindo ≠ PT caindo. Enquanto Pmg > 0, o PT sobe.",
+  "ficha": {
+   "titulo": "Pmg decrescente não é PT decrescente",
+   "topicos": [
+    {
+     "rotulo": "Pmg crescente",
+     "texto": "PT sobe a taxas **crescentes**.",
+     "sub": []
+    },
+    {
+     "rotulo": "Pmg positiva e decrescente",
+     "texto": "PT sobe a taxas **decrescentes** (é aqui que vale a lei).",
+     "sub": []
+    },
+    {
+     "rotulo": "Pmg negativa",
+     "texto": "PT **cai**.",
+     "sub": []
+    }
+   ],
+   "distratores": [
+    {
+     "frase": "Se a Pmg cai, o PT cai",
+     "porque": "o PT só cai com Pmg **negativa**."
+    }
+   ],
+   "fonte": "Vasconcellos, Economia Micro e Macro, cap. 5 (Produção) · modelo: prova de 20/11 (questões 4, 5 e 7)."
+  },
+  "revisada": true
+ },
+ {
+  "id": 33,
+  "code": "PROD-15",
+  "assunto": "producao",
+  "category": "Teoria da produção",
+  "subcategory": "Rendimentos de escala: classificar (cálculo)",
+  "difficulty": "Intermediária",
+  "origem": "nova",
+  "sourceLabel": "Vasconcellos, Economia Micro e Macro, cap. 5 (Produção) · modelo: prova de 20/11 (questões 4, 5 e 7).",
+  "prompt": "Questão - Rendimentos de Escala\nTrês empresas dobram TODOS os seus fatores de produção (trabalho e capital). A produção de cada uma muda assim:\nEmpresa A: de 100 para 200 unidades\nEmpresa B: de 100 para 260 unidades\nEmpresa C: de 100 para 150 unidades\nMarque a classificação CORRETA:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "A: crescentes (economia de escala); B: constantes; C: decrescentes (deseconomia).",
+    "rationale": "Incorreta. A cresceu exatamente na mesma proporção: rendimentos constantes."
+   },
+   {
+    "letter": "B",
+    "text": "A: constantes; B: decrescentes (deseconomia); C: crescentes (economia de escala).",
+    "rationale": "Incorreta. Inverteu B e C: B cresceu mais que os fatores; C cresceu menos."
+   },
+   {
+    "letter": "C",
+    "text": "A: constantes; B: crescentes (economia de escala); C: decrescentes (deseconomia).",
+    "rationale": "CORRETA. Fatores ×2. A: produção ×2 (constantes). B: ×2,6, mais que proporcional (crescentes). C: ×1,5, menos que proporcional (decrescentes)."
+   },
+   {
+    "letter": "D",
+    "text": "A, B e C têm rendimentos crescentes, porque as três aumentaram a sua produção.",
+    "rationale": "Incorreta. Crescer não basta: compara-se o aumento da produção com o aumento dos fatores."
+   },
+   {
+    "letter": "E",
+    "text": "A: constantes; B e C mostram a lei dos rendimentos decrescentes do curto prazo.",
+    "rationale": "Incorreta. Como todos os fatores variaram, é rendimento de escala (longo prazo), não a lei dos rendimentos."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "Compare a % de aumento da produção com a % de aumento dos fatores.",
+  "ficha": {
+   "titulo": "Rendimentos de escala — como classificar",
+   "topicos": [
+    {
+     "rotulo": "Constantes",
+     "texto": "Produção cresce **na mesma proporção** que os fatores (×2 → ×2).",
+     "sub": []
+    },
+    {
+     "rotulo": "Crescentes (economias de escala)",
+     "texto": "Produção cresce **mais** que os fatores (×2 → ×2,6).",
+     "sub": []
+    },
+    {
+     "rotulo": "Decrescentes (deseconomias de escala)",
+     "texto": "Produção cresce **menos** que os fatores (×2 → ×1,5).",
+     "sub": []
+    }
+   ],
+   "distratores": [
+    {
+     "frase": "Toda empresa que aumenta a produção tem rendimentos crescentes",
+     "porque": "precisa crescer **mais que proporcionalmente** aos fatores."
+    }
+   ],
+   "fonte": "Vasconcellos, Economia Micro e Macro, cap. 5 (Produção) · modelo: prova de 20/11 (questões 4, 5 e 7)."
+  },
+  "revisada": true
+ },
+ {
+  "id": 34,
+  "code": "PROD-16",
+  "assunto": "producao",
+  "category": "Teoria da produção",
+  "subcategory": "Deseconomia de escala",
+  "difficulty": "Intermediária",
+  "origem": "nova",
+  "sourceLabel": "Vasconcellos, Economia Micro e Macro, cap. 5 (Produção) · modelo: prova de 20/11 (questões 4, 5 e 7).",
+  "prompt": "Questão - Deseconomia de escala\nUma empresa aumenta todos os seus fatores de produção em 50%, e a produção aumenta apenas 30%. Marque a opção CORRETA:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Há deseconomia de escala (rendimentos decrescentes de escala), e a Pme dos fatores cai.",
+    "rationale": "CORRETA. Produção (+30%) cresceu menos que os fatores (+50%): rendimentos decrescentes de escala. Cada unidade de fator rende menos: Pme cai."
+   },
+   {
+    "letter": "B",
+    "text": "Há rendimentos crescentes de escala (economia de escala), porque a produção da empresa aumentou.",
+    "rationale": "Incorreta. Crescer menos que os fatores é deseconomia, não economia de escala."
+   },
+   {
+    "letter": "C",
+    "text": "Opera a lei dos rendimentos decrescentes, pois a empresa está no curto prazo com fator fixo.",
+    "rationale": "Incorreta. Todos os fatores aumentaram, então é longo prazo; não há fator fixo."
+   },
+   {
+    "letter": "D",
+    "text": "Há rendimentos constantes de escala, já que os fatores e a produção cresceram ao mesmo tempo.",
+    "rationale": "Incorreta. Constantes exigiriam produção +50%."
+   },
+   {
+    "letter": "E",
+    "text": "Há deseconomia de escala, e a produtividade média dos fatores aumenta com a produção.",
+    "rationale": "Incorreta. A classificação está certa, mas a Pme dos fatores cai (produção cresce menos que os fatores)."
+   }
+  ],
+  "correctLetter": "A",
+  "clinicalPointers": "Deseconomia de escala = produção cresce menos que os fatores → Pme dos fatores cai.",
+  "ficha": {
+   "titulo": "Deseconomia de escala",
+   "topicos": [
+    {
+     "rotulo": "Definição",
+     "texto": "Todos os fatores sobem e a produção sobe **menos que proporcionalmente**.",
+     "sub": []
+    },
+    {
+     "rotulo": "Pme dos fatores",
+     "texto": "**Cai**: cada unidade de fator produz menos.",
+     "sub": []
+    },
+    {
+     "rotulo": "Sinônimos",
+     "texto": "Rendimentos decrescentes de escala = **deseconomias de escala**.",
+     "sub": []
+    }
+   ],
+   "distratores": [
+    {
+     "frase": "Fatores +50% e produção +30% é a lei dos rendimentos decrescentes",
+     "porque": "todos os fatores mudaram: é **escala** (longo prazo)."
+    }
+   ],
+   "fonte": "Vasconcellos, Economia Micro e Macro, cap. 5 (Produção) · modelo: prova de 20/11 (questões 4, 5 e 7)."
+  },
+  "revisada": true
+ },
+ {
+  "id": 35,
+  "code": "PROD-17",
+  "assunto": "producao",
+  "category": "Teoria da produção",
+  "subcategory": "Rendimentos constantes de escala e custo médio de longo prazo",
+  "difficulty": "Avançada",
+  "origem": "nova",
+  "sourceLabel": "Vasconcellos, Economia Micro e Macro, cap. 5 (Produção) · modelo: prova de 20/11 (questões 4, 5 e 7).",
+  "prompt": "Questão - Rendimento constante de escala\nSe uma empresa tem rendimentos constantes de escala em todas as quantidades, a sua curva de custo médio de longo prazo será:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Decrescente: o custo médio cai sempre que a produção aumenta.",
+    "rationale": "Incorreta. Custo médio caindo indica economias de escala."
+   },
+   {
+    "letter": "B",
+    "text": "Crescente: o custo médio sobe sempre que a produção aumenta.",
+    "rationale": "Incorreta. Custo médio subindo indica deseconomias de escala."
+   },
+   {
+    "letter": "C",
+    "text": "Em formato de U, por causa da lei dos rendimentos decrescentes.",
+    "rationale": "Incorreta. A lei dos rendimentos decrescentes é de curto prazo e explica o U do custo de curto prazo."
+   },
+   {
+    "letter": "D",
+    "text": "Horizontal: o custo médio fica constante quando a produção aumenta.",
+    "rationale": "CORRETA. Com rendimentos constantes, a produtividade média dos fatores não muda; logo o custo por unidade também não. O livro diz: CMe de LP constante indica rendimentos constantes de escala."
+   },
+   {
+    "letter": "E",
+    "text": "Igual a zero, porque no longo prazo não existem custos fixos.",
+    "rationale": "Incorreta. Não haver custo fixo não zera o custo médio; ainda há custos variáveis."
+   }
+  ],
+  "correctLetter": "D",
+  "clinicalPointers": "Economias de escala → CMeLP cai. Constantes → CMeLP horizontal. Deseconomias → CMeLP sobe.",
+  "ficha": {
+   "titulo": "Rendimentos de escala e o CMe de longo prazo",
+   "topicos": [
+    {
+     "rotulo": "Economias de escala",
+     "texto": "CMeLP **cai**.",
+     "sub": []
+    },
+    {
+     "rotulo": "Rendimentos constantes",
+     "texto": "CMeLP **horizontal** (constante).",
+     "sub": []
+    },
+    {
+     "rotulo": "Deseconomias de escala",
+     "texto": "CMeLP **sobe**.",
+     "sub": []
+    }
+   ],
+   "distratores": [
+    {
+     "frase": "O U do CMe de longo prazo vem da lei dos rendimentos decrescentes",
+     "porque": "no longo prazo o U vem de **economias e deseconomias de escala**."
+    }
+   ],
+   "fonte": "Vasconcellos, Economia Micro e Macro, cap. 5 (Produção) · modelo: prova de 20/11 (questões 4, 5 e 7)."
+  },
+  "revisada": true
+ },
+ {
+  "id": 36,
+  "code": "CUST-01",
+  "assunto": "custos",
+  "category": "Teoria dos custos de produção",
+  "subcategory": "Custo fixo total e custo variável total: classificar",
+  "difficulty": "Básica",
+  "origem": "nova",
+  "sourceLabel": "Vasconcellos, Economia Micro e Macro, cap. 6 (Custos de produção) · modelo: prova de 20/11 (questões 8 e 9).",
+  "prompt": "Questão - CFT e CVT\nUma confecção tem estes gastos mensais: aluguel do galpão, seguro do prédio, tecido, energia das máquinas de costura e salário fixo do gerente. Qual classificação está CORRETA no curto prazo?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Fixos: aluguel, tecido e seguro. Variáveis: energia das máquinas e salário do gerente.",
+    "rationale": "Incorreta. Tecido sobe com a produção: é variável. Salário fixo do gerente não muda: é fixo."
+   },
+   {
+    "letter": "B",
+    "text": "Fixos: aluguel, seguro e salário do gerente. Variáveis: tecido e energia das máquinas.",
+    "rationale": "CORRETA. Aluguel, seguro e salário fixo não mudam com a quantidade produzida (CFT). Tecido e energia das máquinas acompanham a produção (CVT)."
+   },
+   {
+    "letter": "C",
+    "text": "Fixos: aluguel e energia das máquinas. Variáveis: tecido, seguro e salário do gerente.",
+    "rationale": "Incorreta. Energia das máquinas acompanha a produção (variável); seguro não (fixo)."
+   },
+   {
+    "letter": "D",
+    "text": "Fixos: só o aluguel do galpão. Variáveis: tecido, seguro, energia e salário do gerente.",
+    "rationale": "Incorreta. Seguro e salário fixo também não mudam com a produção."
+   },
+   {
+    "letter": "E",
+    "text": "Todos são variáveis, porque a confecção pode mudar a produção de um mês para outro.",
+    "rationale": "Incorreta. No curto prazo sempre há custos fixos, que se pagam mesmo sem produzir."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "CFT = paga mesmo produzindo zero. CVT = sobe ou desce com a produção.",
+  "ficha": {
+   "titulo": "CFT x CVT — classificar gastos",
+   "topicos": [
+    {
+     "rotulo": "Custo fixo total (CFT)",
+     "texto": "**Não muda** com a produção; paga-se **mesmo com produção zero**. Ex.: aluguel, seguro, salário fixo.",
+     "sub": []
+    },
+    {
+     "rotulo": "Custo variável total (CVT)",
+     "texto": "**Muda** com a produção. Ex.: matéria-prima, energia das máquinas.",
+     "sub": []
+    },
+    {
+     "rotulo": "Custo total",
+     "texto": "**CT = CFT + CVT**.",
+     "sub": []
+    }
+   ],
+   "distratores": [
+    {
+     "frase": "Matéria-prima é custo fixo",
+     "porque": "quanto mais se produz, mais se gasta: é **variável**."
+    }
+   ],
+   "fonte": "Vasconcellos, Economia Micro e Macro, cap. 6 (Custos de produção) · modelo: prova de 20/11 (questões 8 e 9)."
+  },
+  "revisada": true
+ },
+ {
+  "id": 37,
+  "code": "CUST-02",
+  "assunto": "custos",
+  "category": "Teoria dos custos de produção",
+  "subcategory": "Custo total, CFT, CVT e CMg (cálculo)",
+  "difficulty": "Intermediária",
+  "origem": "nova",
+  "sourceLabel": "Vasconcellos, Economia Micro e Macro, cap. 6 (Custos de produção) · modelo: prova de 20/11 (questões 8 e 9).",
+  "prompt": "Questão - Custo total de curto prazo\nA tabela mostra o custo total (CT) de uma empresa no curto prazo. Pede-se, respectivamente: o custo fixo total (CFT), o custo variável total (CVT) com 4 unidades e o custo marginal (CMg) da 5ª unidade.",
+  "visual": {
+   "type": "table",
+   "headers": [
+    "Quantidade",
+    "CT (R$)"
+   ],
+   "rows": [
+    [
+     "0",
+     "50"
+    ],
+    [
+     "1",
+     "70"
+    ],
+    [
+     "2",
+     "85"
+    ],
+    [
+     "3",
+     "95"
+    ],
+    [
+     "4",
+     "110"
+    ],
+    [
+     "5",
+     "135"
+    ]
+   ]
+  },
+  "options": [
+   {
+    "letter": "A",
+    "text": "50; 110; 25",
+    "rationale": "Incorreta. 110 é o CT com 4 unidades; o CVT tira o CFT: 110 - 50 = 60."
+   },
+   {
+    "letter": "B",
+    "text": "0; 60; 25",
+    "rationale": "Incorreta. O custo com produção zero (50) é o CFT; ele não é zero."
+   },
+   {
+    "letter": "C",
+    "text": "50; 60; 15",
+    "rationale": "Incorreta. 15 é o CMg da 4ª unidade (110 - 95), não da 5ª."
+   },
+   {
+    "letter": "D",
+    "text": "110; 60; 25",
+    "rationale": "Incorreta. 110 é o CT com 4 unidades, não o CFT."
+   },
+   {
+    "letter": "E",
+    "text": "50; 60; 25",
+    "rationale": "CORRETA. Com produção zero, CT = CFT = 50. CVT(4) = 110 - 50 = 60. CMg da 5ª = 135 - 110 = 25."
+   }
+  ],
+  "correctLetter": "E",
+  "clinicalPointers": "CFT = CT quando Q = 0. CVT = CT - CFT. CMg = CT de agora - CT anterior.",
+  "ficha": {
+   "titulo": "Tirar CFT, CVT e CMg de uma tabela de CT",
+   "topicos": [
+    {
+     "rotulo": "CFT",
+     "texto": "É o **CT com produção zero**: 50.",
+     "sub": []
+    },
+    {
+     "rotulo": "CVT",
+     "texto": "**CT - CFT**. Com 4: 110 - 50 = **60**.",
+     "sub": []
+    },
+    {
+     "rotulo": "CMg",
+     "texto": "**ΔCT/ΔQ**. 5ª unidade: 135 - 110 = **25**.",
+     "sub": []
+    }
+   ],
+   "distratores": [
+    {
+     "frase": "O CMg é o CT dividido pela quantidade",
+     "porque": "isso é o **custo médio**; o CMg é a **variação** do CT."
+    }
+   ],
+   "fonte": "Vasconcellos, Economia Micro e Macro, cap. 6 (Custos de produção) · modelo: prova de 20/11 (questões 8 e 9)."
+  },
+  "revisada": true
+ },
+ {
+  "id": 38,
+  "code": "CUST-03",
+  "assunto": "custos",
+  "category": "Teoria dos custos de produção",
+  "subcategory": "Custos médios e marginal (tabela, estilo da prova)",
+  "difficulty": "Avançada",
+  "origem": "nova",
+  "sourceLabel": "Vasconcellos, Economia Micro e Macro, cap. 6 (Custos de produção) · modelo: prova de 20/11 (questões 8 e 9).",
+  "prompt": "Questão - Tabela de Custos de Produção\nDe acordo com a tabela abaixo (custo fixo de R$ 60,00), pede-se respectivamente:\nI) O Custo Fixo Médio quando a firma produz 3 unidades.\nII) O Custo Variável Médio quando a firma produz 5 unidades.\nIII) O Custo Médio quando a firma produz 4 unidades.\nIV) O Custo Marginal da 6ª unidade.",
+  "visual": {
+   "type": "table",
+   "headers": [
+    "Quantidade",
+    "CF",
+    "CV",
+    "CT"
+   ],
+   "rows": [
+    [
+     "1",
+     "60",
+     "20",
+     "80"
+    ],
+    [
+     "2",
+     "60",
+     "36",
+     "96"
+    ],
+    [
+     "3",
+     "60",
+     "48",
+     "108"
+    ],
+    [
+     "4",
+     "60",
+     "64",
+     "124"
+    ],
+    [
+     "5",
+     "60",
+     "90",
+     "150"
+    ],
+    [
+     "6",
+     "60",
+     "120",
+     "180"
+    ]
+   ]
+  },
+  "options": [
+   {
+    "letter": "A",
+    "text": "20; 16; 31; 26",
+    "rationale": "Incorreta. 16 é o CVMe com 3 ou 4 unidades; 26 é o CMg da 5ª (150 - 124)."
+   },
+   {
+    "letter": "B",
+    "text": "30; 18; 36; 30",
+    "rationale": "Incorreta. 30 é o CFMe com 2 unidades; 36 é o CMe com 3 unidades."
+   },
+   {
+    "letter": "C",
+    "text": "20; 18; 31; 30",
+    "rationale": "CORRETA. CFMe(3) = 60/3 = 20. CVMe(5) = 90/5 = 18. CMe(4) = 124/4 = 31. CMg(6) = 180 - 150 = 30."
+   },
+   {
+    "letter": "D",
+    "text": "20; 18; 30; 26",
+    "rationale": "Incorreta. 30 é o CMe com 5 unidades, não com 4; 26 é o CMg da 5ª."
+   },
+   {
+    "letter": "E",
+    "text": "60; 90; 124; 30",
+    "rationale": "Incorreta. Esses são valores totais (CF, CV(5), CT(4)), não médios."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "Médio = total ÷ quantidade. Marginal = total de agora - total anterior.",
+  "ficha": {
+   "titulo": "Custos médios e marginal — fórmulas",
+   "topicos": [
+    {
+     "rotulo": "CFMe",
+     "texto": "**CF ÷ Q**. 60/3 = **20**. Sempre cai quando Q aumenta.",
+     "sub": []
+    },
+    {
+     "rotulo": "CVMe",
+     "texto": "**CV ÷ Q**. 90/5 = **18**.",
+     "sub": []
+    },
+    {
+     "rotulo": "CMe (custo total médio)",
+     "texto": "**CT ÷ Q** = CFMe + CVMe. 124/4 = **31**.",
+     "sub": []
+    },
+    {
+     "rotulo": "CMg",
+     "texto": "**CT(Q) - CT(Q-1)**. 180 - 150 = **30**. Repare: o CMg (30) encontra o CMe (30) no **mínimo** do CMe.",
+     "sub": []
+    }
+   ],
+   "distratores": [
+    {
+     "frase": "Custo médio = CT - CF",
+     "porque": "isso é o **CV total**; médio é sempre **÷ Q**."
+    }
+   ],
+   "fonte": "Vasconcellos, Economia Micro e Macro, cap. 6 (Custos de produção) · modelo: prova de 20/11 (questões 8 e 9)."
+  },
+  "revisada": true
+ },
+ {
+  "id": 39,
+  "code": "CUST-04",
+  "assunto": "custos",
+  "category": "Teoria dos custos de produção",
+  "subcategory": "Lei dos custos crescentes",
+  "difficulty": "Intermediária",
+  "origem": "nova",
+  "sourceLabel": "Vasconcellos, Economia Micro e Macro, cap. 6 (Custos de produção) · modelo: prova de 20/11 (questões 8 e 9).",
+  "prompt": "Questão - Lei dos custos crescentes\nNa teoria dos custos, a \"lei dos custos crescentes\" (a lei dos rendimentos decrescentes vista pelo lado dos custos) refere-se ao fato de que:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Com fatores fixos, os custos médios e marginais primeiro caem e depois sobem.",
+    "rationale": "CORRETA. Com fator fixo, a produtividade primeiro sobe e depois cai; por isso os custos médios e marginais caem e depois sobem (formato em U)."
+   },
+   {
+    "letter": "B",
+    "text": "Quando a produção cresce, o custo total em dinheiro da empresa também cresce.",
+    "rationale": "Incorreta. É verdade que o CT sobe com a produção, mas isso não é a lei; a lei fala do formato dos custos médios e marginais."
+   },
+   {
+    "letter": "C",
+    "text": "Os custos totais da empresa crescem sempre a taxas crescentes, desde o início.",
+    "rationale": "Incorreta. No início o CT cresce a taxas decrescentes (fase de Pmg crescente); só depois a taxas crescentes."
+   },
+   {
+    "letter": "D",
+    "text": "Os custos totais da empresa crescem sempre a taxas decrescentes, sem exceção.",
+    "rationale": "Incorreta. Depois de certo ponto o CT passa a crescer a taxas crescentes."
+   },
+   {
+    "letter": "E",
+    "text": "No longo prazo, todos os custos da empresa passam a ser custos fixos.",
+    "rationale": "Incorreta. No longo prazo não existe custo fixo."
+   }
+  ],
+  "correctLetter": "A",
+  "clinicalPointers": "Pmg sobe e depois cai → CMg cai e depois sobe (espelho). Daí o U dos custos de curto prazo.",
+  "ficha": {
+   "titulo": "Lei dos custos crescentes",
+   "topicos": [
+    {
+     "rotulo": "Origem",
+     "texto": "É a **lei dos rendimentos decrescentes** vista pelos custos.",
+     "sub": []
+    },
+    {
+     "rotulo": "Efeito",
+     "texto": "Com fator fixo, **CMg, CVMe e CMe** primeiro **caem** e depois **sobem**: formato em **U**.",
+     "sub": []
+    },
+    {
+     "rotulo": "Espelho",
+     "texto": "Pmg **máxima** ↔ CMg **mínimo**.",
+     "sub": []
+    }
+   ],
+   "distratores": [
+    {
+     "frase": "A lei diz que o CT cresce sempre a taxas crescentes",
+     "porque": "no começo o CT cresce a taxas **decrescentes**."
+    }
+   ],
+   "fonte": "Vasconcellos, Economia Micro e Macro, cap. 6 (Custos de produção) · modelo: prova de 20/11 (questões 8 e 9)."
+  },
+  "revisada": true
+ },
+ {
+  "id": 40,
+  "code": "CUST-05",
+  "assunto": "custos",
+  "category": "Teoria dos custos de produção",
+  "subcategory": "Curvas de custo de curto prazo: CMg corta CMe e CVMe",
+  "difficulty": "Intermediária",
+  "origem": "nova",
+  "sourceLabel": "Vasconcellos, Economia Micro e Macro, cap. 6 (Custos de produção) · modelo: prova de 20/11 (questões 8 e 9).",
+  "prompt": "Questão - Curvas de custo\nAponte a alternativa ERRADA sobre as curvas de custo de curto prazo:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "O custo marginal corta o custo variável médio no ponto mínimo deste.",
+    "rationale": "Não é a resposta. Verdadeira. O CMg cruza o CVMe no mínimo dele."
+   },
+   {
+    "letter": "B",
+    "text": "Com o aumento da produção, o custo médio tende a se igualar ao custo variável médio.",
+    "rationale": "Não é a resposta. Verdadeira. CMe = CFMe + CVMe, e o CFMe tende a zero quando Q cresce."
+   },
+   {
+    "letter": "C",
+    "text": "O custo fixo total fica constante no curto prazo, mas o custo fixo médio cai.",
+    "rationale": "Não é a resposta. Verdadeira. O total é fixo; dividido por mais unidades, o médio cai."
+   },
+   {
+    "letter": "D",
+    "text": "O custo marginal corta o custo médio no ponto máximo do custo médio.",
+    "rationale": "CORRETA. Esta é a ERRADA. O CMg corta o CMe no MÍNIMO do CMe (e também o CVMe no mínimo deste)."
+   },
+   {
+    "letter": "E",
+    "text": "O custo marginal não depende do custo fixo, só da variação do custo variável.",
+    "rationale": "Não é a resposta. Verdadeira. Como o CFT não muda, ΔCT = ΔCVT."
+   }
+  ],
+  "correctLetter": "D",
+  "clinicalPointers": "Nos custos: CMg corta CMe e CVMe no MÍNIMO deles.",
+  "ficha": {
+   "titulo": "Onde o CMg corta as curvas de custo médio",
+   "topicos": [
+    {
+     "rotulo": "CMg x CMe",
+     "texto": "Corta no **mínimo** do CMe.",
+     "sub": []
+    },
+    {
+     "rotulo": "CMg x CVMe",
+     "texto": "Corta no **mínimo** do CVMe (que vem antes do mínimo do CMe).",
+     "sub": []
+    },
+    {
+     "rotulo": "CMe → CVMe",
+     "texto": "Com Q grande, CFMe ≈ 0, então **CMe ≈ CVMe**.",
+     "sub": []
+    },
+    {
+     "rotulo": "CMg e custo fixo",
+     "texto": "CFT não muda → **CMg = ΔCVT/ΔQ**.",
+     "sub": []
+    }
+   ],
+   "distratores": [
+    {
+     "frase": "O CMg corta o CMe no máximo do CMe",
+     "porque": "é no **mínimo** (o máximo é da Pme, na produção)."
+    }
+   ],
+   "fonte": "Vasconcellos, Economia Micro e Macro, cap. 6 (Custos de produção) · modelo: prova de 20/11 (questões 8 e 9)."
+  },
+  "revisada": true
+ },
+ {
+  "id": 41,
+  "code": "CUST-06",
+  "assunto": "custos",
+  "category": "Teoria dos custos de produção",
+  "subcategory": "Quando o custo médio está caindo",
+  "difficulty": "Avançada",
+  "origem": "nova",
+  "sourceLabel": "Vasconcellos, Economia Micro e Macro, cap. 6 (Custos de produção) · modelo: prova de 20/11 (questões 8 e 9).",
+  "prompt": "Questão - Custo médio declinante\nQuando o custo médio de uma empresa está caindo, pode-se afirmar com certeza que:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "O custo marginal está acima do custo médio.",
+    "rationale": "Incorreta. CMg acima da média puxa o CMe para cima."
+   },
+   {
+    "letter": "B",
+    "text": "O custo marginal está abaixo do custo médio.",
+    "rationale": "CORRETA. Para a média cair, a unidade extra tem de custar menos que a média, não importa se o CMg está subindo ou descendo."
+   },
+   {
+    "letter": "C",
+    "text": "O custo marginal também está caindo.",
+    "rationale": "Incorreta. O CMg pode estar caindo ou já subindo; só precisa estar abaixo do CMe."
+   },
+   {
+    "letter": "D",
+    "text": "O custo marginal está necessariamente subindo.",
+    "rationale": "Incorreta. Também não é certo: pode estar caindo."
+   },
+   {
+    "letter": "E",
+    "text": "O custo marginal é igual ao custo médio.",
+    "rationale": "Incorreta. CMg = CMe só no ponto mínimo do CMe, quando ele para de cair."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "Média cai ↔ marginal abaixo da média. A direção do CMg não importa.",
+  "ficha": {
+   "titulo": "CMe caindo → CMg abaixo do CMe",
+   "topicos": [
+    {
+     "rotulo": "Regra",
+     "texto": "CMg **abaixo** do CMe → CMe **cai**. CMg **acima** → CMe **sobe**.",
+     "sub": []
+    },
+    {
+     "rotulo": "Pegadinha",
+     "texto": "O CMg pode estar **caindo ou subindo**; o que importa é estar abaixo.",
+     "sub": []
+    },
+    {
+     "rotulo": "Igualdade",
+     "texto": "CMg = CMe no **mínimo** do CMe.",
+     "sub": []
+    }
+   ],
+   "distratores": [
+    {
+     "frase": "Se o CMe cai, o CMg também cai",
+     "porque": "o CMg pode já estar **subindo**, desde que fique abaixo do CMe."
+    }
+   ],
+   "fonte": "Vasconcellos, Economia Micro e Macro, cap. 6 (Custos de produção) · modelo: prova de 20/11 (questões 8 e 9)."
+  },
+  "revisada": true
+ },
+ {
+  "id": 42,
+  "code": "CUST-07",
+  "assunto": "custos",
+  "category": "Teoria dos custos de produção",
+  "subcategory": "Custo fixo médio sempre cai (isto porque)",
+  "difficulty": "Intermediária",
+  "origem": "nova",
+  "sourceLabel": "Vasconcellos, Economia Micro e Macro, cap. 6 (Custos de produção) · modelo: prova de 20/11 (questões 8 e 9).",
+  "prompt": "Questão - Custo fixo médio\nAnalise as duas assertivas abaixo e, em seguida, escolha a opção CORRETA:\nNo curto prazo, o custo fixo médio diminui sempre que a produção aumenta.\nISTO PORQUE\nO custo fixo total não muda e passa a ser dividido por um número maior de unidades.",
+  "options": [
+   {
+    "letter": "A",
+    "text": "As duas são verdadeiras, mas não se complementam.",
+    "rationale": "Incorreta. A segunda é justamente a explicação da primeira."
+   },
+   {
+    "letter": "B",
+    "text": "A primeira é verdadeira e a segunda é falsa.",
+    "rationale": "Incorreta. A segunda está certa: o CFT é constante no curto prazo."
+   },
+   {
+    "letter": "C",
+    "text": "A primeira é falsa e a segunda é verdadeira.",
+    "rationale": "Incorreta. A primeira está certa: o CFMe sempre cai com mais produção."
+   },
+   {
+    "letter": "D",
+    "text": "As duas assertivas são falsas.",
+    "rationale": "Incorreta. As duas estão corretas."
+   },
+   {
+    "letter": "E",
+    "text": "As duas são verdadeiras e se complementam.",
+    "rationale": "CORRETA. CFMe = CFT/Q. Com CFT fixo e Q maior, o CFMe cai. A segunda frase é o motivo da primeira."
+   }
+  ],
+  "correctLetter": "E",
+  "clinicalPointers": "CFMe = CFT/Q: numerador fixo, denominador crescendo → sempre cai.",
+  "ficha": {
+   "titulo": "Custo fixo médio — sempre decrescente",
+   "topicos": [
+    {
+     "rotulo": "Fórmula",
+     "texto": "**CFMe = CFT ÷ Q**.",
+     "sub": []
+    },
+    {
+     "rotulo": "Por que cai",
+     "texto": "CFT é **constante** no curto prazo; dividido por mais unidades, o CFMe **diminui** (\"dilui\" o custo fixo).",
+     "sub": []
+    },
+    {
+     "rotulo": "Constante é o total",
+     "texto": "Quem é constante é o **CFT**, não o CFMe.",
+     "sub": []
+    }
+   ],
+   "distratores": [
+    {
+     "frase": "O custo fixo médio é constante no curto prazo",
+     "porque": "constante é o **custo fixo total**; o médio cai."
+    }
+   ],
+   "fonte": "Vasconcellos, Economia Micro e Macro, cap. 6 (Custos de produção) · modelo: prova de 20/11 (questões 8 e 9)."
+  },
+  "revisada": true
+ },
+ {
+  "id": 43,
+  "code": "CUST-08",
+  "assunto": "custos",
+  "category": "Teoria dos custos de produção",
+  "subcategory": "Efeito de um aumento de custo fixo",
+  "difficulty": "Avançada",
+  "origem": "nova",
+  "sourceLabel": "Vasconcellos, Economia Micro e Macro, cap. 6 (Custos de produção) · modelo: prova de 20/11 (questões 8 e 9).",
+  "prompt": "Questão - Aumento do aluguel\nNo curto prazo, o aluguel da fábrica de uma empresa (um custo fixo) aumenta. Quais custos se alteram?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Mudam todos os custos, inclusive o CMg, porque o custo total da empresa subiu.",
+    "rationale": "Incorreta. O CMg não muda: o aumento do custo fixo é o mesmo em qualquer quantidade, e some na diferença CT(Q) - CT(Q-1)."
+   },
+   {
+    "letter": "B",
+    "text": "Mudam só o CFT e o CFMe; o custo total e o custo médio continuam iguais.",
+    "rationale": "Incorreta. CT = CFT + CVT; se o CFT sobe, o CT e o CMe sobem também."
+   },
+   {
+    "letter": "C",
+    "text": "Mudam o CFT, o CFMe, o CT e o CMe; o CVT, o CVMe e o CMg não mudam.",
+    "rationale": "CORRETA. Aluguel é custo fixo: sobe o CFT e, com ele, o CT e as médias CFMe e CMe. O CMg depende só da variação do CVT, então não muda."
+   },
+   {
+    "letter": "D",
+    "text": "Mudam o CVT, o CVMe e o CMg; os custos fixos continuam iguais aos anteriores.",
+    "rationale": "Incorreta. O aluguel não é custo variável."
+   },
+   {
+    "letter": "E",
+    "text": "Não muda nenhum custo, porque o aluguel não depende da quantidade produzida.",
+    "rationale": "Incorreta. Não depender da quantidade não significa não ser custo: ele aumenta o CFT."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "Custo fixo mexe em CFT, CT, CFMe e CMe. Nunca mexe no CMg.",
+  "ficha": {
+   "titulo": "Mudança no custo fixo — o que muda",
+   "topicos": [
+    {
+     "rotulo": "Sobem",
+     "texto": "**CFT, CT, CFMe, CMe**.",
+     "sub": []
+    },
+    {
+     "rotulo": "Não mudam",
+     "texto": "**CVT, CVMe, CMg**.",
+     "sub": []
+    },
+    {
+     "rotulo": "Por que o CMg não muda",
+     "texto": "CMg = CT(Q) - CT(Q-1); o custo fixo extra aparece nos dois termos e **se cancela**.",
+     "sub": []
+    },
+    {
+     "rotulo": "Consequência",
+     "texto": "A quantidade que maximiza o lucro (RMg = CMg) **não muda**.",
+     "sub": []
+    }
+   ],
+   "distratores": [
+    {
+     "frase": "Se o custo total sobe, o custo marginal sobe",
+     "porque": "o CMg só depende do **custo variável**."
+    }
+   ],
+   "fonte": "Vasconcellos, Economia Micro e Macro, cap. 6 (Custos de produção) · modelo: prova de 20/11 (questões 8 e 9)."
+  },
+  "revisada": true
+ },
+ {
+  "id": 44,
+  "code": "CUST-09",
+  "assunto": "custos",
+  "category": "Teoria dos custos de produção",
+  "subcategory": "Custos de longo prazo (isto porque)",
+  "difficulty": "Intermediária",
+  "origem": "nova",
+  "sourceLabel": "Vasconcellos, Economia Micro e Macro, cap. 6 (Custos de produção) · modelo: prova de 20/11 (questões 8 e 9).",
+  "prompt": "Questão - Custos no longo prazo\nAnalise as duas assertivas abaixo e, em seguida, escolha a opção CORRETA:\nNo longo prazo, a empresa ainda tem custos fixos, como o aluguel da fábrica.\nISTO PORQUE\nNo longo prazo, todos os fatores de produção podem variar.",
+  "options": [
+   {
+    "letter": "A",
+    "text": "A primeira é falsa e a segunda é verdadeira.",
+    "rationale": "CORRETA. A segunda é a definição de longo prazo e está certa. Justamente por isso a primeira é falsa: se todos os fatores variam, não há custo fixo."
+   },
+   {
+    "letter": "B",
+    "text": "As duas são verdadeiras e se complementam.",
+    "rationale": "Incorreta. A primeira é falsa: no longo prazo não existem custos fixos."
+   },
+   {
+    "letter": "C",
+    "text": "As duas são verdadeiras, mas não se complementam.",
+    "rationale": "Incorreta. A primeira é falsa."
+   },
+   {
+    "letter": "D",
+    "text": "A primeira é verdadeira e a segunda é falsa.",
+    "rationale": "Incorreta. É o contrário: a primeira é falsa e a segunda é verdadeira."
+   },
+   {
+    "letter": "E",
+    "text": "As duas assertivas são falsas.",
+    "rationale": "Incorreta. A segunda é verdadeira."
+   }
+  ],
+  "correctLetter": "A",
+  "clinicalPointers": "Longo prazo: todos os fatores variáveis → nenhum custo fixo.",
+  "ficha": {
+   "titulo": "Longo prazo não tem custo fixo",
+   "topicos": [
+    {
+     "rotulo": "Regra",
+     "texto": "No longo prazo **todos os fatores variam** → **todos os custos são variáveis**.",
+     "sub": []
+    },
+    {
+     "rotulo": "Horizonte de planejamento",
+     "texto": "Os custos de longo prazo mostram as opções de **tamanho de fábrica**, não custos já incorridos.",
+     "sub": []
+    },
+    {
+     "rotulo": "Como resolver \"isto porque\"",
+     "texto": "Julgue cada frase **sozinha** antes de ver se uma explica a outra.",
+     "sub": []
+    }
+   ],
+   "distratores": [
+    {
+     "frase": "No longo prazo o aluguel continua fixo",
+     "porque": "no longo prazo a empresa pode **mudar de galpão**, ampliar ou fechar."
+    }
+   ],
+   "fonte": "Vasconcellos, Economia Micro e Macro, cap. 6 (Custos de produção) · modelo: prova de 20/11 (questões 8 e 9)."
+  },
+  "revisada": true
+ },
+ {
+  "id": 45,
+  "code": "CUST-10",
+  "assunto": "custos",
+  "category": "Teoria dos custos de produção",
+  "subcategory": "Custo médio de longo prazo em U",
+  "difficulty": "Avançada",
+  "origem": "nova",
+  "sourceLabel": "Vasconcellos, Economia Micro e Macro, cap. 6 (Custos de produção) · modelo: prova de 20/11 (questões 8 e 9).",
+  "prompt": "Questão - Análise dos custos no longo prazo\nO formato em U da curva de custo médio de LONGO prazo é explicado por:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "A lei dos rendimentos decrescentes, que existe porque há pelo menos um fator fixo.",
+    "rationale": "Incorreta. A lei dos rendimentos decrescentes explica o U de CURTO prazo; no longo prazo não há fator fixo."
+   },
+   {
+    "letter": "B",
+    "text": "Custos fixos que caem por unidade na parte que desce e sobem na parte que sobe.",
+    "rationale": "Incorreta. Não existe custo fixo no longo prazo."
+   },
+   {
+    "letter": "C",
+    "text": "Deseconomias de escala na parte que desce e economias de escala na parte que sobe.",
+    "rationale": "Incorreta. Inverteu: economias de escala baixam o custo médio; deseconomias o elevam."
+   },
+   {
+    "letter": "D",
+    "text": "Economias de escala na parte que desce e deseconomias de escala na parte que sobe.",
+    "rationale": "CORRETA. Enquanto a produção cresce mais que os fatores (economias), o custo médio cai; quando cresce menos (deseconomias), o custo médio sobe."
+   },
+   {
+    "letter": "E",
+    "text": "Rendimentos constantes de escala em todas as quantidades que a empresa produz.",
+    "rationale": "Incorreta. Rendimentos constantes dariam uma curva horizontal."
+   }
+  ],
+  "correctLetter": "D",
+  "clinicalPointers": "U de curto prazo = lei dos rendimentos decrescentes. U de longo prazo = economias → deseconomias de escala.",
+  "ficha": {
+   "titulo": "Dois U diferentes: curto x longo prazo",
+   "topicos": [
+    {
+     "rotulo": "U de curto prazo",
+     "texto": "Explicado pela **lei dos rendimentos decrescentes** (há fator fixo).",
+     "sub": []
+    },
+    {
+     "rotulo": "U de longo prazo",
+     "texto": "Parte que desce: **economias de escala**. Parte que sobe: **deseconomias de escala**.",
+     "sub": []
+    },
+    {
+     "rotulo": "Curva de LP",
+     "texto": "É a **envoltória** das curvas de curto prazo (uma para cada tamanho de fábrica).",
+     "sub": []
+    }
+   ],
+   "distratores": [
+    {
+     "frase": "O U de longo prazo vem da lei dos rendimentos decrescentes",
+     "porque": "no longo prazo **não há fator fixo**."
+    }
+   ],
+   "fonte": "Vasconcellos, Economia Micro e Macro, cap. 6 (Custos de produção) · modelo: prova de 20/11 (questões 8 e 9)."
+  },
+  "revisada": true
+ },
+ {
+  "id": 46,
+  "code": "LUC-01",
+  "assunto": "lucro",
+  "category": "Maximização de lucros",
+  "subcategory": "Receita total e receita marginal (tabela)",
+  "difficulty": "Básica",
+  "origem": "nova",
+  "sourceLabel": "Vasconcellos, Economia Micro e Macro, cap. 7 (Estruturas de mercado, questões 1, 3 e 7) · modelo: prova de 20/11 (questão 6).",
+  "prompt": "Questão - Receita Total e Receita Marginal\nUma empresa vende cada unidade a R$ 10,00 (preço de mercado constante). Com base na tabela, qual é a Receita Total quando ela produz 3 unidades e a Receita Marginal da 3ª unidade, respectivamente?",
+  "visual": {
+   "type": "table",
+   "headers": [
+    "Produção (por dia)",
+    "CT (R$)",
+    "Preço (R$)"
+   ],
+   "rows": [
+    [
+     "0",
+     "12,00",
+     "10,00"
+    ],
+    [
+     "1",
+     "18,00",
+     "10,00"
+    ],
+    [
+     "2",
+     "22,00",
+     "10,00"
+    ],
+    [
+     "3",
+     "27,00",
+     "10,00"
+    ],
+    [
+     "4",
+     "34,00",
+     "10,00"
+    ],
+    [
+     "5",
+     "43,00",
+     "10,00"
+    ],
+    [
+     "6",
+     "54,00",
+     "10,00"
+    ]
+   ]
+  },
+  "options": [
+   {
+    "letter": "A",
+    "text": "27,00; 10,00",
+    "rationale": "Incorreta. 27 é o custo total com 3 unidades, não a receita."
+   },
+   {
+    "letter": "B",
+    "text": "30,00; 10,00",
+    "rationale": "CORRETA. RT = P × Q = 10 × 3 = 30. RMg = RT(3) - RT(2) = 30 - 20 = 10, que é o próprio preço."
+   },
+   {
+    "letter": "C",
+    "text": "30,00; 5,00",
+    "rationale": "Incorreta. 5 é o custo marginal da 3ª unidade (27 - 22), não a receita marginal."
+   },
+   {
+    "letter": "D",
+    "text": "3,00; 10,00",
+    "rationale": "Incorreta. 3 é o lucro total com 3 unidades (30 - 27)."
+   },
+   {
+    "letter": "E",
+    "text": "10,00; 30,00",
+    "rationale": "Incorreta. Trocou a ordem: a RT é 30 e a RMg é 10."
+   }
+  ],
+  "correctLetter": "B",
+  "clinicalPointers": "RT = P × Q. Com preço constante, RMg = P.",
+  "ficha": {
+   "titulo": "RT e RMg com preço constante",
+   "topicos": [
+    {
+     "rotulo": "Receita total",
+     "texto": "**RT = P × Q**. 10 × 3 = **30**.",
+     "sub": []
+    },
+    {
+     "rotulo": "Receita marginal",
+     "texto": "**RT(Q) - RT(Q-1)** = quanto entra com **uma unidade a mais**.",
+     "sub": []
+    },
+    {
+     "rotulo": "Preço constante",
+     "texto": "Se o preço não muda (concorrência perfeita), **RMg = P** em todas as quantidades.",
+     "sub": []
+    }
+   ],
+   "distratores": [
+    {
+     "frase": "RMg = RT ÷ Q",
+     "porque": "isso é a **receita média** (que, com preço constante, também é igual a P)."
+    }
+   ],
+   "fonte": "Vasconcellos, Economia Micro e Macro, cap. 7 (Estruturas de mercado, questões 1, 3 e 7) · modelo: prova de 20/11 (questão 6)."
+  },
+  "revisada": true
+ },
+ {
+  "id": 47,
+  "code": "LUC-02",
+  "assunto": "lucro",
+  "category": "Maximização de lucros",
+  "subcategory": "Quantidade que maximiza o lucro (tabela)",
+  "difficulty": "Avançada",
+  "origem": "nova",
+  "sourceLabel": "Vasconcellos, Economia Micro e Macro, cap. 7 (Estruturas de mercado, questões 1, 3 e 7) · modelo: prova de 20/11 (questão 6).",
+  "prompt": "Questão - Maximização do Lucro Total\nCom a mesma empresa (preço de R$ 10,00), use a tabela para decidir: qual quantidade maximiza o lucro total e qual é esse lucro?",
+  "visual": {
+   "type": "table",
+   "headers": [
+    "Produção",
+    "CT (R$)",
+    "RT (R$)",
+    "CMg (R$)",
+    "RMg (R$)"
+   ],
+   "rows": [
+    [
+     "0",
+     "12,00",
+     "0",
+     "-",
+     "-"
+    ],
+    [
+     "1",
+     "18,00",
+     "10,00",
+     "6,00",
+     "10,00"
+    ],
+    [
+     "2",
+     "22,00",
+     "20,00",
+     "4,00",
+     "10,00"
+    ],
+    [
+     "3",
+     "27,00",
+     "30,00",
+     "5,00",
+     "10,00"
+    ],
+    [
+     "4",
+     "34,00",
+     "40,00",
+     "7,00",
+     "10,00"
+    ],
+    [
+     "5",
+     "43,00",
+     "50,00",
+     "9,00",
+     "10,00"
+    ],
+    [
+     "6",
+     "54,00",
+     "60,00",
+     "11,00",
+     "10,00"
+    ]
+   ]
+  },
+  "options": [
+   {
+    "letter": "A",
+    "text": "6 unidades, com lucro de R$ 6,00.",
+    "rationale": "Incorreta. A 6ª unidade custa 11 e rende 10: o lucro cai de 7 para 6."
+   },
+   {
+    "letter": "B",
+    "text": "2 unidades, com prejuízo de R$ 2,00.",
+    "rationale": "Incorreta. Q = 2 tem o menor CMg, mas o lucro ainda é negativo. Menor CMg não é lucro máximo."
+   },
+   {
+    "letter": "C",
+    "text": "4 unidades, com lucro de R$ 6,00.",
+    "rationale": "Incorreta. Com 4 o lucro é 6; a 5ª unidade ainda acrescenta 1 (10 - 9)."
+   },
+   {
+    "letter": "D",
+    "text": "5 unidades, com lucro de R$ 50,00.",
+    "rationale": "Incorreta. R$ 50,00 é a receita total com 5 unidades, não o lucro."
+   },
+   {
+    "letter": "E",
+    "text": "5 unidades, com lucro de R$ 7,00.",
+    "rationale": "CORRETA. LT = RT - CT: -12, -8, -2, 3, 6, 7, 6. Máximo em Q = 5 (LT = 7). Ali a 5ª unidade ainda tem RMg (10) > CMg (9); a 6ª teria CMg (11) > RMg (10)."
+   }
+  ],
+  "correctLetter": "E",
+  "clinicalPointers": "Produza enquanto RMg ≥ CMg. Pare antes da unidade em que CMg > RMg.",
+  "ficha": {
+   "titulo": "Achar o lucro máximo numa tabela",
+   "topicos": [
+    {
+     "rotulo": "Jeito 1",
+     "texto": "Calcule **LT = RT - CT** em cada linha e pegue o **maior**: Q = 5, LT = **7**.",
+     "sub": []
+    },
+    {
+     "rotulo": "Jeito 2 (marginal)",
+     "texto": "Produza enquanto **RMg ≥ CMg**. A 5ª: 10 > 9 (vale). A 6ª: 10 < 11 (não vale).",
+     "sub": []
+    },
+    {
+     "rotulo": "Condição de máximo",
+     "texto": "**RMg = CMg** (ou o mais perto disso numa tabela).",
+     "sub": []
+    }
+   ],
+   "distratores": [
+    {
+     "frase": "O lucro máximo é onde o CMg é mínimo",
+     "porque": "o critério é **RMg = CMg**, não CMg mínimo."
+    },
+    {
+     "frase": "O lucro máximo é onde a RT é máxima",
+     "porque": "RT máxima ignora os **custos**."
+    }
+   ],
+   "fonte": "Vasconcellos, Economia Micro e Macro, cap. 7 (Estruturas de mercado, questões 1, 3 e 7) · modelo: prova de 20/11 (questão 6)."
+  },
+  "revisada": true
+ },
+ {
+  "id": 48,
+  "code": "LUC-03",
+  "assunto": "lucro",
+  "category": "Maximização de lucros",
+  "subcategory": "Condição de maximização de lucro: CMg > RMg",
+  "difficulty": "Intermediária",
+  "origem": "nova",
+  "sourceLabel": "Vasconcellos, Economia Micro e Macro, cap. 7 (Estruturas de mercado, questões 1, 3 e 7) · modelo: prova de 20/11 (questão 6).",
+  "prompt": "Questão - Condição de maximização de lucro\nSe o custo marginal de uma empresa é maior que a receita marginal, numa faixa em que o custo marginal está subindo, a empresa deve:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Aumentar a produção até o custo marginal ficar igual à receita marginal.",
+    "rationale": "Incorreta. Produzir mais aumenta ainda mais o CMg e o prejuízo da margem."
+   },
+   {
+    "letter": "B",
+    "text": "Reduzir a produção até a receita marginal ficar igual ao lucro marginal.",
+    "rationale": "Incorreta. A condição de lucro máximo é RMg = CMg, não RMg = lucro marginal."
+   },
+   {
+    "letter": "C",
+    "text": "Reduzir a produção até o custo marginal ficar igual à receita marginal.",
+    "rationale": "CORRETA. CMg > RMg: a última unidade custa mais do que rende e reduz o lucro. Produzindo menos, o CMg cai até igualar a RMg."
+   },
+   {
+    "letter": "D",
+    "text": "Manter a produção, porque o lucro total ainda pode ser positivo.",
+    "rationale": "Incorreta. Mesmo com lucro positivo, cortar as unidades com CMg > RMg aumenta o lucro."
+   },
+   {
+    "letter": "E",
+    "text": "Aumentar a produção até o custo médio ficar igual ao custo marginal.",
+    "rationale": "Incorreta. CMg = CMe é o mínimo do custo médio, não o ponto de lucro máximo."
+   }
+  ],
+  "correctLetter": "C",
+  "clinicalPointers": "RMg > CMg → produza mais. RMg < CMg → produza menos. RMg = CMg → lucro máximo.",
+  "ficha": {
+   "titulo": "Condição de lucro máximo: RMg = CMg",
+   "topicos": [
+    {
+     "rotulo": "RMg > CMg",
+     "texto": "A unidade extra **aumenta** o lucro → **produzir mais**.",
+     "sub": []
+    },
+    {
+     "rotulo": "RMg < CMg",
+     "texto": "A unidade extra **reduz** o lucro → **produzir menos**.",
+     "sub": []
+    },
+    {
+     "rotulo": "RMg = CMg",
+     "texto": "**Lucro máximo**. Em concorrência perfeita, RMg = P, então **P = CMg**.",
+     "sub": []
+    }
+   ],
+   "distratores": [
+    {
+     "frase": "Se o lucro total é positivo, não precisa mudar a produção",
+     "porque": "o lucro ainda pode **aumentar** cortando unidades com CMg > RMg."
+    }
+   ],
+   "fonte": "Vasconcellos, Economia Micro e Macro, cap. 7 (Estruturas de mercado, questões 1, 3 e 7) · modelo: prova de 20/11 (questão 6)."
+  },
+  "revisada": true
+ },
+ {
+  "id": 49,
+  "code": "LUC-04",
+  "assunto": "lucro",
+  "category": "Maximização de lucros",
+  "subcategory": "Receita marginal: cálculo",
+  "difficulty": "Intermediária",
+  "origem": "nova",
+  "sourceLabel": "Vasconcellos, Economia Micro e Macro, cap. 7 (Estruturas de mercado, questões 1, 3 e 7) · modelo: prova de 20/11 (questão 6).",
+  "prompt": "Questão - Receita Marginal (RMg)\nUma empresa vendia 20 unidades e tinha receita total de R$ 300,00. Ao vender 21 unidades, a receita total passou para R$ 312,00. Qual é a receita marginal da 21ª unidade?",
+  "options": [
+   {
+    "letter": "A",
+    "text": "R$ 12,00",
+    "rationale": "CORRETA. RMg = ΔRT/ΔQ = (312 - 300)/(21 - 20) = 12."
+   },
+   {
+    "letter": "B",
+    "text": "R$ 312,00",
+    "rationale": "Incorreta. 312 é a receita total com 21 unidades, não o acréscimo."
+   },
+   {
+    "letter": "C",
+    "text": "R$ 15,00",
+    "rationale": "Incorreta. 15 é a receita média com 20 unidades (300/20)."
+   },
+   {
+    "letter": "D",
+    "text": "R$ 14,86",
+    "rationale": "Incorreta. 14,86 é a receita média com 21 unidades (312/21)."
+   },
+   {
+    "letter": "E",
+    "text": "R$ 0,60",
+    "rationale": "Incorreta. 0,60 é 12 dividido por 20; a variação da quantidade é 1, não 20."
+   }
+  ],
+  "correctLetter": "A",
+  "clinicalPointers": "RMg = quanto a RT aumentou ÷ quanto a quantidade aumentou.",
+  "ficha": {
+   "titulo": "Receita marginal — conta",
+   "topicos": [
+    {
+     "rotulo": "Fórmula",
+     "texto": "**RMg = ΔRT ÷ ΔQ**. (312 - 300)/1 = **12**.",
+     "sub": []
+    },
+    {
+     "rotulo": "Receita média",
+     "texto": "**RT ÷ Q** (é o preço médio). Não confundir com RMg.",
+     "sub": []
+    },
+    {
+     "rotulo": "Quando RMg = P",
+     "texto": "Só quando o preço é **constante** (concorrência perfeita). Aqui o preço caiu, por isso RMg < receita média.",
+     "sub": []
+    }
+   ],
+   "distratores": [
+    {
+     "frase": "RMg = RT ÷ Q",
+     "porque": "isso é **receita média**."
+    }
+   ],
+   "fonte": "Vasconcellos, Economia Micro e Macro, cap. 7 (Estruturas de mercado, questões 1, 3 e 7) · modelo: prova de 20/11 (questão 6)."
+  },
+  "revisada": true
+ },
+ {
+  "id": 50,
+  "code": "LUC-05",
+  "assunto": "lucro",
+  "category": "Maximização de lucros",
+  "subcategory": "Lucro total máximo no gráfico de RT e CT",
+  "difficulty": "Intermediária",
+  "origem": "nova",
+  "sourceLabel": "Vasconcellos, Economia Micro e Macro, cap. 7 (Estruturas de mercado, questões 1, 3 e 7) · modelo: prova de 20/11 (questão 6).",
+  "prompt": "Questão - Lucro Total (LT)\nNo gráfico de receita total (RT) e custo total (CT), a quantidade que maximiza o lucro de uma empresa é aquela em que:",
+  "options": [
+   {
+    "letter": "A",
+    "text": "A curva de CT está no seu ponto mais baixo, com o menor custo total possível.",
+    "rationale": "Incorreta. O menor CT é produzir zero; isso não maximiza lucro."
+   },
+   {
+    "letter": "B",
+    "text": "A curva de RT atinge o seu ponto mais alto, com a maior receita possível.",
+    "rationale": "Incorreta. Receita máxima ignora os custos."
+   },
+   {
+    "letter": "C",
+    "text": "As curvas de RT e de CT se cruzam, quando a receita é igual ao custo.",
+    "rationale": "Incorreta. No cruzamento RT = CT, o lucro é zero (ponto de equilíbrio contábil)."
+   },
+   {
+    "letter": "D",
+    "text": "A curva de RT está acima da de CT com a maior distância vertical entre elas.",
+    "rationale": "CORRETA. LT = RT - CT. O lucro é máximo onde a RT fica acima do CT pela maior distância. Ali as inclinações são iguais (RMg = CMg)."
+   },
+   {
+    "letter": "E",
+    "text": "O custo marginal é o menor possível, no ponto mais baixo da curva de CMg.",
+    "rationale": "Incorreta. CMg mínimo não é a condição; a condição é RMg = CMg."
+   }
+  ],
+  "correctLetter": "D",
+  "clinicalPointers": "LT = RT - CT. Lucro máximo = maior distância de RT acima de CT.",
+  "ficha": {
+   "titulo": "Lucro máximo no gráfico RT x CT",
+   "topicos": [
+    {
+     "rotulo": "Lucro total",
+     "texto": "**LT = RT - CT**.",
+     "sub": []
+    },
+    {
+     "rotulo": "No gráfico",
+     "texto": "Maior **distância vertical** com RT **acima** de CT.",
+     "sub": []
+    },
+    {
+     "rotulo": "Nesse ponto",
+     "texto": "As inclinações são iguais: **RMg = CMg**.",
+     "sub": []
+    },
+    {
+     "rotulo": "Cruzamento",
+     "texto": "RT = CT → **lucro zero**.",
+     "sub": []
+    }
+   ],
+   "distratores": [
+    {
+     "frase": "O lucro máximo é onde RT e CT se cruzam",
+     "porque": "no cruzamento o lucro é **zero**."
+    }
+   ],
+   "fonte": "Vasconcellos, Economia Micro e Macro, cap. 7 (Estruturas de mercado, questões 1, 3 e 7) · modelo: prova de 20/11 (questão 6)."
+  },
+  "revisada": true
+ }
+]
