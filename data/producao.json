@@ -1,323 +1,844 @@
-{"assunto": "producao", "category": "Teoria da produção", "prefixo": "PROD",
+{
+ "assunto": "producao",
+ "category": "Teoria da produção",
+ "prefixo": "PROD",
  "fonte": "Vasconcellos, Economia Micro e Macro, cap. 5 (Produção) · modelo: prova de 20/11 (questões 4, 5 e 7).",
  "questoes": [
-{"s": "Função de produção: definição", "d": "B",
- "q": "Questão - Função de Produção\nA função de produção de uma empresa é:",
- "a": ["A relação técnica entre a quantidade física produzida e os insumos usados na produção.",
-       "A relação entre o preço de um produto e a quantidade que a empresa decide ofertar.",
-       "A relação entre os custos da empresa e a quantidade de fatores de produção que ela usa.",
-       "A relação de substituição entre capital e mão de obra que deixa o custo constante.",
-       "A relação entre os salários pagos aos trabalhadores e o lucro obtido pela empresa."],
- "j": ["É um conceito tecnológico: quantidades físicas de insumos (input) geram quantidades físicas de produto (output).",
-       "Essa é a função oferta, que envolve preços, não só quantidades físicas.",
-       "Custos entram na teoria dos custos. A função de produção não tem preços nem custos.",
-       "Combinações com o mesmo custo formam a isocusto, não a função de produção.",
-       "Salários e lucros não fazem parte da função de produção."],
- "c": 0, "p": "Função de produção = só quantidades físicas (insumos → produto). Sem preços.",
- "ficha": {"titulo": "Função de produção — definição",
-  "topicos": [{"rotulo": "O que é", "texto": "Relação **técnica** entre **insumos** (trabalho, capital, terra) e **produto**, em quantidades físicas."},
-              {"rotulo": "Forma", "texto": "**q = f(N, K)**: N = mão de obra, K = capital."},
-              {"rotulo": "Sem preços", "texto": "Preços e custos entram depois, na **teoria dos custos**."}],
-  "distratores": [{"frase": "Relaciona o preço do produto com a quantidade ofertada", "porque": "isso é a **função oferta**."}]}},
-
-{"s": "Função de produção: o que a desloca", "d": "I",
- "q": "Questão - Função de Produção\nA função de produção de uma firma se altera (desloca) sempre que:",
- "a": ["A tecnologia usada na produção sofre modificações.",
-       "A empresa contrata mais de algum fator variável.",
-       "O preço de venda do produto da empresa aumenta.",
-       "A empresa decide aumentar o seu nível de produção.",
-       "A demanda pelo produto da empresa aumenta muito."],
- "j": ["Só a tecnologia muda a relação técnica entre insumos e produto, deslocando a função.",
-       "Usar mais de um fator é andar ao longo da mesma função, não deslocá-la.",
-       "A função de produção é física: o preço do produto muda a receita, não a relação técnica entre insumos e produto.",
-       "Produzir mais é escolher outro ponto da mesma função.",
-       "Demanda não muda a relação técnica entre insumos e produto."],
- "c": 0, "p": "Mudou a tecnologia → nova função. Mudou a quantidade de insumo → outro ponto da mesma função.",
- "ficha": {"titulo": "Deslocamento x movimento na função de produção",
-  "topicos": [{"rotulo": "Desloca", "texto": "Fatores **exógenos**, sobretudo **mudança de tecnologia**."},
-              {"rotulo": "Move ao longo", "texto": "Mudar a **quantidade de fatores** usados ou o nível de produção."}],
-  "distratores": [{"frase": "Contratar mais trabalhadores desloca a função", "porque": "é **movimento ao longo** da mesma função."}]}},
-
-{"s": "Fatores de produção fixos e variáveis", "d": "B",
- "q": "Questão - Fatores fixos e variáveis\nUma padaria, no curto prazo, usa: o prédio alugado, os fornos, a farinha e os padeiros contratados por hora. Qual classificação está CORRETA?",
- "a": ["Fixos: prédio e fornos. Variáveis: farinha e padeiros.",
-       "Fixos: prédio e farinha. Variáveis: fornos e padeiros.",
-       "Fixos: fornos e padeiros. Variáveis: prédio e farinha.",
-       "Fixos: prédio, fornos e padeiros. Variável: só a farinha.",
-       "Todos são variáveis, porque a padaria pode fechar a qualquer hora."],
- "j": ["Prédio e fornos não mudam de quantidade no curto prazo. Farinha e horas de padeiro mudam conforme a produção.",
-       "A farinha varia com a produção; é variável.",
-       "Padeiros por hora variam com a produção; o prédio não muda no curto prazo.",
-       "Padeiros pagos por hora acompanham a produção; são variáveis.",
-       "No curto prazo, por definição, existe pelo menos um fator fixo."],
- "c": 0, "p": "Fixo = não muda de quantidade no curto prazo (instalações, máquinas). Variável = acompanha a produção.",
- "ficha": {"titulo": "Fatores fixos x variáveis",
-  "topicos": [{"rotulo": "Fixos", "texto": "Quantidade **não muda** no curto prazo: prédio, máquinas, tamanho da fábrica."},
-              {"rotulo": "Variáveis", "texto": "Quantidade **muda com a produção**: matéria-prima, horas de trabalho."},
-              {"rotulo": "Longo prazo", "texto": "**Todos** os fatores são variáveis."}],
-  "distratores": [{"frase": "No curto prazo todos os fatores podem variar", "porque": "curto prazo tem **pelo menos um fator fixo**."}]}},
-
-{"s": "Curto e longo prazo (I, II, III)", "d": "B",
- "q": "Questão - Curto e Longo Prazo\nSobre os prazos em economia, avalie as frases:\nI. Curto prazo: período em que a empresa não consegue mudar a quantidade de todos os seus fatores (pelo menos um é fixo).\nII. Longo prazo: período em que a empresa consegue mudar todos os seus fatores, inclusive o tamanho da fábrica.\nIII. O curto prazo é qualquer período de até um ano, e o longo prazo é qualquer período acima de um ano.",
- "a": ["Apenas I e II estão corretas.",
-       "Apenas I está correta.",
-       "Apenas II e III estão corretas.",
-       "Apenas III está correta.",
-       "Todas as afirmativas estão corretas."],
- "j": ["I e II estão certas. A III está errada: o prazo é definido pela possibilidade de variar os fatores, não pelo calendário.",
-       "A II também está correta.",
-       "A III está errada e a I está correta.",
-       "A III é justamente a errada.",
-       "A III está errada: não existe um número fixo de meses."],
- "c": 0, "p": "Curto x longo prazo = existe ou não fator fixo. Não é contagem de meses.",
- "ficha": {"titulo": "Curto x longo prazo",
-  "topicos": [{"rotulo": "Curto prazo", "texto": "Há **pelo menos um fator fixo** (ex.: tamanho da fábrica)."},
-              {"rotulo": "Longo prazo", "texto": "**Todos** os fatores são **variáveis**."},
-              {"rotulo": "Não é calendário", "texto": "O critério é **técnico**: depende do setor quanto tempo leva para mudar a fábrica."}],
-  "distratores": [{"frase": "Curto prazo é até 1 ano", "porque": "o critério é a existência de **fator fixo**, não o tempo em meses."}]}},
-
-{"s": "Longo prazo: todos os fatores variam", "d": "B",
- "q": "Questão - Análise de longo prazo\nSobre a análise de longo prazo da produção, marque a opção INCORRETA:",
- "a": ["No longo prazo a empresa ainda mantém fixo o tamanho da sua fábrica.",
-       "No longo prazo a empresa pode mudar a quantidade de todos os fatores.",
-       "No longo prazo não existe custo fixo, pois nenhum fator é fixo.",
-       "A análise de longo prazo trata dos rendimentos de escala da empresa.",
-       "O longo prazo funciona como um horizonte de planejamento da empresa."],
- "j": ["Esta é a INCORRETA. No longo prazo nada é fixo, nem o tamanho da fábrica.",
-       "Verdadeira. É a definição de longo prazo.",
-       "Verdadeira. Sem fator fixo não há custo fixo.",
-       "Verdadeira. Rendimentos de escala comparam a produção quando todos os fatores mudam juntos.",
-       "Verdadeira. O livro diz que os custos de longo prazo são um horizonte de planejamento."],
- "c": 0, "p": "Longo prazo: tudo variável → sem custo fixo → análise de rendimentos de ESCALA.",
- "ficha": {"titulo": "Análise de longo prazo",
-  "topicos": [{"rotulo": "Fatores", "texto": "**Todos variáveis**: pode aumentar a fábrica, comprar máquinas."},
-              {"rotulo": "Custos", "texto": "**Não existe custo fixo** no longo prazo."},
-              {"rotulo": "Assunto central", "texto": "**Rendimentos de escala**: o que acontece quando todos os fatores aumentam juntos."}],
-  "distratores": [{"frase": "No longo prazo o tamanho da fábrica é fixo", "porque": "isso é **curto prazo**."}]}},
-
-{"s": "PT, Pme e Pmg: máximo do produto total", "d": "I",
- "q": "Questão - Produto Total e Produtividades\nAssinale a alternativa CORRETA:",
- "a": ["No ponto máximo do produto total, a produtividade marginal é zero.",
-       "No ponto máximo do produto total, a produtividade média também é máxima.",
-       "Produtividade média é a variação do produto dividida pela variação do fator.",
-       "Produtividade marginal é o produto total dividido pela quantidade do fator.",
-       "A produtividade média fica negativa depois do ponto máximo do produto total."],
- "j": ["No topo do PT, mais um trabalhador não acrescenta nada: Pmg = 0.",
-       "A Pme atinge o máximo antes, no ponto em que Pmg = Pme.",
-       "Essa é a definição de produtividade MARGINAL (ΔPT/ΔN).",
-       "Essa é a definição de produtividade MÉDIA (PT/N).",
-       "Quem pode ficar negativa é a Pmg. A Pme = PT/N continua positiva enquanto houver produção."],
- "c": 0, "p": "Pme = PT/N. Pmg = ΔPT/ΔN. PT máximo ↔ Pmg = 0.",
- "ficha": {"titulo": "PT, Pme e Pmg — definições e PT máximo",
-  "topicos": [{"rotulo": "Pme", "texto": "**PT ÷ N** (produção por trabalhador)."},
-              {"rotulo": "Pmg", "texto": "**ΔPT ÷ ΔN** (quanto o último trabalhador acrescentou)."},
-              {"rotulo": "PT máximo", "texto": "**Pmg = 0**. Depois disso, Pmg < 0 e o PT cai."}],
-  "distratores": [{"frase": "No máximo do PT, a Pme é máxima", "porque": "a Pme é máxima **antes**, onde **Pmg = Pme**."},
-                  {"frase": "Pme pode ser negativa", "porque": "só a **Pmg** fica negativa."}]}},
-
-{"s": "Quando o produto total cai", "d": "I",
- "q": "Questão - Produto Total em queda\nQuando o produto total começa a cair, pode-se afirmar que:",
- "a": ["A produtividade marginal do trabalho ficou negativa.",
-       "A produtividade média do trabalho ficou negativa.",
-       "A produtividade marginal do trabalho é igual a zero.",
-       "A produtividade média do trabalho é igual a zero.",
-       "A produtividade marginal ficou maior que a média."],
- "j": ["Se o PT cai, o trabalhador extra diminuiu a produção: Pmg < 0. A Pme continua positiva, mas caindo.",
-       "A Pme = PT/N continua positiva, porque o PT ainda é positivo.",
-       "Pmg = 0 é o ponto de máximo do PT. Depois dele, quando o PT cai, a Pmg é negativa.",
-       "A Pme só seria zero se não houvesse produção.",
-       "Nessa fase a Pmg (negativa) está bem abaixo da Pme (positiva)."],
- "c": 0, "p": "PT subindo ↔ Pmg > 0. PT no topo ↔ Pmg = 0. PT caindo ↔ Pmg < 0.",
- "ficha": {"titulo": "Sinal da Pmg e o caminho do PT",
-  "topicos": [{"rotulo": "Pmg > 0", "texto": "PT **sobe**."},
-              {"rotulo": "Pmg = 0", "texto": "PT no **máximo**."},
-              {"rotulo": "Pmg < 0", "texto": "PT **cai**. A Pme continua **positiva**, mas decrescente."}],
-  "distratores": [{"frase": "Quando o PT cai, a Pme é negativa", "porque": "a Pme é PT/N, que segue **positiva**."}]}},
-
-{"s": "Relação entre Pmg e Pme", "d": "A",
- "q": "Questão - Pmg e Pme\nSobre a relação entre a produtividade marginal (Pmg) e a produtividade média (Pme) do trabalho, marque a opção CORRETA:",
- "a": ["Quando a Pmg está acima da Pme, a Pme está subindo; a Pmg corta a Pme no máximo dela.",
-       "Quando a Pmg está acima da Pme, a Pme está caindo; a Pmg corta a Pme no mínimo dela.",
-       "A Pmg e a Pme são sempre iguais, porque as duas dependem do mesmo produto total.",
-       "A Pme corta a Pmg no ponto máximo da Pmg, quando o produto total para de crescer.",
-       "Quando a Pmg está abaixo da Pme, a Pme está subindo, mesmo que devagar."],
- "j": ["Se o novo trabalhador produz mais que a média (Pmg > Pme), ele puxa a média para cima. O cruzamento é no topo da Pme.",
-       "Inverteu: Pmg acima da média faz a média subir, e o cruzamento é no máximo da Pme.",
-       "Elas só são iguais em um ponto: o máximo da Pme.",
-       "O cruzamento é no máximo da Pme, não da Pmg. E o PT para de crescer quando Pmg = 0.",
-       "Pmg abaixo da média puxa a média para baixo."],
- "c": 0, "p": "Pense em nota: se a nova nota (marginal) é maior que a média, a média sobe.",
- "ficha": {"titulo": "Pmg x Pme — quem puxa quem",
-  "topicos": [{"rotulo": "Pmg > Pme", "texto": "Pme **sobe**."},
-              {"rotulo": "Pmg < Pme", "texto": "Pme **cai**."},
-              {"rotulo": "Pmg = Pme", "texto": "Pme no **máximo**. A Pmg corta a Pme no **topo** dela."},
-              {"rotulo": "Analogia", "texto": "Média de notas: uma nota nova acima da média **eleva** a média."}],
-  "distratores": [{"frase": "A Pmg corta a Pme no mínimo da Pme", "porque": "na produção é no **máximo** da Pme (nos custos é que o CMg corta o CMe no **mínimo**)."}]}},
-
-{"s": "Tabela de produção: cálculo de Pme e Pmg", "d": "I",
- "q": "Questão - Tabela de Produção\nO quadro abaixo mostra a produção de uma oficina de costura com máquinas fixas. Calcule a Pme e a Pmg do trabalho quando a oficina tem 3 trabalhadores, respectivamente:",
- "t": {"headers": ["Nº de trabalhadores (N)", "Produto Total (PT)"], "rows": [["1", "8"], ["2", "20"], ["3", "30"], ["4", "36"], ["5", "38"], ["6", "36"]]},
- "a": ["10 e 10", "10 e 12", "30 e 10", "12 e 10", "9 e 6"],
- "j": ["Pme = PT/N = 30/3 = 10. Pmg = PT(3) - PT(2) = 30 - 20 = 10. Pme = Pmg: é o máximo da Pme.",
-       "12 é a Pmg do 2º trabalhador (20 - 8), não do 3º.",
-       "30 é o PT, não a Pme.",
-       "Trocou a ordem e usou a Pmg do 2º trabalhador.",
-       "9 e 6 são a Pme e a Pmg com 4 trabalhadores (36/4 e 36 - 30)."],
- "c": 0, "p": "Pme = PT/N. Pmg = PT de agora - PT anterior.",
- "ficha": {"titulo": "Tabela de produção — como calcular",
-  "topicos": [{"rotulo": "Pme", "texto": "**PT ÷ N**. Com 3: 30/3 = **10**."},
-              {"rotulo": "Pmg", "texto": "**PT(N) - PT(N-1)**. Do 3º: 30 - 20 = **10**."},
-              {"rotulo": "Leitura da tabela", "texto": "Pmg: 8, 12, 10, 6, 2, **-2**. Com 6 trabalhadores o PT cai (Pmg negativa)."}],
-  "distratores": [{"frase": "Pmg do 3º = 30/3", "porque": "isso é a **Pme**; a Pmg é a **diferença** entre PTs."}]}},
-
-{"s": "Tabela de produção: início dos rendimentos decrescentes", "d": "A",
- "q": "Questão - Lei dos Rendimentos na tabela\nUma fazenda com área fixa tem a produção abaixo. A partir de qual trabalhador começam os rendimentos decrescentes (a Pmg começa a cair)?",
- "t": {"headers": ["N", "PT"], "rows": [["0", "0"], ["1", "15"], ["2", "40"], ["3", "60"], ["4", "70"], ["5", "72"]]},
- "a": ["A partir do 3º, cuja Pmg (20) é menor que a do 2º (25).",
-       "A partir do 2º, cuja Pmg (25) é maior que a do 1º (15).",
-       "A partir do 4º, cuja Pme (17,5) é menor que a do 3º (20).",
-       "A partir do 5º, quando o PT quase para de crescer (72).",
-       "Desde o 1º, porque a área da fazenda é fixa desde o início."],
- "j": ["Pmg: 15, 25, 20, 10, 2. O máximo é no 2º (25); a partir do 3º ela cai. Ali começam os rendimentos decrescentes.",
-       "No 2º a Pmg ainda está subindo (rendimentos crescentes).",
-       "A pergunta é sobre a Pmg, não a Pme. A Pme começa a cair no 4º, depois da Pmg.",
-       "No 5º a Pmg já vinha caindo havia dois trabalhadores.",
-       "Com 1 e 2 trabalhadores a Pmg sobe (15 → 25): ainda não há rendimentos decrescentes."],
- "c": 0, "p": "Calcule a Pmg de cada trabalhador. Rendimentos decrescentes começam quando ela passa a cair.",
- "ficha": {"titulo": "Achar o início dos rendimentos decrescentes",
-  "topicos": [{"rotulo": "Passo 1", "texto": "Pmg = diferença entre PTs: **15, 25, 20, 10, 2**."},
-              {"rotulo": "Passo 2", "texto": "Ache o **máximo da Pmg** (25, no 2º)."},
-              {"rotulo": "Passo 3", "texto": "Os rendimentos decrescentes começam **logo depois**: no **3º trabalhador**."},
-              {"rotulo": "Atenção", "texto": "PT continua **subindo** com rendimentos decrescentes; só sobe mais devagar."}],
-  "distratores": [{"frase": "Os rendimentos decrescentes começam quando o PT cai", "porque": "começam quando a **Pmg** cai; o PT ainda cresce."}]}},
-
-{"s": "Tabela de produção: completar PT e Pmg", "d": "I",
- "q": "Questão - Completando a tabela\nUma fábrica com 4 trabalhadores tem produtividade média de 12,5 unidades por trabalhador. Ao contratar o 5º trabalhador, o produto total passa a ser 55 unidades. Qual é o PT com 4 trabalhadores e a Pmg do 5º, respectivamente?",
- "a": ["50 e 5", "50 e 11", "12,5 e 5", "55 e 5", "50 e 42,5"],
- "j": ["PT(4) = Pme × N = 12,5 × 4 = 50. Pmg do 5º = 55 - 50 = 5.",
-       "11 é a Pme com 5 trabalhadores (55/5), não a Pmg.",
-       "12,5 é a Pme, não o PT.",
-       "55 é o PT com 5 trabalhadores, não com 4.",
-       "42,5 = 55 - 12,5: subtraiu a Pme em vez do PT anterior."],
- "c": 0, "p": "Se a questão dá a Pme, volte ao PT: PT = Pme × N.",
- "ficha": {"titulo": "Voltar da Pme para o PT",
-  "topicos": [{"rotulo": "Fórmula invertida", "texto": "**PT = Pme × N**. 12,5 × 4 = **50**."},
-              {"rotulo": "Pmg", "texto": "**55 - 50 = 5**."},
-              {"rotulo": "Pme nova", "texto": "55/5 = 11 (não é o que foi pedido)."}],
-  "distratores": [{"frase": "Pmg = PT novo - Pme", "porque": "a Pmg é **PT novo - PT anterior**."}]}},
-
-{"s": "Lei dos rendimentos decrescentes: definição", "d": "B",
- "q": "Questão - Lei dos Rendimentos Decrescentes (Curto Prazo)\nMarque a definição CORRETA da lei dos rendimentos decrescentes:",
- "a": ["Somando medidas iguais de um fator variável a um fator fixo, os acréscimos de produção ficam cada vez menores.",
-       "Somando medidas iguais de um fator variável a um fator fixo, os acréscimos de produção ficam cada vez maiores.",
-       "Quando a empresa aumenta todos os seus fatores na mesma proporção, a produção total da empresa cai.",
-       "No longo prazo, dobrar todos os fatores de produção sempre faz a produção total também dobrar.",
-       "Ela explica o formato em U da curva de custo médio de longo prazo da empresa."],
- "j": ["Com um fator fixo (ex.: fábrica), cada trabalhador extra acrescenta menos que o anterior, a partir de certo ponto.",
-       "É o contrário: os acréscimos ficam menores (Pmg decrescente).",
-       "Aumentar todos os fatores é longo prazo (rendimentos de escala), não a lei.",
-       "Isso descreve rendimentos constantes de escala, que é longo prazo.",
-       "O U do custo médio de LONGO prazo vem de economias e deseconomias de escala. A lei explica o U do custo de curto prazo."],
- "c": 0, "p": "Lei dos rendimentos decrescentes = CURTO prazo, com fator fixo, Pmg caindo.",
- "ficha": {"titulo": "Lei dos rendimentos decrescentes",
-  "topicos": [{"rotulo": "Condição", "texto": "**Curto prazo**: pelo menos **um fator fixo**."},
-              {"rotulo": "Enunciado", "texto": "Somando unidades iguais do fator variável, os **acréscimos de produção (Pmg) diminuem** a partir de certo ponto."},
-              {"rotulo": "Fases do PT", "texto": "Cresce a taxas **crescentes**, depois **decrescentes**, atinge o **máximo** e então **cai**."},
-              {"rotulo": "Nos custos", "texto": "Também é chamada de **lei dos custos crescentes**: explica o U dos custos de **curto** prazo."}],
-  "distratores": [{"frase": "A lei vale quando todos os fatores aumentam", "porque": "com tudo variando é **rendimento de escala** (longo prazo)."}]}},
-
-{"s": "Lei dos rendimentos x rendimentos de escala", "d": "I",
- "q": "Questão - Rendimentos\nAssinale a alternativa ERRADA:",
- "a": ["A lei dos rendimentos decrescentes é a mesma coisa que os rendimentos decrescentes de escala.",
-       "A lei dos rendimentos decrescentes vale quando há pelo menos um fator de produção fixo.",
-       "Há rendimentos decrescentes de escala quando a produção cresce menos que os fatores.",
-       "Os rendimentos de escala supõem que nenhum fator de produção fica fixo.",
-       "Com um fator fixo, a produção cresce a taxas crescentes, depois decrescentes, e então cai."],
- "j": ["Esta é a ERRADA. A lei é de curto prazo (um fator fixo); rendimentos de escala são de longo prazo (todos variam).",
-       "Verdadeira. Precisa de fator fixo.",
-       "Verdadeira. Fatores sobem, por exemplo, 100% e a produção sobe menos que 100%.",
-       "Verdadeira. É análise de longo prazo.",
-       "Verdadeira. São as fases do produto total no curto prazo."],
- "c": 0, "p": "Lei dos rendimentos decrescentes (curto prazo) ≠ rendimentos decrescentes de escala (longo prazo).",
- "ficha": {"titulo": "Lei dos rendimentos x rendimentos de escala",
-  "topicos": [{"rotulo": "Lei dos rendimentos decrescentes", "texto": "**Curto prazo**, um fator fixo, só um fator aumenta."},
-              {"rotulo": "Rendimentos de escala", "texto": "**Longo prazo**, **todos** os fatores aumentam juntos."},
-              {"rotulo": "Decrescentes de escala", "texto": "Produção cresce **menos** que proporcionalmente aos fatores (= deseconomias de escala)."}],
-  "distratores": [{"frase": "Lei dos rendimentos decrescentes = deseconomias de escala", "porque": "uma é de **curto**, a outra de **longo** prazo."}]}},
-
-{"s": "Fases do produto total com Pmg positiva e decrescente", "d": "I",
- "q": "Questão - Fase dos rendimentos decrescentes\nNa fase em que a produtividade marginal do trabalho é positiva, mas está caindo, o produto total:",
- "a": ["Continua crescendo, mas a taxas cada vez menores.",
-       "Continua crescendo, a taxas cada vez maiores.",
-       "Para de crescer e fica no seu ponto máximo.",
-       "Começa a cair, porque a Pmg está diminuindo.",
-       "Fica constante até a Pmg chegar a zero."],
- "j": ["Pmg positiva = cada trabalhador ainda soma produção; Pmg caindo = soma cada vez menos. O PT sobe mais devagar.",
-       "Taxas crescentes correspondem à fase de Pmg crescente.",
-       "O máximo do PT é quando a Pmg chega a zero.",
-       "O PT só cai quando a Pmg fica negativa. Pmg caindo, mas positiva, ainda aumenta o PT.",
-       "Enquanto a Pmg é positiva, o PT aumenta."],
- "c": 0, "p": "Pmg caindo ≠ PT caindo. Enquanto Pmg > 0, o PT sobe.",
- "ficha": {"titulo": "Pmg decrescente não é PT decrescente",
-  "topicos": [{"rotulo": "Pmg crescente", "texto": "PT sobe a taxas **crescentes**."},
-              {"rotulo": "Pmg positiva e decrescente", "texto": "PT sobe a taxas **decrescentes** (é aqui que vale a lei)."},
-              {"rotulo": "Pmg negativa", "texto": "PT **cai**."}],
-  "distratores": [{"frase": "Se a Pmg cai, o PT cai", "porque": "o PT só cai com Pmg **negativa**."}]}},
-
-{"s": "Rendimentos de escala: classificar (cálculo)", "d": "I",
- "q": "Questão - Rendimentos de Escala\nTrês empresas dobram TODOS os seus fatores de produção (trabalho e capital). A produção de cada uma muda assim:\nEmpresa A: de 100 para 200 unidades\nEmpresa B: de 100 para 260 unidades\nEmpresa C: de 100 para 150 unidades\nMarque a classificação CORRETA:",
- "a": ["A: constantes; B: crescentes (economia de escala); C: decrescentes (deseconomia).",
-       "A: crescentes (economia de escala); B: constantes; C: decrescentes (deseconomia).",
-       "A: constantes; B: decrescentes (deseconomia); C: crescentes (economia de escala).",
-       "A, B e C têm rendimentos crescentes, porque as três aumentaram a sua produção.",
-       "A: constantes; B e C mostram a lei dos rendimentos decrescentes do curto prazo."],
- "j": ["Fatores ×2. A: produção ×2 (constantes). B: ×2,6, mais que proporcional (crescentes). C: ×1,5, menos que proporcional (decrescentes).",
-       "A cresceu exatamente na mesma proporção: rendimentos constantes.",
-       "Inverteu B e C: B cresceu mais que os fatores; C cresceu menos.",
-       "Crescer não basta: compara-se o aumento da produção com o aumento dos fatores.",
-       "Como todos os fatores variaram, é rendimento de escala (longo prazo), não a lei dos rendimentos."],
- "c": 0, "p": "Compare a % de aumento da produção com a % de aumento dos fatores.",
- "ficha": {"titulo": "Rendimentos de escala — como classificar",
-  "topicos": [{"rotulo": "Constantes", "texto": "Produção cresce **na mesma proporção** que os fatores (×2 → ×2)."},
-              {"rotulo": "Crescentes (economias de escala)", "texto": "Produção cresce **mais** que os fatores (×2 → ×2,6)."},
-              {"rotulo": "Decrescentes (deseconomias de escala)", "texto": "Produção cresce **menos** que os fatores (×2 → ×1,5)."}],
-  "distratores": [{"frase": "Toda empresa que aumenta a produção tem rendimentos crescentes", "porque": "precisa crescer **mais que proporcionalmente** aos fatores."}]}},
-
-{"s": "Deseconomia de escala", "d": "I",
- "q": "Questão - Deseconomia de escala\nUma empresa aumenta todos os seus fatores de produção em 50%, e a produção aumenta apenas 30%. Marque a opção CORRETA:",
- "a": ["Há deseconomia de escala (rendimentos decrescentes de escala), e a Pme dos fatores cai.",
-       "Há rendimentos crescentes de escala (economia de escala), porque a produção da empresa aumentou.",
-       "Opera a lei dos rendimentos decrescentes, pois a empresa está no curto prazo com fator fixo.",
-       "Há rendimentos constantes de escala, já que os fatores e a produção cresceram ao mesmo tempo.",
-       "Há deseconomia de escala, e a produtividade média dos fatores aumenta com a produção."],
- "j": ["Produção (+30%) cresceu menos que os fatores (+50%): rendimentos decrescentes de escala. Cada unidade de fator rende menos: Pme cai.",
-       "Crescer menos que os fatores é deseconomia, não economia de escala.",
-       "Todos os fatores aumentaram, então é longo prazo; não há fator fixo.",
-       "Constantes exigiriam produção +50%.",
-       "A classificação está certa, mas a Pme dos fatores cai (produção cresce menos que os fatores)."],
- "c": 0, "p": "Deseconomia de escala = produção cresce menos que os fatores → Pme dos fatores cai.",
- "ficha": {"titulo": "Deseconomia de escala",
-  "topicos": [{"rotulo": "Definição", "texto": "Todos os fatores sobem e a produção sobe **menos que proporcionalmente**."},
-              {"rotulo": "Pme dos fatores", "texto": "**Cai**: cada unidade de fator produz menos."},
-              {"rotulo": "Sinônimos", "texto": "Rendimentos decrescentes de escala = **deseconomias de escala**."}],
-  "distratores": [{"frase": "Fatores +50% e produção +30% é a lei dos rendimentos decrescentes", "porque": "todos os fatores mudaram: é **escala** (longo prazo)."}]}},
-
-{"s": "Rendimentos constantes de escala e custo médio de longo prazo", "d": "A",
- "q": "Questão - Rendimento constante de escala\nSe uma empresa tem rendimentos constantes de escala em todas as quantidades, a sua curva de custo médio de longo prazo será:",
- "a": ["Horizontal: o custo médio fica constante quando a produção aumenta.",
-       "Decrescente: o custo médio cai sempre que a produção aumenta.",
-       "Crescente: o custo médio sobe sempre que a produção aumenta.",
-       "Em formato de U, por causa da lei dos rendimentos decrescentes.",
-       "Igual a zero, porque no longo prazo não existem custos fixos."],
- "j": ["Com rendimentos constantes, a produtividade média dos fatores não muda; logo o custo por unidade também não. O livro diz: CMe de LP constante indica rendimentos constantes de escala.",
-       "Custo médio caindo indica economias de escala.",
-       "Custo médio subindo indica deseconomias de escala.",
-       "A lei dos rendimentos decrescentes é de curto prazo e explica o U do custo de curto prazo.",
-       "Não haver custo fixo não zera o custo médio; ainda há custos variáveis."],
- "c": 0, "p": "Economias de escala → CMeLP cai. Constantes → CMeLP horizontal. Deseconomias → CMeLP sobe.",
- "ficha": {"titulo": "Rendimentos de escala e o CMe de longo prazo",
-  "topicos": [{"rotulo": "Economias de escala", "texto": "CMeLP **cai**."},
-              {"rotulo": "Rendimentos constantes", "texto": "CMeLP **horizontal** (constante)."},
-              {"rotulo": "Deseconomias de escala", "texto": "CMeLP **sobe**."}],
-  "distratores": [{"frase": "O U do CMe de longo prazo vem da lei dos rendimentos decrescentes", "porque": "no longo prazo o U vem de **economias e deseconomias de escala**."}]}}
-]}
+  {
+   "s": "Função de produção: definição",
+   "d": "B",
+   "q": "Questão - Função de Produção\nA função de produção de uma empresa é:",
+   "a": [
+    "A relação técnica entre a quantidade física produzida e os insumos usados na produção.",
+    "A relação entre o preço de um produto e a quantidade que a empresa decide ofertar.",
+    "A relação entre os custos da empresa e a quantidade de fatores de produção que ela usa.",
+    "A relação de substituição entre capital e mão de obra que deixa o custo constante.",
+    "A relação entre os salários pagos aos trabalhadores e o lucro obtido pela empresa."
+   ],
+   "j": [
+    "É um conceito tecnológico: quantidades físicas de insumos (input) geram quantidades físicas de produto (output).",
+    "Essa é a função oferta, que envolve preços, não só quantidades físicas.",
+    "Custos entram na teoria dos custos. A função de produção não tem preços nem custos.",
+    "Combinações com o mesmo custo formam a isocusto, não a função de produção.",
+    "Salários e lucros não fazem parte da função de produção."
+   ],
+   "c": 0,
+   "p": "Função de produção = só quantidades físicas (insumos → produto). Sem preços.",
+   "ficha": {
+    "titulo": "Função de produção — definição",
+    "topicos": [
+     {
+      "rotulo": "O que é",
+      "texto": "Relação **técnica** entre **insumos** (trabalho, capital, terra) e **produto**, em quantidades físicas."
+     },
+     {
+      "rotulo": "Forma",
+      "texto": "**q = f(N, K)**: N = mão de obra, K = capital."
+     },
+     {
+      "rotulo": "Sem preços",
+      "texto": "Preços e custos entram depois, na **teoria dos custos**."
+     }
+    ],
+    "distratores": [
+     {
+      "frase": "Relaciona o preço do produto com a quantidade ofertada",
+      "porque": "Isso é a **função oferta** de mercado."
+     },
+     {
+      "frase": "Mede o custo monetário mínimo para produzir cada quantidade",
+      "porque": "Essa é a **função de custo**, que já multiplica insumos por preços monetários."
+     }
+    ]
+   }
+  },
+  {
+   "s": "Função de produção: o que a desloca",
+   "d": "I",
+   "q": "Questão - Função de Produção\nA função de produção de uma firma se altera (desloca) sempre que:",
+   "a": [
+    "A tecnologia usada na produção sofre modificações.",
+    "A empresa contrata mais de algum fator variável.",
+    "O preço de venda do produto da empresa aumenta.",
+    "A empresa decide aumentar o seu nível de produção.",
+    "A demanda pelo produto da empresa aumenta muito."
+   ],
+   "j": [
+    "Só a tecnologia muda a relação técnica entre insumos e produto, deslocando a função.",
+    "Usar mais de um fator é andar ao longo da mesma função, não deslocá-la.",
+    "A função de produção é física: o preço do produto muda a receita, não a relação técnica entre insumos e produto.",
+    "Produzir mais é escolher outro ponto da mesma função.",
+    "Demanda não muda a relação técnica entre insumos e produto."
+   ],
+   "c": 0,
+   "p": "Mudou a tecnologia → nova função. Mudou a quantidade de insumo → outro ponto da mesma função.",
+   "ficha": {
+    "titulo": "Deslocamento x movimento na função de produção",
+    "topicos": [
+     {
+      "rotulo": "Desloca",
+      "texto": "Fatores **exógenos**, sobretudo **mudança de tecnologia**."
+     },
+     {
+      "rotulo": "Move ao longo",
+      "texto": "Mudar a **quantidade de fatores** usados ou o nível de produção."
+     }
+    ],
+    "distratores": [
+     {
+      "frase": "Contratar mais trabalhadores desloca a função",
+      "porque": "é **movimento ao longo** da mesma função."
+     }
+    ]
+   }
+  },
+  {
+   "s": "Fatores de produção fixos e variáveis",
+   "d": "B",
+   "q": "Questão - Fatores fixos e variáveis\nUma padaria, no curto prazo, usa: o prédio alugado, os fornos, a farinha e os padeiros contratados por hora. Qual classificação está CORRETA?",
+   "a": [
+    "Fixos: prédio e fornos. Variáveis: farinha e padeiros.",
+    "Fixos: prédio e farinha. Variáveis: fornos e padeiros.",
+    "Fixos: fornos e padeiros. Variáveis: prédio e farinha.",
+    "Fixos: prédio, fornos e padeiros. Variável: só a farinha.",
+    "Todos são variáveis, porque a padaria pode fechar a qualquer hora."
+   ],
+   "j": [
+    "Prédio e fornos não mudam de quantidade no curto prazo. Farinha e horas de padeiro mudam conforme a produção.",
+    "A farinha varia com a produção; é variável.",
+    "Padeiros por hora variam com a produção; o prédio não muda no curto prazo.",
+    "Padeiros pagos por hora acompanham a produção; são variáveis.",
+    "No curto prazo, por definição, existe pelo menos um fator fixo."
+   ],
+   "c": 0,
+   "p": "Fixo = não muda de quantidade no curto prazo (instalações, máquinas). Variável = acompanha a produção.",
+   "ficha": {
+    "titulo": "Fatores fixos x variáveis",
+    "topicos": [
+     {
+      "rotulo": "Fixos",
+      "texto": "Quantidade **não muda** no curto prazo: prédio, máquinas, tamanho da fábrica."
+     },
+     {
+      "rotulo": "Variáveis",
+      "texto": "Quantidade **muda com a produção**: matéria-prima, horas de trabalho."
+     },
+     {
+      "rotulo": "Longo prazo",
+      "texto": "**Todos** os fatores são variáveis."
+     }
+    ],
+    "distratores": [
+     {
+      "frase": "No curto prazo todos os fatores podem variar",
+      "porque": "curto prazo tem **pelo menos um fator fixo**."
+     }
+    ]
+   }
+  },
+  {
+   "s": "Curto e longo prazo (I, II, III)",
+   "d": "B",
+   "q": "Questão - Curto e Longo Prazo\nSobre os prazos em economia, avalie as frases:\nI. Curto prazo: período em que a empresa não consegue mudar a quantidade de todos os seus fatores (pelo menos um é fixo).\nII. Longo prazo: período em que a empresa consegue mudar todos os seus fatores, inclusive o tamanho da fábrica.\nIII. O curto prazo é qualquer período de até um ano, e o longo prazo é qualquer período acima de um ano.",
+   "a": [
+    "Apenas I e II estão corretas.",
+    "Apenas I está correta.",
+    "Apenas II e III estão corretas.",
+    "Apenas III está correta.",
+    "Todas as afirmativas estão corretas."
+   ],
+   "j": [
+    "I e II estão certas. A III está errada: o prazo é definido pela possibilidade de variar os fatores, não pelo calendário.",
+    "A II também está correta.",
+    "A III está errada e a I está correta.",
+    "A III é justamente a errada.",
+    "A III está errada: não existe um número fixo de meses."
+   ],
+   "c": 0,
+   "p": "Curto x longo prazo = existe ou não fator fixo. Não é contagem de meses.",
+   "ficha": {
+    "titulo": "Curto x longo prazo",
+    "topicos": [
+     {
+      "rotulo": "Curto prazo",
+      "texto": "Há **pelo menos um fator fixo** (ex.: tamanho da fábrica)."
+     },
+     {
+      "rotulo": "Longo prazo",
+      "texto": "**Todos** os fatores são **variáveis**."
+     },
+     {
+      "rotulo": "Não é calendário",
+      "texto": "O critério é **técnico**: depende do setor quanto tempo leva para mudar a fábrica."
+     }
+    ],
+    "distratores": [
+     {
+      "frase": "Curto prazo é até 1 ano",
+      "porque": "o critério é a existência de **fator fixo**, não o tempo em meses."
+     }
+    ]
+   }
+  },
+  {
+   "s": "Longo prazo: todos os fatores variam",
+   "d": "B",
+   "q": "Questão - Análise de longo prazo\nSobre a análise de longo prazo da produção, marque a opção INCORRETA:",
+   "a": [
+    "No longo prazo a empresa ainda mantém fixo o tamanho da sua fábrica.",
+    "No longo prazo a empresa pode mudar a quantidade de todos os fatores.",
+    "No longo prazo não existe custo fixo, pois nenhum fator é fixo.",
+    "A análise de longo prazo trata dos rendimentos de escala da empresa.",
+    "O longo prazo funciona como um horizonte de planejamento da empresa."
+   ],
+   "j": [
+    "Esta é a INCORRETA. No longo prazo nada é fixo, nem o tamanho da fábrica.",
+    "Verdadeira. É a definição de longo prazo.",
+    "Verdadeira. Sem fator fixo não há custo fixo.",
+    "Verdadeira. Rendimentos de escala comparam a produção quando todos os fatores mudam juntos.",
+    "Verdadeira. O livro diz que os custos de longo prazo são um horizonte de planejamento."
+   ],
+   "c": 0,
+   "p": "Longo prazo: tudo variável → sem custo fixo → análise de rendimentos de ESCALA.",
+   "ficha": {
+    "titulo": "Análise de longo prazo",
+    "topicos": [
+     {
+      "rotulo": "Fatores",
+      "texto": "**Todos variáveis**: pode aumentar a fábrica, comprar máquinas."
+     },
+     {
+      "rotulo": "Custos",
+      "texto": "**Não existe custo fixo** no longo prazo."
+     },
+     {
+      "rotulo": "Assunto central",
+      "texto": "**Rendimentos de escala**: o que acontece quando todos os fatores aumentam juntos."
+     }
+    ],
+    "distratores": [
+     {
+      "frase": "No longo prazo o tamanho da fábrica é fixo",
+      "porque": "isso é **curto prazo**."
+     }
+    ]
+   }
+  },
+  {
+   "s": "PT, Pme e Pmg: máximo do produto total",
+   "d": "I",
+   "q": "Questão - Produto Total e Produtividades\nAssinale a alternativa CORRETA:",
+   "a": [
+    "No ponto máximo do produto total, a produtividade marginal é zero.",
+    "No ponto máximo do produto total, a produtividade média também é máxima.",
+    "Produtividade média é a variação do produto dividida pela variação do fator.",
+    "Produtividade marginal é o produto total dividido pela quantidade do fator.",
+    "A produtividade média fica negativa depois do ponto máximo do produto total."
+   ],
+   "j": [
+    "No topo do PT, mais um trabalhador não acrescenta nada: Pmg = 0.",
+    "A Pme atinge o máximo antes, no ponto em que Pmg = Pme.",
+    "Essa é a definição de produtividade MARGINAL (ΔPT/ΔN).",
+    "Essa é a definição de produtividade MÉDIA (PT/N).",
+    "Quem pode ficar negativa é a Pmg. A Pme = PT/N continua positiva enquanto houver produção."
+   ],
+   "c": 0,
+   "p": "Pme = PT/N. Pmg = ΔPT/ΔN. PT máximo ↔ Pmg = 0.",
+   "ficha": {
+    "titulo": "PT, Pme e Pmg — definições e PT máximo",
+    "topicos": [
+     {
+      "rotulo": "Pme",
+      "texto": "**PT ÷ N** (produção por trabalhador)."
+     },
+     {
+      "rotulo": "Pmg",
+      "texto": "**ΔPT ÷ ΔN** (quanto o último trabalhador acrescentou)."
+     },
+     {
+      "rotulo": "PT máximo",
+      "texto": "**Pmg = 0**. Depois disso, Pmg < 0 e o PT cai."
+     }
+    ],
+    "distratores": [
+     {
+      "frase": "No máximo do PT, a Pme é máxima",
+      "porque": "a Pme é máxima **antes**, onde **Pmg = Pme**."
+     },
+     {
+      "frase": "Pme pode ser negativa",
+      "porque": "só a **Pmg** fica negativa."
+     }
+    ]
+   }
+  },
+  {
+   "s": "Quando o produto total cai",
+   "d": "I",
+   "q": "Questão - Produto Total em queda\nQuando o produto total começa a cair, pode-se afirmar que:",
+   "a": [
+    "A produtividade marginal do trabalho ficou negativa.",
+    "A produtividade média do trabalho ficou negativa.",
+    "A produtividade marginal do trabalho é igual a zero.",
+    "A produtividade média do trabalho é igual a zero.",
+    "A produtividade marginal ficou maior que a média."
+   ],
+   "j": [
+    "Se o PT cai, o trabalhador extra diminuiu a produção: Pmg < 0. A Pme continua positiva, mas caindo.",
+    "A Pme = PT/N continua positiva, porque o PT ainda é positivo.",
+    "Pmg = 0 é o ponto de máximo do PT. Depois dele, quando o PT cai, a Pmg é negativa.",
+    "A Pme só seria zero se não houvesse produção.",
+    "Nessa fase a Pmg (negativa) está bem abaixo da Pme (positiva)."
+   ],
+   "c": 0,
+   "p": "PT subindo ↔ Pmg > 0. PT no topo ↔ Pmg = 0. PT caindo ↔ Pmg < 0.",
+   "ficha": {
+    "titulo": "Sinal da Pmg e o caminho do PT",
+    "topicos": [
+     {
+      "rotulo": "Pmg > 0",
+      "texto": "PT **sobe**."
+     },
+     {
+      "rotulo": "Pmg = 0",
+      "texto": "PT no **máximo**."
+     },
+     {
+      "rotulo": "Pmg < 0",
+      "texto": "PT **cai**. A Pme continua **positiva**, mas decrescente."
+     }
+    ],
+    "distratores": [
+     {
+      "frase": "Quando o PT cai, a Pme é negativa",
+      "porque": "A Pme é PT/N, que segue **positiva**."
+     },
+     {
+      "frase": "Quando o PT cai, a Pmg é igual a zero",
+      "porque": "Com Pmg = 0 o PT atinge o ápice; para o PT cair, a Pmg deve ser **negativa**."
+     }
+    ]
+   }
+  },
+  {
+   "s": "Relação entre Pmg e Pme",
+   "d": "A",
+   "q": "Questão - Pmg e Pme\nSobre a relação entre a produtividade marginal (Pmg) e a produtividade média (Pme) do trabalho, marque a opção CORRETA:",
+   "a": [
+    "Quando a Pmg está acima da Pme, a Pme está subindo; a Pmg corta a Pme no máximo dela.",
+    "Quando a Pmg está acima da Pme, a Pme está caindo; a Pmg corta a Pme no mínimo dela.",
+    "A Pmg e a Pme são sempre iguais, porque as duas dependem do mesmo produto total.",
+    "A Pme corta a Pmg no ponto máximo da Pmg, quando o produto total para de crescer.",
+    "Quando a Pmg está abaixo da Pme, a Pme está subindo, mesmo que devagar."
+   ],
+   "j": [
+    "Se o novo trabalhador produz mais que a média (Pmg > Pme), ele puxa a média para cima. O cruzamento é no topo da Pme.",
+    "Inverteu: Pmg acima da média faz a média subir, e o cruzamento é no máximo da Pme.",
+    "Elas só são iguais em um ponto: o máximo da Pme.",
+    "O cruzamento é no máximo da Pme, não da Pmg. E o PT para de crescer quando Pmg = 0.",
+    "Pmg abaixo da média puxa a média para baixo."
+   ],
+   "c": 0,
+   "p": "Pense em nota: se a nova nota (marginal) é maior que a média, a média sobe.",
+   "ficha": {
+    "titulo": "Pmg x Pme — quem puxa quem",
+    "topicos": [
+     {
+      "rotulo": "Pmg > Pme",
+      "texto": "Pme **sobe**."
+     },
+     {
+      "rotulo": "Pmg < Pme",
+      "texto": "Pme **cai**."
+     },
+     {
+      "rotulo": "Pmg = Pme",
+      "texto": "Pme no **máximo**. A Pmg corta a Pme no **topo** dela."
+     },
+     {
+      "rotulo": "Analogia",
+      "texto": "Média de notas: uma nota nova acima da média **eleva** a média."
+     }
+    ],
+    "distratores": [
+     {
+      "frase": "A Pmg corta a Pme no mínimo da Pme",
+      "porque": "na produção é no **máximo** da Pme (nos custos é que o CMg corta o CMe no **mínimo**)."
+     }
+    ]
+   }
+  },
+  {
+   "s": "Tabela de produção: cálculo de Pme e Pmg",
+   "d": "I",
+   "q": "Questão - Tabela de Produção\nO quadro abaixo mostra a produção de uma oficina de costura com máquinas fixas. Calcule a Pme e a Pmg do trabalho quando a oficina tem 3 trabalhadores, respectivamente:",
+   "t": {
+    "headers": [
+     "Nº de trabalhadores (N)",
+     "Produto Total (PT)"
+    ],
+    "rows": [
+     [
+      "1",
+      "8"
+     ],
+     [
+      "2",
+      "20"
+     ],
+     [
+      "3",
+      "30"
+     ],
+     [
+      "4",
+      "36"
+     ],
+     [
+      "5",
+      "38"
+     ],
+     [
+      "6",
+      "36"
+     ]
+    ]
+   },
+   "a": [
+    "10 e 10",
+    "10 e 12",
+    "30 e 10",
+    "12 e 10",
+    "9 e 6"
+   ],
+   "j": [
+    "Pme = PT/N = 30/3 = 10. Pmg = PT(3) - PT(2) = 30 - 20 = 10. Pme = Pmg: é o máximo da Pme.",
+    "12 é a Pmg do 2º trabalhador (20 - 8), não do 3º.",
+    "30 é o PT, não a Pme.",
+    "Trocou a ordem e usou a Pmg do 2º trabalhador.",
+    "9 e 6 são a Pme e a Pmg com 4 trabalhadores (36/4 e 36 - 30)."
+   ],
+   "c": 0,
+   "p": "Pme = PT/N. Pmg = PT de agora - PT anterior.",
+   "ficha": {
+    "titulo": "Tabela de produção — como calcular",
+    "topicos": [
+     {
+      "rotulo": "Pme",
+      "texto": "**PT ÷ N**. Com 3: 30/3 = **10**."
+     },
+     {
+      "rotulo": "Pmg",
+      "texto": "**PT(N) - PT(N-1)**. Do 3º: 30 - 20 = **10**."
+     },
+     {
+      "rotulo": "Leitura da tabela",
+      "texto": "Pmg: 8, 12, 10, 6, 2, **-2**. Com 6 trabalhadores o PT cai (Pmg negativa)."
+     }
+    ],
+    "distratores": [
+     {
+      "frase": "Pmg do 3º = 30/3",
+      "porque": "isso é a **Pme**; a Pmg é a **diferença** entre PTs."
+     }
+    ]
+   }
+  },
+  {
+   "s": "Tabela de produção: início dos rendimentos decrescentes",
+   "d": "A",
+   "q": "Questão - Lei dos Rendimentos na tabela\nUma fazenda com área fixa tem a produção abaixo. A partir de qual trabalhador começam os rendimentos decrescentes (a Pmg começa a cair)?",
+   "t": {
+    "headers": [
+     "N",
+     "PT"
+    ],
+    "rows": [
+     [
+      "0",
+      "0"
+     ],
+     [
+      "1",
+      "15"
+     ],
+     [
+      "2",
+      "40"
+     ],
+     [
+      "3",
+      "60"
+     ],
+     [
+      "4",
+      "70"
+     ],
+     [
+      "5",
+      "72"
+     ]
+    ]
+   },
+   "a": [
+    "A partir do 3º, cuja Pmg (20) é menor que a do 2º (25).",
+    "A partir do 2º, cuja Pmg (25) é maior que a do 1º (15).",
+    "A partir do 4º, cuja Pme (17,5) é menor que a do 3º (20).",
+    "A partir do 5º, quando o PT quase para de crescer (72).",
+    "Desde o 1º, porque a área da fazenda é fixa desde o início."
+   ],
+   "j": [
+    "Pmg: 15, 25, 20, 10, 2. O máximo é no 2º (25); a partir do 3º ela cai. Ali começam os rendimentos decrescentes.",
+    "No 2º a Pmg ainda está subindo (rendimentos crescentes).",
+    "A pergunta é sobre a Pmg, não a Pme. A Pme começa a cair no 4º, depois da Pmg.",
+    "No 5º a Pmg já vinha caindo havia dois trabalhadores.",
+    "Com 1 e 2 trabalhadores a Pmg sobe (15 → 25): ainda não há rendimentos decrescentes."
+   ],
+   "c": 0,
+   "p": "Calcule a Pmg de cada trabalhador. Rendimentos decrescentes começam quando ela passa a cair.",
+   "ficha": {
+    "titulo": "Achar o início dos rendimentos decrescentes",
+    "topicos": [
+     {
+      "rotulo": "Passo 1",
+      "texto": "Pmg = diferença entre PTs: **15, 25, 20, 10, 2**."
+     },
+     {
+      "rotulo": "Passo 2",
+      "texto": "Ache o **máximo da Pmg** (25, no 2º)."
+     },
+     {
+      "rotulo": "Passo 3",
+      "texto": "Os rendimentos decrescentes começam **logo depois**: no **3º trabalhador**."
+     },
+     {
+      "rotulo": "Atenção",
+      "texto": "PT continua **subindo** com rendimentos decrescentes; só sobe mais devagar."
+     }
+    ],
+    "distratores": [
+     {
+      "frase": "Os rendimentos decrescentes começam quando o PT cai",
+      "porque": "começam quando a **Pmg** cai; o PT ainda cresce."
+     }
+    ]
+   }
+  },
+  {
+   "s": "Tabela de produção: completar PT e Pmg",
+   "d": "I",
+   "q": "Questão - Completando a tabela\nUma fábrica com 4 trabalhadores tem produtividade média de 12,5 unidades por trabalhador. Ao contratar o 5º trabalhador, o produto total passa a ser 55 unidades. Qual é o PT com 4 trabalhadores e a Pmg do 5º, respectivamente?",
+   "a": [
+    "50 e 5",
+    "50 e 11",
+    "12,5 e 5",
+    "55 e 5",
+    "50 e 42,5"
+   ],
+   "j": [
+    "PT(4) = Pme × N = 12,5 × 4 = 50. Pmg do 5º = 55 - 50 = 5.",
+    "11 é a Pme com 5 trabalhadores (55/5), não a Pmg.",
+    "12,5 é a Pme, não o PT.",
+    "55 é o PT com 5 trabalhadores, não com 4.",
+    "42,5 = 55 - 12,5: subtraiu a Pme em vez do PT anterior."
+   ],
+   "c": 0,
+   "p": "Se a questão dá a Pme, volte ao PT: PT = Pme × N.",
+   "ficha": {
+    "titulo": "Voltar da Pme para o PT",
+    "topicos": [
+     {
+      "rotulo": "Fórmula invertida",
+      "texto": "**PT = Pme × N**. 12,5 × 4 = **50**."
+     },
+     {
+      "rotulo": "Pmg",
+      "texto": "**55 - 50 = 5**."
+     },
+     {
+      "rotulo": "Pme nova",
+      "texto": "55/5 = 11 (não é o que foi pedido)."
+     }
+    ],
+    "distratores": [
+     {
+      "frase": "Pmg = PT novo - Pme",
+      "porque": "a Pmg é **PT novo - PT anterior**."
+     }
+    ]
+   }
+  },
+  {
+   "s": "Lei dos rendimentos decrescentes: definição",
+   "d": "B",
+   "q": "Questão - Lei dos Rendimentos Decrescentes (Curto Prazo)\nMarque a definição CORRETA da lei dos rendimentos decrescentes:",
+   "a": [
+    "Somando medidas iguais de um fator variável a um fator fixo, os acréscimos de produção ficam cada vez menores.",
+    "Somando medidas iguais de um fator variável a um fator fixo, os acréscimos de produção ficam cada vez maiores.",
+    "Quando a empresa aumenta todos os seus fatores na mesma proporção, a produção total da empresa cai.",
+    "No longo prazo, dobrar todos os fatores de produção sempre faz a produção total também dobrar.",
+    "Ela explica o formato em U da curva de custo médio de longo prazo da empresa."
+   ],
+   "j": [
+    "Com um fator fixo (ex.: fábrica), cada trabalhador extra acrescenta menos que o anterior, a partir de certo ponto.",
+    "É o contrário: os acréscimos ficam menores (Pmg decrescente).",
+    "Aumentar todos os fatores é longo prazo (rendimentos de escala), não a lei.",
+    "Isso descreve rendimentos constantes de escala, que é longo prazo.",
+    "O U do custo médio de LONGO prazo vem de economias e deseconomias de escala. A lei explica o U do custo de curto prazo."
+   ],
+   "c": 0,
+   "p": "Lei dos rendimentos decrescentes = CURTO prazo, com fator fixo, Pmg caindo.",
+   "ficha": {
+    "titulo": "Lei dos rendimentos decrescentes",
+    "topicos": [
+     {
+      "rotulo": "Condição",
+      "texto": "**Curto prazo**: pelo menos **um fator fixo**."
+     },
+     {
+      "rotulo": "Enunciado",
+      "texto": "Somando unidades iguais do fator variável, os **acréscimos de produção (Pmg) diminuem** a partir de certo ponto."
+     },
+     {
+      "rotulo": "Fases do PT",
+      "texto": "Cresce a taxas **crescentes**, depois **decrescentes**, atinge o **máximo** e então **cai**."
+     },
+     {
+      "rotulo": "Nos custos",
+      "texto": "Também é chamada de **lei dos custos crescentes**: explica o U dos custos de **curto** prazo."
+     }
+    ],
+    "distratores": [
+     {
+      "frase": "A lei vale quando todos os fatores aumentam",
+      "porque": "com tudo variando é **rendimento de escala** (longo prazo)."
+     }
+    ]
+   }
+  },
+  {
+   "s": "Lei dos rendimentos x rendimentos de escala",
+   "d": "I",
+   "q": "Questão - Rendimentos\nAssinale a alternativa ERRADA:",
+   "a": [
+    "A lei dos rendimentos decrescentes é a mesma coisa que os rendimentos decrescentes de escala.",
+    "A lei dos rendimentos decrescentes vale quando há pelo menos um fator de produção fixo.",
+    "Há rendimentos decrescentes de escala quando a produção cresce menos que os fatores.",
+    "Os rendimentos de escala supõem que nenhum fator de produção fica fixo.",
+    "Com um fator fixo, a produção cresce a taxas crescentes, depois decrescentes, e então cai."
+   ],
+   "j": [
+    "Esta é a ERRADA. A lei é de curto prazo (um fator fixo); rendimentos de escala são de longo prazo (todos variam).",
+    "Verdadeira. Precisa de fator fixo.",
+    "Verdadeira. Fatores sobem, por exemplo, 100% e a produção sobe menos que 100%.",
+    "Verdadeira. É análise de longo prazo.",
+    "Verdadeira. São as fases do produto total no curto prazo."
+   ],
+   "c": 0,
+   "p": "Lei dos rendimentos decrescentes (curto prazo) ≠ rendimentos decrescentes de escala (longo prazo).",
+   "ficha": {
+    "titulo": "Lei dos rendimentos x rendimentos de escala",
+    "topicos": [
+     {
+      "rotulo": "Lei dos rendimentos decrescentes",
+      "texto": "**Curto prazo**, um fator fixo, só um fator aumenta."
+     },
+     {
+      "rotulo": "Rendimentos de escala",
+      "texto": "**Longo prazo**, **todos** os fatores aumentam juntos."
+     },
+     {
+      "rotulo": "Decrescentes de escala",
+      "texto": "Produção cresce **menos** que proporcionalmente aos fatores (= deseconomias de escala)."
+     }
+    ],
+    "distratores": [
+     {
+      "frase": "Lei dos rendimentos decrescentes = deseconomias de escala",
+      "porque": "uma é de **curto**, a outra de **longo** prazo."
+     }
+    ]
+   }
+  },
+  {
+   "s": "Fases do produto total com Pmg positiva e decrescente",
+   "d": "I",
+   "q": "Questão - Fase dos rendimentos decrescentes\nNa fase em que a produtividade marginal do trabalho é positiva, mas está caindo, o produto total:",
+   "a": [
+    "Continua crescendo, mas a taxas cada vez menores.",
+    "Continua crescendo, a taxas cada vez maiores.",
+    "Para de crescer e fica no seu ponto máximo.",
+    "Começa a cair, porque a Pmg está diminuindo.",
+    "Fica constante até a Pmg chegar a zero."
+   ],
+   "j": [
+    "Pmg positiva = cada trabalhador ainda soma produção; Pmg caindo = soma cada vez menos. O PT sobe mais devagar.",
+    "Taxas crescentes correspondem à fase de Pmg crescente.",
+    "O máximo do PT é quando a Pmg chega a zero.",
+    "O PT só cai quando a Pmg fica negativa. Pmg caindo, mas positiva, ainda aumenta o PT.",
+    "Enquanto a Pmg é positiva, o PT aumenta."
+   ],
+   "c": 0,
+   "p": "Pmg caindo ≠ PT caindo. Enquanto Pmg > 0, o PT sobe.",
+   "ficha": {
+    "titulo": "Pmg decrescente não é PT decrescente",
+    "topicos": [
+     {
+      "rotulo": "Pmg crescente",
+      "texto": "PT sobe a taxas **crescentes**."
+     },
+     {
+      "rotulo": "Pmg positiva e decrescente",
+      "texto": "PT sobe a taxas **decrescentes** (é aqui que vale a lei)."
+     },
+     {
+      "rotulo": "Pmg nula e negativa",
+      "texto": "Com Pmg = 0 o PT atinge o **máximo**; com Pmg < 0 o PT **cai**."
+     }
+    ],
+    "distratores": [
+     {
+      "frase": "Se a Pmg cai, o PT cai",
+      "porque": "O PT só cai com Pmg **negativa**; enquanto for positiva, o PT segue crescendo."
+     }
+    ]
+   }
+  },
+  {
+   "s": "Rendimentos de escala: classificar (cálculo)",
+   "d": "I",
+   "q": "Questão - Rendimentos de Escala\nTrês empresas dobram TODOS os seus fatores de produção (trabalho e capital). A produção de cada uma muda assim:\nEmpresa A: de 100 para 200 unidades\nEmpresa B: de 100 para 260 unidades\nEmpresa C: de 100 para 150 unidades\nMarque a classificação CORRETA:",
+   "a": [
+    "A: constantes; B: crescentes (economia de escala); C: decrescentes (deseconomia).",
+    "A: crescentes (economia de escala); B: constantes; C: decrescentes (deseconomia).",
+    "A: constantes; B: decrescentes (deseconomia); C: crescentes (economia de escala).",
+    "A, B e C têm rendimentos crescentes, porque as três aumentaram a sua produção.",
+    "A: constantes; B e C mostram a lei dos rendimentos decrescentes do curto prazo."
+   ],
+   "j": [
+    "Fatores ×2. A: produção ×2 (constantes). B: ×2,6, mais que proporcional (crescentes). C: ×1,5, menos que proporcional (decrescentes).",
+    "A cresceu exatamente na mesma proporção: rendimentos constantes.",
+    "Inverteu B e C: B cresceu mais que os fatores; C cresceu menos.",
+    "Crescer não basta: compara-se o aumento da produção com o aumento dos fatores.",
+    "Como todos os fatores variaram, é rendimento de escala (longo prazo), não a lei dos rendimentos."
+   ],
+   "c": 0,
+   "p": "Compare a % de aumento da produção com a % de aumento dos fatores.",
+   "ficha": {
+    "titulo": "Rendimentos de escala — como classificar",
+    "topicos": [
+     {
+      "rotulo": "Constantes",
+      "texto": "Produção cresce **na mesma proporção** que os fatores (×2 → ×2)."
+     },
+     {
+      "rotulo": "Crescentes (economias de escala)",
+      "texto": "Produção cresce **mais** que os fatores (×2 → ×2,6)."
+     },
+     {
+      "rotulo": "Decrescentes (deseconomias de escala)",
+      "texto": "Produção cresce **menos** que os fatores (×2 → ×1,5)."
+     }
+    ],
+    "distratores": [
+     {
+      "frase": "Toda empresa que aumenta a produção tem rendimentos crescentes",
+      "porque": "precisa crescer **mais que proporcionalmente** aos fatores."
+     }
+    ]
+   }
+  },
+  {
+   "s": "Deseconomia de escala",
+   "d": "I",
+   "q": "Questão - Deseconomia de escala\nUma empresa aumenta todos os seus fatores de produção em 50%, e a produção aumenta apenas 30%. Marque a opção CORRETA:",
+   "a": [
+    "Há deseconomia de escala (rendimentos decrescentes de escala), e a Pme dos fatores cai.",
+    "Há rendimentos crescentes de escala (economia de escala), porque a produção da empresa aumentou.",
+    "Opera a lei dos rendimentos decrescentes, pois a empresa está no curto prazo com fator fixo.",
+    "Há rendimentos constantes de escala, já que os fatores e a produção cresceram ao mesmo tempo.",
+    "Há deseconomia de escala, e a produtividade média dos fatores aumenta com a produção."
+   ],
+   "j": [
+    "Produção (+30%) cresceu menos que os fatores (+50%): rendimentos decrescentes de escala. Cada unidade de fator rende menos: Pme cai.",
+    "Crescer menos que os fatores é deseconomia, não economia de escala.",
+    "Todos os fatores aumentaram, então é longo prazo; não há fator fixo.",
+    "Constantes exigiriam produção +50%.",
+    "A classificação está certa, mas a Pme dos fatores cai (produção cresce menos que os fatores)."
+   ],
+   "c": 0,
+   "p": "Deseconomia de escala = produção cresce menos que os fatores → Pme dos fatores cai.",
+   "ficha": {
+    "titulo": "Deseconomia de escala",
+    "topicos": [
+     {
+      "rotulo": "Definição",
+      "texto": "Todos os fatores sobem e a produção sobe **menos que proporcionalmente**."
+     },
+     {
+      "rotulo": "Pme dos fatores",
+      "texto": "**Cai**: cada unidade de fator produz menos."
+     },
+     {
+      "rotulo": "Sinônimos",
+      "texto": "Rendimentos decrescentes de escala = **deseconomias de escala**."
+     }
+    ],
+    "distratores": [
+     {
+      "frase": "Fatores +50% e produção +30% é a lei dos rendimentos decrescentes",
+      "porque": "todos os fatores mudaram: é **escala** (longo prazo)."
+     }
+    ]
+   }
+  },
+  {
+   "s": "Rendimentos constantes de escala e custo médio de longo prazo",
+   "d": "A",
+   "q": "Questão - Rendimento constante de escala\nSe uma empresa tem rendimentos constantes de escala em todas as quantidades, a sua curva de custo médio de longo prazo será:",
+   "a": [
+    "Horizontal: o custo médio fica constante quando a produção aumenta.",
+    "Decrescente: o custo médio cai sempre que a produção aumenta.",
+    "Crescente: o custo médio sobe sempre que a produção aumenta.",
+    "Em formato de U, por causa da lei dos rendimentos decrescentes.",
+    "Igual a zero, porque no longo prazo não existem custos fixos."
+   ],
+   "j": [
+    "Com rendimentos constantes, a produtividade média dos fatores não muda; logo o custo por unidade também não. O livro diz: CMe de LP constante indica rendimentos constantes de escala.",
+    "Custo médio caindo indica economias de escala.",
+    "Custo médio subindo indica deseconomias de escala.",
+    "A lei dos rendimentos decrescentes é de curto prazo e explica o U do custo de curto prazo.",
+    "Não haver custo fixo não zera o custo médio; ainda há custos variáveis."
+   ],
+   "c": 0,
+   "p": "Economias de escala → CMeLP cai. Constantes → CMeLP horizontal. Deseconomias → CMeLP sobe.",
+   "ficha": {
+    "titulo": "Rendimentos de escala e o CMe de longo prazo",
+    "topicos": [
+     {
+      "rotulo": "Economias de escala",
+      "texto": "CMeLP **cai** quando a produção aumenta."
+     },
+     {
+      "rotulo": "Rendimentos constantes",
+      "texto": "CMeLP é uma **reta horizontal**: CMe constante e **CMgLP = CMeLP**."
+     },
+     {
+      "rotulo": "Deseconomias de escala",
+      "texto": "CMeLP **sobe** quando a produção aumenta."
+     }
+    ],
+    "distratores": [
+     {
+      "frase": "O U do CMe de longo prazo vem da lei dos rendimentos decrescentes",
+      "porque": "No longo prazo o U vem de **economias e deseconomias de escala**."
+     },
+     {
+      "frase": "Com rendimentos constantes o custo total fica constante",
+      "porque": "O custo **total** cresce na mesma proporção do produto; quem fica constante é o custo **médio**."
+     }
+    ]
+   }
+  }
+ ]
+}

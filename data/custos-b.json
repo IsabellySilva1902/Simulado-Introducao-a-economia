@@ -1,246 +1,697 @@
-{"assunto": "custos", "category": "Teoria dos custos de produção", "prefixo": "CUST", "inicio": 11,
+{
+ "assunto": "custos",
+ "category": "Teoria dos custos de produção",
+ "prefixo": "CUST",
+ "inicio": 11,
  "fonte": "Vasconcellos, Economia Micro e Macro, cap. 6 (Custos de produção) · modelo: prova de 20/11 (questões 8 e 9).",
  "questoes": [
-{"s": "CFMe e CVMe a partir do CT (cálculo)", "d": "I",
- "q": "Questão - Custos médios\nA tabela mostra o custo total de uma empresa no curto prazo. Qual é o Custo Fixo Médio com 4 unidades e o Custo Variável Médio com 5 unidades, respectivamente?",
- "t": {"headers": ["Quantidade", "CT (R$)"], "rows": [["0", "40"], ["1", "60"], ["2", "75"], ["3", "85"], ["4", "100"], ["5", "125"]]},
- "a": ["10 e 17", "25 e 25", "10 e 25", "40 e 85", "8 e 17"],
- "j": ["CFT = CT(0) = 40 → CFMe(4) = 40/4 = 10. CVT(5) = 125 - 40 = 85 → CVMe(5) = 85/5 = 17.",
-       "25 é o CMe com 4 e com 5 unidades (100/4 e 125/5), não o CFMe nem o CVMe.",
-       "O CFMe está certo, mas 25 é o CMe com 5, não o CVMe.",
-       "40 e 85 são totais (CFT e CVT), não médios.",
-       "8 é o CFMe com 5 unidades (40/5), não com 4."],
- "c": 0, "p": "CFT = CT com Q = 0. CVT = CT - CFT. Médio = total ÷ Q.",
- "ficha": {"titulo": "Do CT para CFMe e CVMe",
-  "topicos": [{"rotulo": "CFT", "texto": "CT com produção zero: **40**."},
-              {"rotulo": "CFMe(4)", "texto": "40 ÷ 4 = **10**."},
-              {"rotulo": "CVMe(5)", "texto": "(125 - 40) ÷ 5 = **17**."}],
-  "distratores": [{"frase": "CVMe = CT ÷ Q", "porque": "isso é o **CMe**; o CVMe usa só o **CVT**."}]}},
-
-{"s": "Completar CT e CMg (cálculo)", "d": "I",
- "q": "Questão - Custo total e marginal\nUma empresa tem custo fixo total de R$ 100,00. O custo variável total é R$ 30,00 com 1 unidade, R$ 50,00 com 2, R$ 66,00 com 3 e R$ 90,00 com 4. Qual é o custo total com 3 unidades e o custo marginal da 3ª unidade, respectivamente?",
- "a": ["R$ 166,00 e R$ 16,00", "R$ 66,00 e R$ 16,00", "R$ 166,00 e R$ 24,00", "R$ 166,00 e R$ 55,33", "R$ 150,00 e R$ 16,00"],
- "j": ["CT(3) = 100 + 66 = 166. CMg(3) = CVT(3) - CVT(2) = 66 - 50 = 16 (o custo fixo não entra no CMg).",
-       "66 é o CVT; faltou somar o CFT.",
-       "24 é o CMg da 4ª unidade (90 - 66).",
-       "55,33 é o CMe com 3 unidades (166/3), não o CMg.",
-       "150 = CT(2); o CT com 3 é 166."],
- "c": 0, "p": "CT = CFT + CVT. CMg pode ser calculado pelo CT ou pelo CVT: dá o mesmo.",
- "ficha": {"titulo": "CT e CMg com CFT dado",
-  "topicos": [{"rotulo": "CT", "texto": "**CFT + CVT** = 100 + 66 = **166**."},
-              {"rotulo": "CMg", "texto": "**ΔCVT** = 66 - 50 = **16** (= ΔCT, porque o CFT não muda)."}],
-  "distratores": [{"frase": "O CMg inclui o custo fixo", "porque": "o CFT é igual nas duas linhas e **se cancela**."}]}},
-
-{"s": "CMg igual ao CMe no mínimo (tabela)", "d": "A",
- "q": "Questão - CMe e CMg na tabela\nCom base na tabela, em que quantidade o custo marginal se iguala ao custo médio, e o que esse ponto representa?",
- "t": {"headers": ["Quantidade", "CT (R$)"], "rows": [["1", "50"], ["2", "70"], ["3", "84"], ["4", "100"], ["5", "125"], ["6", "156"]]},
- "a": ["Em 5 unidades (CMg = CMe = 25), que é o mínimo do custo médio.",
-       "Em 3 unidades (CMg = 14), que é o mínimo do custo médio.",
-       "Em 6 unidades (CMg = 31), que é o máximo do custo médio.",
-       "Em 4 unidades (CMg = 16), que é o máximo do lucro da empresa.",
-       "Em 1 unidade (CMe = 50), que é o mínimo do custo marginal."],
- "j": ["CMe: 50, 35, 28, 25, 25, 26. CMg: -, 20, 14, 16, 25, 31. Na 5ª, CMg = 25 = CMe: é o mínimo do CMe; depois o CMg (31) passa o CMe e ele sobe.",
-       "Em 3 o CMg é mínimo (14), mas o CMe (28) ainda está caindo.",
-       "Em 6 o CMg (31) já está acima do CMe (26), que começou a subir.",
-       "Em 4 o CMg (16) ainda está abaixo do CMe (25); e lucro precisa de receita.",
-       "Na 1ª unidade não há CMg calculável pela tabela."],
- "c": 0, "p": "CMg corta o CMe no mínimo do CMe. Calcule as duas colunas e procure a igualdade.",
- "ficha": {"titulo": "Onde CMg = CMe",
-  "topicos": [{"rotulo": "CMe", "texto": "50, 35, 28, 25, **25**, 26."},
-              {"rotulo": "CMg", "texto": "20, 14, 16, **25**, 31."},
-              {"rotulo": "Leitura", "texto": "CMg = CMe na **5ª** unidade: **mínimo do CMe**."},
-              {"rotulo": "Não confundir", "texto": "O **mínimo do CMg** (3ª) vem antes do mínimo do CMe."}],
-  "distratores": [{"frase": "O mínimo do CMe é onde o CMg é mínimo", "porque": "é onde o CMg **cruza** o CMe."}]}},
-
-{"s": "Pmg caindo e CMg subindo", "d": "A",
- "q": "Questão - Produção e custos\nUma empresa paga o mesmo salário a cada trabalhador. Com a lei dos rendimentos decrescentes, cada novo trabalhador produz menos que o anterior. O que acontece com o custo marginal?",
- "a": ["Sobe, porque cada unidade extra exige mais horas de trabalho pagas.",
-       "Cai, porque a empresa paga o mesmo salário a todos os trabalhadores.",
-       "Fica constante, porque o salário pago a cada trabalhador não muda.",
-       "Cai, porque o custo fixo é dividido por mais unidades produzidas.",
-       "Sobe, porque o custo fixo total aumenta com cada nova contratação."],
- "j": ["Mesmo salário, menos produção por trabalhador → cada unidade extra custa mais. Pmg caindo ↔ CMg subindo (lei dos custos crescentes).",
-       "Salário igual com Pmg menor encarece a unidade extra.",
-       "O salário é igual, mas cada trabalhador produz menos: o custo por unidade extra sobe.",
-       "Isso descreve o CFMe, não o CMg.",
-       "Trabalhador é custo variável; o CFT não muda."],
- "c": 0, "p": "CMg = salário ÷ Pmg. Pmg cai → CMg sobe.",
- "ficha": {"titulo": "Espelho Pmg ↔ CMg",
-  "topicos": [{"rotulo": "Fórmula", "texto": "**CMg = w ÷ Pmg** (w = salário)."},
-              {"rotulo": "Pmg sobe", "texto": "CMg **cai**."},
-              {"rotulo": "Pmg cai", "texto": "CMg **sobe**: é a **lei dos custos crescentes**."}],
-  "distratores": [{"frase": "Salário constante deixa o CMg constante", "porque": "o CMg depende também da **Pmg**."}]}},
-
-{"s": "Gráfico de CT, CFT e CVT", "d": "I",
- "q": "Questão - Curvas de custo total\nSobre o gráfico das curvas de custo total de curto prazo, marque a opção CORRETA:",
- "a": ["O CFT é uma reta horizontal, e o CT acompanha o CVT, acima dele pela distância do CFT.",
-       "O CFT começa na origem, e o CT acompanha o CVT, abaixo dele pela distância do CFT.",
-       "O CVT é uma reta horizontal, e o CT acompanha o CFT, acima dele pela distância do CVT.",
-       "O CFT cresce com a produção, e o CT encontra o CVT no ponto de produção máxima.",
-       "O CT e o CVT começam juntos na origem, e o CFT fica sempre acima dos dois."],
- "j": ["CFT não depende de Q: reta horizontal. CT = CFT + CVT, então o CT tem o mesmo formato do CVT, deslocado para cima pelo CFT. Com Q = 0, CT = CFT.",
-       "O CFT não começa na origem (existe mesmo com Q = 0), e o CT fica acima do CVT.",
-       "Quem é horizontal é o CFT, não o CVT.",
-       "O CFT é constante; o CT nunca encontra o CVT (diferença = CFT).",
-       "O CVT começa na origem, mas o CT começa no valor do CFT."],
- "c": 0, "p": "CT = CFT + CVT: mesma forma do CVT, deslocado para cima pelo CFT.",
- "ficha": {"titulo": "Desenho das curvas totais",
-  "topicos": [{"rotulo": "CFT", "texto": "**Reta horizontal**."},
-              {"rotulo": "CVT", "texto": "Começa na **origem** e sobe."},
-              {"rotulo": "CT", "texto": "Mesmo formato do CVT, **deslocado para cima** pelo CFT; começa em CT = CFT."}],
-  "distratores": [{"frase": "O CT começa na origem", "porque": "com Q = 0, CT = **CFT** > 0."}]}},
-
-{"s": "Distância entre CMe e CVMe", "d": "I",
- "q": "Questão - Curvas de custo médio\nNo gráfico de custos de curto prazo, a distância vertical entre a curva de custo médio (CMe) e a de custo variável médio (CVMe):",
- "a": ["É o custo fixo médio, e diminui à medida que a produção aumenta.",
-       "É o custo fixo médio, e aumenta à medida que a produção aumenta.",
-       "É o custo marginal, e diminui à medida que a produção aumenta.",
-       "É o custo fixo total, e fica constante em qualquer quantidade.",
-       "É o lucro por unidade, e aumenta à medida que a produção aumenta."],
- "j": ["CMe = CFMe + CVMe, então CMe - CVMe = CFMe. Como o CFMe cai com Q, as duas curvas se aproximam (o livro: o CMe tende a igualar o CVMe).",
-       "O CFMe sempre cai com a produção.",
-       "A diferença entre CMe e CVMe não é o CMg.",
-       "É o custo fixo MÉDIO, não o total.",
-       "Lucro envolve receita; aqui só há custos."],
- "c": 0, "p": "CMe - CVMe = CFMe → as curvas vão se aproximando.",
- "ficha": {"titulo": "CMe e CVMe se aproximam",
-  "topicos": [{"rotulo": "Identidade", "texto": "**CMe = CFMe + CVMe**."},
-              {"rotulo": "Distância", "texto": "CMe - CVMe = **CFMe**."},
-              {"rotulo": "Com Q grande", "texto": "CFMe → 0, então **CMe ≈ CVMe**."}],
-  "distratores": [{"frase": "A distância entre CMe e CVMe é o CFT", "porque": "é o custo fixo **médio**, que diminui."}]}},
-
-{"s": "Custo médio de longo prazo como envoltória", "d": "A",
- "q": "Questão - Custos de longo prazo\nSobre a curva de custo médio de longo prazo (CMeLP), marque a opção CORRETA:",
- "a": ["Ela envolve as curvas de curto prazo e mostra o menor custo médio para cada quantidade.",
-       "Ela é a soma das curvas de custo médio de curto prazo de todos os tamanhos de fábrica.",
-       "Ela só existe quando a empresa tem pelo menos um fator de produção fixo.",
-       "Ela mostra os custos que a empresa já pagou, e não o seu planejamento futuro.",
-       "Ela sempre fica acima de todas as curvas de custo médio de curto prazo."],
- "j": ["No longo prazo a empresa escolhe o tamanho de fábrica mais barato para cada quantidade. A CMeLP é a envoltória (por baixo) das curvas de curto prazo.",
-       "Não é soma: é o contorno inferior das curvas de curto prazo.",
-       "Longo prazo não tem fator fixo.",
-       "O livro diz o contrário: custos de longo prazo são horizonte de planejamento.",
-       "Ela fica abaixo ou tangente às curvas de curto prazo, nunca acima."],
- "c": 0, "p": "CMeLP = envoltória: o melhor tamanho de fábrica para cada quantidade.",
- "ficha": {"titulo": "CMe de longo prazo — envoltória",
-  "topicos": [{"rotulo": "Ideia", "texto": "Cada tamanho de fábrica tem uma curva de **curto prazo**."},
-              {"rotulo": "Longo prazo", "texto": "A empresa escolhe a fábrica de **menor custo médio** para cada quantidade."},
-              {"rotulo": "Resultado", "texto": "A CMeLP é o **contorno por baixo** das curvas de curto prazo; é **planejamento**."}],
-  "distratores": [{"frase": "A CMeLP é a soma das curvas de curto prazo", "porque": "é a **envoltória** (contorno inferior)."}]}},
-
-{"s": "CMg corta CMe no mínimo (isto porque)", "d": "I",
- "q": "Questão - Custo marginal e custo médio\nAnalise as duas assertivas abaixo e, em seguida, escolha a opção CORRETA:\nA curva de custo marginal corta a curva de custo médio no ponto mínimo desta.\nISTO PORQUE\nEnquanto o custo marginal está abaixo do custo médio, ele puxa a média para baixo e, quando fica acima, puxa a média para cima.",
- "a": ["As duas são verdadeiras e se complementam.", "As duas são verdadeiras, mas não se complementam.", "A primeira é verdadeira e a segunda é falsa.", "A primeira é falsa e a segunda é verdadeira.", "As duas assertivas são falsas."],
- "j": ["O CMe cai enquanto CMg < CMe e sobe quando CMg > CMe. O ponto de virada, o mínimo, é exatamente onde CMg = CMe. A segunda explica a primeira.",
-       "A segunda é a razão da primeira.",
-       "A segunda está certa.",
-       "A primeira está certa.",
-       "As duas estão corretas."],
- "c": 0, "p": "Marginal abaixo da média → média cai; acima → média sobe; igual → mínimo.",
- "ficha": {"titulo": "Por que o CMg corta o CMe no mínimo",
-  "topicos": [{"rotulo": "CMg < CMe", "texto": "CMe **cai**."},
-              {"rotulo": "CMg > CMe", "texto": "CMe **sobe**."},
-              {"rotulo": "CMg = CMe", "texto": "CMe no **mínimo** (vale também para o CVMe)."}],
-  "distratores": [{"frase": "As duas são verdadeiras, mas não se complementam", "porque": "a segunda é o **mecanismo** da primeira."}]}},
-
-{"s": "Matéria-prima e CMg (isto porque)", "d": "A",
- "q": "Questão - Custo marginal\nAnalise as duas assertivas abaixo e, em seguida, escolha a opção CORRETA:\nUm aumento no preço da matéria-prima não altera o custo marginal da empresa no curto prazo.\nISTO PORQUE\nA matéria-prima é um custo variável.",
- "a": ["A primeira é falsa e a segunda é verdadeira.", "As duas são verdadeiras e se complementam.", "As duas são verdadeiras, mas não se complementam.", "A primeira é verdadeira e a segunda é falsa.", "As duas assertivas são falsas."],
- "j": ["Matéria-prima é custo variável (segunda verdadeira). Por isso o aumento do preço dela ALTERA o CMg, que depende só do custo variável (primeira falsa).",
-       "A primeira é falsa: custo variável mais caro aumenta o CMg.",
-       "A primeira é falsa.",
-       "É o contrário.",
-       "A segunda é verdadeira."],
- "c": 0, "p": "Custo fixo não mexe no CMg. Custo variável mexe.",
- "ficha": {"titulo": "O que muda o CMg",
-  "topicos": [{"rotulo": "Muda o CMg", "texto": "Preço de **insumo variável** (matéria-prima, salário por hora, energia das máquinas)."},
-              {"rotulo": "Não muda o CMg", "texto": "Custo **fixo** (aluguel, seguro)."}],
-  "distratores": [{"frase": "Nenhum aumento de custo de insumo altera o CMg", "porque": "o CMg vem do **CVT**; se o insumo é variável, ele muda."}]}},
-
-{"s": "Efeito de um aumento de custo variável", "d": "I",
- "q": "Questão - Aumento do salário dos operários\nNo curto prazo, o salário por hora dos operários da linha de produção (custo variável) aumenta. Quais custos se alteram?",
- "a": ["Sobem o CVT, o CVMe, o CMg, o CT e o CMe; o CFT e o CFMe não mudam.",
-       "Sobem o CFT, o CFMe, o CT e o CMe; o CVT, o CVMe e o CMg não mudam.",
-       "Sobem só o CVT e o CVMe; o CT, o CMe e o CMg continuam iguais.",
-       "Sobem todos os custos, inclusive o custo fixo total e o custo fixo médio.",
-       "Não muda nenhum custo, porque o número de operários é o mesmo de antes."],
- "j": ["Custo variável mais caro: sobem CVT e CVMe; o CMg sobe (depende do CVT); CT e CMe sobem junto. CFT e CFMe não mudam.",
-       "Esse é o efeito de um aumento de custo FIXO.",
-       "CT = CFT + CVT: se o CVT sobe, o CT e o CMe sobem; o CMg também.",
-       "Custo fixo não depende do salário dos operários da produção.",
-       "Mesmo número de operários com salário maior aumenta o custo."],
- "c": 0, "p": "Custo variável sobe → tudo que tem \"V\" sobe, mais CMg, CT e CMe. Fixos ficam.",
- "ficha": {"titulo": "Mudança no custo variável — o que muda",
-  "topicos": [{"rotulo": "Sobem", "texto": "**CVT, CVMe, CMg, CT, CMe**."},
-              {"rotulo": "Não mudam", "texto": "**CFT, CFMe**."},
-              {"rotulo": "Compare", "texto": "Custo **fixo** sobe → CMg **não** muda."}],
-  "distratores": [{"frase": "Aumento de salário da produção é custo fixo", "porque": "salário por hora acompanha a produção: é **variável**."}]}},
-
-{"s": "CT e CMe a partir do CFT e CVMe (cálculo)", "d": "I",
- "q": "Questão - Custo médio\nUma empresa tem custo fixo total de R$ 200,00. Produzindo 40 unidades, seu custo variável médio é R$ 15,00. Qual é o custo total e o custo médio, respectivamente?",
- "a": ["R$ 800,00 e R$ 20,00", "R$ 600,00 e R$ 15,00", "R$ 800,00 e R$ 15,00", "R$ 215,00 e R$ 5,38", "R$ 600,00 e R$ 20,00"],
- "j": ["CVT = 15 × 40 = 600. CT = 200 + 600 = 800. CMe = 800/40 = 20 (= CFMe 5 + CVMe 15).",
-       "600 é o CVT e 15 é o CVMe; faltou o custo fixo.",
-       "O CT está certo, mas 15 é o CVMe, não o CMe.",
-       "Somou o CFT com o CVMe, misturando total com médio.",
-       "600 é o CVT; o CT inclui os 200 fixos."],
- "c": 0, "p": "CVT = CVMe × Q. CT = CFT + CVT. CMe = CT ÷ Q.",
- "ficha": {"titulo": "Montar CT e CMe",
-  "topicos": [{"rotulo": "CVT", "texto": "15 × 40 = **600**."},
-              {"rotulo": "CT", "texto": "200 + 600 = **800**."},
-              {"rotulo": "CMe", "texto": "800 ÷ 40 = **20** = CFMe (5) + CVMe (15)."}],
-  "distratores": [{"frase": "CT = CFT + CVMe", "porque": "some o **CVT**, não o CVMe."}]}},
-
-{"s": "Economias, rendimentos constantes e deseconomias no CMeLP", "d": "A",
- "q": "Questão - Custos no longo prazo\nO custo médio de longo prazo de uma empresa é R$ 10,00 com 100 unidades, R$ 8,00 com 200, R$ 8,00 com 300 e R$ 9,00 com 400. Marque a opção CORRETA:",
- "a": ["Economias de escala de 100 a 200; constantes de 200 a 300; deseconomias de 300 a 400.",
-       "Deseconomias de escala de 100 a 200; constantes de 200 a 300; economias de 300 a 400.",
-       "Economias de escala de 100 a 300; deseconomias de escala de 300 a 400.",
-       "Rendimentos decrescentes do fator variável de 100 a 200 e crescentes depois.",
-       "Economias de escala em toda a faixa, porque a produção sempre aumentou."],
- "j": ["CMeLP cai (10 → 8): economias. Fica igual (8 → 8): constantes. Sobe (8 → 9): deseconomias.",
-       "Inverteu economias e deseconomias.",
-       "De 200 a 300 o custo médio não muda: são rendimentos constantes.",
-       "Longo prazo fala de escala, não de fator variável.",
-       "O que importa é o custo médio, que sobe no final."],
- "c": 0, "p": "CMeLP caindo = economias. Plano = constantes. Subindo = deseconomias.",
- "ficha": {"titulo": "Ler escala pelo CMeLP",
-  "topicos": [{"rotulo": "Cai", "texto": "**Economias de escala** (10 → 8)."},
-              {"rotulo": "Plano", "texto": "**Rendimentos constantes** (8 → 8)."},
-              {"rotulo": "Sobe", "texto": "**Deseconomias de escala** (8 → 9)."}],
-  "distratores": [{"frase": "Se a produção aumenta, há economias de escala", "porque": "olhe o **custo médio**, não a produção."}]}},
-
-{"s": "CMg acima do CMe faz o CMe subir (cálculo)", "d": "A",
- "q": "Questão - CMe e CMg\nProduzindo 50 unidades, o custo médio de uma empresa é R$ 12,00. Ao produzir a 51ª unidade, o custo total passa a ser R$ 615,00. Qual é o custo marginal da 51ª unidade e o que acontece com o custo médio?",
- "a": ["R$ 15,00; o custo médio sobe, porque o CMg ficou acima dele.",
-       "R$ 15,00; o custo médio cai, porque a produção aumentou.",
-       "R$ 12,06; o custo médio sobe, porque o CT aumentou.",
-       "R$ 615,00; o custo médio sobe para R$ 615,00.",
-       "R$ 3,00; o custo médio cai, porque o CMg ficou abaixo dele."],
- "j": ["CT(50) = 12 × 50 = 600. CMg = 615 - 600 = 15. Como 15 > 12, o CMe sobe (615/51 ≈ 12,06).",
-       "Produção maior não garante CMe menor; com CMg > CMe, o CMe sobe.",
-       "12,06 é o novo CMe, não o CMg.",
-       "615 é o CT, não o CMg.",
-       "3 é a diferença entre 15 e 12; o CMg é 15."],
- "c": 0, "p": "Volte ao CT (CMe × Q), calcule o CMg e compare com o CMe.",
- "ficha": {"titulo": "CMg x CMe numa conta",
-  "topicos": [{"rotulo": "CT(50)", "texto": "12 × 50 = **600**."},
-              {"rotulo": "CMg(51)", "texto": "615 - 600 = **15**."},
-              {"rotulo": "CMe novo", "texto": "615 ÷ 51 ≈ **12,06**: subiu porque **CMg > CMe**."}],
-  "distratores": [{"frase": "Mais produção sempre reduz o custo médio", "porque": "só se o **CMg** ficar **abaixo** do CMe."}]}},
-
-{"s": "Custos com produção zero (I, II, III)", "d": "B",
- "q": "Questão - Custos de curto prazo\nLeia as frases abaixo e marque a opção CORRETA:\nI. O custo fixo total existe mesmo quando a empresa não produz nada.\nII. O custo variável total é zero quando a produção é zero.\nIII. O custo fixo médio é constante no curto prazo.",
- "a": ["As frases I e II estão corretas.", "Somente a I está correta.", "Somente a III está correta.", "As frases II e III estão corretas.", "Todas as frases estão corretas."],
- "j": ["I e II estão certas. A III está errada: o custo fixo TOTAL é constante; o MÉDIO cai com a produção (o livro marca isso como erro).",
-       "A II também está correta.",
-       "A III é a errada.",
-       "A III está errada.",
-       "A III está errada."],
- "c": 0, "p": "Constante no curto prazo é o CFT, não o CFMe.",
- "ficha": {"titulo": "Produção zero e custos",
-  "topicos": [{"rotulo": "Q = 0", "texto": "CT = **CFT**; CVT = **0**."},
-              {"rotulo": "CFT", "texto": "**Constante** no curto prazo."},
-              {"rotulo": "CFMe", "texto": "**Cai** sempre que Q aumenta."}],
-  "distratores": [{"frase": "O custo fixo médio é constante no curto prazo", "porque": "constante é o **total**; o médio **cai**."}]}}
-]}
+  {
+   "s": "CFMe e CVMe a partir do CT (cálculo)",
+   "d": "I",
+   "q": "Questão - Custos médios\nA tabela mostra o custo total de uma empresa no curto prazo. Qual é o Custo Fixo Médio com 4 unidades e o Custo Variável Médio com 5 unidades, respectivamente?",
+   "t": {
+    "headers": [
+     "Quantidade",
+     "CT (R$)"
+    ],
+    "rows": [
+     [
+      "0",
+      "40"
+     ],
+     [
+      "1",
+      "60"
+     ],
+     [
+      "2",
+      "75"
+     ],
+     [
+      "3",
+      "85"
+     ],
+     [
+      "4",
+      "100"
+     ],
+     [
+      "5",
+      "125"
+     ]
+    ]
+   },
+   "a": [
+    "10 e 17",
+    "25 e 25",
+    "10 e 25",
+    "40 e 85",
+    "8 e 17"
+   ],
+   "j": [
+    "CFT = CT(0) = 40 → CFMe(4) = 40/4 = 10. CVT(5) = 125 - 40 = 85 → CVMe(5) = 85/5 = 17.",
+    "25 é o CMe com 4 e com 5 unidades (100/4 e 125/5), não o CFMe nem o CVMe.",
+    "O CFMe está certo, mas 25 é o CMe com 5, não o CVMe.",
+    "40 e 85 são totais (CFT e CVT), não médios.",
+    "8 é o CFMe com 5 unidades (40/5), não com 4."
+   ],
+   "c": 0,
+   "p": "CFT = CT com Q = 0. CVT = CT - CFT. Médio = total ÷ Q.",
+   "ficha": {
+    "titulo": "Do CT para CFMe e CVMe",
+    "topicos": [
+     {
+      "rotulo": "CFT",
+      "texto": "CT com produção zero: **40**."
+     },
+     {
+      "rotulo": "CFMe(4)",
+      "texto": "40 ÷ 4 = **10**."
+     },
+     {
+      "rotulo": "CVMe(5)",
+      "texto": "(125 - 40) ÷ 5 = **17**."
+     }
+    ],
+    "distratores": [
+     {
+      "frase": "CVMe = CT ÷ Q",
+      "porque": "isso é o **CMe**; o CVMe usa só o **CVT**."
+     }
+    ]
+   }
+  },
+  {
+   "s": "Completar CT e CMg (cálculo)",
+   "d": "I",
+   "q": "Questão - Custo total e marginal\nUma empresa tem custo fixo total de R$ 100,00. O custo variável total é R$ 30,00 com 1 unidade, R$ 50,00 com 2, R$ 66,00 com 3 e R$ 90,00 com 4. Qual é o custo total com 3 unidades e o custo marginal da 3ª unidade, respectivamente?",
+   "a": [
+    "R$ 166,00 e R$ 16,00",
+    "R$ 66,00 e R$ 16,00",
+    "R$ 166,00 e R$ 24,00",
+    "R$ 166,00 e R$ 55,33",
+    "R$ 150,00 e R$ 16,00"
+   ],
+   "j": [
+    "CT(3) = 100 + 66 = 166. CMg(3) = CVT(3) - CVT(2) = 66 - 50 = 16 (o custo fixo não entra no CMg).",
+    "66 é o CVT; faltou somar o CFT.",
+    "24 é o CMg da 4ª unidade (90 - 66).",
+    "55,33 é o CMe com 3 unidades (166/3), não o CMg.",
+    "150 = CT(2); o CT com 3 é 166."
+   ],
+   "c": 0,
+   "p": "CT = CFT + CVT. CMg pode ser calculado pelo CT ou pelo CVT: dá o mesmo.",
+   "ficha": {
+    "titulo": "CT e CMg com CFT dado",
+    "topicos": [
+     {
+      "rotulo": "CT",
+      "texto": "**CFT + CVT** = 100 + 66 = **166**."
+     },
+     {
+      "rotulo": "CMg",
+      "texto": "**ΔCVT** = 66 - 50 = **16** (= ΔCT, porque o CFT não muda)."
+     }
+    ],
+    "distratores": [
+     {
+      "frase": "O CMg inclui o custo fixo",
+      "porque": "o CFT é igual nas duas linhas e **se cancela**."
+     }
+    ]
+   }
+  },
+  {
+   "s": "CMg igual ao CMe no mínimo (tabela)",
+   "d": "A",
+   "q": "Questão - CMe e CMg na tabela\nCom base na tabela, em que quantidade o custo marginal se iguala ao custo médio, e o que esse ponto representa?",
+   "t": {
+    "headers": [
+     "Quantidade",
+     "CT (R$)"
+    ],
+    "rows": [
+     [
+      "1",
+      "50"
+     ],
+     [
+      "2",
+      "70"
+     ],
+     [
+      "3",
+      "84"
+     ],
+     [
+      "4",
+      "100"
+     ],
+     [
+      "5",
+      "125"
+     ],
+     [
+      "6",
+      "156"
+     ]
+    ]
+   },
+   "a": [
+    "Em 5 unidades (CMg = CMe = 25), que é o mínimo do custo médio.",
+    "Em 3 unidades (CMg = 14), que é o mínimo do custo médio.",
+    "Em 6 unidades (CMg = 31), que é o máximo do custo médio.",
+    "Em 4 unidades (CMg = 16), que é o máximo do lucro da empresa.",
+    "Em 1 unidade (CMe = 50), que é o mínimo do custo marginal."
+   ],
+   "j": [
+    "CMe: 50, 35, 28, 25, 25, 26. CMg: -, 20, 14, 16, 25, 31. Na 5ª, CMg = 25 = CMe: é o mínimo do CMe; depois o CMg (31) passa o CMe e ele sobe.",
+    "Em 3 o CMg é mínimo (14), mas o CMe (28) ainda está caindo.",
+    "Em 6 o CMg (31) já está acima do CMe (26), que começou a subir.",
+    "Em 4 o CMg (16) ainda está abaixo do CMe (25); e lucro precisa de receita.",
+    "Na 1ª unidade não há CMg calculável pela tabela."
+   ],
+   "c": 0,
+   "p": "CMg corta o CMe no mínimo do CMe. Calcule as duas colunas e procure a igualdade.",
+   "ficha": {
+    "titulo": "Onde CMg = CMe",
+    "topicos": [
+     {
+      "rotulo": "CMe",
+      "texto": "50, 35, 28, 25, **25**, 26."
+     },
+     {
+      "rotulo": "CMg",
+      "texto": "-, 20, 14, 16, **25**, 31 (a 1ª unidade não tem CMg: falta o CT com Q = 0)."
+     },
+     {
+      "rotulo": "Leitura",
+      "texto": "CMg = CMe na **5ª** unidade (25): **mínimo do CMe**."
+     },
+     {
+      "rotulo": "Não confundir",
+      "texto": "O **mínimo do CMg** (3ª unidade, 14) vem antes do mínimo do CMe."
+     }
+    ],
+    "distratores": [
+     {
+      "frase": "O mínimo do CMe é onde o CMg é mínimo",
+      "porque": "É onde o CMg **cruza** o CMe."
+     },
+     {
+      "frase": "CMg = CMe na 4ª unidade",
+      "porque": "Na 4ª unidade CMe é 25 e CMg é 16; eles só se igualam na **5ª unidade** (25)."
+     }
+    ]
+   }
+  },
+  {
+   "s": "Pmg caindo e CMg subindo",
+   "d": "A",
+   "q": "Questão - Produção e custos\nUma empresa paga o mesmo salário a cada trabalhador. Com a lei dos rendimentos decrescentes, cada novo trabalhador produz menos que o anterior. O que acontece com o custo marginal?",
+   "a": [
+    "Sobe, porque cada unidade extra exige mais horas de trabalho pagas.",
+    "Cai, porque a empresa paga o mesmo salário a todos os trabalhadores.",
+    "Fica constante, porque o salário pago a cada trabalhador não muda.",
+    "Cai, porque o custo fixo é dividido por mais unidades produzidas.",
+    "Sobe, porque o custo fixo total aumenta com cada nova contratação."
+   ],
+   "j": [
+    "Mesmo salário, menos produção por trabalhador → cada unidade extra custa mais. Pmg caindo ↔ CMg subindo (lei dos custos crescentes).",
+    "Salário igual com Pmg menor encarece a unidade extra.",
+    "O salário é igual, mas cada trabalhador produz menos: o custo por unidade extra sobe.",
+    "Isso descreve o CFMe, não o CMg.",
+    "Trabalhador é custo variável; o CFT não muda."
+   ],
+   "c": 0,
+   "p": "CMg = salário ÷ Pmg. Pmg cai → CMg sobe.",
+   "ficha": {
+    "titulo": "Espelho Pmg ↔ CMg",
+    "topicos": [
+     {
+      "rotulo": "Fórmula",
+      "texto": "**CMg = w ÷ Pmg** (w = salário)."
+     },
+     {
+      "rotulo": "Pmg sobe",
+      "texto": "CMg **cai**."
+     },
+     {
+      "rotulo": "Pmg cai",
+      "texto": "CMg **sobe**: é a **lei dos custos crescentes**."
+     }
+    ],
+    "distratores": [
+     {
+      "frase": "Salário constante deixa o CMg constante",
+      "porque": "o CMg depende também da **Pmg**."
+     }
+    ]
+   }
+  },
+  {
+   "s": "Gráfico de CT, CFT e CVT",
+   "d": "I",
+   "q": "Questão - Curvas de custo total\nSobre o gráfico das curvas de custo total de curto prazo, marque a opção CORRETA:",
+   "a": [
+    "O CFT é uma reta horizontal, e o CT acompanha o CVT, acima dele pela distância do CFT.",
+    "O CFT começa na origem, e o CT acompanha o CVT, abaixo dele pela distância do CFT.",
+    "O CVT é uma reta horizontal, e o CT acompanha o CFT, acima dele pela distância do CVT.",
+    "O CFT cresce com a produção, e o CT encontra o CVT no ponto de produção máxima.",
+    "O CT e o CVT começam juntos na origem, e o CFT fica sempre acima dos dois."
+   ],
+   "j": [
+    "CFT não depende de Q: reta horizontal. CT = CFT + CVT, então o CT tem o mesmo formato do CVT, deslocado para cima pelo CFT. Com Q = 0, CT = CFT.",
+    "O CFT não começa na origem (existe mesmo com Q = 0), e o CT fica acima do CVT.",
+    "Quem é horizontal é o CFT, não o CVT.",
+    "O CFT é constante; o CT nunca encontra o CVT (diferença = CFT).",
+    "O CVT começa na origem, mas o CT começa no valor do CFT."
+   ],
+   "c": 0,
+   "p": "CT = CFT + CVT: mesma forma do CVT, deslocado para cima pelo CFT.",
+   "ficha": {
+    "titulo": "Desenho das curvas totais",
+    "topicos": [
+     {
+      "rotulo": "CFT",
+      "texto": "**Reta horizontal**."
+     },
+     {
+      "rotulo": "CVT",
+      "texto": "Começa na **origem** e sobe."
+     },
+     {
+      "rotulo": "CT",
+      "texto": "Mesmo formato do CVT, **deslocado para cima** pelo CFT; começa em CT = CFT."
+     }
+    ],
+    "distratores": [
+     {
+      "frase": "O CT começa na origem",
+      "porque": "com Q = 0, CT = **CFT** > 0."
+     }
+    ]
+   }
+  },
+  {
+   "s": "Distância entre CMe e CVMe",
+   "d": "I",
+   "q": "Questão - Curvas de custo médio\nNo gráfico de custos de curto prazo, a distância vertical entre a curva de custo médio (CMe) e a de custo variável médio (CVMe):",
+   "a": [
+    "É o custo fixo médio, e diminui à medida que a produção aumenta.",
+    "É o custo fixo médio, e aumenta à medida que a produção aumenta.",
+    "É o custo marginal, e diminui à medida que a produção aumenta.",
+    "É o custo fixo total, e fica constante em qualquer quantidade.",
+    "É o lucro por unidade, e aumenta à medida que a produção aumenta."
+   ],
+   "j": [
+    "CMe = CFMe + CVMe, então CMe - CVMe = CFMe. Como o CFMe cai com Q, as duas curvas se aproximam (o livro: o CMe tende a igualar o CVMe).",
+    "O CFMe sempre cai com a produção.",
+    "A diferença entre CMe e CVMe não é o CMg.",
+    "É o custo fixo MÉDIO, não o total.",
+    "Lucro envolve receita; aqui só há custos."
+   ],
+   "c": 0,
+   "p": "CMe - CVMe = CFMe → as curvas vão se aproximando.",
+   "ficha": {
+    "titulo": "CMe e CVMe se aproximam",
+    "topicos": [
+     {
+      "rotulo": "Identidade",
+      "texto": "**CMe = CFMe + CVMe**."
+     },
+     {
+      "rotulo": "Distância",
+      "texto": "CMe - CVMe = **CFMe**."
+     },
+     {
+      "rotulo": "Com Q grande",
+      "texto": "CFMe → 0, então **CMe ≈ CVMe**."
+     }
+    ],
+    "distratores": [
+     {
+      "frase": "A distância entre CMe e CVMe é o CFT",
+      "porque": "É o custo fixo **médio**, que diminui com o aumento de Q."
+     },
+     {
+      "frase": "A curva de CMe cruza a curva de CVMe",
+      "porque": "Como CFMe > 0 para qualquer Q finito, CMe é **sempre estritamente maior** que CVMe."
+     }
+    ]
+   }
+  },
+  {
+   "s": "Custo médio de longo prazo como envoltória",
+   "d": "A",
+   "q": "Questão - Custos de longo prazo\nSobre a curva de custo médio de longo prazo (CMeLP), marque a opção CORRETA:",
+   "a": [
+    "Ela envolve as curvas de curto prazo e mostra o menor custo médio para cada quantidade.",
+    "Ela é a soma das curvas de custo médio de curto prazo de todos os tamanhos de fábrica.",
+    "Ela só existe quando a empresa tem pelo menos um fator de produção fixo.",
+    "Ela mostra os custos que a empresa já pagou, e não o seu planejamento futuro.",
+    "Ela sempre fica acima de todas as curvas de custo médio de curto prazo."
+   ],
+   "j": [
+    "No longo prazo a empresa escolhe o tamanho de fábrica mais barato para cada quantidade. A CMeLP é a envoltória (por baixo) das curvas de curto prazo.",
+    "Não é soma: é o contorno inferior das curvas de curto prazo.",
+    "Longo prazo não tem fator fixo.",
+    "O livro diz o contrário: custos de longo prazo são horizonte de planejamento.",
+    "Ela fica abaixo ou tangente às curvas de curto prazo, nunca acima."
+   ],
+   "c": 0,
+   "p": "CMeLP = envoltória: o melhor tamanho de fábrica para cada quantidade.",
+   "ficha": {
+    "titulo": "CMe de longo prazo — envoltória",
+    "topicos": [
+     {
+      "rotulo": "Ideia",
+      "texto": "Cada tamanho de fábrica tem uma curva de **curto prazo**."
+     },
+     {
+      "rotulo": "Longo prazo",
+      "texto": "A empresa escolhe a fábrica de **menor custo médio** para cada quantidade."
+     },
+     {
+      "rotulo": "Resultado",
+      "texto": "A CMeLP é o **contorno por baixo** das curvas de curto prazo; é **planejamento**."
+     }
+    ],
+    "distratores": [
+     {
+      "frase": "A CMeLP é a soma das curvas de curto prazo",
+      "porque": "é a **envoltória** (contorno inferior)."
+     }
+    ]
+   }
+  },
+  {
+   "s": "CMg corta CMe no mínimo (isto porque)",
+   "d": "I",
+   "q": "Questão - Custo marginal e custo médio\nAnalise as duas assertivas abaixo e, em seguida, escolha a opção CORRETA:\nA curva de custo marginal corta a curva de custo médio no ponto mínimo desta.\nISTO PORQUE\nEnquanto o custo marginal está abaixo do custo médio, ele puxa a média para baixo e, quando fica acima, puxa a média para cima.",
+   "a": [
+    "As duas são verdadeiras e se complementam.",
+    "As duas são verdadeiras, mas não se complementam.",
+    "A primeira é verdadeira e a segunda é falsa.",
+    "A primeira é falsa e a segunda é verdadeira.",
+    "As duas assertivas são falsas."
+   ],
+   "j": [
+    "O CMe cai enquanto CMg < CMe e sobe quando CMg > CMe. O ponto de virada, o mínimo, é exatamente onde CMg = CMe. A segunda explica a primeira.",
+    "A segunda é a razão da primeira.",
+    "A segunda está certa.",
+    "A primeira está certa.",
+    "As duas estão corretas."
+   ],
+   "c": 0,
+   "p": "Marginal abaixo da média → média cai; acima → média sobe; igual → mínimo.",
+   "ficha": {
+    "titulo": "Por que o CMg corta o CMe no mínimo",
+    "topicos": [
+     {
+      "rotulo": "CMg < CMe",
+      "texto": "CMe **cai**."
+     },
+     {
+      "rotulo": "CMg > CMe",
+      "texto": "CMe **sobe**."
+     },
+     {
+      "rotulo": "CMg = CMe",
+      "texto": "CMe no **mínimo** (vale também para o CVMe)."
+     }
+    ],
+    "distratores": [
+     {
+      "frase": "As duas são verdadeiras, mas não se complementam",
+      "porque": "a segunda é o **mecanismo** da primeira."
+     }
+    ]
+   }
+  },
+  {
+   "s": "Matéria-prima e CMg (isto porque)",
+   "d": "A",
+   "q": "Questão - Custo marginal\nAnalise as duas assertivas abaixo e, em seguida, escolha a opção CORRETA:\nUm aumento no preço da matéria-prima não altera o custo marginal da empresa no curto prazo.\nISTO PORQUE\nA matéria-prima é um custo variável.",
+   "a": [
+    "A primeira é falsa e a segunda é verdadeira.",
+    "As duas são verdadeiras e se complementam.",
+    "As duas são verdadeiras, mas não se complementam.",
+    "A primeira é verdadeira e a segunda é falsa.",
+    "As duas assertivas são falsas."
+   ],
+   "j": [
+    "Matéria-prima é custo variável (segunda verdadeira). Por isso o aumento do preço dela ALTERA o CMg, que depende só do custo variável (primeira falsa).",
+    "A primeira é falsa: custo variável mais caro aumenta o CMg.",
+    "A primeira é falsa.",
+    "É o contrário.",
+    "A segunda é verdadeira."
+   ],
+   "c": 0,
+   "p": "Custo fixo não mexe no CMg. Custo variável mexe.",
+   "ficha": {
+    "titulo": "O que muda o CMg",
+    "topicos": [
+     {
+      "rotulo": "Muda o CMg",
+      "texto": "Preço de **insumo variável** (matéria-prima, salário por hora, energia das máquinas)."
+     },
+     {
+      "rotulo": "Não muda o CMg",
+      "texto": "Custo **fixo** (aluguel, seguro)."
+     }
+    ],
+    "distratores": [
+     {
+      "frase": "Nenhum aumento de custo de insumo altera o CMg",
+      "porque": "O CMg vem do **CVT**; se o insumo é variável, ele muda."
+     },
+     {
+      "frase": "Aumento no preço da matéria-prima não altera o CMg",
+      "porque": "A matéria-prima é **custo variável**, logo seu encarecimento eleva diretamente o **CMg**."
+     }
+    ]
+   }
+  },
+  {
+   "s": "Efeito de um aumento de custo variável",
+   "d": "I",
+   "q": "Questão - Aumento do salário dos operários\nNo curto prazo, o salário por hora dos operários da linha de produção (custo variável) aumenta. Quais custos se alteram?",
+   "a": [
+    "Sobem o CVT, o CVMe, o CMg, o CT e o CMe; o CFT e o CFMe não mudam.",
+    "Sobem o CFT, o CFMe, o CT e o CMe; o CVT, o CVMe e o CMg não mudam.",
+    "Sobem só o CVT e o CVMe; o CT, o CMe e o CMg continuam iguais.",
+    "Sobem todos os custos, inclusive o custo fixo total e o custo fixo médio.",
+    "Não muda nenhum custo, porque o número de operários é o mesmo de antes."
+   ],
+   "j": [
+    "Custo variável mais caro: sobem CVT e CVMe; o CMg sobe (depende do CVT); CT e CMe sobem junto. CFT e CFMe não mudam.",
+    "Esse é o efeito de um aumento de custo FIXO.",
+    "CT = CFT + CVT: se o CVT sobe, o CT e o CMe sobem; o CMg também.",
+    "Custo fixo não depende do salário dos operários da produção.",
+    "Mesmo número de operários com salário maior aumenta o custo."
+   ],
+   "c": 0,
+   "p": "Custo variável sobe → tudo que tem \"V\" sobe, mais CMg, CT e CMe. Fixos ficam.",
+   "ficha": {
+    "titulo": "Mudança no custo variável — o que muda",
+    "topicos": [
+     {
+      "rotulo": "Sobem",
+      "texto": "**CVT, CVMe, CMg, CT, CMe**."
+     },
+     {
+      "rotulo": "Não mudam",
+      "texto": "**CFT, CFMe**."
+     },
+     {
+      "rotulo": "Compare",
+      "texto": "Custo **fixo** sobe → CMg **não** muda."
+     }
+    ],
+    "distratores": [
+     {
+      "frase": "Aumento de salário da produção é custo fixo",
+      "porque": "salário por hora acompanha a produção: é **variável**."
+     }
+    ]
+   }
+  },
+  {
+   "s": "CT e CMe a partir do CFT e CVMe (cálculo)",
+   "d": "I",
+   "q": "Questão - Custo médio\nUma empresa tem custo fixo total de R$ 200,00. Produzindo 40 unidades, seu custo variável médio é R$ 15,00. Qual é o custo total e o custo médio, respectivamente?",
+   "a": [
+    "R$ 800,00 e R$ 20,00",
+    "R$ 600,00 e R$ 15,00",
+    "R$ 800,00 e R$ 15,00",
+    "R$ 215,00 e R$ 5,38",
+    "R$ 600,00 e R$ 20,00"
+   ],
+   "j": [
+    "CVT = 15 × 40 = 600. CT = 200 + 600 = 800. CMe = 800/40 = 20 (= CFMe 5 + CVMe 15).",
+    "600 é o CVT e 15 é o CVMe; faltou o custo fixo.",
+    "O CT está certo, mas 15 é o CVMe, não o CMe.",
+    "Somou o CFT com o CVMe, misturando total com médio.",
+    "600 é o CVT; o CT inclui os 200 fixos."
+   ],
+   "c": 0,
+   "p": "CVT = CVMe × Q. CT = CFT + CVT. CMe = CT ÷ Q.",
+   "ficha": {
+    "titulo": "Montar CT e CMe",
+    "topicos": [
+     {
+      "rotulo": "CVT",
+      "texto": "15 × 40 = **600**."
+     },
+     {
+      "rotulo": "CT",
+      "texto": "200 + 600 = **800**."
+     },
+     {
+      "rotulo": "CMe",
+      "texto": "800 ÷ 40 = **20** = CFMe (5) + CVMe (15)."
+     }
+    ],
+    "distratores": [
+     {
+      "frase": "CT = CFT + CVMe",
+      "porque": "some o **CVT**, não o CVMe."
+     }
+    ]
+   }
+  },
+  {
+   "s": "Economias, rendimentos constantes e deseconomias no CMeLP",
+   "d": "A",
+   "q": "Questão - Custos no longo prazo\nO custo médio de longo prazo de uma empresa é R$ 10,00 com 100 unidades, R$ 8,00 com 200, R$ 8,00 com 300 e R$ 9,00 com 400. Marque a opção CORRETA:",
+   "a": [
+    "Economias de escala de 100 a 200; constantes de 200 a 300; deseconomias de 300 a 400.",
+    "Deseconomias de escala de 100 a 200; constantes de 200 a 300; economias de 300 a 400.",
+    "Economias de escala de 100 a 300; deseconomias de escala de 300 a 400.",
+    "Rendimentos decrescentes do fator variável de 100 a 200 e crescentes depois.",
+    "Economias de escala em toda a faixa, porque a produção sempre aumentou."
+   ],
+   "j": [
+    "CMeLP cai (10 → 8): economias. Fica igual (8 → 8): constantes. Sobe (8 → 9): deseconomias.",
+    "Inverteu economias e deseconomias.",
+    "De 200 a 300 o custo médio não muda: são rendimentos constantes.",
+    "Longo prazo fala de escala, não de fator variável.",
+    "O que importa é o custo médio, que sobe no final."
+   ],
+   "c": 0,
+   "p": "CMeLP caindo = economias. Plano = constantes. Subindo = deseconomias.",
+   "ficha": {
+    "titulo": "Ler escala pelo CMeLP",
+    "topicos": [
+     {
+      "rotulo": "Cai",
+      "texto": "**Economias de escala** (10 → 8)."
+     },
+     {
+      "rotulo": "Plano",
+      "texto": "**Rendimentos constantes** (8 → 8)."
+     },
+     {
+      "rotulo": "Sobe",
+      "texto": "**Deseconomias de escala** (8 → 9)."
+     }
+    ],
+    "distratores": [
+     {
+      "frase": "Se a produção aumenta, há economias de escala",
+      "porque": "olhe o **custo médio**, não a produção."
+     }
+    ]
+   }
+  },
+  {
+   "s": "CMg acima do CMe faz o CMe subir (cálculo)",
+   "d": "A",
+   "q": "Questão - CMe e CMg\nProduzindo 50 unidades, o custo médio de uma empresa é R$ 12,00. Ao produzir a 51ª unidade, o custo total passa a ser R$ 615,00. Qual é o custo marginal da 51ª unidade e o que acontece com o custo médio?",
+   "a": [
+    "R$ 15,00; o custo médio sobe, porque o CMg ficou acima dele.",
+    "R$ 15,00; o custo médio cai, porque a produção aumentou.",
+    "R$ 12,06; o custo médio sobe, porque o CT aumentou.",
+    "R$ 615,00; o custo médio sobe para R$ 615,00.",
+    "R$ 3,00; o custo médio cai, porque o CMg ficou abaixo dele."
+   ],
+   "j": [
+    "CT(50) = 12 × 50 = 600. CMg = 615 - 600 = 15. Como 15 > 12, o CMe sobe (615/51 ≈ 12,06).",
+    "Produção maior não garante CMe menor; com CMg > CMe, o CMe sobe.",
+    "12,06 é o novo CMe, não o CMg.",
+    "615 é o CT, não o CMg.",
+    "3 é a diferença entre 15 e 12; o CMg é 15."
+   ],
+   "c": 0,
+   "p": "Volte ao CT (CMe × Q), calcule o CMg e compare com o CMe.",
+   "ficha": {
+    "titulo": "CMg x CMe numa conta",
+    "topicos": [
+     {
+      "rotulo": "CT(50)",
+      "texto": "12 × 50 = **600**."
+     },
+     {
+      "rotulo": "CMg(51)",
+      "texto": "615 - 600 = **15**."
+     },
+     {
+      "rotulo": "CMe novo",
+      "texto": "615 ÷ 51 ≈ **12,06**: subiu porque **CMg > CMe**."
+     }
+    ],
+    "distratores": [
+     {
+      "frase": "Mais produção sempre reduz o custo médio",
+      "porque": "só se o **CMg** ficar **abaixo** do CMe."
+     }
+    ]
+   }
+  },
+  {
+   "s": "Custos com produção zero (I, II, III)",
+   "d": "B",
+   "q": "Questão - Custos de curto prazo\nLeia as frases abaixo e marque a opção CORRETA:\nI. O custo fixo total existe mesmo quando a empresa não produz nada.\nII. O custo variável total é zero quando a produção é zero.\nIII. O custo fixo médio é constante no curto prazo.",
+   "a": [
+    "As frases I e II estão corretas.",
+    "Somente a I está correta.",
+    "Somente a III está correta.",
+    "As frases II e III estão corretas.",
+    "Todas as frases estão corretas."
+   ],
+   "j": [
+    "I e II estão certas. A III está errada: o custo fixo TOTAL é constante; o MÉDIO cai com a produção (o livro marca isso como erro).",
+    "A II também está correta.",
+    "A III é a errada.",
+    "A III está errada.",
+    "A III está errada."
+   ],
+   "c": 0,
+   "p": "Constante no curto prazo é o CFT, não o CFMe.",
+   "ficha": {
+    "titulo": "Produção zero e custos",
+    "topicos": [
+     {
+      "rotulo": "Q = 0",
+      "texto": "CT = **CFT**; CVT = **0**."
+     },
+     {
+      "rotulo": "CFT",
+      "texto": "**Constante** no curto prazo."
+     },
+     {
+      "rotulo": "CFMe",
+      "texto": "**Cai** sempre que Q aumenta."
+     }
+    ],
+    "distratores": [
+     {
+      "frase": "O custo fixo médio é constante no curto prazo",
+      "porque": "constante é o **total**; o médio **cai**."
+     }
+    ]
+   }
+  }
+ ]
+}

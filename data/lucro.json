@@ -1,90 +1,340 @@
-{"assunto": "lucro", "category": "Maximização de lucros", "prefixo": "LUC",
+{
+ "assunto": "lucro",
+ "category": "Maximização de lucros",
+ "prefixo": "LUC",
  "fonte": "Vasconcellos, Economia Micro e Macro, cap. 7 (Estruturas de mercado, questões 1, 3 e 7) · modelo: prova de 20/11 (questão 6).",
  "questoes": [
-{"s": "Receita total e receita marginal (tabela)", "d": "B",
- "q": "Questão - Receita Total e Receita Marginal\nUma empresa vende cada unidade a R$ 10,00 (preço de mercado constante). Com base na tabela, qual é a Receita Total quando ela produz 3 unidades e a Receita Marginal da 3ª unidade, respectivamente?",
- "t": {"headers": ["Produção (por dia)", "CT (R$)", "Preço (R$)"], "rows": [["0", "12,00", "10,00"], ["1", "18,00", "10,00"], ["2", "22,00", "10,00"], ["3", "27,00", "10,00"], ["4", "34,00", "10,00"], ["5", "43,00", "10,00"], ["6", "54,00", "10,00"]]},
- "a": ["30,00; 10,00", "27,00; 10,00", "30,00; 5,00", "3,00; 10,00", "10,00; 30,00"],
- "j": ["RT = P × Q = 10 × 3 = 30. RMg = RT(3) - RT(2) = 30 - 20 = 10, que é o próprio preço.",
-       "27 é o custo total com 3 unidades, não a receita.",
-       "5 é o custo marginal da 3ª unidade (27 - 22), não a receita marginal.",
-       "3 é o lucro total com 3 unidades (30 - 27).",
-       "Trocou a ordem: a RT é 30 e a RMg é 10."],
- "c": 0, "p": "RT = P × Q. Com preço constante, RMg = P.",
- "ficha": {"titulo": "RT e RMg com preço constante",
-  "topicos": [{"rotulo": "Receita total", "texto": "**RT = P × Q**. 10 × 3 = **30**."},
-              {"rotulo": "Receita marginal", "texto": "**RT(Q) - RT(Q-1)** = quanto entra com **uma unidade a mais**."},
-              {"rotulo": "Preço constante", "texto": "Se o preço não muda (concorrência perfeita), **RMg = P** em todas as quantidades."}],
-  "distratores": [{"frase": "RMg = RT ÷ Q", "porque": "isso é a **receita média** (que, com preço constante, também é igual a P)."}]}},
-
-{"s": "Quantidade que maximiza o lucro (tabela)", "d": "A",
- "q": "Questão - Maximização do Lucro Total\nCom a mesma empresa (preço de R$ 10,00), use a tabela para decidir: qual quantidade maximiza o lucro total e qual é esse lucro?",
- "t": {"headers": ["Produção", "CT (R$)", "RT (R$)", "CMg (R$)", "RMg (R$)"], "rows": [["0", "12,00", "0", "-", "-"], ["1", "18,00", "10,00", "6,00", "10,00"], ["2", "22,00", "20,00", "4,00", "10,00"], ["3", "27,00", "30,00", "5,00", "10,00"], ["4", "34,00", "40,00", "7,00", "10,00"], ["5", "43,00", "50,00", "9,00", "10,00"], ["6", "54,00", "60,00", "11,00", "10,00"]]},
- "a": ["5 unidades, com lucro de R$ 7,00.", "6 unidades, com lucro de R$ 6,00.", "2 unidades, com prejuízo de R$ 2,00.", "4 unidades, com lucro de R$ 6,00.", "5 unidades, com lucro de R$ 50,00."],
- "j": ["LT = RT - CT: -12, -8, -2, 3, 6, 7, 6. Máximo em Q = 5 (LT = 7). Ali a 5ª unidade ainda tem RMg (10) > CMg (9); a 6ª teria CMg (11) > RMg (10).",
-       "A 6ª unidade custa 11 e rende 10: o lucro cai de 7 para 6.",
-       "Q = 2 tem o menor CMg, mas o lucro ainda é negativo. Menor CMg não é lucro máximo.",
-       "Com 4 o lucro é 6; a 5ª unidade ainda acrescenta 1 (10 - 9).",
-       "R$ 50,00 é a receita total com 5 unidades, não o lucro."],
- "c": 0, "p": "Produza enquanto RMg ≥ CMg. Pare antes da unidade em que CMg > RMg.",
- "ficha": {"titulo": "Achar o lucro máximo numa tabela",
-  "topicos": [{"rotulo": "Jeito 1", "texto": "Calcule **LT = RT - CT** em cada linha e pegue o **maior**: Q = 5, LT = **7**."},
-              {"rotulo": "Jeito 2 (marginal)", "texto": "Produza enquanto **RMg ≥ CMg**. A 5ª: 10 > 9 (vale). A 6ª: 10 < 11 (não vale)."},
-              {"rotulo": "Condição de máximo", "texto": "**RMg = CMg** (ou o mais perto disso numa tabela)."}],
-  "distratores": [{"frase": "O lucro máximo é onde o CMg é mínimo", "porque": "o critério é **RMg = CMg**, não CMg mínimo."},
-                  {"frase": "O lucro máximo é onde a RT é máxima", "porque": "RT máxima ignora os **custos**."}]}},
-
-{"s": "Condição de maximização de lucro: CMg > RMg", "d": "I",
- "q": "Questão - Condição de maximização de lucro\nSe o custo marginal de uma empresa é maior que a receita marginal, numa faixa em que o custo marginal está subindo, a empresa deve:",
- "a": ["Reduzir a produção até o custo marginal ficar igual à receita marginal.",
-       "Aumentar a produção até o custo marginal ficar igual à receita marginal.",
-       "Reduzir a produção até a receita marginal ficar igual ao lucro marginal.",
-       "Manter a produção, porque o lucro total ainda pode ser positivo.",
-       "Aumentar a produção até o custo médio ficar igual ao custo marginal."],
- "j": ["CMg > RMg: a última unidade custa mais do que rende e reduz o lucro. Produzindo menos, o CMg cai até igualar a RMg.",
-       "Produzir mais aumenta ainda mais o CMg e o prejuízo da margem.",
-       "A condição de lucro máximo é RMg = CMg, não RMg = lucro marginal.",
-       "Mesmo com lucro positivo, cortar as unidades com CMg > RMg aumenta o lucro.",
-       "CMg = CMe é o mínimo do custo médio, não o ponto de lucro máximo."],
- "c": 0, "p": "RMg > CMg → produza mais. RMg < CMg → produza menos. RMg = CMg → lucro máximo.",
- "ficha": {"titulo": "Condição de lucro máximo: RMg = CMg",
-  "topicos": [{"rotulo": "RMg > CMg", "texto": "A unidade extra **aumenta** o lucro → **produzir mais**."},
-              {"rotulo": "RMg < CMg", "texto": "A unidade extra **reduz** o lucro → **produzir menos**."},
-              {"rotulo": "RMg = CMg", "texto": "**Lucro máximo**. Em concorrência perfeita, RMg = P, então **P = CMg**."}],
-  "distratores": [{"frase": "Se o lucro total é positivo, não precisa mudar a produção", "porque": "o lucro ainda pode **aumentar** cortando unidades com CMg > RMg."}]}},
-
-{"s": "Receita marginal: cálculo", "d": "I",
- "q": "Questão - Receita Marginal (RMg)\nUma empresa vendia 20 unidades e tinha receita total de R$ 300,00. Ao vender 21 unidades, a receita total passou para R$ 312,00. Qual é a receita marginal da 21ª unidade?",
- "a": ["R$ 12,00", "R$ 312,00", "R$ 15,00", "R$ 14,86", "R$ 0,60"],
- "j": ["RMg = ΔRT/ΔQ = (312 - 300)/(21 - 20) = 12.",
-       "312 é a receita total com 21 unidades, não o acréscimo.",
-       "15 é a receita média com 20 unidades (300/20).",
-       "14,86 é a receita média com 21 unidades (312/21).",
-       "0,60 é 12 dividido por 20; a variação da quantidade é 1, não 20."],
- "c": 0, "p": "RMg = quanto a RT aumentou ÷ quanto a quantidade aumentou.",
- "ficha": {"titulo": "Receita marginal — conta",
-  "topicos": [{"rotulo": "Fórmula", "texto": "**RMg = ΔRT ÷ ΔQ**. (312 - 300)/1 = **12**."},
-              {"rotulo": "Receita média", "texto": "**RT ÷ Q** (é o preço médio). Não confundir com RMg."},
-              {"rotulo": "Quando RMg = P", "texto": "Só quando o preço é **constante** (concorrência perfeita). Aqui o preço caiu, por isso RMg < receita média."}],
-  "distratores": [{"frase": "RMg = RT ÷ Q", "porque": "isso é **receita média**."}]}},
-
-{"s": "Lucro total máximo no gráfico de RT e CT", "d": "I",
- "q": "Questão - Lucro Total (LT)\nNo gráfico de receita total (RT) e custo total (CT), a quantidade que maximiza o lucro de uma empresa é aquela em que:",
- "a": ["A curva de RT está acima da de CT com a maior distância vertical entre elas.",
-       "A curva de CT está no seu ponto mais baixo, com o menor custo total possível.",
-       "A curva de RT atinge o seu ponto mais alto, com a maior receita possível.",
-       "As curvas de RT e de CT se cruzam, quando a receita é igual ao custo.",
-       "O custo marginal é o menor possível, no ponto mais baixo da curva de CMg."],
- "j": ["LT = RT - CT. O lucro é máximo onde a RT fica acima do CT pela maior distância. Ali as inclinações são iguais (RMg = CMg).",
-       "O menor CT é produzir zero; isso não maximiza lucro.",
-       "Receita máxima ignora os custos.",
-       "No cruzamento RT = CT, o lucro é zero (ponto de equilíbrio contábil).",
-       "CMg mínimo não é a condição; a condição é RMg = CMg."],
- "c": 0, "p": "LT = RT - CT. Lucro máximo = maior distância de RT acima de CT.",
- "ficha": {"titulo": "Lucro máximo no gráfico RT x CT",
-  "topicos": [{"rotulo": "Lucro total", "texto": "**LT = RT - CT**."},
-              {"rotulo": "No gráfico", "texto": "Maior **distância vertical** com RT **acima** de CT."},
-              {"rotulo": "Nesse ponto", "texto": "As inclinações são iguais: **RMg = CMg**."},
-              {"rotulo": "Cruzamento", "texto": "RT = CT → **lucro zero**."}],
-  "distratores": [{"frase": "O lucro máximo é onde RT e CT se cruzam", "porque": "no cruzamento o lucro é **zero**."}]}}
-]}
+  {
+   "s": "Receita total e receita marginal (tabela)",
+   "d": "B",
+   "q": "Questão - Receita Total e Receita Marginal\nUma empresa vende cada unidade a R$ 10,00 (preço de mercado constante). Com base na tabela, qual é a Receita Total quando ela produz 3 unidades e a Receita Marginal da 3ª unidade, respectivamente?",
+   "t": {
+    "headers": [
+     "Produção (por dia)",
+     "CT (R$)",
+     "Preço (R$)"
+    ],
+    "rows": [
+     [
+      "0",
+      "12,00",
+      "10,00"
+     ],
+     [
+      "1",
+      "18,00",
+      "10,00"
+     ],
+     [
+      "2",
+      "22,00",
+      "10,00"
+     ],
+     [
+      "3",
+      "27,00",
+      "10,00"
+     ],
+     [
+      "4",
+      "34,00",
+      "10,00"
+     ],
+     [
+      "5",
+      "43,00",
+      "10,00"
+     ],
+     [
+      "6",
+      "54,00",
+      "10,00"
+     ]
+    ]
+   },
+   "a": [
+    "30,00; 10,00",
+    "27,00; 10,00",
+    "30,00; 5,00",
+    "3,00; 10,00",
+    "10,00; 30,00"
+   ],
+   "j": [
+    "RT = P × Q = 10 × 3 = 30. RMg = RT(3) - RT(2) = 30 - 20 = 10, que é o próprio preço.",
+    "27 é o custo total com 3 unidades, não a receita.",
+    "5 é o custo marginal da 3ª unidade (27 - 22), não a receita marginal.",
+    "3 é o lucro total com 3 unidades (30 - 27).",
+    "Trocou a ordem: a RT é 30 e a RMg é 10."
+   ],
+   "c": 0,
+   "p": "RT = P × Q. Com preço constante, RMg = P.",
+   "ficha": {
+    "titulo": "RT e RMg com preço constante",
+    "topicos": [
+     {
+      "rotulo": "Receita total",
+      "texto": "**RT = P × Q**. 10 × 3 = **30**."
+     },
+     {
+      "rotulo": "Receita marginal",
+      "texto": "**RT(Q) - RT(Q-1)** = quanto entra com **uma unidade a mais**."
+     },
+     {
+      "rotulo": "Preço constante",
+      "texto": "Se o preço não muda (concorrência perfeita), **RMg = P** em todas as quantidades."
+     }
+    ],
+    "distratores": [
+     {
+      "frase": "RMg = RT ÷ Q",
+      "porque": "isso é a **receita média** (que, com preço constante, também é igual a P)."
+     }
+    ]
+   }
+  },
+  {
+   "s": "Quantidade que maximiza o lucro (tabela)",
+   "d": "A",
+   "q": "Questão - Maximização do Lucro Total\nCom a mesma empresa (preço de R$ 10,00), use a tabela para decidir: qual quantidade maximiza o lucro total e qual é esse lucro?",
+   "t": {
+    "headers": [
+     "Produção",
+     "CT (R$)",
+     "RT (R$)",
+     "CMg (R$)",
+     "RMg (R$)"
+    ],
+    "rows": [
+     [
+      "0",
+      "12,00",
+      "0",
+      "-",
+      "-"
+     ],
+     [
+      "1",
+      "18,00",
+      "10,00",
+      "6,00",
+      "10,00"
+     ],
+     [
+      "2",
+      "22,00",
+      "20,00",
+      "4,00",
+      "10,00"
+     ],
+     [
+      "3",
+      "27,00",
+      "30,00",
+      "5,00",
+      "10,00"
+     ],
+     [
+      "4",
+      "34,00",
+      "40,00",
+      "7,00",
+      "10,00"
+     ],
+     [
+      "5",
+      "43,00",
+      "50,00",
+      "9,00",
+      "10,00"
+     ],
+     [
+      "6",
+      "54,00",
+      "60,00",
+      "11,00",
+      "10,00"
+     ]
+    ]
+   },
+   "a": [
+    "5 unidades, com lucro de R$ 7,00.",
+    "6 unidades, com lucro de R$ 6,00.",
+    "2 unidades, com prejuízo de R$ 2,00.",
+    "4 unidades, com lucro de R$ 6,00.",
+    "5 unidades, com lucro de R$ 50,00."
+   ],
+   "j": [
+    "LT = RT - CT: -12, -8, -2, 3, 6, 7, 6. Máximo em Q = 5 (LT = 7). Ali a 5ª unidade ainda tem RMg (10) > CMg (9); a 6ª teria CMg (11) > RMg (10).",
+    "A 6ª unidade custa 11 e rende 10: o lucro cai de 7 para 6.",
+    "Q = 2 tem o menor CMg, mas o lucro ainda é negativo. Menor CMg não é lucro máximo.",
+    "Com 4 o lucro é 6; a 5ª unidade ainda acrescenta 1 (10 - 9).",
+    "R$ 50,00 é a receita total com 5 unidades, não o lucro."
+   ],
+   "c": 0,
+   "p": "Produza enquanto RMg ≥ CMg. Pare antes da unidade em que CMg > RMg.",
+   "ficha": {
+    "titulo": "Achar o lucro máximo numa tabela",
+    "topicos": [
+     {
+      "rotulo": "Jeito 1",
+      "texto": "Calcule **LT = RT - CT** em cada linha e pegue o **maior**: Q = 5, LT = **7**."
+     },
+     {
+      "rotulo": "Jeito 2 (marginal)",
+      "texto": "Produza enquanto **RMg ≥ CMg**. A 5ª: 10 > 9 (vale). A 6ª: 10 < 11 (não vale)."
+     },
+     {
+      "rotulo": "Condição de máximo",
+      "texto": "**RMg = CMg** (ou o mais perto disso numa tabela)."
+     }
+    ],
+    "distratores": [
+     {
+      "frase": "O lucro máximo é onde o CMg é mínimo",
+      "porque": "o critério é **RMg = CMg**, não CMg mínimo."
+     },
+     {
+      "frase": "O lucro máximo é onde a RT é máxima",
+      "porque": "RT máxima ignora os **custos**."
+     }
+    ]
+   }
+  },
+  {
+   "s": "Condição de maximização de lucro: CMg > RMg",
+   "d": "I",
+   "q": "Questão - Condição de maximização de lucro\nSe o custo marginal de uma empresa é maior que a receita marginal, numa faixa em que o custo marginal está subindo, a empresa deve:",
+   "a": [
+    "Reduzir a produção até o custo marginal ficar igual à receita marginal.",
+    "Aumentar a produção até o custo marginal ficar igual à receita marginal.",
+    "Reduzir a produção até a receita marginal ficar igual ao lucro marginal.",
+    "Manter a produção, porque o lucro total ainda pode ser positivo.",
+    "Aumentar a produção até o custo médio ficar igual ao custo marginal."
+   ],
+   "j": [
+    "CMg > RMg: a última unidade custa mais do que rende e reduz o lucro. Produzindo menos, o CMg cai até igualar a RMg.",
+    "Produzir mais aumenta ainda mais o CMg e o prejuízo da margem.",
+    "A condição de lucro máximo é RMg = CMg, não RMg = lucro marginal.",
+    "Mesmo com lucro positivo, cortar as unidades com CMg > RMg aumenta o lucro.",
+    "CMg = CMe é o mínimo do custo médio, não o ponto de lucro máximo."
+   ],
+   "c": 0,
+   "p": "RMg > CMg → produza mais. RMg < CMg → produza menos. RMg = CMg → lucro máximo.",
+   "ficha": {
+    "titulo": "Condição de lucro máximo: RMg = CMg",
+    "topicos": [
+     {
+      "rotulo": "RMg > CMg",
+      "texto": "A unidade extra **aumenta** o lucro → **produzir mais**."
+     },
+     {
+      "rotulo": "RMg < CMg",
+      "texto": "A unidade extra **reduz** o lucro → **produzir menos**."
+     },
+     {
+      "rotulo": "RMg = CMg",
+      "texto": "**Lucro máximo**. Em concorrência perfeita, RMg = P, então **P = CMg**."
+     }
+    ],
+    "distratores": [
+     {
+      "frase": "Se o lucro total é positivo, não precisa mudar a produção",
+      "porque": "o lucro ainda pode **aumentar** cortando unidades com CMg > RMg."
+     }
+    ]
+   }
+  },
+  {
+   "s": "Receita marginal: cálculo",
+   "d": "I",
+   "q": "Questão - Receita Marginal (RMg)\nUma empresa vendia 20 unidades e tinha receita total de R$ 300,00. Ao vender 21 unidades, a receita total passou para R$ 312,00. Qual é a receita marginal da 21ª unidade?",
+   "a": [
+    "R$ 12,00",
+    "R$ 312,00",
+    "R$ 15,00",
+    "R$ 14,86",
+    "R$ 0,60"
+   ],
+   "j": [
+    "RMg = ΔRT/ΔQ = (312 - 300)/(21 - 20) = 12.",
+    "312 é a receita total com 21 unidades, não o acréscimo.",
+    "15 é a receita média com 20 unidades (300/20).",
+    "14,86 é a receita média com 21 unidades (312/21).",
+    "0,60 é 12 dividido por 20; a variação da quantidade é 1, não 20."
+   ],
+   "c": 0,
+   "p": "RMg = quanto a RT aumentou ÷ quanto a quantidade aumentou.",
+   "ficha": {
+    "titulo": "Receita marginal — conta",
+    "topicos": [
+     {
+      "rotulo": "Fórmula",
+      "texto": "**RMg = ΔRT ÷ ΔQ**. (312 - 300)/1 = **12**."
+     },
+     {
+      "rotulo": "Receita média",
+      "texto": "**RT ÷ Q** (é o preço médio). Não confundir com RMg."
+     },
+     {
+      "rotulo": "Quando RMg = P",
+      "texto": "Só quando o preço é **constante** (concorrência perfeita). Aqui o preço caiu, por isso RMg < receita média."
+     }
+    ],
+    "distratores": [
+     {
+      "frase": "RMg = RT ÷ Q",
+      "porque": "isso é **receita média**."
+     }
+    ]
+   }
+  },
+  {
+   "s": "Lucro total máximo no gráfico de RT e CT",
+   "d": "I",
+   "q": "Questão - Lucro Total (LT)\nNo gráfico de receita total (RT) e custo total (CT), a quantidade que maximiza o lucro de uma empresa é aquela em que:",
+   "a": [
+    "A curva de RT está acima da de CT com a maior distância vertical entre elas.",
+    "A curva de CT está no seu ponto mais baixo, com o menor custo total possível.",
+    "A curva de RT atinge o seu ponto mais alto, com a maior receita possível.",
+    "As curvas de RT e de CT se cruzam, quando a receita é igual ao custo.",
+    "O custo marginal é o menor possível, no ponto mais baixo da curva de CMg."
+   ],
+   "j": [
+    "LT = RT - CT. O lucro é máximo onde a RT fica acima do CT pela maior distância. Ali as inclinações são iguais (RMg = CMg).",
+    "O menor CT é produzir zero; isso não maximiza lucro.",
+    "Receita máxima ignora os custos.",
+    "No cruzamento RT = CT, o lucro é zero (ponto de equilíbrio contábil).",
+    "CMg mínimo não é a condição; a condição é RMg = CMg."
+   ],
+   "c": 0,
+   "p": "LT = RT - CT. Lucro máximo = maior distância de RT acima de CT.",
+   "ficha": {
+    "titulo": "Lucro máximo no gráfico RT x CT",
+    "topicos": [
+     {
+      "rotulo": "Lucro total",
+      "texto": "**LT = RT - CT**."
+     },
+     {
+      "rotulo": "No gráfico",
+      "texto": "Maior **distância vertical** com RT **acima** de CT."
+     },
+     {
+      "rotulo": "Nesse ponto",
+      "texto": "As inclinações são iguais: **RMg = CMg**."
+     },
+     {
+      "rotulo": "Cruzamento",
+      "texto": "RT = CT → **lucro zero**."
+     }
+    ],
+    "distratores": [
+     {
+      "frase": "O lucro máximo é onde RT e CT se cruzam",
+      "porque": "no cruzamento o lucro é **zero**."
+     }
+    ]
+   }
+  }
+ ]
+}

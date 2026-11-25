@@ -673,23 +673,23 @@ const QUESTIONS_DATABASE = [
     },
     {
      "rotulo": "Interceptos",
-     "texto": "Máximo de X = **R/Px**; máximo de Y = **R/Py**.",
+     "texto": "Máximo de X = **R/Px** (100/5 = 20); máximo de Y = **R/Py** (100/10 = 10).",
      "sub": []
     },
     {
      "rotulo": "Inclinação",
-     "texto": "**-Px/Py** (X no eixo horizontal). Mostra quanto de Y o mercado exige para dar 1 unidade de X.",
+     "texto": "**-Px/Py** (-5/10 = -0,5). Mostra quanto de Y o mercado exige para dar 1 unidade de X.",
      "sub": []
     }
    ],
    "distratores": [
     {
      "frase": "A inclinação é -Py/Px",
-     "porque": "com X no eixo horizontal, o preço de X vai no **numerador**."
+     "porque": "Com X no eixo horizontal, o preço de X vai no **numerador**."
     },
     {
      "frase": "O máximo de X é R/Py",
-     "porque": "cada intercepto usa o preço do **próprio** bem."
+     "porque": "Cada intercepto usa o preço do **próprio** bem."
     }
    ],
    "fonte": "Modelo: prova de 20/11 (questões 1 a 3). O livro do notebook não traz teoria do consumidor; conteúdo padrão da disciplina."
@@ -762,7 +762,11 @@ const QUESTIONS_DATABASE = [
    "distratores": [
     {
      "frase": "Só as cestas sobre a linha são acessíveis",
-     "porque": "as cestas **abaixo** da linha também cabem no orçamento."
+     "porque": "As cestas **abaixo** da linha também cabem no orçamento."
+    },
+    {
+     "frase": "A cesta (20 de X; 8 de Y) cabe no orçamento",
+     "porque": "Custa 20·4 + 8·6 = **R$ 128,00**, superando a renda de R$ 120,00."
     }
    ],
    "fonte": "Modelo: prova de 20/11 (questões 1 a 3). O livro do notebook não traz teoria do consumidor; conteúdo padrão da disciplina."
@@ -949,7 +953,7 @@ const QUESTIONS_DATABASE = [
    "topicos": [
     {
      "rotulo": "O que se move",
-     "texto": "Só o intercepto do bem cujo preço mudou: **R/Px**.",
+     "texto": "Só o intercepto de X: **R/Px** vai de 200/10 = **20** para 200/5 = **40**. O de Y fica fixo em 200/20 = **10**.",
      "sub": []
     },
     {
@@ -966,7 +970,7 @@ const QUESTIONS_DATABASE = [
    "distratores": [
     {
      "frase": "Queda de preço desloca a linha em paralelo",
-     "porque": "paralelo é só quando **a renda** muda (ou todos os preços na mesma proporção)."
+     "porque": "Paralelo é só quando **a renda** muda (ou todos os preços na mesma proporção)."
     }
    ],
    "fonte": "Modelo: prova de 20/11 (questões 1 a 3). O livro do notebook não traz teoria do consumidor; conteúdo padrão da disciplina."
@@ -1102,11 +1106,15 @@ const QUESTIONS_DATABASE = [
    "distratores": [
     {
      "frase": "Completude: se A>B e B>C então A>C",
-     "porque": "essa é a **transitividade**."
+     "porque": "Essa é a **transitividade**."
     },
     {
      "frase": "Completude: o consumidor quer sempre mais de tudo",
-     "porque": "isso é \"**mais é melhor**\"."
+     "porque": "Isso é \"**mais é melhor**\" (não-saciedade)."
+    },
+    {
+     "frase": "O consumidor pode deixar de comparar cestas muito parecidas",
+     "porque": "A completude exige que **todas** as cestas sejam comparáveis, mesmo que com indiferença."
     }
    ],
    "fonte": "Modelo: prova de 20/11 (questões 1 a 3). O livro do notebook não traz teoria do consumidor; conteúdo padrão da disciplina."
@@ -1169,7 +1177,11 @@ const QUESTIONS_DATABASE = [
    "distratores": [
     {
      "frase": "Com A>B e B>C, nada se pode concluir sobre A e C",
-     "porque": "a transitividade garante **A>C**."
+     "porque": "A transitividade garante formalmente **A>C**."
+    },
+    {
+     "frase": "O consumidor pode preferir C a A mesmo preferindo A a B e B a C",
+     "porque": "Preferir C a A geraria um **ciclo de escolhas**, violando diretamente a transitividade."
     }
    ],
    "fonte": "Modelo: prova de 20/11 (questões 1 a 3). O livro do notebook não traz teoria do consumidor; conteúdo padrão da disciplina."
@@ -1292,24 +1304,24 @@ const QUESTIONS_DATABASE = [
      "sub": []
     },
     {
-     "rotulo": "Não confundir",
-     "texto": "",
-     "sub": [
-      {
-       "rotulo": "Linha do orçamento",
-       "texto": "cestas com o **mesmo gasto**."
-      },
-      {
-       "rotulo": "Isoquanta",
-       "texto": "combinações de fatores com a **mesma produção**."
-      }
-     ]
+     "rotulo": "Linha do orçamento",
+     "texto": "Cestas acessíveis com o **mesmo gasto** (renda).",
+     "sub": []
+    },
+    {
+     "rotulo": "Isoquanta",
+     "texto": "Combinações de insumos que geram a **mesma quantidade física produzida**.",
+     "sub": []
     }
    ],
    "distratores": [
     {
      "frase": "A CI mostra as cestas que custam a renda toda",
-     "porque": "isso é a **restrição orçamentária**."
+     "porque": "Isso é a **restrição orçamentária**."
+    },
+    {
+     "frase": "A CI indica a produção máxima obtida com os bens",
+     "porque": "Isso é a **isoquanta** na teoria da firma."
     }
    ],
    "fonte": "Modelo: prova de 20/11 (questões 1 a 3). O livro do notebook não traz teoria do consumidor; conteúdo padrão da disciplina."
@@ -1506,7 +1518,7 @@ const QUESTIONS_DATABASE = [
     },
     {
      "rotulo": "Fórmula",
-     "texto": "TMS = **-ΔY/ΔX** ao longo da CI (inclinação da CI, em módulo).",
+     "texto": "TMS = **-ΔY/ΔX = UmgX/UmgY** ao longo da CI (inclinação da CI, em módulo).",
      "sub": []
     },
     {
@@ -1518,7 +1530,7 @@ const QUESTIONS_DATABASE = [
    "distratores": [
     {
      "frase": "TMS é sempre igual a Px/Py",
-     "porque": "só no **ponto ótimo** (tangência)."
+     "porque": "Só no **ponto ótimo** (tangência); fora dele, o consumidor quer trocar em taxa diferente do mercado."
     }
    ],
    "fonte": "Modelo: prova de 20/11 (questões 1 a 3). O livro do notebook não traz teoria do consumidor; conteúdo padrão da disciplina."
@@ -1645,6 +1657,11 @@ const QUESTIONS_DATABASE = [
      "sub": []
     },
     {
+     "rotulo": "Utilidade marginal",
+     "texto": "Decorre da **Umg decrescente**: quanto mais se consome de X, menor o ganho marginal de satisfação dele frente a Y.",
+     "sub": []
+    },
+    {
      "rotulo": "Consequência",
      "texto": "CI **convexa**: começa íngreme e vai ficando mais plana.",
      "sub": []
@@ -1658,7 +1675,7 @@ const QUESTIONS_DATABASE = [
    "distratores": [
     {
      "frase": "A TMS cai porque o preço de X cai",
-     "porque": "a TMS vem das **preferências**, não dos preços."
+     "porque": "A TMS decorre estritamente das **preferências subjetivas**, não dos preços de mercado."
     }
    ],
    "fonte": "Modelo: prova de 20/11 (questões 1 a 3). O livro do notebook não traz teoria do consumidor; conteúdo padrão da disciplina."
@@ -1726,7 +1743,11 @@ const QUESTIONS_DATABASE = [
    "distratores": [
     {
      "frase": "O ótimo é onde a CI corta a RO",
-     "porque": "o ótimo é a **tangência**; no corte há uma CI mais alta acessível."
+     "porque": "O ótimo exige **tangência**; se corta, existem cestas acessíveis com satisfação maior."
+    },
+    {
+     "frase": "O consumidor escolhe qualquer cesta na CI mais distante",
+     "porque": "A cesta precisa ser **acessível**, respeitando a renda disponível na RO."
     }
    ],
    "fonte": "Modelo: prova de 20/11 (questões 1 a 3). O livro do notebook não traz teoria do consumidor; conteúdo padrão da disciplina."
@@ -1794,7 +1815,11 @@ const QUESTIONS_DATABASE = [
    "distratores": [
     {
      "frase": "Relaciona o preço do produto com a quantidade ofertada",
-     "porque": "isso é a **função oferta**."
+     "porque": "Isso é a **função oferta** de mercado."
+    },
+    {
+     "frase": "Mede o custo monetário mínimo para produzir cada quantidade",
+     "porque": "Essa é a **função de custo**, que já multiplica insumos por preços monetários."
     }
    ],
    "fonte": "Vasconcellos, Economia Micro e Macro, cap. 5 (Produção) · modelo: prova de 20/11 (questões 4, 5 e 7)."
@@ -2201,7 +2226,11 @@ const QUESTIONS_DATABASE = [
    "distratores": [
     {
      "frase": "Quando o PT cai, a Pme é negativa",
-     "porque": "a Pme é PT/N, que segue **positiva**."
+     "porque": "A Pme é PT/N, que segue **positiva**."
+    },
+    {
+     "frase": "Quando o PT cai, a Pmg é igual a zero",
+     "porque": "Com Pmg = 0 o PT atinge o ápice; para o PT cair, a Pmg deve ser **negativa**."
     }
    ],
    "fonte": "Vasconcellos, Economia Micro e Macro, cap. 5 (Produção) · modelo: prova de 20/11 (questões 4, 5 e 7)."
@@ -2750,15 +2779,15 @@ const QUESTIONS_DATABASE = [
      "sub": []
     },
     {
-     "rotulo": "Pmg negativa",
-     "texto": "PT **cai**.",
+     "rotulo": "Pmg nula e negativa",
+     "texto": "Com Pmg = 0 o PT atinge o **máximo**; com Pmg < 0 o PT **cai**.",
      "sub": []
     }
    ],
    "distratores": [
     {
      "frase": "Se a Pmg cai, o PT cai",
-     "porque": "o PT só cai com Pmg **negativa**."
+     "porque": "O PT só cai com Pmg **negativa**; enquanto for positiva, o PT segue crescendo."
     }
    ],
    "fonte": "Vasconcellos, Economia Micro e Macro, cap. 5 (Produção) · modelo: prova de 20/11 (questões 4, 5 e 7)."
@@ -2945,24 +2974,28 @@ const QUESTIONS_DATABASE = [
    "topicos": [
     {
      "rotulo": "Economias de escala",
-     "texto": "CMeLP **cai**.",
+     "texto": "CMeLP **cai** quando a produção aumenta.",
      "sub": []
     },
     {
      "rotulo": "Rendimentos constantes",
-     "texto": "CMeLP **horizontal** (constante).",
+     "texto": "CMeLP é uma **reta horizontal**: CMe constante e **CMgLP = CMeLP**.",
      "sub": []
     },
     {
      "rotulo": "Deseconomias de escala",
-     "texto": "CMeLP **sobe**.",
+     "texto": "CMeLP **sobe** quando a produção aumenta.",
      "sub": []
     }
    ],
    "distratores": [
     {
      "frase": "O U do CMe de longo prazo vem da lei dos rendimentos decrescentes",
-     "porque": "no longo prazo o U vem de **economias e deseconomias de escala**."
+     "porque": "No longo prazo o U vem de **economias e deseconomias de escala**."
+    },
+    {
+     "frase": "Com rendimentos constantes o custo total fica constante",
+     "porque": "O custo **total** cresce na mesma proporção do produto; quem fica constante é o custo **médio**."
     }
    ],
    "fonte": "Vasconcellos, Economia Micro e Macro, cap. 5 (Produção) · modelo: prova de 20/11 (questões 4, 5 e 7)."
@@ -3013,12 +3046,12 @@ const QUESTIONS_DATABASE = [
    "topicos": [
     {
      "rotulo": "Custo fixo total (CFT)",
-     "texto": "**Não muda** com a produção; paga-se **mesmo com produção zero**. Ex.: aluguel, seguro, salário fixo.",
+     "texto": "**Não muda** com a produção; paga-se **mesmo com produção zero**. Ex.: aluguel, seguro, salário fixo do gerente.",
      "sub": []
     },
     {
      "rotulo": "Custo variável total (CVT)",
-     "texto": "**Muda** com a produção. Ex.: matéria-prima, energia das máquinas.",
+     "texto": "**Muda** com a produção. Ex.: matéria-prima (tecido), energia das máquinas.",
      "sub": []
     },
     {
@@ -3030,7 +3063,11 @@ const QUESTIONS_DATABASE = [
    "distratores": [
     {
      "frase": "Matéria-prima é custo fixo",
-     "porque": "quanto mais se produz, mais se gasta: é **variável**."
+     "porque": "Quanto mais se produz, mais insumo se consome: é estritamente **variável**."
+    },
+    {
+     "frase": "Salário fixo do gerente é custo variável",
+     "porque": "É contratado por valor fixo mensal e **não varia** com o volume produzido."
     }
    ],
    "fonte": "Vasconcellos, Economia Micro e Macro, cap. 6 (Custos de produção) · modelo: prova de 20/11 (questões 8 e 9)."
@@ -4243,32 +4280,23 @@ const QUESTIONS_DATABASE = [
    "topicos": [
     {
      "rotulo": "Teste",
-     "texto": "Calcule **Px·X + Py·Y** e compare com a renda.",
+     "texto": "Calcule **Px·X + Py·Y** e compare com a renda. Ex.: 6·6 + 4·6 = **R$ 60,00** (gasta tudo).",
      "sub": []
     },
     {
      "rotulo": "Três casos",
-     "texto": "",
-     "sub": [
-      {
-       "rotulo": "Igual à renda",
-       "texto": "**sobre** a linha."
-      },
-      {
-       "rotulo": "Menor",
-       "texto": "**abaixo** (acessível, sobra dinheiro)."
-      },
-      {
-       "rotulo": "Maior",
-       "texto": "**fora** do orçamento."
-      }
-     ]
+     "texto": "Igual à renda: **sobre** a linha; menor: **abaixo** (acessível, sobra dinheiro); maior: **fora** do orçamento.",
+     "sub": []
     }
    ],
    "distratores": [
     {
      "frase": "Toda cesta acessível está sobre a linha",
-     "porque": "as cestas **abaixo** da linha também são acessíveis."
+     "porque": "As cestas **abaixo** da linha também são acessíveis, pois custam menos que a renda."
+    },
+    {
+     "frase": "A cesta (6 de X; 6 de Y) sobra dinheiro",
+     "porque": "Custa exatamente 36 + 24 = **R$ 60,00**, consumindo 100% da renda."
     }
    ],
    "fonte": "Modelo: prova de 20/11 (questões 1 a 3). O livro do notebook não traz teoria do consumidor; conteúdo padrão da disciplina."
@@ -4530,12 +4558,17 @@ const QUESTIONS_DATABASE = [
      "rotulo": "Renda",
      "texto": "Mexe nos **interceptos** (R/Px e R/Py) na mesma proporção → **paralelo**.",
      "sub": []
+    },
+    {
+     "rotulo": "Relação lógica",
+     "texto": "A razão de preços independe da renda, logo a segunda frase **explica e justifica** a primeira.",
+     "sub": []
     }
    ],
    "distratores": [
     {
      "frase": "As duas são verdadeiras, mas não se complementam",
-     "porque": "a segunda é a **causa** da primeira."
+     "porque": "A segunda é a **causa** da primeira."
     }
    ],
    "fonte": "Modelo: prova de 20/11 (questões 1 a 3). O livro do notebook não traz teoria do consumidor; conteúdo padrão da disciplina."
@@ -4790,24 +4823,28 @@ const QUESTIONS_DATABASE = [
    "topicos": [
     {
      "rotulo": "Mesma CI",
-     "texto": "**Indiferença**, mesmo com quantidades bem diferentes.",
+     "texto": "**Indiferença**: A (2;8) e B (4;4) geram a mesma satisfação.",
      "sub": []
     },
     {
      "rotulo": "Cesta dominante",
-     "texto": "Mais de um bem e não menos do outro → **CI mais alta**.",
+     "texto": "C (4;8) tem mais X que A (com mesmo Y) e mais Y que B (com mesmo X): está em **CI mais alta**.",
      "sub": []
     },
     {
      "rotulo": "Não some unidades",
-     "texto": "Pães + cafés não é medida de satisfação.",
+     "texto": "Pães + cafés não é medida de satisfação; use as **preferências**.",
      "sub": []
     }
    ],
    "distratores": [
     {
      "frase": "Cestas com o mesmo total de unidades são indiferentes",
-     "porque": "a satisfação vem das **preferências**, não da soma."
+     "porque": "A satisfação vem das **preferências**, não da soma."
+    },
+    {
+     "frase": "Maria prefere B a A porque tem mais X",
+     "porque": "Estão na **mesma CI**, logo o consumidor é indiferente entre elas."
     }
    ],
    "fonte": "Modelo: prova de 20/11 (questões 1 a 3). O livro do notebook não traz teoria do consumidor; conteúdo padrão da disciplina."
@@ -4858,24 +4895,28 @@ const QUESTIONS_DATABASE = [
    "topicos": [
     {
      "rotulo": "Conta",
-     "texto": "TMS = **ΔY/ΔX** em módulo.",
+     "texto": "TMS = **|ΔY/ΔX|**. Da 2ª para a 3ª: |(10 - 14)/(3 - 2)| = 4/1 = **4**.",
      "sub": []
     },
     {
-     "rotulo": "Trechos",
-     "texto": "6 → **4** → 2. Cai ao longo da curva: CI **convexa**.",
+     "rotulo": "Trechos sucessivos",
+     "texto": "6 → **4** → 2. A taxa cai ao longo da curva, confirmando que a CI é **convexa**.",
      "sub": []
     },
     {
      "rotulo": "Atenção",
-     "texto": "Use a **variação** de Y, não a quantidade.",
+     "texto": "Use a **variação** de Y por unidade de X, não o valor absoluto de Y.",
      "sub": []
     }
    ],
    "distratores": [
     {
      "frase": "A TMS é a quantidade de Y na cesta final",
-     "porque": "é a **variação** de Y."
+     "porque": "É a **variação** de Y (cedeu 4 de Y), não o nível de Y (10)."
+    },
+    {
+     "frase": "A TMS é constante ao longo de uma CI convexa",
+     "porque": "Ela é estritamente **decrescente**; só é constante para substitutos perfeitos."
     }
    ],
    "fonte": "Modelo: prova de 20/11 (questões 1 a 3). O livro do notebook não traz teoria do consumidor; conteúdo padrão da disciplina."
@@ -4926,24 +4967,33 @@ const QUESTIONS_DATABASE = [
    "topicos": [
     {
      "rotulo": "TMS > Px/Py",
-     "texto": "O consumidor valoriza X **mais** que o mercado cobra → **mais X**.",
+     "texto": "O consumidor valoriza X **mais** que o mercado cobra → comprar **mais X e menos Y**.",
      "sub": []
     },
     {
      "rotulo": "TMS < Px/Py",
-     "texto": "Valoriza X **menos** → **mais Y**.",
+     "texto": "Valoriza X **menos** que o mercado cobra → comprar **mais Y e menos X**.",
      "sub": []
     },
     {
-     "rotulo": "TMS = Px/Py",
-     "texto": "**Cesta ótima** (tangência).",
+     "rotulo": "Aplicação",
+     "texto": "TMS (3) > Px/Py (2/2 = **1**): o mercado pede só 1 de Y por 1 de X, enquanto ela aceita dar 3 de Y → **comprar mais X**.",
+     "sub": []
+    },
+    {
+     "rotulo": "Equilíbrio",
+     "texto": "**TMS = Px/Py**: cesta ótima de máxima satisfação.",
      "sub": []
     }
    ],
    "distratores": [
     {
      "frase": "Com TMS > Px/Py, a cesta já é ótima",
-     "porque": "o ótimo exige **igualdade**."
+     "porque": "O ótimo exige **igualdade**; havendo diferença, ainda dá para aumentar a satisfação remanejando o consumo."
+    },
+    {
+     "frase": "Ana deve comprar mais Y e menos X",
+     "porque": "X está mais barato no mercado (custa 1 de Y) do que a valoração subjetiva dela (vale 3 de Y)."
     }
    ],
    "fonte": "Modelo: prova de 20/11 (questões 1 a 3). O livro do notebook não traz teoria do consumidor; conteúdo padrão da disciplina."
@@ -5298,25 +5348,34 @@ const QUESTIONS_DATABASE = [
    "titulo": "Tabela: Pme, Pmg e PT máximo",
    "topicos": [
     {
-     "rotulo": "Pme",
-     "texto": "12, 15, 15, **14**, 12, 10.",
+     "rotulo": "Pme com 4",
+     "texto": "**PT ÷ N** = 56/4 = **14**.",
      "sub": []
     },
     {
-     "rotulo": "Pmg",
-     "texto": "12, 18, 15, 11, 4, **0**.",
+     "rotulo": "Pmg do 6º",
+     "texto": "**PT(6) - PT(5)** = 60 - 60 = **0**.",
+     "sub": []
+    },
+    {
+     "rotulo": "Séries completas",
+     "texto": "Pme: 12, 15, 15, **14**, 12, 10. Pmg: 12, 18, 15, 11, 4, **0**.",
      "sub": []
     },
     {
      "rotulo": "Leitura",
-     "texto": "Pmg = 0 no 6º: o PT chegou ao **máximo** (60).",
+     "texto": "Pmg = 0 no 6º: o PT atingiu o ponto **máximo** (60 unidades).",
      "sub": []
     }
    ],
    "distratores": [
     {
      "frase": "Pmg = 0 significa que o PT é zero",
-     "porque": "significa que o PT **parou de crescer** (está no máximo)."
+     "porque": "Significa que o PT **parou de crescer** (atingiu seu valor máximo)."
+    },
+    {
+     "frase": "A Pme com 4 trabalhadores é calculada subtraindo PT(4) de PT(3)",
+     "porque": "Essa diferença resulta na **Pmg** (11); a Pme é a divisão **PT ÷ N** (14)."
     }
    ],
    "fonte": "Vasconcellos, Economia Micro e Macro, cap. 5 (Produção) · modelo: prova de 20/11 (questões 4, 5 e 7)."
@@ -5558,6 +5617,10 @@ const QUESTIONS_DATABASE = [
     {
      "frase": "Pmg negativa torna a Pme negativa",
      "porque": "Pme = PT/N continua **positiva**."
+    },
+    {
+     "frase": "As duas são verdadeiras, mas não se justificam",
+     "porque": "A segunda expressa o **mecanismo direto** (acréscimo negativo da produção) que explica a queda do PT."
     }
    ],
    "fonte": "Vasconcellos, Economia Micro e Macro, cap. 5 (Produção) · modelo: prova de 20/11 (questões 4, 5 e 7)."
@@ -5608,19 +5671,24 @@ const QUESTIONS_DATABASE = [
    "topicos": [
     {
      "rotulo": "Condição",
-     "texto": "Pelo menos **um fator fixo**.",
+     "texto": "Pelo menos **um fator fixo** (curto prazo).",
      "sub": []
     },
     {
      "rotulo": "Longo prazo",
-     "texto": "Todos variam → fala-se em **rendimentos de escala**.",
+     "texto": "Todos os fatores variam → fala-se em **rendimentos de escala**.",
+     "sub": []
+    },
+    {
+     "rotulo": "Análise da questão",
+     "texto": "A primeira frase é **falsa** (é curto prazo) e a segunda é **verdadeira** (definição de longo prazo).",
      "sub": []
     }
    ],
    "distratores": [
     {
      "frase": "A lei dos rendimentos decrescentes vale no longo prazo",
-     "porque": "sem fator fixo, a lei **não se aplica**."
+     "porque": "Sem fator fixo, a lei **não se aplica**."
     }
    ],
    "fonte": "Vasconcellos, Economia Micro e Macro, cap. 5 (Produção) · modelo: prova de 20/11 (questões 4, 5 e 7)."
@@ -5678,12 +5746,17 @@ const QUESTIONS_DATABASE = [
      "rotulo": "Variáveis",
      "texto": "**Sementes, fertilizantes, diaristas**.",
      "sub": []
+    },
+    {
+     "rotulo": "Critério",
+     "texto": "Fator variável é aquele cuja quantidade **varia com o volume produzido**; o fixo não muda no curto prazo.",
+     "sub": []
     }
    ],
    "distratores": [
     {
      "frase": "Insumo comprado todo ano é fixo",
-     "porque": "o que importa é se a quantidade **muda com a produção**."
+     "porque": "O que importa é se a quantidade **muda com a produção**; mais milho exige mais sementes."
     }
    ],
    "fonte": "Vasconcellos, Economia Micro e Macro, cap. 5 (Produção) · modelo: prova de 20/11 (questões 4, 5 e 7)."
@@ -6089,14 +6162,23 @@ const QUESTIONS_DATABASE = [
     },
     {
      "rotulo": "Pme nova",
-     "texto": "114 ÷ 6 = **19**. Caiu porque **Pmg < Pme**.",
+     "texto": "114 ÷ 6 = **19**.",
+     "sub": []
+    },
+    {
+     "rotulo": "Por que caiu",
+     "texto": "A Pmg da nova unidade (14) é **menor que a média anterior** (20), puxando a nova média para baixo.",
      "sub": []
     }
    ],
    "distratores": [
     {
      "frase": "Se o PT sobe, a Pme sobe",
-     "porque": "a Pme só sobe se a **Pmg for maior que a Pme**."
+     "porque": "A Pme só sobe se a **Pmg for maior que a Pme**."
+    },
+    {
+     "frase": "A nova Pme é 14",
+     "porque": "14 é a **Pmg** do 6º trabalhador, não a média de todos."
     }
    ],
    "fonte": "Vasconcellos, Economia Micro e Macro, cap. 5 (Produção) · modelo: prova de 20/11 (questões 4, 5 e 7)."
@@ -6176,7 +6258,7 @@ const QUESTIONS_DATABASE = [
    "topicos": [
     {
      "rotulo": "Pme",
-     "texto": "10, 13, **14**, 13, 11,6.",
+     "texto": "10, 13, **14** (máxima no 3º), 13, 11,6.",
      "sub": []
     },
     {
@@ -6186,14 +6268,18 @@ const QUESTIONS_DATABASE = [
     },
     {
      "rotulo": "Leitura",
-     "texto": "Enquanto Pmg > Pme, a Pme sobe. Quando Pmg < Pme (4º), ela **cai**.",
+     "texto": "Pme é máxima no 3º (14 unidades). A partir do 4º trabalhador, **Pmg (10) < Pme (13)**, fazendo a Pme declinar.",
      "sub": []
     }
    ],
    "distratores": [
     {
      "frase": "A Pme é máxima onde o PT é máximo",
-     "porque": "o máximo da Pme vem **antes** do máximo do PT."
+     "porque": "O máximo da Pme vem **antes** do máximo do PT."
+    },
+    {
+     "frase": "A Pme é máxima no 2º trabalhador",
+     "porque": "No 2º a Pme é 13, enquanto no 3º atinge o valor de **14**."
     }
    ],
    "fonte": "Vasconcellos, Economia Micro e Macro, cap. 5 (Produção) · modelo: prova de 20/11 (questões 4, 5 e 7)."
@@ -6446,24 +6532,28 @@ const QUESTIONS_DATABASE = [
     },
     {
      "rotulo": "CMg",
-     "texto": "20, 14, 16, **25**, 31.",
+     "texto": "-, 20, 14, 16, **25**, 31 (a 1ª unidade não tem CMg: falta o CT com Q = 0).",
      "sub": []
     },
     {
      "rotulo": "Leitura",
-     "texto": "CMg = CMe na **5ª** unidade: **mínimo do CMe**.",
+     "texto": "CMg = CMe na **5ª** unidade (25): **mínimo do CMe**.",
      "sub": []
     },
     {
      "rotulo": "Não confundir",
-     "texto": "O **mínimo do CMg** (3ª) vem antes do mínimo do CMe.",
+     "texto": "O **mínimo do CMg** (3ª unidade, 14) vem antes do mínimo do CMe.",
      "sub": []
     }
    ],
    "distratores": [
     {
      "frase": "O mínimo do CMe é onde o CMg é mínimo",
-     "porque": "é onde o CMg **cruza** o CMe."
+     "porque": "É onde o CMg **cruza** o CMe."
+    },
+    {
+     "frase": "CMg = CMe na 4ª unidade",
+     "porque": "Na 4ª unidade CMe é 25 e CMg é 16; eles só se igualam na **5ª unidade** (25)."
     }
    ],
    "fonte": "Vasconcellos, Economia Micro e Macro, cap. 6 (Custos de produção) · modelo: prova de 20/11 (questões 8 e 9)."
@@ -6667,7 +6757,11 @@ const QUESTIONS_DATABASE = [
    "distratores": [
     {
      "frase": "A distância entre CMe e CVMe é o CFT",
-     "porque": "é o custo fixo **médio**, que diminui."
+     "porque": "É o custo fixo **médio**, que diminui com o aumento de Q."
+    },
+    {
+     "frase": "A curva de CMe cruza a curva de CVMe",
+     "porque": "Como CFMe > 0 para qualquer Q finito, CMe é **sempre estritamente maior** que CVMe."
     }
    ],
    "fonte": "Vasconcellos, Economia Micro e Macro, cap. 6 (Custos de produção) · modelo: prova de 20/11 (questões 8 e 9)."
@@ -6866,7 +6960,11 @@ const QUESTIONS_DATABASE = [
    "distratores": [
     {
      "frase": "Nenhum aumento de custo de insumo altera o CMg",
-     "porque": "o CMg vem do **CVT**; se o insumo é variável, ele muda."
+     "porque": "O CMg vem do **CVT**; se o insumo é variável, ele muda."
+    },
+    {
+     "frase": "Aumento no preço da matéria-prima não altera o CMg",
+     "porque": "A matéria-prima é **custo variável**, logo seu encarecimento eleva diretamente o **CMg**."
     }
    ],
    "fonte": "Vasconcellos, Economia Micro e Macro, cap. 6 (Custos de produção) · modelo: prova de 20/11 (questões 8 e 9)."
@@ -7498,19 +7596,28 @@ const QUESTIONS_DATABASE = [
    "topicos": [
     {
      "rotulo": "Sinal",
-     "texto": "**P < CMe** → LT negativo.",
+     "texto": "**P < CMe** → LT negativo (prejuízo econômico).",
      "sub": []
     },
     {
-     "rotulo": "Conta",
-     "texto": "(8 - 10) × 100 = **-200**.",
+     "rotulo": "Conta rápida",
+     "texto": "**LT = (P - CMe) × Q** = (8 - 10) × 100 = **-R$ 200,00**.",
+     "sub": []
+    },
+    {
+     "rotulo": "Por partes",
+     "texto": "RT = 8 × 100 = **800**; CT = 10 × 100 = **1.000**; LT = 800 - 1.000 = **-200**.",
      "sub": []
     }
    ],
    "distratores": [
     {
      "frase": "Prejuízo de R$ 2,00",
-     "porque": "esse é o valor **por unidade**."
+     "porque": "Esse é o prejuízo **unitário** (por unidade vendida); multiplique por Q para achar o total."
+    },
+    {
+     "frase": "Lucro de R$ 200,00",
+     "porque": "Como P < CMe, a firma opera com **prejuízo**, e não lucro."
     }
    ],
    "fonte": "Vasconcellos, Economia Micro e Macro, cap. 7 (Estruturas de mercado, questões 1, 3 e 7) · modelo: prova de 20/11 (questão 6)."
@@ -7639,14 +7746,23 @@ const QUESTIONS_DATABASE = [
     },
     {
      "rotulo": "Lucro máximo",
-     "texto": "**RMg = CMg**, não receita máxima.",
+     "texto": "**RMg = CMg**, e não receita máxima.",
+     "sub": []
+    },
+    {
+     "rotulo": "Receita máxima",
+     "texto": "Ocorre onde **RMg = 0**; o lucro máximo ignora esse ponto e considera os custos marginais.",
      "sub": []
     }
    ],
    "distratores": [
     {
      "frase": "Lucro máximo = receita máxima",
-     "porque": "receita máxima pode vir com **custo alto** demais."
+     "porque": "Receita máxima ignora custos e pode vir acompanhada de **custo total elevado**, gerando menor lucro ou até prejuízo."
+    },
+    {
+     "frase": "O lucro total é a receita média menos o custo médio",
+     "porque": "Essa diferença resulta no **lucro unitário** (por unidade vendida), não no lucro total."
     }
    ],
    "fonte": "Vasconcellos, Economia Micro e Macro, cap. 7 (Estruturas de mercado, questões 1, 3 e 7) · modelo: prova de 20/11 (questão 6)."
@@ -7697,29 +7813,33 @@ const QUESTIONS_DATABASE = [
    "topicos": [
     {
      "rotulo": "RT",
-     "texto": "20, **36**, **48**.",
+     "texto": "1×20 = **20**; 2×18 = **36**; 3×16 = **48**.",
      "sub": []
     },
     {
-     "rotulo": "RMg",
-     "texto": "20, 16, **12**.",
+     "rotulo": "RMg da 3ª",
+     "texto": "ΔRT = 48 - 36 = **R$ 12,00**.",
      "sub": []
     },
     {
      "rotulo": "Por que RMg < P",
-     "texto": "Para vender mais uma, a empresa **baixa o preço de todas**.",
+     "texto": "Para vender mais uma unidade, a empresa **baixa o preço de todas** as unidades anteriores.",
      "sub": []
     },
     {
      "rotulo": "Compare",
-     "texto": "Em concorrência perfeita o preço não cai: **RMg = P**.",
+     "texto": "Em concorrência perfeita o preço não cai com a quantidade: **RMg = P**.",
      "sub": []
     }
    ],
    "distratores": [
     {
      "frase": "RMg é sempre igual ao preço",
-     "porque": "só quando o preço é **constante**."
+     "porque": "Só quando o preço é **constante** (tomadora de preços); com demanda negativamente inclinada, **RMg < P**."
+    },
+    {
+     "frase": "A RMg da 3ª unidade é R$ 16,00",
+     "porque": "R$ 16,00 é o **novo preço** (RMe); a RMg desconta a perda de receita nas unidades anteriores."
     }
    ],
    "fonte": "Vasconcellos, Economia Micro e Macro, cap. 7 (Estruturas de mercado, questões 1, 3 e 7) · modelo: prova de 20/11 (questão 6)."
