@@ -134,45 +134,41 @@
    }
   },
   {
-   "s": "Tabela de produção: completar a partir da Pme e da Pmg",
-   "d": "A",
-   "q": "Questão - Completando a tabela\nUma oficina tem Pme de 20 unidades com 2 trabalhadores. O 3º trabalhador tem Pmg de 14 unidades. Qual é o PT com 2 trabalhadores e a Pme com 3, respectivamente?",
+   "s": "PMg abaixo da PMe (isto porque)",
+   "d": "I",
+   "q": "Questão - Produtividade Média\nAnalise as duas assertivas abaixo e, em seguida, escolha a opção CORRETA:\nQuando a produtividade marginal (PMg) é menor que a produtividade média (PMe), a PMe diminui.\nISTO PORQUE\nO trabalhador a mais produz menos que a média dos anteriores e puxa a média para baixo.",
    "a": [
-    "40 e 18",
-    "40 e 14",
-    "20 e 18",
-    "54 e 18",
-    "40 e 34"
+    "As duas são verdadeiras e se complementam.",
+    "As duas são verdadeiras, mas não se complementam.",
+    "A primeira é verdadeira e a segunda é falsa.",
+    "A primeira é falsa e a segunda é verdadeira.",
+    "As duas são falsas."
    ],
    "j": [
-    "PT(2) = 20 × 2 = 40. PT(3) = 40 + 14 = 54. Pme(3) = 54/3 = 18.",
-    "14 é a Pmg do 3º, não a Pme.",
-    "20 é a Pme com 2, não o PT.",
-    "54 é o PT com 3 trabalhadores, não com 2.",
-    "34 = 20 + 14: somou a Pme com a Pmg."
+    "É como uma média de notas: se a nova nota é menor que a média, a média cai. A segunda é o motivo da primeira.",
+    "A segunda explica a primeira.",
+    "A segunda está certa.",
+    "A primeira está certa.",
+    "As duas estão corretas."
    ],
    "c": 0,
-   "p": "PT = Pme × N. PT novo = PT anterior + Pmg. Pme nova = PT novo ÷ N novo.",
+   "p": "PMg < PMe → PMe cai (a nova \"nota\" está abaixo da média).",
    "ficha": {
-    "titulo": "Completar tabela com Pme e Pmg",
+    "titulo": "PMg abaixo da PMe",
     "topicos": [
      {
-      "rotulo": "Passo 1",
-      "texto": "PT(2) = Pme × N = 20 × 2 = **40**."
+      "rotulo": "Regra",
+      "texto": "**PMg < PMe → PMe cai**; PMg > PMe → PMe sobe."
      },
      {
-      "rotulo": "Passo 2",
-      "texto": "PT(3) = PT(2) + Pmg = 40 + 14 = **54**."
-     },
-     {
-      "rotulo": "Passo 3",
-      "texto": "Pme(3) = 54/3 = **18**. Caiu porque a Pmg (14) ficou **abaixo** da Pme (20)."
+      "rotulo": "Analogia",
+      "texto": "Média de notas: uma nota nova **abaixo** da média a **reduz**."
      }
     ],
     "distratores": [
      {
-      "frase": "PT novo = Pme + Pmg",
-      "porque": "PT novo = **PT anterior** + Pmg."
+      "frase": "Se a PMg é menor que a PMe, o PT diminui",
+      "porque": "o PT só cai com **PMg negativa**."
      }
     ]
    }
@@ -394,89 +390,117 @@
    }
   },
   {
-   "s": "Rendimentos decrescentes na prática",
-   "d": "I",
-   "q": "Questão - Lei dos Rendimentos Decrescentes\nUm restaurante tem uma cozinha de tamanho fixo. O dono vai contratando mais cozinheiros e percebe que cada novo cozinheiro aumenta a produção de pratos menos que o anterior. O que explica isso?",
+   "s": "Por que existe a lei dos rendimentos decrescentes",
+   "d": "B",
+   "q": "Questão - Lei dos Rendimentos Decrescentes (Curto Prazo)\nPor que, a partir de certo ponto, cada novo trabalhador produz menos que o anterior? Marque a opção CORRETA:",
    "a": [
-    "A cozinha é um fator fixo, e cada novo cozinheiro tem menos espaço e equipamento.",
-    "Os novos cozinheiros contratados são sempre menos qualificados que os antigos.",
-    "O restaurante entrou em deseconomia de escala, porque aumentou todos os fatores.",
-    "A demanda por pratos do restaurante caiu, e por isso a produção cresce menos.",
-    "O preço dos ingredientes subiu, e o custo marginal de cada prato aumentou."
+    "Porque há pelo menos um fator fixo (ex.: o tamanho da fábrica), e cada novo trabalhador tem menos espaço e máquinas.",
+    "Porque os novos trabalhadores contratados são sempre menos qualificados do que os que já estavam na empresa.",
+    "Porque a empresa aumentou todos os seus fatores ao mesmo tempo e entrou em deseconomia de escala.",
+    "Porque a demanda pelo produto caiu e a empresa passou a vender menos do que conseguia produzir.",
+    "Porque o preço dos insumos subiu e cada unidade produzida passou a custar mais para a empresa."
    ],
    "j": [
-    "É a lei dos rendimentos decrescentes: fator variável (cozinheiros) somado a um fator fixo (cozinha). A Pmg cai porque o fixo é dividido por mais gente.",
-    "A lei supõe trabalhadores iguais; a queda vem do fator fixo, não da qualidade.",
-    "Só os cozinheiros aumentaram; a cozinha ficou fixa. Não é escala.",
-    "A lei é física (produção), não depende da demanda.",
-    "Preço de insumo é custo, não explica quantos pratos cada cozinheiro produz."
+    "É a lei dos rendimentos decrescentes: fator variável (trabalho) somado a um fator fixo. O fixo é dividido por mais gente e a PMg cai.",
+    "A lei supõe trabalhadores iguais; a causa é o fator fixo.",
+    "Aumentar todos os fatores é longo prazo (escala), não a lei.",
+    "A lei é física (produção) e não depende da demanda.",
+    "Preço de insumo é custo; não explica quanto cada trabalhador produz."
    ],
    "c": 0,
-   "p": "Pmg caindo com um fator fixo = lei dos rendimentos decrescentes.",
+   "p": "Lei dos rendimentos decrescentes = fator variável + fator fixo → PMg cai.",
    "ficha": {
-    "titulo": "Rendimentos decrescentes no dia a dia",
+    "titulo": "Causa da lei dos rendimentos decrescentes",
     "topicos": [
      {
-      "rotulo": "Fixo",
-      "texto": "A **cozinha** (espaço e fogões)."
+      "rotulo": "Fator fixo",
+      "texto": "Tamanho da fábrica, máquinas: **não muda** no curto prazo."
      },
      {
-      "rotulo": "Variável",
-      "texto": "Os **cozinheiros**."
+      "rotulo": "Fator variável",
+      "texto": "Trabalhadores: aumentam."
      },
      {
-      "rotulo": "Por que a Pmg cai",
-      "texto": "Cada novo cozinheiro divide o **mesmo espaço**; supõe-se que todos são **igualmente qualificados**."
+      "rotulo": "Resultado",
+      "texto": "Cada novo trabalhador divide o **mesmo fator fixo**: a **PMg cai**."
      }
     ],
     "distratores": [
      {
-      "frase": "A Pmg cai porque os novos trabalhadores são piores",
-      "porque": "a lei supõe trabalhadores **iguais**; a causa é o **fator fixo**."
+      "frase": "A PMg cai porque os novos trabalhadores são piores",
+      "porque": "a lei supõe trabalhadores **iguais**."
      }
     ]
    }
   },
   {
-   "s": "Rendimentos de escala com triplicação (cálculo)",
+   "s": "Rendimentos de escala na tabela",
    "d": "I",
-   "q": "Questão - Rendimentos de Escala\nUma empresa triplica todos os seus fatores de produção, e a produção sobe de 50 para 200 unidades. Que tipo de rendimento de escala ela apresenta?",
+   "q": "Questão - Rendimentos de Escala\nO quadro abaixo mostra três empresas que aumentaram TODOS os seus fatores de produção. Classifique, respectivamente, os rendimentos de escala das empresas A, B e C:",
+   "t": {
+    "headers": [
+     "Empresa",
+     "Fatores (antes → depois)",
+     "Produção (antes → depois)"
+    ],
+    "rows": [
+     [
+      "A",
+      "10 → 20",
+      "100 → 200"
+     ],
+     [
+      "B",
+      "10 → 20",
+      "100 → 250"
+     ],
+     [
+      "C",
+      "10 → 30",
+      "90 → 150"
+     ]
+    ]
+   },
    "a": [
-    "Crescentes, pois a produção quadruplicou e os fatores triplicaram.",
-    "Constantes, pois a produção e os fatores aumentaram ao mesmo tempo.",
-    "Decrescentes, pois a produção cresceu 150 unidades e os fatores, 3 vezes.",
-    "Crescentes, pois a produção triplicou junto com todos os fatores.",
-    "Não dá para saber, porque falta o preço dos fatores de produção."
+    "Constante; crescente; decrescente",
+    "Crescente; crescente; decrescente",
+    "Constante; decrescente; crescente",
+    "Constante; crescente; crescente",
+    "Crescente; constante; decrescente"
    ],
    "j": [
-    "Fatores ×3; produção 200/50 = ×4. Produção cresceu mais que proporcionalmente: rendimentos crescentes (economias de escala).",
-    "Constantes exigiriam produção ×3 (150 unidades).",
-    "Compare proporções: ×4 contra ×3. Não subtraia unidades de fatores.",
-    "A produção não triplicou; quadruplicou (50 → 200).",
-    "Rendimento de escala é conceito físico; não precisa de preços."
+    "A: fatores ×2, produção ×2 (constante). B: fatores ×2, produção ×2,5 (crescente). C: fatores ×3, produção ×1,67 (decrescente).",
+    "A cresceu na mesma proporção dos fatores: constante.",
+    "Inverteu B e C.",
+    "C triplicou os fatores e a produção não chegou a dobrar: decrescente.",
+    "A é constante e B é crescente."
    ],
    "c": 0,
-   "p": "Compare o multiplicador da produção com o multiplicador dos fatores.",
+   "p": "Compare quantas vezes a produção aumentou com quantas vezes os fatores aumentaram.",
    "ficha": {
-    "titulo": "Classificar escala por multiplicadores",
+    "titulo": "Classificar escala pela tabela",
     "topicos": [
      {
-      "rotulo": "Fatores",
-      "texto": "**×3**."
+      "rotulo": "Passo",
+      "texto": "Divida depois ÷ antes para **fatores** e para **produção**."
      },
      {
-      "rotulo": "Produção",
-      "texto": "200 ÷ 50 = **×4**."
+      "rotulo": "A",
+      "texto": "×2 e ×2: **constante**."
      },
      {
-      "rotulo": "Regra",
-      "texto": "×4 > ×3 → **crescentes**. Igual → constantes. Menor → decrescentes."
+      "rotulo": "B",
+      "texto": "×2 e ×2,5: **crescente**."
+     },
+     {
+      "rotulo": "C",
+      "texto": "×3 e ×1,67: **decrescente**."
      }
     ],
     "distratores": [
      {
-      "frase": "Escala depende do preço dos fatores",
-      "porque": "é relação **física** entre fatores e produção."
+      "frase": "Se a produção aumentou, o rendimento é crescente",
+      "porque": "compare com o aumento dos **fatores**."
      }
     ]
    }
@@ -618,129 +642,169 @@
    }
   },
   {
-   "s": "Nova Pme depois de um trabalhador a mais (cálculo)",
-   "d": "A",
-   "q": "Questão - Pme e Pmg\nCom 5 trabalhadores, a Pme de uma fábrica é 20 unidades. O 6º trabalhador tem Pmg de 14 unidades. Qual é a nova Pme e o que aconteceu com ela?",
+   "s": "Completar PT e PMe na tabela (cálculo)",
+   "d": "I",
+   "q": "Questão - Tabela de Produção\nNo quadro abaixo faltam os dados do 6º trabalhador. Com base na PMg informada, calcule o PT e a PMe com 6 trabalhadores, respectivamente.",
+   "t": {
+    "headers": [
+     "N",
+     "PT",
+     "PMe",
+     "PMg"
+    ],
+    "rows": [
+     [
+      "3",
+      "66",
+      "22",
+      "-"
+     ],
+     [
+      "4",
+      "84",
+      "21",
+      "18"
+     ],
+     [
+      "5",
+      "100",
+      "20",
+      "16"
+     ],
+     [
+      "6",
+      "",
+      "",
+      "14"
+     ]
+    ]
+   },
    "a": [
-    "19; caiu, porque a Pmg (14) ficou abaixo da Pme (20).",
-    "17; caiu, porque é a média entre a Pme (20) e a Pmg (14).",
-    "19; subiu, porque o PT aumentou com o novo trabalhador.",
-    "34; subiu, porque somou a Pme com a Pmg do novo trabalhador.",
-    "20; ficou igual, porque a Pme não depende da Pmg."
+    "114 e 19",
+    "114 e 14",
+    "100 e 19",
+    "128 e 21,3",
+    "14 e 19"
    ],
    "j": [
-    "PT(5) = 20 × 5 = 100. PT(6) = 100 + 14 = 114. Pme(6) = 114/6 = 19. Pmg abaixo da Pme puxa a média para baixo.",
-    "Não é média simples entre 20 e 14; a Pme é PT/N.",
-    "O PT subiu, mas a Pme caiu (19 < 20).",
-    "Somar Pme com Pmg não tem significado.",
-    "A Pme muda sempre que a Pmg é diferente dela."
+    "PT(6) = PT(5) + PMg = 100 + 14 = 114. PMe(6) = 114/6 = 19.",
+    "14 é a PMg, não a PMe.",
+    "100 é o PT com 5 trabalhadores.",
+    "Somou 14 duas vezes; o PT novo é 100 + 14.",
+    "14 é a PMg, não o PT."
    ],
    "c": 0,
-   "p": "Volte ao PT (Pme × N), some a Pmg e divida pelo novo N.",
+   "p": "PT novo = PT anterior + PMg. PMe = PT ÷ N.",
    "ficha": {
-    "titulo": "Recalcular a Pme",
+    "titulo": "Do PMg para o PT",
     "topicos": [
      {
-      "rotulo": "PT antes",
-      "texto": "20 × 5 = **100**."
+      "rotulo": "PT",
+      "texto": "**PT anterior + PMg** = 100 + 14 = **114**."
      },
      {
-      "rotulo": "PT depois",
-      "texto": "100 + 14 = **114**."
-     },
-     {
-      "rotulo": "Pme nova",
+      "rotulo": "PMe",
       "texto": "114 ÷ 6 = **19**."
      },
      {
-      "rotulo": "Por que caiu",
-      "texto": "A Pmg da nova unidade (14) é **menor que a média anterior** (20), puxando a nova média para baixo."
+      "rotulo": "Leitura",
+      "texto": "A PMe caiu (20 → 19) porque a **PMg (14) está abaixo da PMe**."
      }
     ],
     "distratores": [
      {
-      "frase": "Se o PT sobe, a Pme sobe",
-      "porque": "A Pme só sobe se a **Pmg for maior que a Pme**."
-     },
-     {
-      "frase": "A nova Pme é 14",
-      "porque": "14 é a **Pmg** do 6º trabalhador, não a média de todos."
+      "frase": "O PT com 6 é a PMg do 6º",
+      "porque": "a PMg é só o **acréscimo**; some ao PT anterior."
      }
     ]
    }
   },
   {
-   "s": "Encontro de Pmg e Pme na tabela",
-   "d": "A",
-   "q": "Questão - Pmg e Pme na tabela\nCom base na tabela, com quantos trabalhadores a Pme é máxima e o que acontece a partir do trabalhador seguinte?",
+   "s": "PMe máxima e PMg máxima na tabela",
+   "d": "I",
+   "q": "Questão - Tabela de Produção\nDe acordo com o quadro abaixo, com quantos trabalhadores a PMe é máxima e com quantos a PMg é máxima, respectivamente?",
    "t": {
     "headers": [
      "N",
-     "PT"
+     "PT",
+     "PMe",
+     "PMg"
     ],
     "rows": [
      [
       "1",
+      "10",
+      "10",
       "10"
      ],
      [
       "2",
-      "26"
+      "26",
+      "13",
+      "16"
      ],
      [
       "3",
-      "42"
+      "40",
+      "13,33",
+      "14"
      ],
      [
       "4",
-      "52"
+      "52",
+      "13",
+      "12"
      ],
      [
       "5",
-      "58"
+      "58",
+      "11,6",
+      "6"
+     ],
+     [
+      "6",
+      "60",
+      "10",
+      "2"
      ]
     ]
    },
    "a": [
-    "Com 3; a partir do 4º, a Pmg fica abaixo da Pme e a Pme cai.",
-    "Com 2; a partir do 3º, a Pmg fica abaixo da Pme e a Pme cai.",
-    "Com 5; o PT é máximo e por isso a Pme também é máxima.",
-    "Com 3; a partir do 4º, a Pmg fica negativa e o PT cai.",
-    "Com 4; a partir do 5º, a Pmg fica acima da Pme e a Pme sobe."
+    "3 e 2",
+    "2 e 3",
+    "6 e 2",
+    "3 e 3",
+    "2 e 2"
    ],
    "j": [
-    "Pme: 10, 13, 14, 13, 11,6 → máxima com 3. Pmg: 10, 16, 16, 10, 6. No 4º, Pmg (10) < Pme (14) e a Pme cai para 13.",
-    "Com 2 a Pme é 13; o 3º tem Pmg 16 > 13 e a Pme ainda sobe para 14.",
-    "O PT não está no máximo (ainda sobe), e Pme máxima não coincide com PT máximo.",
-    "A Pmg do 4º é 10, positiva; o PT ainda sobe.",
-    "Com 4 a Pme já caiu (13); a Pmg do 5º (6) está abaixo dela."
+    "Maior PMe = 13,33 (3 trabalhadores). Maior PMg = 16 (2º trabalhador). O máximo da PMg vem antes do máximo da PMe.",
+    "Inverteu: a PMe máxima é com 3 e a PMg máxima é no 2º.",
+    "Com 6 o PT é o maior, mas a PMe é a menor (10).",
+    "No 3º a PMg (14) já caiu em relação ao 2º (16).",
+    "Com 2 a PMe (13) é menor que com 3 (13,33)."
    ],
    "c": 0,
-   "p": "Pme máxima onde a Pmg deixa de ser maior que a Pme.",
+   "p": "Procure o maior valor em cada coluna. A PMg atinge o máximo antes da PMe.",
    "ficha": {
-    "titulo": "Pme máxima na tabela",
+    "titulo": "Máximos na tabela de produção",
     "topicos": [
      {
-      "rotulo": "Pme",
-      "texto": "10, 13, **14** (máxima no 3º), 13, 11,6."
+      "rotulo": "PMg máxima",
+      "texto": "**2º** trabalhador (16)."
      },
      {
-      "rotulo": "Pmg",
-      "texto": "10, 16, 16, **10**, 6."
+      "rotulo": "PMe máxima",
+      "texto": "**3** trabalhadores (13,33)."
      },
      {
-      "rotulo": "Leitura",
-      "texto": "Pme é máxima no 3º (14 unidades). A partir do 4º trabalhador, **Pmg (10) < Pme (13)**, fazendo a Pme declinar."
+      "rotulo": "Ordem",
+      "texto": "Máximo da **PMg** → máximo da **PMe** → máximo do **PT**."
      }
     ],
     "distratores": [
      {
-      "frase": "A Pme é máxima onde o PT é máximo",
-      "porque": "O máximo da Pme vem **antes** do máximo do PT."
-     },
-     {
-      "frase": "A Pme é máxima no 2º trabalhador",
-      "porque": "No 2º a Pme é 13, enquanto no 3º atinge o valor de **14**."
+      "frase": "A PMe é máxima onde o PT é máximo",
+      "porque": "o máximo da PMe vem **antes** do máximo do PT."
      }
     ]
    }

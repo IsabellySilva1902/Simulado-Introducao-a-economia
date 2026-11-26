@@ -318,96 +318,122 @@
    }
   },
   {
-   "s": "RMg quando o preço precisa cair (cálculo)",
-   "d": "A",
-   "q": "Questão - Receita Marginal\nPara vender mais, uma empresa precisa baixar o preço: vende 1 unidade a R$ 20,00, 2 unidades a R$ 18,00 cada e 3 unidades a R$ 16,00 cada. Qual é a receita marginal da 3ª unidade?",
+   "s": "Receita marginal: definição",
+   "d": "B",
+   "q": "Questão - Receita Marginal (RMg)\nSobre a receita marginal de uma empresa, marque a opção CORRETA:",
    "a": [
-    "R$ 12,00",
-    "R$ 16,00",
-    "R$ 48,00",
-    "R$ 2,00",
-    "R$ 18,00"
+    "É quanto a receita total aumenta quando a empresa vende uma unidade a mais.",
+    "É a receita total dividida pela quantidade vendida (receita por unidade).",
+    "É o lucro que a empresa obtém em cada unidade que ela consegue vender.",
+    "É o preço do produto multiplicado pela quantidade total vendida no período.",
+    "É quanto o custo total aumenta quando a empresa produz uma unidade a mais."
    ],
    "j": [
-    "RT(2) = 2 × 18 = 36. RT(3) = 3 × 16 = 48. RMg = 48 - 36 = 12. Fica abaixo do preço (16) porque, para vender a 3ª, o preço das outras duas também caiu.",
-    "16 é o preço; aqui a RMg é menor que o preço.",
-    "48 é a receita total com 3 unidades.",
-    "2 é quanto o preço caiu por unidade.",
-    "18 é o preço com 2 unidades."
+    "RMg = ΔRT/ΔQ: a receita extra de vender mais uma unidade. Com preço fixo, é igual ao preço.",
+    "Isso é a receita média.",
+    "Lucro por unidade é preço menos custo médio.",
+    "Isso é a receita total (RT = P × Q).",
+    "Isso é o custo marginal (CMg)."
    ],
    "c": 0,
-   "p": "Calcule RT em cada quantidade (P × Q) e subtraia. Se o preço cai para vender mais, RMg < P.",
+   "p": "RMg = receita extra de uma unidade a mais. CMg = custo extra de uma unidade a mais.",
    "ficha": {
-    "titulo": "RMg com preço caindo",
+    "titulo": "Receita marginal",
     "topicos": [
      {
-      "rotulo": "RT",
-      "texto": "1×20 = **20**; 2×18 = **36**; 3×16 = **48**."
+      "rotulo": "Definição",
+      "texto": "**RMg = ΔRT ÷ ΔQ**: receita extra de **uma unidade a mais**."
      },
      {
-      "rotulo": "RMg da 3ª",
-      "texto": "ΔRT = 48 - 36 = **R$ 12,00**."
+      "rotulo": "Preço fixo",
+      "texto": "**RMg = P**."
      },
      {
-      "rotulo": "Por que RMg < P",
-      "texto": "Para vender mais uma unidade, a empresa **baixa o preço de todas** as unidades anteriores."
-     },
-     {
-      "rotulo": "Compare",
-      "texto": "Em concorrência perfeita o preço não cai com a quantidade: **RMg = P**."
+      "rotulo": "Não confundir",
+      "texto": "RT = P × Q; receita média = RT ÷ Q; **CMg** é o custo extra."
      }
     ],
     "distratores": [
      {
-      "frase": "RMg é sempre igual ao preço",
-      "porque": "Só quando o preço é **constante** (tomadora de preços); com demanda negativamente inclinada, **RMg < P**."
-     },
-     {
-      "frase": "A RMg da 3ª unidade é R$ 16,00",
-      "porque": "R$ 16,00 é o **novo preço** (RMe); a RMg desconta a perda de receita nas unidades anteriores."
+      "frase": "RMg = RT ÷ Q",
+      "porque": "isso é a **receita média**."
      }
     ]
    }
   },
   {
-   "s": "Quantas unidades produzir com RMg constante",
+   "s": "Quantidade que maximiza o lucro (RMg = CMg)",
    "d": "I",
-   "q": "Questão - Condição de maximização de lucro\nUma empresa tem receita marginal constante de R$ 50,00. O custo marginal das unidades é: 1ª = R$ 30,00; 2ª = R$ 35,00; 3ª = R$ 42,00; 4ª = R$ 50,00; 5ª = R$ 61,00. Quantas unidades ela deve produzir para maximizar o lucro?",
+   "q": "Questão - Condição de Maximização de Lucro\nA tabela mostra a Receita Marginal (RMg) e o Custo Marginal (CMg) de cada unidade produzida por uma empresa. Quantas unidades maximizam o lucro e qual é o CMg nesse ponto, respectivamente?",
+   "t": {
+    "headers": [
+     "Unidade",
+     "RMg (R$)",
+     "CMg (R$)"
+    ],
+    "rows": [
+     [
+      "1ª",
+      "50,00",
+      "30,00"
+     ],
+     [
+      "2ª",
+      "50,00",
+      "35,00"
+     ],
+     [
+      "3ª",
+      "50,00",
+      "42,00"
+     ],
+     [
+      "4ª",
+      "50,00",
+      "50,00"
+     ],
+     [
+      "5ª",
+      "50,00",
+      "61,00"
+     ]
+    ]
+   },
    "a": [
-    "4 unidades.",
-    "1 unidade.",
-    "3 unidades.",
-    "5 unidades.",
-    "2 unidades."
+    "4; 50,00",
+    "1; 30,00",
+    "3; 42,00",
+    "5; 61,00",
+    "4; 42,00"
    ],
    "j": [
-    "Produz enquanto RMg ≥ CMg: 1ª a 3ª aumentam o lucro, a 4ª tem RMg = CMg (lucro máximo), a 5ª (61 > 50) reduziria o lucro.",
+    "Produz enquanto RMg ≥ CMg. Até a 3ª, RMg > CMg (o lucro aumenta). Na 4ª, RMg = CMg = 50 (lucro máximo). A 5ª custa 61 e rende 50: reduziria o lucro.",
     "A 1ª tem o menor CMg, mas as seguintes ainda aumentam o lucro.",
-    "A 4ª ainda tem RMg = CMg: é onde vale a condição de lucro máximo.",
-    "A 5ª custa 61 e rende 50: reduz o lucro.",
-    "A 3ª ainda acrescenta lucro (50 - 42 = 8)."
+    "A 4ª ainda tem RMg = CMg; é ali que vale a condição de lucro máximo.",
+    "A 5ª tem CMg > RMg: diminui o lucro.",
+    "Com 4 unidades o CMg é 50, não 42."
    ],
    "c": 0,
-   "p": "Pare na última unidade com CMg ≤ RMg.",
+   "p": "Lucro máximo: RMg = CMg. Pare antes da unidade em que CMg > RMg.",
    "ficha": {
-    "titulo": "Escolher Q com RMg e CMg",
+    "titulo": "Lucro máximo pela tabela de RMg e CMg",
     "topicos": [
      {
-      "rotulo": "Ganho por unidade",
-      "texto": "RMg - CMg: 20, 15, 8, **0**, -11."
+      "rotulo": "RMg > CMg",
+      "texto": "Vale produzir: o lucro **aumenta**."
      },
      {
-      "rotulo": "Decisão",
-      "texto": "Produza até a **4ª** (RMg = CMg)."
+      "rotulo": "RMg = CMg",
+      "texto": "**Lucro máximo** (4ª unidade, 50)."
      },
      {
-      "rotulo": "Na tabela",
-      "texto": "Se não houver igualdade exata, pare antes da unidade com **CMg > RMg**."
+      "rotulo": "CMg > RMg",
+      "texto": "Não produzir: o lucro **cai** (5ª unidade)."
      }
     ],
     "distratores": [
      {
-      "frase": "Produza onde o CMg é mínimo",
+      "frase": "Produza onde o CMg é menor",
       "porque": "o critério é **RMg = CMg**."
      }
     ]

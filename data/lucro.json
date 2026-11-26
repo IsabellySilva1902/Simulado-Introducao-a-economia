@@ -245,45 +245,125 @@
    }
   },
   {
-   "s": "Receita marginal: cálculo",
+   "s": "Tabela de maximização do lucro (RT, LT, RMg)",
    "d": "I",
-   "q": "Questão - Receita Marginal (RMg)\nUma empresa vendia 20 unidades e tinha receita total de R$ 300,00. Ao vender 21 unidades, a receita total passou para R$ 312,00. Qual é a receita marginal da 21ª unidade?",
+   "q": "Questão - Tabela de Maximização do Lucro Total\nDe acordo com a tabela abaixo, qual a Receita Total (RT), o Lucro Total (LT) e a Receita Marginal (RMg) no estágio de produção 4, respectivamente?",
+   "t": {
+    "headers": [
+     "Produção (por dia)",
+     "CT (R$)",
+     "Preço (R$)",
+     "RT (R$)",
+     "LT (R$)",
+     "CMg (R$)",
+     "RMg (R$)"
+    ],
+    "rows": [
+     [
+      "0",
+      "8,00",
+      "6,00",
+      "0",
+      "-8,00",
+      "-",
+      "-"
+     ],
+     [
+      "1",
+      "12,00",
+      "6,00",
+      "6,00",
+      "-6,00",
+      "4,00",
+      "6,00"
+     ],
+     [
+      "2",
+      "15,00",
+      "6,00",
+      "12,00",
+      "-3,00",
+      "3,00",
+      "6,00"
+     ],
+     [
+      "3",
+      "17,00",
+      "6,00",
+      "18,00",
+      "1,00",
+      "2,00",
+      "6,00"
+     ],
+     [
+      "4",
+      "20,00",
+      "6,00",
+      "",
+      "",
+      "3,00",
+      ""
+     ],
+     [
+      "5",
+      "25,00",
+      "6,00",
+      "30,00",
+      "5,00",
+      "5,00",
+      "6,00"
+     ],
+     [
+      "6",
+      "32,00",
+      "6,00",
+      "36,00",
+      "4,00",
+      "7,00",
+      "6,00"
+     ]
+    ]
+   },
    "a": [
-    "R$ 12,00",
-    "R$ 312,00",
-    "R$ 15,00",
-    "R$ 14,86",
-    "R$ 0,60"
+    "24,00; 4,00; 6,00",
+    "24,00; 20,00; 6,00",
+    "4,00; 24,00; 6,00",
+    "24,00; 4,00; 3,00",
+    "20,00; 4,00; 24,00"
    ],
    "j": [
-    "RMg = ΔRT/ΔQ = (312 - 300)/(21 - 20) = 12.",
-    "312 é a receita total com 21 unidades, não o acréscimo.",
-    "15 é a receita média com 20 unidades (300/20).",
-    "14,86 é a receita média com 21 unidades (312/21).",
-    "0,60 é 12 dividido por 20; a variação da quantidade é 1, não 20."
+    "RT = P × Q = 6 × 4 = 24. LT = RT - CT = 24 - 20 = 4. RMg = 24 - 18 = 6 (o próprio preço).",
+    "20 é o CT, não o lucro.",
+    "Trocou RT e LT.",
+    "3 é o CMg da 4ª unidade, não a RMg.",
+    "20 é o CT e 24 é a RT."
    ],
    "c": 0,
-   "p": "RMg = quanto a RT aumentou ÷ quanto a quantidade aumentou.",
+   "p": "RT = P × Q. LT = RT - CT. Com preço fixo, RMg = P.",
    "ficha": {
-    "titulo": "Receita marginal — conta",
+    "titulo": "Tabela de lucro — RT, LT e RMg",
     "topicos": [
      {
-      "rotulo": "Fórmula",
-      "texto": "**RMg = ΔRT ÷ ΔQ**. (312 - 300)/1 = **12**."
+      "rotulo": "RT",
+      "texto": "**P × Q** = 6 × 4 = **24**."
      },
      {
-      "rotulo": "Receita média",
-      "texto": "**RT ÷ Q** (é o preço médio). Não confundir com RMg."
+      "rotulo": "LT",
+      "texto": "**RT - CT** = 24 - 20 = **4**."
      },
      {
-      "rotulo": "Quando RMg = P",
-      "texto": "Só quando o preço é **constante** (concorrência perfeita). Aqui o preço caiu, por isso RMg < receita média."
+      "rotulo": "RMg",
+      "texto": "**RT(Q) - RT(Q-1)** = 24 - 18 = **6** = preço."
+     },
+     {
+      "rotulo": "Lucro máximo",
+      "texto": "Na 5ª unidade (LT = 5): é a última com **RMg ≥ CMg** (6 > 5)."
      }
     ],
     "distratores": [
      {
-      "frase": "RMg = RT ÷ Q",
-      "porque": "isso é **receita média**."
+      "frase": "RMg = CMg da mesma linha",
+      "porque": "a RMg vem da **receita**; com preço fixo é igual ao **preço**."
      }
     ]
    }

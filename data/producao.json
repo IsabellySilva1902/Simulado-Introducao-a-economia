@@ -321,49 +321,49 @@
    }
   },
   {
-   "s": "Relação entre Pmg e Pme",
-   "d": "A",
-   "q": "Questão - Pmg e Pme\nSobre a relação entre a produtividade marginal (Pmg) e a produtividade média (Pme) do trabalho, marque a opção CORRETA:",
+   "s": "Relação entre PMg e PMe (I, II, III)",
+   "d": "I",
+   "q": "Questão - Produtividade Marginal e Média\nSobre a relação entre a produtividade marginal (PMg) e a produtividade média (PMe) do trabalho, avalie as frases:\nI. Se a PMg está acima da PMe, a PMe está aumentando (o novo trabalhador puxa a média para cima).\nII. A curva de PMg corta a curva de PMe no ponto máximo da PMe.\nIII. Quando a PMg fica negativa, a PMe também fica negativa.",
    "a": [
-    "Quando a Pmg está acima da Pme, a Pme está subindo; a Pmg corta a Pme no máximo dela.",
-    "Quando a Pmg está acima da Pme, a Pme está caindo; a Pmg corta a Pme no mínimo dela.",
-    "A Pmg e a Pme são sempre iguais, porque as duas dependem do mesmo produto total.",
-    "A Pme corta a Pmg no ponto máximo da Pmg, quando o produto total para de crescer.",
-    "Quando a Pmg está abaixo da Pme, a Pme está subindo, mesmo que devagar."
+    "Apenas I e II estão corretas.",
+    "Apenas I está correta.",
+    "Apenas II e III estão corretas.",
+    "Apenas III está correta.",
+    "Todas as afirmativas estão corretas."
    ],
    "j": [
-    "Se o novo trabalhador produz mais que a média (Pmg > Pme), ele puxa a média para cima. O cruzamento é no topo da Pme.",
-    "Inverteu: Pmg acima da média faz a média subir, e o cruzamento é no máximo da Pme.",
-    "Elas só são iguais em um ponto: o máximo da Pme.",
-    "O cruzamento é no máximo da Pme, não da Pmg. E o PT para de crescer quando Pmg = 0.",
-    "Pmg abaixo da média puxa a média para baixo."
+    "I e II estão certas. A III está errada: a PMe = PT/N continua positiva enquanto houver produção; quem fica negativa é só a PMg.",
+    "A II também está correta.",
+    "A III está errada.",
+    "A III é justamente a errada.",
+    "A III está errada."
    ],
    "c": 0,
-   "p": "Pense em nota: se a nova nota (marginal) é maior que a média, a média sobe.",
+   "p": "PMg acima da média puxa a média para cima; o encontro é no topo da PMe.",
    "ficha": {
-    "titulo": "Pmg x Pme — quem puxa quem",
+    "titulo": "PMg x PMe",
     "topicos": [
      {
-      "rotulo": "Pmg > Pme",
-      "texto": "Pme **sobe**."
+      "rotulo": "PMg > PMe",
+      "texto": "PMe **sobe**."
      },
      {
-      "rotulo": "Pmg < Pme",
-      "texto": "Pme **cai**."
+      "rotulo": "PMg < PMe",
+      "texto": "PMe **cai**."
      },
      {
-      "rotulo": "Pmg = Pme",
-      "texto": "Pme no **máximo**. A Pmg corta a Pme no **topo** dela."
+      "rotulo": "Encontro",
+      "texto": "A PMg corta a PMe no **máximo da PMe**."
      },
      {
-      "rotulo": "Analogia",
-      "texto": "Média de notas: uma nota nova acima da média **eleva** a média."
+      "rotulo": "PMg negativa",
+      "texto": "O PT cai, mas a PMe continua **positiva**."
      }
     ],
     "distratores": [
      {
-      "frase": "A Pmg corta a Pme no mínimo da Pme",
-      "porque": "na produção é no **máximo** da Pme (nos custos é que o CMg corta o CMe no **mínimo**)."
+      "frase": "PMg negativa deixa a PMe negativa",
+      "porque": "PMe = PT/N continua **positiva**."
      }
     ]
    }
@@ -445,125 +445,175 @@
    }
   },
   {
-   "s": "Tabela de produção: início dos rendimentos decrescentes",
-   "d": "A",
-   "q": "Questão - Lei dos Rendimentos na tabela\nUma fazenda com área fixa tem a produção abaixo. A partir de qual trabalhador começam os rendimentos decrescentes (a Pmg começa a cair)?",
+   "s": "Tabela de produção estilo ENADE (PMe e PMg)",
+   "d": "I",
+   "q": "Questão - Tabela de Produção\nO quadro abaixo refere-se à produção de milho em uma área fixa de terra. De posse dos dados, calcule a PMe e a PMg e, em seguida, responda:\nQual a produtividade média e marginal do trabalho com 3 trabalhadores, respectivamente?\nQual a produtividade média e marginal do trabalho com 6 trabalhadores, respectivamente?",
    "t": {
     "headers": [
-     "N",
-     "PT"
+     "Nº de trabalhadores (N)",
+     "PT",
+     "PMe",
+     "PMg"
     ],
     "rows": [
      [
-      "0",
-      "0"
-     ],
-     [
       "1",
+      "15",
+      "15",
       "15"
      ],
      [
       "2",
-      "40"
+      "40",
+      "20",
+      "25"
      ],
      [
       "3",
-      "60"
+      "60",
+      "",
+      ""
      ],
      [
       "4",
-      "70"
+      "70",
+      "17,5",
+      "10"
      ],
      [
       "5",
-      "72"
+      "72",
+      "14,4",
+      "2"
+     ],
+     [
+      "6",
+      "70",
+      "",
+      ""
      ]
     ]
    },
    "a": [
-    "A partir do 3º, cuja Pmg (20) é menor que a do 2º (25).",
-    "A partir do 2º, cuja Pmg (25) é maior que a do 1º (15).",
-    "A partir do 4º, cuja Pme (17,5) é menor que a do 3º (20).",
-    "A partir do 5º, quando o PT quase para de crescer (72).",
-    "Desde o 1º, porque a área da fazenda é fixa desde o início."
+    "20 e 20; 11,67 e -2",
+    "20 e 25; 11,67 e 2",
+    "60 e 20; 70 e -2",
+    "20 e 20; 14,4 e 2",
+    "15 e 20; 11,67 e 0"
    ],
    "j": [
-    "Pmg: 15, 25, 20, 10, 2. O máximo é no 2º (25); a partir do 3º ela cai. Ali começam os rendimentos decrescentes.",
-    "No 2º a Pmg ainda está subindo (rendimentos crescentes).",
-    "A pergunta é sobre a Pmg, não a Pme. A Pme começa a cair no 4º, depois da Pmg.",
-    "No 5º a Pmg já vinha caindo havia dois trabalhadores.",
-    "Com 1 e 2 trabalhadores a Pmg sobe (15 → 25): ainda não há rendimentos decrescentes."
+    "N = 3: PMe = 60/3 = 20; PMg = 60 - 40 = 20. N = 6: PMe = 70/6 ≈ 11,67; PMg = 70 - 72 = -2.",
+    "25 é a PMg do 2º trabalhador; e a PMg do 6º é negativa (-2), porque o PT caiu.",
+    "60 e 70 são os PTs, não as PMe.",
+    "14,4 e 2 são os valores com 5 trabalhadores.",
+    "15 é a PMe com 1 trabalhador; a PMg do 6º é -2, não 0."
    ],
    "c": 0,
-   "p": "Calcule a Pmg de cada trabalhador. Rendimentos decrescentes começam quando ela passa a cair.",
+   "p": "PMe = PT ÷ N. PMg = PT atual - PT anterior.",
    "ficha": {
-    "titulo": "Achar o início dos rendimentos decrescentes",
+    "titulo": "Tabela de produção — PMe e PMg",
     "topicos": [
      {
-      "rotulo": "Passo 1",
-      "texto": "Pmg = diferença entre PTs: **15, 25, 20, 10, 2**."
+      "rotulo": "PMe",
+      "texto": "**PT ÷ N**: 60/3 = **20**; 70/6 ≈ **11,67**."
      },
      {
-      "rotulo": "Passo 2",
-      "texto": "Ache o **máximo da Pmg** (25, no 2º)."
+      "rotulo": "PMg",
+      "texto": "**PT(N) - PT(N-1)**: 60 - 40 = **20**; 70 - 72 = **-2**."
      },
      {
-      "rotulo": "Passo 3",
-      "texto": "Os rendimentos decrescentes começam **logo depois**: no **3º trabalhador**."
-     },
-     {
-      "rotulo": "Atenção",
-      "texto": "PT continua **subindo** com rendimentos decrescentes; só sobe mais devagar."
+      "rotulo": "Leitura",
+      "texto": "PMg negativa no 6º: o PT **caiu** (72 → 70)."
      }
     ],
     "distratores": [
      {
-      "frase": "Os rendimentos decrescentes começam quando o PT cai",
-      "porque": "começam quando a **Pmg** cai; o PT ainda cresce."
+      "frase": "PMg do 6º = 70/6",
+      "porque": "isso é a **PMe**; a PMg é a **diferença** entre PTs."
      }
     ]
    }
   },
   {
-   "s": "Tabela de produção: completar PT e Pmg",
-   "d": "I",
-   "q": "Questão - Completando a tabela\nUma fábrica com 4 trabalhadores tem produtividade média de 12,5 unidades por trabalhador. Ao contratar o 5º trabalhador, o produto total passa a ser 55 unidades. Qual é o PT com 4 trabalhadores e a Pmg do 5º, respectivamente?",
+   "s": "Completar a tabela de produção (PT, PMe, PMg)",
+   "d": "A",
+   "q": "Questão - Tabela de Produção\nNo quadro abaixo, algumas células estão em branco. Calcule, respectivamente: o PT com 2 trabalhadores, a PMe com 4 trabalhadores e a PMg do 5º trabalhador.",
+   "t": {
+    "headers": [
+     "N",
+     "PT",
+     "PMe",
+     "PMg"
+    ],
+    "rows": [
+     [
+      "1",
+      "10",
+      "10",
+      "10"
+     ],
+     [
+      "2",
+      "",
+      "12",
+      "14"
+     ],
+     [
+      "3",
+      "36",
+      "12",
+      "12"
+     ],
+     [
+      "4",
+      "44",
+      "",
+      "8"
+     ],
+     [
+      "5",
+      "50",
+      "10",
+      ""
+     ]
+    ]
+   },
    "a": [
-    "50 e 5",
-    "50 e 11",
-    "12,5 e 5",
-    "55 e 5",
-    "50 e 42,5"
+    "24; 11; 6",
+    "12; 11; 6",
+    "24; 44; 6",
+    "24; 11; 50",
+    "24; 8; 10"
    ],
    "j": [
-    "PT(4) = Pme × N = 12,5 × 4 = 50. Pmg do 5º = 55 - 50 = 5.",
-    "11 é a Pme com 5 trabalhadores (55/5), não a Pmg.",
-    "12,5 é a Pme, não o PT.",
-    "55 é o PT com 5 trabalhadores, não com 4.",
-    "42,5 = 55 - 12,5: subtraiu a Pme em vez do PT anterior."
+    "PT(2) = PMe × N = 12 × 2 = 24. PMe(4) = 44/4 = 11. PMg(5) = 50 - 44 = 6.",
+    "12 é a PMe com 2, não o PT.",
+    "44 é o PT com 4, não a PMe.",
+    "50 é o PT com 5, não a PMg.",
+    "8 é a PMg do 4º e 10 é a PMe com 5."
    ],
    "c": 0,
-   "p": "Se a questão dá a Pme, volte ao PT: PT = Pme × N.",
+   "p": "PT = PMe × N. PMe = PT ÷ N. PMg = PT atual - PT anterior.",
    "ficha": {
-    "titulo": "Voltar da Pme para o PT",
+    "titulo": "Completar a tabela de produção",
     "topicos": [
      {
-      "rotulo": "Fórmula invertida",
-      "texto": "**PT = Pme × N**. 12,5 × 4 = **50**."
+      "rotulo": "PT a partir da PMe",
+      "texto": "**PT = PMe × N**: 12 × 2 = **24**."
      },
      {
-      "rotulo": "Pmg",
-      "texto": "**55 - 50 = 5**."
+      "rotulo": "PMe",
+      "texto": "44 ÷ 4 = **11**."
      },
      {
-      "rotulo": "Pme nova",
-      "texto": "55/5 = 11 (não é o que foi pedido)."
+      "rotulo": "PMg",
+      "texto": "50 - 44 = **6**."
      }
     ],
     "distratores": [
      {
-      "frase": "Pmg = PT novo - Pme",
-      "porque": "a Pmg é **PT novo - PT anterior**."
+      "frase": "PT com 2 trabalhadores = 12",
+      "porque": "12 é a **média**; multiplique por N."
      }
     ]
    }
@@ -705,45 +755,45 @@
    }
   },
   {
-   "s": "Rendimentos de escala: classificar (cálculo)",
-   "d": "I",
-   "q": "Questão - Rendimentos de Escala\nTrês empresas dobram TODOS os seus fatores de produção (trabalho e capital). A produção de cada uma muda assim:\nEmpresa A: de 100 para 200 unidades\nEmpresa B: de 100 para 260 unidades\nEmpresa C: de 100 para 150 unidades\nMarque a classificação CORRETA:",
+   "s": "Rendimentos de escala (I, II, III)",
+   "d": "B",
+   "q": "Questão - Rendimentos de Escala (Longo Prazo)\nSobre o que acontece com a produção quando a empresa aumenta TODOS os seus fatores (trabalho e capital), avalie as frases:\nI. Rendimento constante de escala: dobrando os fatores, a produção também dobra.\nII. Rendimento crescente de escala (economia de escala): dobrando os fatores, a produção mais que dobra.\nIII. Rendimento decrescente de escala (deseconomia de escala): dobrando os fatores, a produção diminui.",
    "a": [
-    "A: constantes; B: crescentes (economia de escala); C: decrescentes (deseconomia).",
-    "A: crescentes (economia de escala); B: constantes; C: decrescentes (deseconomia).",
-    "A: constantes; B: decrescentes (deseconomia); C: crescentes (economia de escala).",
-    "A, B e C têm rendimentos crescentes, porque as três aumentaram a sua produção.",
-    "A: constantes; B e C mostram a lei dos rendimentos decrescentes do curto prazo."
+    "Apenas I e II estão corretas.",
+    "Apenas I está correta.",
+    "Apenas II e III estão corretas.",
+    "Apenas III está correta.",
+    "Todas as afirmativas estão corretas."
    ],
    "j": [
-    "Fatores ×2. A: produção ×2 (constantes). B: ×2,6, mais que proporcional (crescentes). C: ×1,5, menos que proporcional (decrescentes).",
-    "A cresceu exatamente na mesma proporção: rendimentos constantes.",
-    "Inverteu B e C: B cresceu mais que os fatores; C cresceu menos.",
-    "Crescer não basta: compara-se o aumento da produção com o aumento dos fatores.",
-    "Como todos os fatores variaram, é rendimento de escala (longo prazo), não a lei dos rendimentos."
+    "I e II estão certas. A III está errada: com rendimento decrescente a produção AUMENTA, só que menos que o dobro (cresce menos que os fatores).",
+    "A II também está correta.",
+    "A III está errada.",
+    "A III é a errada.",
+    "A III está errada."
    ],
    "c": 0,
-   "p": "Compare a % de aumento da produção com a % de aumento dos fatores.",
+   "p": "Decrescente de escala = a produção cresce MENOS que os fatores, mas cresce.",
    "ficha": {
-    "titulo": "Rendimentos de escala — como classificar",
+    "titulo": "Os três rendimentos de escala",
     "topicos": [
      {
-      "rotulo": "Constantes",
-      "texto": "Produção cresce **na mesma proporção** que os fatores (×2 → ×2)."
+      "rotulo": "Constante",
+      "texto": "Fatores ×2 → produção **×2**."
      },
      {
-      "rotulo": "Crescentes (economias de escala)",
-      "texto": "Produção cresce **mais** que os fatores (×2 → ×2,6)."
+      "rotulo": "Crescente (economia)",
+      "texto": "Fatores ×2 → produção **mais que ×2**."
      },
      {
-      "rotulo": "Decrescentes (deseconomias de escala)",
-      "texto": "Produção cresce **menos** que os fatores (×2 → ×1,5)."
+      "rotulo": "Decrescente (deseconomia)",
+      "texto": "Fatores ×2 → produção **menos que ×2** (mas ainda aumenta)."
      }
     ],
     "distratores": [
      {
-      "frase": "Toda empresa que aumenta a produção tem rendimentos crescentes",
-      "porque": "precisa crescer **mais que proporcionalmente** aos fatores."
+      "frase": "Com deseconomia de escala a produção cai",
+      "porque": "ela **cresce menos** que os fatores; não cai."
      }
     ]
    }

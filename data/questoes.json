@@ -645,62 +645,63 @@
   "code": "CONS-10",
   "assunto": "consumo",
   "category": "Teoria do consumo",
-  "subcategory": "Hipóteses da preferência: transitividade",
+  "subcategory": "Hipóteses da preferência: transitividade (I, II, III)",
   "difficulty": "Básica",
   "origem": "nova",
   "sourceLabel": "Modelo: prova de 20/11 (questões 1 a 3). O livro do notebook não traz teoria do consumidor; conteúdo padrão da disciplina.",
-  "prompt": "Questão - Transitividade\nAna prefere a cesta A à cesta B e prefere a cesta B à cesta C. Se as preferências de Ana são transitivas, marque a opção CORRETA:",
+  "prompt": "Questão - Hipóteses da Preferência\nSobre como os consumidores ordenam as cestas, leia as frases abaixo e marque a opção CORRETA:\nI. Preferências completas: o consumidor sempre consegue comparar duas cestas (prefere uma ou acha as duas iguais).\nII. Preferências transitivas: se ele prefere A a B e prefere B a C, então prefere A a C (as escolhas são coerentes).\nIII. Pela transitividade, o consumidor pode preferir C a A mesmo preferindo A a B e B a C (as escolhas podem andar em círculo).",
   "options": [
    {
     "letter": "A",
-    "text": "Ana prefere a cesta C à cesta A.",
-    "rationale": "Incorreta. Isso contraria a transitividade (seria uma preferência incoerente, circular)."
+    "text": "Somente a I é verdadeira.",
+    "rationale": "Incorreta. A II também está correta."
    },
    {
     "letter": "B",
-    "text": "Ana é indiferente entre as cestas A e C.",
-    "rationale": "Incorreta. Pela transitividade, A é estritamente preferida a C, não indiferente."
+    "text": "Somente II e III são verdadeiras.",
+    "rationale": "Incorreta. A III está errada e a I está correta."
    },
    {
     "letter": "C",
-    "text": "Não dá para dizer nada sobre A e C.",
-    "rationale": "Incorreta. A transitividade existe justamente para permitir essa conclusão."
+    "text": "Todas são verdadeiras.",
+    "rationale": "Incorreta. A III está errada."
    },
    {
     "letter": "D",
-    "text": "Ana prefere a cesta A à cesta C.",
-    "rationale": "CORRETA. Transitividade: A>B e B>C implicam A>C."
+    "text": "Somente I e II são verdadeiras.",
+    "rationale": "CORRETA. I e II definem completude e transitividade. A III está errada: preferir C a A seria uma escolha circular, que viola a transitividade."
    },
    {
     "letter": "E",
-    "text": "A cesta B é a melhor das três para Ana.",
-    "rationale": "Incorreta. A é preferida a B, então B não é a melhor."
+    "text": "Nenhuma é verdadeira.",
+    "rationale": "Incorreta. I e II estão corretas."
    }
   ],
   "correctLetter": "D",
-  "clinicalPointers": "Transitividade = coerência em cadeia: A>B, B>C → A>C.",
+  "clinicalPointers": "Transitividade: A > B e B > C → A > C. Escolha em círculo viola a hipótese.",
   "ficha": {
-   "titulo": "Transitividade — coerência das escolhas",
+   "titulo": "Transitividade — escolhas coerentes",
    "topicos": [
     {
      "rotulo": "Regra",
-     "texto": "Se **A>B** e **B>C**, então **A>C**.",
+     "texto": "Se **A > B** e **B > C**, então **A > C**.",
      "sub": []
     },
     {
-     "rotulo": "Para que serve",
-     "texto": "Garante que as escolhas não sejam **circulares** e que as curvas de indiferença **não se cruzem**.",
+     "rotulo": "Escolha circular",
+     "texto": "A > B > C > A **viola** a transitividade.",
+     "sub": []
+    },
+    {
+     "rotulo": "Completude",
+     "texto": "O consumidor **sempre compara** duas cestas (pode ser indiferente).",
      "sub": []
     }
    ],
    "distratores": [
     {
-     "frase": "Com A>B e B>C, nada se pode concluir sobre A e C",
-     "porque": "A transitividade garante formalmente **A>C**."
-    },
-    {
      "frase": "O consumidor pode preferir C a A mesmo preferindo A a B e B a C",
-     "porque": "Preferir C a A geraria um **ciclo de escolhas**, violando diretamente a transitividade."
+     "porque": "isso é uma escolha **circular**, proibida pela transitividade."
     }
    ],
    "fonte": "Modelo: prova de 20/11 (questões 1 a 3). O livro do notebook não traz teoria do consumidor; conteúdo padrão da disciplina."
@@ -1061,67 +1062,98 @@
   "code": "CONS-16",
   "assunto": "consumo",
   "category": "Teoria do consumo",
-  "subcategory": "Taxa marginal de substituição: cálculo na CI",
+  "subcategory": "TMS na tabela de cestas (cálculo)",
   "difficulty": "Intermediária",
   "origem": "nova",
   "sourceLabel": "Modelo: prova de 20/11 (questões 1 a 3). O livro do notebook não traz teoria do consumidor; conteúdo padrão da disciplina.",
-  "prompt": "Questão - Calculando a TMS\nSobre uma mesma curva de indiferença, um consumidor passa da cesta (X = 2; Y = 10) para a cesta (X = 3; Y = 7) e depois para a cesta (X = 4; Y = 5). Qual é a TMS em cada trecho e o que isso mostra?",
+  "prompt": "Questão - Taxa Marginal de Substituição (TMS)\nA tabela abaixo mostra cestas que estão na mesma curva de indiferença (dão a mesma satisfação). A TMS é quanto de Y o consumidor aceita trocar para ganhar 1 unidade a mais de X. Qual é a TMS na passagem da cesta A para a B e da cesta C para a D, respectivamente?",
+  "visual": {
+   "type": "table",
+   "headers": [
+    "Cesta",
+    "Bem X",
+    "Bem Y",
+    "TMS"
+   ],
+   "rows": [
+    [
+     "A",
+     "1",
+     "12",
+     "-"
+    ],
+    [
+     "B",
+     "2",
+     "8",
+     ""
+    ],
+    [
+     "C",
+     "3",
+     "5",
+     ""
+    ],
+    [
+     "D",
+     "4",
+     "3",
+     ""
+    ]
+   ]
+  },
   "options": [
    {
     "letter": "A",
-    "text": "3 e depois 2; a TMS decrescente mostra que a CI é côncava.",
-    "rationale": "Incorreta. Os números estão certos, mas TMS decrescente gera curva convexa (encurvada para a origem), não côncava."
+    "text": "8 e 3",
+    "rationale": "Incorreta. 8 e 3 são quantidades de Y nas cestas B e D, não o quanto foi cedido."
    },
    {
     "letter": "B",
-    "text": "3 e depois 2; a TMS decrescente mostra que a CI é convexa.",
-    "rationale": "CORRETA. 1º trecho: ΔY = 10-7 = 3 para ΔX = 1 → TMS 3. 2º trecho: 7-5 = 2 para ΔX = 1 → TMS 2. Cai ao longo da curva: CI convexa."
+    "text": "4 e 2",
+    "rationale": "CORRETA. A → B: Y cai de 12 para 8 (cede 4) para ganhar 1 de X → TMS = 4. C → D: Y cai de 5 para 3 (cede 2) → TMS = 2."
    },
    {
     "letter": "C",
-    "text": "2 e depois 3; a TMS crescente mostra que a CI é convexa.",
-    "rationale": "Incorreta. Inverteu a ordem: a TMS começa em 3 e cai para 2."
+    "text": "4 e 3",
+    "rationale": "Incorreta. 3 é a TMS de B para C (8 - 5), não de C para D."
    },
    {
     "letter": "D",
-    "text": "7 e depois 5; a TMS mostra a quantidade de Y em cada cesta.",
-    "rationale": "Incorreta. 7 e 5 são as quantidades de Y nas cestas, não quanto de Y foi cedido."
+    "text": "3 e 2",
+    "rationale": "Incorreta. 3 é a TMS de B para C; a de A para B é 4."
    },
    {
     "letter": "E",
-    "text": "1 e depois 1; a TMS constante mostra que a CI é uma reta.",
-    "rationale": "Incorreta. X aumentou 1 a cada trecho, mas Y caiu 3 e depois 2. A TMS não é 1."
+    "text": "12 e 5",
+    "rationale": "Incorreta. 12 e 5 são as quantidades de Y nas cestas A e C."
    }
   ],
   "correctLetter": "B",
-  "clinicalPointers": "TMS = quanto Y caiu ÷ quanto X subiu. Se cai ao longo da curva → CI convexa.",
+  "clinicalPointers": "TMS = quanto Y diminuiu ÷ quanto X aumentou, entre as duas cestas pedidas.",
   "ficha": {
-   "titulo": "TMS — cálculo e convexidade",
+   "titulo": "TMS na tabela de cestas",
    "topicos": [
     {
      "rotulo": "Conta",
-     "texto": "TMS = **ΔY/ΔX** em módulo. (2;10)→(3;7): 3/1 = **3**. (3;7)→(4;5): 2/1 = **2**.",
+     "texto": "TMS = **queda de Y ÷ aumento de X**.",
      "sub": []
     },
     {
-     "rotulo": "TMS decrescente",
-     "texto": "Quanto **mais X** o consumidor já tem, **menos Y** aceita ceder por mais uma unidade de X.",
+     "rotulo": "Trechos",
+     "texto": "A→B: **4**; B→C: **3**; C→D: **2**.",
      "sub": []
     },
     {
-     "rotulo": "Forma da curva",
-     "texto": "TMS decrescente → CI **convexa** à origem.",
+     "rotulo": "Leitura",
+     "texto": "A TMS **diminui** ao longo da curva: a CI é **convexa**.",
      "sub": []
     }
    ],
    "distratores": [
     {
-     "frase": "TMS decrescente gera CI côncava",
-     "porque": "gera curva **convexa** (bojo voltado para a origem)."
-    },
-    {
-     "frase": "A TMS é a quantidade de Y na cesta",
-     "porque": "é a **variação** de Y, não o nível."
+     "frase": "A TMS é a quantidade de Y da cesta",
+     "porque": "é o quanto Y **diminuiu**, não o valor de Y."
     }
    ],
    "fonte": "Modelo: prova de 20/11 (questões 1 a 3). O livro do notebook não traz teoria do consumidor; conteúdo padrão da disciplina."
@@ -1761,68 +1793,68 @@
   "code": "PROD-08",
   "assunto": "producao",
   "category": "Teoria da produção",
-  "subcategory": "Relação entre Pmg e Pme",
-  "difficulty": "Avançada",
+  "subcategory": "Relação entre PMg e PMe (I, II, III)",
+  "difficulty": "Intermediária",
   "origem": "nova",
   "sourceLabel": "Vasconcellos, Economia Micro e Macro, cap. 5 (Produção) · modelo: prova de 20/11 (questões 4, 5 e 7).",
-  "prompt": "Questão - Pmg e Pme\nSobre a relação entre a produtividade marginal (Pmg) e a produtividade média (Pme) do trabalho, marque a opção CORRETA:",
+  "prompt": "Questão - Produtividade Marginal e Média\nSobre a relação entre a produtividade marginal (PMg) e a produtividade média (PMe) do trabalho, avalie as frases:\nI. Se a PMg está acima da PMe, a PMe está aumentando (o novo trabalhador puxa a média para cima).\nII. A curva de PMg corta a curva de PMe no ponto máximo da PMe.\nIII. Quando a PMg fica negativa, a PMe também fica negativa.",
   "options": [
    {
     "letter": "A",
-    "text": "Quando a Pmg está acima da Pme, a Pme está caindo; a Pmg corta a Pme no mínimo dela.",
-    "rationale": "Incorreta. Inverteu: Pmg acima da média faz a média subir, e o cruzamento é no máximo da Pme."
+    "text": "Apenas I está correta.",
+    "rationale": "Incorreta. A II também está correta."
    },
    {
     "letter": "B",
-    "text": "Quando a Pmg está acima da Pme, a Pme está subindo; a Pmg corta a Pme no máximo dela.",
-    "rationale": "CORRETA. Se o novo trabalhador produz mais que a média (Pmg > Pme), ele puxa a média para cima. O cruzamento é no topo da Pme."
+    "text": "Apenas I e II estão corretas.",
+    "rationale": "CORRETA. I e II estão certas. A III está errada: a PMe = PT/N continua positiva enquanto houver produção; quem fica negativa é só a PMg."
    },
    {
     "letter": "C",
-    "text": "A Pmg e a Pme são sempre iguais, porque as duas dependem do mesmo produto total.",
-    "rationale": "Incorreta. Elas só são iguais em um ponto: o máximo da Pme."
+    "text": "Apenas II e III estão corretas.",
+    "rationale": "Incorreta. A III está errada."
    },
    {
     "letter": "D",
-    "text": "A Pme corta a Pmg no ponto máximo da Pmg, quando o produto total para de crescer.",
-    "rationale": "Incorreta. O cruzamento é no máximo da Pme, não da Pmg. E o PT para de crescer quando Pmg = 0."
+    "text": "Apenas III está correta.",
+    "rationale": "Incorreta. A III é justamente a errada."
    },
    {
     "letter": "E",
-    "text": "Quando a Pmg está abaixo da Pme, a Pme está subindo, mesmo que devagar.",
-    "rationale": "Incorreta. Pmg abaixo da média puxa a média para baixo."
+    "text": "Todas as afirmativas estão corretas.",
+    "rationale": "Incorreta. A III está errada."
    }
   ],
   "correctLetter": "B",
-  "clinicalPointers": "Pense em nota: se a nova nota (marginal) é maior que a média, a média sobe.",
+  "clinicalPointers": "PMg acima da média puxa a média para cima; o encontro é no topo da PMe.",
   "ficha": {
-   "titulo": "Pmg x Pme — quem puxa quem",
+   "titulo": "PMg x PMe",
    "topicos": [
     {
-     "rotulo": "Pmg > Pme",
-     "texto": "Pme **sobe**.",
+     "rotulo": "PMg > PMe",
+     "texto": "PMe **sobe**.",
      "sub": []
     },
     {
-     "rotulo": "Pmg < Pme",
-     "texto": "Pme **cai**.",
+     "rotulo": "PMg < PMe",
+     "texto": "PMe **cai**.",
      "sub": []
     },
     {
-     "rotulo": "Pmg = Pme",
-     "texto": "Pme no **máximo**. A Pmg corta a Pme no **topo** dela.",
+     "rotulo": "Encontro",
+     "texto": "A PMg corta a PMe no **máximo da PMe**.",
      "sub": []
     },
     {
-     "rotulo": "Analogia",
-     "texto": "Média de notas: uma nota nova acima da média **eleva** a média.",
+     "rotulo": "PMg negativa",
+     "texto": "O PT cai, mas a PMe continua **positiva**.",
      "sub": []
     }
    ],
    "distratores": [
     {
-     "frase": "A Pmg corta a Pme no mínimo da Pme",
-     "porque": "na produção é no **máximo** da Pme (nos custos é que o CMg corta o CMe no **mínimo**)."
+     "frase": "PMg negativa deixa a PMe negativa",
+     "porque": "PMe = PT/N continua **positiva**."
     }
    ],
    "fonte": "Vasconcellos, Economia Micro e Macro, cap. 5 (Produção) · modelo: prova de 20/11 (questões 4, 5 e 7)."
@@ -1935,101 +1967,110 @@
   "code": "PROD-10",
   "assunto": "producao",
   "category": "Teoria da produção",
-  "subcategory": "Tabela de produção: início dos rendimentos decrescentes",
-  "difficulty": "Avançada",
+  "subcategory": "Tabela de produção estilo ENADE (PMe e PMg)",
+  "difficulty": "Intermediária",
   "origem": "nova",
   "sourceLabel": "Vasconcellos, Economia Micro e Macro, cap. 5 (Produção) · modelo: prova de 20/11 (questões 4, 5 e 7).",
-  "prompt": "Questão - Lei dos Rendimentos na tabela\nUma fazenda com área fixa tem a produção abaixo. A partir de qual trabalhador começam os rendimentos decrescentes (a Pmg começa a cair)?",
+  "prompt": "Questão - Tabela de Produção\nO quadro abaixo refere-se à produção de milho em uma área fixa de terra. De posse dos dados, calcule a PMe e a PMg e, em seguida, responda:\nQual a produtividade média e marginal do trabalho com 3 trabalhadores, respectivamente?\nQual a produtividade média e marginal do trabalho com 6 trabalhadores, respectivamente?",
   "visual": {
    "type": "table",
    "headers": [
-    "N",
-    "PT"
+    "Nº de trabalhadores (N)",
+    "PT",
+    "PMe",
+    "PMg"
    ],
    "rows": [
     [
-     "0",
-     "0"
-    ],
-    [
      "1",
+     "15",
+     "15",
      "15"
     ],
     [
      "2",
-     "40"
+     "40",
+     "20",
+     "25"
     ],
     [
      "3",
-     "60"
+     "60",
+     "",
+     ""
     ],
     [
      "4",
-     "70"
+     "70",
+     "17,5",
+     "10"
     ],
     [
      "5",
-     "72"
+     "72",
+     "14,4",
+     "2"
+    ],
+    [
+     "6",
+     "70",
+     "",
+     ""
     ]
    ]
   },
   "options": [
    {
     "letter": "A",
-    "text": "A partir do 2º, cuja Pmg (25) é maior que a do 1º (15).",
-    "rationale": "Incorreta. No 2º a Pmg ainda está subindo (rendimentos crescentes)."
+    "text": "20 e 25; 11,67 e 2",
+    "rationale": "Incorreta. 25 é a PMg do 2º trabalhador; e a PMg do 6º é negativa (-2), porque o PT caiu."
    },
    {
     "letter": "B",
-    "text": "A partir do 4º, cuja Pme (17,5) é menor que a do 3º (20).",
-    "rationale": "Incorreta. A pergunta é sobre a Pmg, não a Pme. A Pme começa a cair no 4º, depois da Pmg."
+    "text": "60 e 20; 70 e -2",
+    "rationale": "Incorreta. 60 e 70 são os PTs, não as PMe."
    },
    {
     "letter": "C",
-    "text": "A partir do 3º, cuja Pmg (20) é menor que a do 2º (25).",
-    "rationale": "CORRETA. Pmg: 15, 25, 20, 10, 2. O máximo é no 2º (25); a partir do 3º ela cai. Ali começam os rendimentos decrescentes."
+    "text": "20 e 20; 11,67 e -2",
+    "rationale": "CORRETA. N = 3: PMe = 60/3 = 20; PMg = 60 - 40 = 20. N = 6: PMe = 70/6 ≈ 11,67; PMg = 70 - 72 = -2."
    },
    {
     "letter": "D",
-    "text": "A partir do 5º, quando o PT quase para de crescer (72).",
-    "rationale": "Incorreta. No 5º a Pmg já vinha caindo havia dois trabalhadores."
+    "text": "20 e 20; 14,4 e 2",
+    "rationale": "Incorreta. 14,4 e 2 são os valores com 5 trabalhadores."
    },
    {
     "letter": "E",
-    "text": "Desde o 1º, porque a área da fazenda é fixa desde o início.",
-    "rationale": "Incorreta. Com 1 e 2 trabalhadores a Pmg sobe (15 → 25): ainda não há rendimentos decrescentes."
+    "text": "15 e 20; 11,67 e 0",
+    "rationale": "Incorreta. 15 é a PMe com 1 trabalhador; a PMg do 6º é -2, não 0."
    }
   ],
   "correctLetter": "C",
-  "clinicalPointers": "Calcule a Pmg de cada trabalhador. Rendimentos decrescentes começam quando ela passa a cair.",
+  "clinicalPointers": "PMe = PT ÷ N. PMg = PT atual - PT anterior.",
   "ficha": {
-   "titulo": "Achar o início dos rendimentos decrescentes",
+   "titulo": "Tabela de produção — PMe e PMg",
    "topicos": [
     {
-     "rotulo": "Passo 1",
-     "texto": "Pmg = diferença entre PTs: **15, 25, 20, 10, 2**.",
+     "rotulo": "PMe",
+     "texto": "**PT ÷ N**: 60/3 = **20**; 70/6 ≈ **11,67**.",
      "sub": []
     },
     {
-     "rotulo": "Passo 2",
-     "texto": "Ache o **máximo da Pmg** (25, no 2º).",
+     "rotulo": "PMg",
+     "texto": "**PT(N) - PT(N-1)**: 60 - 40 = **20**; 70 - 72 = **-2**.",
      "sub": []
     },
     {
-     "rotulo": "Passo 3",
-     "texto": "Os rendimentos decrescentes começam **logo depois**: no **3º trabalhador**.",
-     "sub": []
-    },
-    {
-     "rotulo": "Atenção",
-     "texto": "PT continua **subindo** com rendimentos decrescentes; só sobe mais devagar.",
+     "rotulo": "Leitura",
+     "texto": "PMg negativa no 6º: o PT **caiu** (72 → 70).",
      "sub": []
     }
    ],
    "distratores": [
     {
-     "frase": "Os rendimentos decrescentes começam quando o PT cai",
-     "porque": "começam quando a **Pmg** cai; o PT ainda cresce."
+     "frase": "PMg do 6º = 70/6",
+     "porque": "isso é a **PMe**; a PMg é a **diferença** entre PTs."
     }
    ],
    "fonte": "Vasconcellos, Economia Micro e Macro, cap. 5 (Produção) · modelo: prova de 20/11 (questões 4, 5 e 7)."
@@ -2041,63 +2082,104 @@
   "code": "PROD-11",
   "assunto": "producao",
   "category": "Teoria da produção",
-  "subcategory": "Tabela de produção: completar PT e Pmg",
-  "difficulty": "Intermediária",
+  "subcategory": "Completar a tabela de produção (PT, PMe, PMg)",
+  "difficulty": "Avançada",
   "origem": "nova",
   "sourceLabel": "Vasconcellos, Economia Micro e Macro, cap. 5 (Produção) · modelo: prova de 20/11 (questões 4, 5 e 7).",
-  "prompt": "Questão - Completando a tabela\nUma fábrica com 4 trabalhadores tem produtividade média de 12,5 unidades por trabalhador. Ao contratar o 5º trabalhador, o produto total passa a ser 55 unidades. Qual é o PT com 4 trabalhadores e a Pmg do 5º, respectivamente?",
+  "prompt": "Questão - Tabela de Produção\nNo quadro abaixo, algumas células estão em branco. Calcule, respectivamente: o PT com 2 trabalhadores, a PMe com 4 trabalhadores e a PMg do 5º trabalhador.",
+  "visual": {
+   "type": "table",
+   "headers": [
+    "N",
+    "PT",
+    "PMe",
+    "PMg"
+   ],
+   "rows": [
+    [
+     "1",
+     "10",
+     "10",
+     "10"
+    ],
+    [
+     "2",
+     "",
+     "12",
+     "14"
+    ],
+    [
+     "3",
+     "36",
+     "12",
+     "12"
+    ],
+    [
+     "4",
+     "44",
+     "",
+     "8"
+    ],
+    [
+     "5",
+     "50",
+     "10",
+     ""
+    ]
+   ]
+  },
   "options": [
    {
     "letter": "A",
-    "text": "50 e 5",
-    "rationale": "CORRETA. PT(4) = Pme × N = 12,5 × 4 = 50. Pmg do 5º = 55 - 50 = 5."
+    "text": "24; 11; 6",
+    "rationale": "CORRETA. PT(2) = PMe × N = 12 × 2 = 24. PMe(4) = 44/4 = 11. PMg(5) = 50 - 44 = 6."
    },
    {
     "letter": "B",
-    "text": "50 e 11",
-    "rationale": "Incorreta. 11 é a Pme com 5 trabalhadores (55/5), não a Pmg."
+    "text": "12; 11; 6",
+    "rationale": "Incorreta. 12 é a PMe com 2, não o PT."
    },
    {
     "letter": "C",
-    "text": "12,5 e 5",
-    "rationale": "Incorreta. 12,5 é a Pme, não o PT."
+    "text": "24; 44; 6",
+    "rationale": "Incorreta. 44 é o PT com 4, não a PMe."
    },
    {
     "letter": "D",
-    "text": "55 e 5",
-    "rationale": "Incorreta. 55 é o PT com 5 trabalhadores, não com 4."
+    "text": "24; 11; 50",
+    "rationale": "Incorreta. 50 é o PT com 5, não a PMg."
    },
    {
     "letter": "E",
-    "text": "50 e 42,5",
-    "rationale": "Incorreta. 42,5 = 55 - 12,5: subtraiu a Pme em vez do PT anterior."
+    "text": "24; 8; 10",
+    "rationale": "Incorreta. 8 é a PMg do 4º e 10 é a PMe com 5."
    }
   ],
   "correctLetter": "A",
-  "clinicalPointers": "Se a questão dá a Pme, volte ao PT: PT = Pme × N.",
+  "clinicalPointers": "PT = PMe × N. PMe = PT ÷ N. PMg = PT atual - PT anterior.",
   "ficha": {
-   "titulo": "Voltar da Pme para o PT",
+   "titulo": "Completar a tabela de produção",
    "topicos": [
     {
-     "rotulo": "Fórmula invertida",
-     "texto": "**PT = Pme × N**. 12,5 × 4 = **50**.",
+     "rotulo": "PT a partir da PMe",
+     "texto": "**PT = PMe × N**: 12 × 2 = **24**.",
      "sub": []
     },
     {
-     "rotulo": "Pmg",
-     "texto": "**55 - 50 = 5**.",
+     "rotulo": "PMe",
+     "texto": "44 ÷ 4 = **11**.",
      "sub": []
     },
     {
-     "rotulo": "Pme nova",
-     "texto": "55/5 = 11 (não é o que foi pedido).",
+     "rotulo": "PMg",
+     "texto": "50 - 44 = **6**.",
      "sub": []
     }
    ],
    "distratores": [
     {
-     "frase": "Pmg = PT novo - Pme",
-     "porque": "a Pmg é **PT novo - PT anterior**."
+     "frase": "PT com 2 trabalhadores = 12",
+     "porque": "12 é a **média**; multiplique por N."
     }
    ],
    "fonte": "Vasconcellos, Economia Micro e Macro, cap. 5 (Produção) · modelo: prova de 20/11 (questões 4, 5 e 7)."
@@ -2318,63 +2400,63 @@
   "code": "PROD-15",
   "assunto": "producao",
   "category": "Teoria da produção",
-  "subcategory": "Rendimentos de escala: classificar (cálculo)",
-  "difficulty": "Intermediária",
+  "subcategory": "Rendimentos de escala (I, II, III)",
+  "difficulty": "Básica",
   "origem": "nova",
   "sourceLabel": "Vasconcellos, Economia Micro e Macro, cap. 5 (Produção) · modelo: prova de 20/11 (questões 4, 5 e 7).",
-  "prompt": "Questão - Rendimentos de Escala\nTrês empresas dobram TODOS os seus fatores de produção (trabalho e capital). A produção de cada uma muda assim:\nEmpresa A: de 100 para 200 unidades\nEmpresa B: de 100 para 260 unidades\nEmpresa C: de 100 para 150 unidades\nMarque a classificação CORRETA:",
+  "prompt": "Questão - Rendimentos de Escala (Longo Prazo)\nSobre o que acontece com a produção quando a empresa aumenta TODOS os seus fatores (trabalho e capital), avalie as frases:\nI. Rendimento constante de escala: dobrando os fatores, a produção também dobra.\nII. Rendimento crescente de escala (economia de escala): dobrando os fatores, a produção mais que dobra.\nIII. Rendimento decrescente de escala (deseconomia de escala): dobrando os fatores, a produção diminui.",
   "options": [
    {
     "letter": "A",
-    "text": "A: crescentes (economia de escala); B: constantes; C: decrescentes (deseconomia).",
-    "rationale": "Incorreta. A cresceu exatamente na mesma proporção: rendimentos constantes."
+    "text": "Apenas I está correta.",
+    "rationale": "Incorreta. A II também está correta."
    },
    {
     "letter": "B",
-    "text": "A: constantes; B: decrescentes (deseconomia); C: crescentes (economia de escala).",
-    "rationale": "Incorreta. Inverteu B e C: B cresceu mais que os fatores; C cresceu menos."
+    "text": "Apenas II e III estão corretas.",
+    "rationale": "Incorreta. A III está errada."
    },
    {
     "letter": "C",
-    "text": "A: constantes; B: crescentes (economia de escala); C: decrescentes (deseconomia).",
-    "rationale": "CORRETA. Fatores ×2. A: produção ×2 (constantes). B: ×2,6, mais que proporcional (crescentes). C: ×1,5, menos que proporcional (decrescentes)."
+    "text": "Apenas I e II estão corretas.",
+    "rationale": "CORRETA. I e II estão certas. A III está errada: com rendimento decrescente a produção AUMENTA, só que menos que o dobro (cresce menos que os fatores)."
    },
    {
     "letter": "D",
-    "text": "A, B e C têm rendimentos crescentes, porque as três aumentaram a sua produção.",
-    "rationale": "Incorreta. Crescer não basta: compara-se o aumento da produção com o aumento dos fatores."
+    "text": "Apenas III está correta.",
+    "rationale": "Incorreta. A III é a errada."
    },
    {
     "letter": "E",
-    "text": "A: constantes; B e C mostram a lei dos rendimentos decrescentes do curto prazo.",
-    "rationale": "Incorreta. Como todos os fatores variaram, é rendimento de escala (longo prazo), não a lei dos rendimentos."
+    "text": "Todas as afirmativas estão corretas.",
+    "rationale": "Incorreta. A III está errada."
    }
   ],
   "correctLetter": "C",
-  "clinicalPointers": "Compare a % de aumento da produção com a % de aumento dos fatores.",
+  "clinicalPointers": "Decrescente de escala = a produção cresce MENOS que os fatores, mas cresce.",
   "ficha": {
-   "titulo": "Rendimentos de escala — como classificar",
+   "titulo": "Os três rendimentos de escala",
    "topicos": [
     {
-     "rotulo": "Constantes",
-     "texto": "Produção cresce **na mesma proporção** que os fatores (×2 → ×2).",
+     "rotulo": "Constante",
+     "texto": "Fatores ×2 → produção **×2**.",
      "sub": []
     },
     {
-     "rotulo": "Crescentes (economias de escala)",
-     "texto": "Produção cresce **mais** que os fatores (×2 → ×2,6).",
+     "rotulo": "Crescente (economia)",
+     "texto": "Fatores ×2 → produção **mais que ×2**.",
      "sub": []
     },
     {
-     "rotulo": "Decrescentes (deseconomias de escala)",
-     "texto": "Produção cresce **menos** que os fatores (×2 → ×1,5).",
+     "rotulo": "Decrescente (deseconomia)",
+     "texto": "Fatores ×2 → produção **menos que ×2** (mas ainda aumenta).",
      "sub": []
     }
    ],
    "distratores": [
     {
-     "frase": "Toda empresa que aumenta a produção tem rendimentos crescentes",
-     "porque": "precisa crescer **mais que proporcionalmente** aos fatores."
+     "frase": "Com deseconomia de escala a produção cai",
+     "porque": "ela **cresce menos** que os fatores; não cai."
     }
    ],
    "fonte": "Vasconcellos, Economia Micro e Macro, cap. 5 (Produção) · modelo: prova de 20/11 (questões 4, 5 e 7)."
@@ -3619,63 +3701,145 @@
   "code": "LUC-04",
   "assunto": "lucro",
   "category": "Maximização de lucros",
-  "subcategory": "Receita marginal: cálculo",
+  "subcategory": "Tabela de maximização do lucro (RT, LT, RMg)",
   "difficulty": "Intermediária",
   "origem": "nova",
   "sourceLabel": "Vasconcellos, Economia Micro e Macro, cap. 7 (Estruturas de mercado, questões 1, 3 e 7) · modelo: prova de 20/11 (questão 6).",
-  "prompt": "Questão - Receita Marginal (RMg)\nUma empresa vendia 20 unidades e tinha receita total de R$ 300,00. Ao vender 21 unidades, a receita total passou para R$ 312,00. Qual é a receita marginal da 21ª unidade?",
+  "prompt": "Questão - Tabela de Maximização do Lucro Total\nDe acordo com a tabela abaixo, qual a Receita Total (RT), o Lucro Total (LT) e a Receita Marginal (RMg) no estágio de produção 4, respectivamente?",
+  "visual": {
+   "type": "table",
+   "headers": [
+    "Produção (por dia)",
+    "CT (R$)",
+    "Preço (R$)",
+    "RT (R$)",
+    "LT (R$)",
+    "CMg (R$)",
+    "RMg (R$)"
+   ],
+   "rows": [
+    [
+     "0",
+     "8,00",
+     "6,00",
+     "0",
+     "-8,00",
+     "-",
+     "-"
+    ],
+    [
+     "1",
+     "12,00",
+     "6,00",
+     "6,00",
+     "-6,00",
+     "4,00",
+     "6,00"
+    ],
+    [
+     "2",
+     "15,00",
+     "6,00",
+     "12,00",
+     "-3,00",
+     "3,00",
+     "6,00"
+    ],
+    [
+     "3",
+     "17,00",
+     "6,00",
+     "18,00",
+     "1,00",
+     "2,00",
+     "6,00"
+    ],
+    [
+     "4",
+     "20,00",
+     "6,00",
+     "",
+     "",
+     "3,00",
+     ""
+    ],
+    [
+     "5",
+     "25,00",
+     "6,00",
+     "30,00",
+     "5,00",
+     "5,00",
+     "6,00"
+    ],
+    [
+     "6",
+     "32,00",
+     "6,00",
+     "36,00",
+     "4,00",
+     "7,00",
+     "6,00"
+    ]
+   ]
+  },
   "options": [
    {
     "letter": "A",
-    "text": "R$ 12,00",
-    "rationale": "CORRETA. RMg = ΔRT/ΔQ = (312 - 300)/(21 - 20) = 12."
+    "text": "24,00; 4,00; 6,00",
+    "rationale": "CORRETA. RT = P × Q = 6 × 4 = 24. LT = RT - CT = 24 - 20 = 4. RMg = 24 - 18 = 6 (o próprio preço)."
    },
    {
     "letter": "B",
-    "text": "R$ 312,00",
-    "rationale": "Incorreta. 312 é a receita total com 21 unidades, não o acréscimo."
+    "text": "24,00; 20,00; 6,00",
+    "rationale": "Incorreta. 20 é o CT, não o lucro."
    },
    {
     "letter": "C",
-    "text": "R$ 15,00",
-    "rationale": "Incorreta. 15 é a receita média com 20 unidades (300/20)."
+    "text": "4,00; 24,00; 6,00",
+    "rationale": "Incorreta. Trocou RT e LT."
    },
    {
     "letter": "D",
-    "text": "R$ 14,86",
-    "rationale": "Incorreta. 14,86 é a receita média com 21 unidades (312/21)."
+    "text": "24,00; 4,00; 3,00",
+    "rationale": "Incorreta. 3 é o CMg da 4ª unidade, não a RMg."
    },
    {
     "letter": "E",
-    "text": "R$ 0,60",
-    "rationale": "Incorreta. 0,60 é 12 dividido por 20; a variação da quantidade é 1, não 20."
+    "text": "20,00; 4,00; 24,00",
+    "rationale": "Incorreta. 20 é o CT e 24 é a RT."
    }
   ],
   "correctLetter": "A",
-  "clinicalPointers": "RMg = quanto a RT aumentou ÷ quanto a quantidade aumentou.",
+  "clinicalPointers": "RT = P × Q. LT = RT - CT. Com preço fixo, RMg = P.",
   "ficha": {
-   "titulo": "Receita marginal — conta",
+   "titulo": "Tabela de lucro — RT, LT e RMg",
    "topicos": [
     {
-     "rotulo": "Fórmula",
-     "texto": "**RMg = ΔRT ÷ ΔQ**. (312 - 300)/1 = **12**.",
+     "rotulo": "RT",
+     "texto": "**P × Q** = 6 × 4 = **24**.",
      "sub": []
     },
     {
-     "rotulo": "Receita média",
-     "texto": "**RT ÷ Q** (é o preço médio). Não confundir com RMg.",
+     "rotulo": "LT",
+     "texto": "**RT - CT** = 24 - 20 = **4**.",
      "sub": []
     },
     {
-     "rotulo": "Quando RMg = P",
-     "texto": "Só quando o preço é **constante** (concorrência perfeita). Aqui o preço caiu, por isso RMg < receita média.",
+     "rotulo": "RMg",
+     "texto": "**RT(Q) - RT(Q-1)** = 24 - 18 = **6** = preço.",
+     "sub": []
+    },
+    {
+     "rotulo": "Lucro máximo",
+     "texto": "Na 5ª unidade (LT = 5): é a última com **RMg ≥ CMg** (6 > 5).",
      "sub": []
     }
    ],
    "distratores": [
     {
-     "frase": "RMg = RT ÷ Q",
-     "porque": "isso é **receita média**."
+     "frase": "RMg = CMg da mesma linha",
+     "porque": "a RMg vem da **receita**; com preço fixo é igual ao **preço**."
     }
    ],
    "fonte": "Vasconcellos, Economia Micro e Macro, cap. 7 (Estruturas de mercado, questões 1, 3 e 7) · modelo: prova de 20/11 (questão 6)."
@@ -3827,63 +3991,92 @@
   "code": "CONS-20",
   "assunto": "consumo",
   "category": "Teoria do consumo",
-  "subcategory": "Equação da restrição orçamentária",
+  "subcategory": "Restrição orçamentária em três situações (tabela)",
   "difficulty": "Intermediária",
   "origem": "nova",
   "sourceLabel": "Modelo: prova de 20/11 (questões 1 a 3). O livro do notebook não traz teoria do consumidor; conteúdo padrão da disciplina.",
-  "prompt": "Questão - Equação da RO\nUm consumidor tem renda de R$ 300,00. O bem X custa R$ 15,00 e o bem Y custa R$ 30,00. Com Y no eixo vertical, qual equação descreve a sua linha do orçamento?",
+  "prompt": "Questão - Restrição Orçamentária (RO)\nA tabela mostra a renda de um consumidor e os preços dos bens X e Y em três situações. Qual é a quantidade máxima de X que ele consegue comprar (gastando toda a renda só em X) nas situações 1, 2 e 3, respectivamente?",
+  "visual": {
+   "type": "table",
+   "headers": [
+    "Situação",
+    "Renda (R$)",
+    "Preço de X (R$)",
+    "Preço de Y (R$)"
+   ],
+   "rows": [
+    [
+     "1",
+     "300,00",
+     "15,00",
+     "30,00"
+    ],
+    [
+     "2",
+     "600,00",
+     "15,00",
+     "30,00"
+    ],
+    [
+     "3",
+     "300,00",
+     "30,00",
+     "30,00"
+    ]
+   ]
+  },
   "options": [
    {
     "letter": "A",
-    "text": "Y = 20 - 0,5X",
-    "rationale": "Incorreta. 20 é o máximo de X (300/15), não o de Y."
+    "text": "10; 20; 10",
+    "rationale": "Incorreta. 10 e 20 seriam os máximos de Y (300/30 e 600/30) nas situações 1 e 2."
    },
    {
     "letter": "B",
-    "text": "Y = 10 - 2X",
-    "rationale": "Incorreta. O intercepto está certo, mas a inclinação é -Px/Py = -0,5, não -2."
+    "text": "20; 20; 10",
+    "rationale": "Incorreta. Na situação 2 a renda dobrou, então o máximo de X também dobra (40)."
    },
    {
     "letter": "C",
-    "text": "Y = 20 - 2X",
-    "rationale": "Incorreta. Inverteu o intercepto e a inclinação."
+    "text": "20; 40; 20",
+    "rationale": "Incorreta. Na situação 3 o preço de X dobrou, então o máximo de X cai para 10."
    },
    {
     "letter": "D",
-    "text": "Y = 300 - 15X",
-    "rationale": "Incorreta. Faltou dividir tudo pelo preço de Y (30)."
+    "text": "10; 40; 10",
+    "rationale": "Incorreta. Na situação 1 o máximo de X é 300/15 = 20."
    },
    {
     "letter": "E",
-    "text": "Y = 10 - 0,5X",
-    "rationale": "CORRETA. 15X + 30Y = 300 → 30Y = 300 - 15X → Y = 10 - 0,5X. Intercepto 10 (= 300/30) e inclinação -0,5 (= -15/30)."
+    "text": "20; 40; 10",
+    "rationale": "CORRETA. Máximo de X = Renda ÷ Px. Situação 1: 300/15 = 20. Situação 2 (renda dobrou): 600/15 = 40. Situação 3 (Px dobrou): 300/30 = 10."
    }
   ],
   "correctLetter": "E",
-  "clinicalPointers": "Px·X + Py·Y = R → isole Y: Y = R/Py - (Px/Py)·X.",
+  "clinicalPointers": "Máximo de X = Renda ÷ Px. Renda maior → mais X; Px maior → menos X.",
   "ficha": {
-   "titulo": "Montar a equação da RO",
+   "titulo": "Máximo de um bem na RO",
    "topicos": [
     {
-     "rotulo": "Ponto de partida",
-     "texto": "**Px·X + Py·Y = R** → 15X + 30Y = 300.",
+     "rotulo": "Fórmula",
+     "texto": "Máximo de X = **Renda ÷ Px** (o ponto em que a RO toca o eixo de X).",
      "sub": []
     },
     {
-     "rotulo": "Isolar Y",
-     "texto": "**Y = R/Py - (Px/Py)·X** → Y = 10 - 0,5X.",
+     "rotulo": "Renda dobra",
+     "texto": "Máximo **dobra** (20 → 40): a linha se desloca para fora.",
      "sub": []
     },
     {
-     "rotulo": "Leitura",
-     "texto": "O número sozinho é o **máximo de Y**; o que multiplica X é a **inclinação**.",
+     "rotulo": "Px dobra",
+     "texto": "Máximo **cai à metade** (20 → 10): a linha gira para dentro no eixo de X.",
      "sub": []
     }
    ],
    "distratores": [
     {
-     "frase": "O termo constante é o máximo de X",
-     "porque": "com Y isolado, o termo constante é **R/Py**, o máximo de **Y**."
+     "frase": "O máximo de X é Renda ÷ Py",
+     "porque": "cada máximo usa o preço do **próprio** bem."
     }
    ],
    "fonte": "Modelo: prova de 20/11 (questões 1 a 3). O livro do notebook não traz teoria do consumidor; conteúdo padrão da disciplina."
@@ -3963,63 +4156,63 @@
   "code": "CONS-22",
   "assunto": "consumo",
   "category": "Teoria do consumo",
-  "subcategory": "Aumento do preço de Y (cálculo)",
+  "subcategory": "Aumento do preço de Y (I, II, III)",
   "difficulty": "Intermediária",
   "origem": "nova",
   "sourceLabel": "Modelo: prova de 20/11 (questões 1 a 3). O livro do notebook não traz teoria do consumidor; conteúdo padrão da disciplina.",
-  "prompt": "Questão - Preço de Y sobe\nUm consumidor tem renda de R$ 120,00. O bem X custa R$ 6,00, e o preço do bem Y sobe de R$ 4,00 para R$ 8,00. Com X no eixo horizontal, o que acontece com a linha do orçamento?",
+  "prompt": "Questão - Mudanças no Orçamento\nO preço do bem Y aumenta, e a renda e o preço de X não mudam. Analise o que acontece com a linha do orçamento e marque a correta:\nI. A linha gira para dentro no eixo de Y (o consumidor pode comprar menos Y).\nII. A quantidade máxima de X que ele consegue comprar não muda.\nIII. A linha se desloca inteira para a esquerda, como se a renda tivesse diminuído.",
   "options": [
    {
     "letter": "A",
-    "text": "Gira para dentro no eixo de Y: o máximo de Y cai de 30 para 15, e o de X fica em 20.",
-    "rationale": "CORRETA. Máximo de Y: 120/4 = 30 → 120/8 = 15. Máximo de X: 120/6 = 20, não muda. A inclinação -Px/Py vai de -1,5 para -0,75 (fica mais plana)."
+    "text": "Somente I e II são verdadeiras.",
+    "rationale": "CORRETA. Só o preço de Y mudou: o ponto máximo de Y (Renda/Py) diminui e a linha gira; o máximo de X (Renda/Px) fica igual. A III descreve queda de renda."
    },
    {
     "letter": "B",
-    "text": "Gira para dentro no eixo de X: o máximo de X cai de 20 para 10, e o de Y fica em 30.",
-    "rationale": "Incorreta. Quem mudou foi o preço de Y, então o intercepto que se move é o de Y."
+    "text": "Somente a I é verdadeira.",
+    "rationale": "Incorreta. A II também está correta: Renda/Px não muda."
    },
    {
     "letter": "C",
-    "text": "Desloca em paralelo para dentro: o máximo de Y cai para 15 e o de X cai para 10.",
-    "rationale": "Incorreta. Só um preço mudou: é giro, não paralelo."
+    "text": "Somente II e III são verdadeiras.",
+    "rationale": "Incorreta. A III está errada: deslocamento inteiro (paralelo) é efeito de renda."
    },
    {
     "letter": "D",
-    "text": "Gira para fora no eixo de Y: o máximo de Y sobe de 30 para 60, e o de X fica em 20.",
-    "rationale": "Incorreta. Preço maior permite comprar MENOS Y; a linha vai para dentro."
+    "text": "Todas são verdadeiras.",
+    "rationale": "Incorreta. A III está errada."
    },
    {
     "letter": "E",
-    "text": "Gira para dentro no eixo de Y, e a inclinação passa de -1,5 para -3 em módulo.",
-    "rationale": "Incorreta. O giro está certo, mas a inclinação diminui: -6/8 = -0,75 (em módulo, de 1,5 para 0,75)."
+    "text": "Nenhuma é verdadeira.",
+    "rationale": "Incorreta. I e II estão corretas."
    }
   ],
   "correctLetter": "A",
-  "clinicalPointers": "Mudou Py → mexe só R/Py. Inclinação -Px/Py: Py maior deixa a linha mais plana.",
+  "clinicalPointers": "Mudou um preço → a linha gira no eixo desse bem. Mudou a renda → a linha se desloca inteira.",
   "ficha": {
    "titulo": "Preço de Y sobe — giro no eixo de Y",
    "topicos": [
     {
-     "rotulo": "Intercepto de Y",
-     "texto": "R/Py: 30 → **15**.",
+     "rotulo": "Máximo de Y",
+     "texto": "Renda ÷ Py **diminui**.",
      "sub": []
     },
     {
-     "rotulo": "Intercepto de X",
-     "texto": "R/Px = 20, **parado**.",
+     "rotulo": "Máximo de X",
+     "texto": "Renda ÷ Px **não muda**.",
      "sub": []
     },
     {
-     "rotulo": "Inclinação",
-     "texto": "-Px/Py: -1,5 → **-0,75**. Py no denominador: Py maior → linha **mais plana**.",
+     "rotulo": "Movimento",
+     "texto": "A linha **gira para dentro** no eixo de Y; não é deslocamento paralelo.",
      "sub": []
     }
    ],
    "distratores": [
     {
-     "frase": "Py maior deixa a linha mais inclinada",
-     "porque": "Py está no **denominador** de -Px/Py; a linha fica mais **plana**."
+     "frase": "Se Py sobe, a linha se desloca inteira para a esquerda",
+     "porque": "isso acontece com **queda de renda**; aqui só um preço mudou."
     }
    ],
    "fonte": "Modelo: prova de 20/11 (questões 1 a 3). O livro do notebook não traz teoria do consumidor; conteúdo padrão da disciplina."
@@ -4171,59 +4364,59 @@
   "difficulty": "Básica",
   "origem": "nova",
   "sourceLabel": "Modelo: prova de 20/11 (questões 1 a 3). O livro do notebook não traz teoria do consumidor; conteúdo padrão da disciplina.",
-  "prompt": "Questão - Hipóteses da preferência\nJoão diz que prefere a cesta A à cesta B, prefere a cesta B à cesta C e prefere a cesta C à cesta A. Qual hipótese sobre as preferências João está violando?",
+  "prompt": "Questão - Transitividade\nQuando um consumidor prefere a cesta A à B, a B à C e também a C à A (as escolhas \"andam em círculo\"), qual hipótese sobre as preferências deixa de valer?",
   "options": [
    {
     "letter": "A",
     "text": "Completude.",
-    "rationale": "Incorreta. João consegue comparar todas as cestas, então a completude não é violada."
+    "rationale": "Incorreta. Ele comparou todas as cestas; a completude continua valendo."
    },
    {
     "letter": "B",
     "text": "Reflexividade.",
-    "rationale": "Incorreta. Reflexividade fala de comparar a cesta com ela mesma; não é o caso."
+    "rationale": "Incorreta. Reflexividade é comparar a cesta com ela mesma; não é o caso."
    },
    {
     "letter": "C",
     "text": "Mais é melhor.",
-    "rationale": "Incorreta. Não há informação sobre quantidades, então não dá para falar em mais é melhor."
+    "rationale": "Incorreta. Não há informação sobre quantidades dos bens."
    },
    {
     "letter": "D",
-    "text": "Nenhuma hipótese.",
-    "rationale": "Incorreta. A cadeia A>B>C>A é justamente o exemplo clássico de violação da transitividade."
+    "text": "Nenhuma, todas continuam valendo.",
+    "rationale": "Incorreta. A escolha em círculo viola a transitividade."
    },
    {
     "letter": "E",
     "text": "Transitividade.",
-    "rationale": "CORRETA. Se A>B e B>C, a transitividade exige A>C. João diz C>A: escolhas circulares violam a transitividade."
+    "rationale": "CORRETA. Se A > B e B > C, a transitividade exige A > C. Preferir C a A quebra essa coerência."
    }
   ],
   "correctLetter": "E",
-  "clinicalPointers": "Preferência circular (A>B>C>A) = violação da transitividade.",
+  "clinicalPointers": "Escolha em círculo (A > B > C > A) = violação da transitividade.",
   "ficha": {
-   "titulo": "Preferência circular",
+   "titulo": "Escolha em círculo",
    "topicos": [
     {
      "rotulo": "Transitividade exige",
-     "texto": "A>B e B>C → **A>C**.",
+     "texto": "A > B e B > C → **A > C**.",
      "sub": []
     },
     {
-     "rotulo": "Circular",
-     "texto": "A>B>C>A **viola** a transitividade: as escolhas não têm coerência.",
+     "rotulo": "Em círculo",
+     "texto": "A > B > C > A **viola** a transitividade.",
      "sub": []
     },
     {
      "rotulo": "Completude",
-     "texto": "Continua valendo: João **comparou** todas as cestas.",
+     "texto": "Continua valendo: o consumidor **comparou** todas as cestas.",
      "sub": []
     }
    ],
    "distratores": [
     {
-     "frase": "Escolhas circulares violam a completude",
-     "porque": "a pessoa **comparou** tudo; o problema é a **coerência** (transitividade)."
+     "frase": "Escolhas em círculo violam a completude",
+     "porque": "ele comparou tudo; o problema é a **coerência** (transitividade)."
     }
    ],
    "fonte": "Modelo: prova de 20/11 (questões 1 a 3). O livro do notebook não traz teoria do consumidor; conteúdo padrão da disciplina."
@@ -4303,67 +4496,63 @@
   "code": "CONS-27",
   "assunto": "consumo",
   "category": "Teoria do consumo",
-  "subcategory": "Comparar cestas na mesma CI e fora dela",
+  "subcategory": "Cestas e curvas de indiferença (I, II, III)",
   "difficulty": "Intermediária",
   "origem": "nova",
   "sourceLabel": "Modelo: prova de 20/11 (questões 1 a 3). O livro do notebook não traz teoria do consumidor; conteúdo padrão da disciplina.",
-  "prompt": "Questão - Curvas de Indiferença\nAs cestas A (2 de X; 8 de Y) e B (4 de X; 4 de Y) estão na mesma curva de indiferença de Maria. A cesta C tem 4 de X e 8 de Y. Marque a opção CORRETA:",
+  "prompt": "Questão - Curvas de Indiferença (CI)\nSobre as cestas e as curvas de indiferença, leia as frases abaixo e marque a opção CORRETA:\nI. Duas cestas na mesma CI dão a mesma satisfação, mesmo que tenham quantidades diferentes dos bens.\nII. Uma cesta com mais de um bem e a mesma quantidade do outro fica numa CI mais alta (pelo princípio de que \"mais é melhor\").\nIII. Para saber qual cesta dá mais satisfação, basta somar a quantidade total de bens de cada uma.",
   "options": [
    {
     "letter": "A",
-    "text": "C é preferida a A e a B, e Maria é indiferente entre A e B.",
-    "rationale": "CORRETA. A e B na mesma CI → indiferença. C tem mais X que A (e o mesmo Y) e mais Y que B (e o mesmo X): por \"mais é melhor\", C fica numa CI mais alta."
+    "text": "Somente I e II são verdadeiras.",
+    "rationale": "CORRETA. I é a definição de CI; II é \"mais é melhor\". A III está errada: somar pães com cafés não mede satisfação; quem ordena as cestas são as preferências."
    },
    {
     "letter": "B",
-    "text": "C é indiferente a A e a B, porque as três têm 12 unidades.",
-    "rationale": "Incorreta. Somar unidades de bens diferentes não define satisfação; A e B somam 10 e 8, e mesmo assim são indiferentes."
+    "text": "Somente a I é verdadeira.",
+    "rationale": "Incorreta. A II também está correta."
    },
    {
     "letter": "C",
-    "text": "A é preferida a B, porque tem mais unidades do bem Y.",
-    "rationale": "Incorreta. Estão na mesma CI: Maria é indiferente entre A e B."
+    "text": "Somente II e III são verdadeiras.",
+    "rationale": "Incorreta. A III está errada."
    },
    {
     "letter": "D",
-    "text": "B é preferida a A, porque tem mais unidades do bem X.",
-    "rationale": "Incorreta. Mesma CI: indiferença, não preferência."
+    "text": "Todas são verdadeiras.",
+    "rationale": "Incorreta. A III está errada."
    },
    {
     "letter": "E",
-    "text": "C está na mesma curva de A e B, já que tem o X de B e o Y de A.",
-    "rationale": "Incorreta. C tem mais que A em X e mais que B em Y; ela fica numa curva mais alta."
+    "text": "Nenhuma é verdadeira.",
+    "rationale": "Incorreta. I e II estão corretas."
    }
   ],
   "correctLetter": "A",
-  "clinicalPointers": "Mesma CI = indiferente. Cesta com mais de um bem e não menos do outro = CI mais alta.",
+  "clinicalPointers": "Mesma CI = mesma satisfação. Mais de um bem sem perder o outro = CI mais alta.",
   "ficha": {
-   "titulo": "Ler cestas em relação às CIs",
+   "titulo": "Comparar cestas pelas CIs",
    "topicos": [
     {
      "rotulo": "Mesma CI",
-     "texto": "**Indiferença**: A (2;8) e B (4;4) geram a mesma satisfação.",
+     "texto": "**Mesma satisfação** (indiferença).",
      "sub": []
     },
     {
-     "rotulo": "Cesta dominante",
-     "texto": "C (4;8) tem mais X que A (com mesmo Y) e mais Y que B (com mesmo X): está em **CI mais alta**.",
+     "rotulo": "Mais é melhor",
+     "texto": "Mais de um bem e **não menos** do outro → **CI mais alta**.",
      "sub": []
     },
     {
      "rotulo": "Não some unidades",
-     "texto": "Pães + cafés não é medida de satisfação; use as **preferências**.",
+     "texto": "Bens diferentes não se somam para medir satisfação.",
      "sub": []
     }
    ],
    "distratores": [
     {
-     "frase": "Cestas com o mesmo total de unidades são indiferentes",
-     "porque": "A satisfação vem das **preferências**, não da soma."
-    },
-    {
-     "frase": "Maria prefere B a A porque tem mais X",
-     "porque": "Estão na **mesma CI**, logo o consumidor é indiferente entre elas."
+     "frase": "A cesta com mais itens no total é a melhor",
+     "porque": "quem ordena as cestas são as **preferências**."
     }
    ],
    "fonte": "Modelo: prova de 20/11 (questões 1 a 3). O livro do notebook não traz teoria do consumidor; conteúdo padrão da disciplina."
@@ -4375,67 +4564,98 @@
   "code": "CONS-28",
   "assunto": "consumo",
   "category": "Teoria do consumo",
-  "subcategory": "TMS em vários trechos (cálculo)",
-  "difficulty": "Intermediária",
+  "subcategory": "Completar a tabela de cestas com a TMS (cálculo)",
+  "difficulty": "Avançada",
   "origem": "nova",
   "sourceLabel": "Modelo: prova de 20/11 (questões 1 a 3). O livro do notebook não traz teoria do consumidor; conteúdo padrão da disciplina.",
-  "prompt": "Questão - TMS\nSobre uma mesma curva de indiferença estão as cestas (X; Y): (1; 20), (2; 14), (3; 10) e (4; 8). Qual é a TMS quando o consumidor passa da 2ª para a 3ª cesta?",
+  "prompt": "Questão - Taxa Marginal de Substituição (TMS)\nA tabela mostra cestas de uma mesma curva de indiferença e a TMS em cada passagem (quanto de Y o consumidor cede para ganhar 1 unidade a mais de X). Qual é a quantidade de Y nas cestas B e D, respectivamente?",
+  "visual": {
+   "type": "table",
+   "headers": [
+    "Cesta",
+    "Bem X",
+    "Bem Y",
+    "TMS"
+   ],
+   "rows": [
+    [
+     "A",
+     "1",
+     "20",
+     "-"
+    ],
+    [
+     "B",
+     "2",
+     "",
+     "6"
+    ],
+    [
+     "C",
+     "3",
+     "",
+     "4"
+    ],
+    [
+     "D",
+     "4",
+     "",
+     "2"
+    ]
+   ]
+  },
   "options": [
    {
     "letter": "A",
-    "text": "6",
-    "rationale": "Incorreta. 6 é a TMS do 1º trecho (20 - 14)."
+    "text": "26 e 32",
+    "rationale": "Incorreta. Somou a TMS em vez de subtrair; na CI, para ganhar X o consumidor perde Y."
    },
    {
     "letter": "B",
-    "text": "2",
-    "rationale": "Incorreta. 2 é a TMS do 3º trecho (10 - 8)."
+    "text": "6 e 2",
+    "rationale": "Incorreta. 6 e 2 são as TMS, não as quantidades de Y."
    },
    {
     "letter": "C",
-    "text": "10",
-    "rationale": "Incorreta. 10 é a quantidade de Y na 3ª cesta, não a variação."
+    "text": "14 e 10",
+    "rationale": "Incorreta. 10 é a quantidade de Y na cesta C, não na D."
    },
    {
     "letter": "D",
-    "text": "4",
-    "rationale": "CORRETA. Da 2ª (2; 14) para a 3ª (3; 10): Y cai 4 e X sobe 1. TMS = 4/1 = 4."
+    "text": "14 e 8",
+    "rationale": "CORRETA. B: cede 6 de Y → 20 - 6 = 14. C: cede 4 → 14 - 4 = 10. D: cede 2 → 10 - 2 = 8."
    },
    {
     "letter": "E",
-    "text": "14",
-    "rationale": "Incorreta. 14 é a quantidade de Y na 2ª cesta."
+    "text": "20 e 8",
+    "rationale": "Incorreta. 20 é a quantidade de Y na cesta A."
    }
   ],
   "correctLetter": "D",
-  "clinicalPointers": "TMS = quanto de Y saiu ÷ quanto de X entrou, no trecho pedido.",
+  "clinicalPointers": "Na CI, Y da cesta seguinte = Y anterior - TMS.",
   "ficha": {
-   "titulo": "TMS trecho a trecho",
+   "titulo": "Completar cestas com a TMS",
    "topicos": [
     {
+     "rotulo": "Regra",
+     "texto": "Y novo = **Y anterior - TMS** (para ganhar 1 de X, cede TMS de Y).",
+     "sub": []
+    },
+    {
      "rotulo": "Conta",
-     "texto": "TMS = **|ΔY/ΔX|**. Da 2ª para a 3ª: |(10 - 14)/(3 - 2)| = 4/1 = **4**.",
+     "texto": "20 → **14** → 10 → **8**.",
      "sub": []
     },
     {
-     "rotulo": "Trechos sucessivos",
-     "texto": "6 → **4** → 2. A taxa cai ao longo da curva, confirmando que a CI é **convexa**.",
-     "sub": []
-    },
-    {
-     "rotulo": "Atenção",
-     "texto": "Use a **variação** de Y por unidade de X, não o valor absoluto de Y.",
+     "rotulo": "Leitura",
+     "texto": "TMS 6, 4, 2: **decrescente**, CI convexa.",
      "sub": []
     }
    ],
    "distratores": [
     {
-     "frase": "A TMS é a quantidade de Y na cesta final",
-     "porque": "É a **variação** de Y (cedeu 4 de Y), não o nível de Y (10)."
-    },
-    {
-     "frase": "A TMS é constante ao longo de uma CI convexa",
-     "porque": "Ela é estritamente **decrescente**; só é constante para substitutos perfeitos."
+     "frase": "Y aumenta ao longo da CI",
+     "porque": "na CI, ganhar X exige **ceder** Y."
     }
    ],
    "fonte": "Modelo: prova de 20/11 (questões 1 a 3). O livro do notebook não traz teoria do consumidor; conteúdo padrão da disciplina."
@@ -4447,72 +4667,63 @@
   "code": "CONS-29",
   "assunto": "consumo",
   "category": "Teoria do consumo",
-  "subcategory": "TMS diferente de Px/Py: como melhorar",
-  "difficulty": "Avançada",
+  "subcategory": "Equilíbrio do consumidor (I, II, III)",
+  "difficulty": "Intermediária",
   "origem": "nova",
   "sourceLabel": "Modelo: prova de 20/11 (questões 1 a 3). O livro do notebook não traz teoria do consumidor; conteúdo padrão da disciplina.",
-  "prompt": "Questão - TMS e preços\nNa cesta que Ana compra hoje, a TMS de X por Y é 3 (ela aceitaria dar 3 de Y por 1 de X). No mercado, X custa R$ 2,00 e Y custa R$ 2,00. Gastando a mesma renda, o que Ana deve fazer para aumentar a sua satisfação?",
+  "prompt": "Questão - Equilíbrio do Consumidor\nJuntando a restrição orçamentária com as curvas de indiferença, leia as frases e marque a opção CORRETA:\nI. A melhor cesta fica no ponto em que a CI mais alta possível toca a linha do orçamento (tangência).\nII. Nesse ponto, a TMS é igual à razão entre os preços dos bens (Px/Py).\nIII. Uma cesta numa CI acima da linha do orçamento é a melhor escolha, pois dá mais satisfação.",
   "options": [
    {
     "letter": "A",
-    "text": "Comprar mais Y e menos X.",
-    "rationale": "Incorreta. Seria o certo se a TMS fosse MENOR que Px/Py."
+    "text": "Somente a I é verdadeira.",
+    "rationale": "Incorreta. A II também está correta."
    },
    {
     "letter": "B",
-    "text": "Comprar mais X e menos Y.",
-    "rationale": "CORRETA. Ana valoriza 1 X como 3 Y, mas o mercado cobra só 1 Y (Px/Py = 1). Trocar Y por X a esse preço melhora a satisfação, até a TMS cair e igualar Px/Py."
+    "text": "Somente I e II são verdadeiras.",
+    "rationale": "CORRETA. I e II descrevem o equilíbrio (tangência, TMS = Px/Py). A III está errada: cestas acima da linha do orçamento não cabem no bolso."
    },
    {
     "letter": "C",
-    "text": "Manter a cesta atual.",
-    "rationale": "Incorreta. TMS (3) ≠ Px/Py (1): a cesta atual não é a ótima."
+    "text": "Somente II e III são verdadeiras.",
+    "rationale": "Incorreta. A III está errada."
    },
    {
     "letter": "D",
-    "text": "Gastar menos e guardar dinheiro.",
-    "rationale": "Incorreta. Com mais é melhor, gastar menos não aumenta a satisfação."
+    "text": "Todas são verdadeiras.",
+    "rationale": "Incorreta. A III está errada."
    },
    {
     "letter": "E",
-    "text": "Comprar só o bem Y.",
-    "rationale": "Incorreta. Ela valoriza X mais do que o mercado cobra; deveria ir na direção de X."
+    "text": "Nenhuma é verdadeira.",
+    "rationale": "Incorreta. I e II estão corretas."
    }
   ],
   "correctLetter": "B",
-  "clinicalPointers": "TMS > Px/Py → compre mais X. TMS < Px/Py → compre mais Y. TMS = Px/Py → ótimo.",
+  "clinicalPointers": "Equilíbrio = CI mais alta que ainda toca a RO; ali TMS = Px/Py.",
   "ficha": {
-   "titulo": "Comparar TMS com Px/Py",
+   "titulo": "Equilíbrio do consumidor",
    "topicos": [
     {
-     "rotulo": "TMS > Px/Py",
-     "texto": "O consumidor valoriza X **mais** que o mercado cobra → comprar **mais X e menos Y**.",
+     "rotulo": "Onde",
+     "texto": "Na **CI mais alta** que ainda **toca** a linha do orçamento.",
      "sub": []
     },
     {
-     "rotulo": "TMS < Px/Py",
-     "texto": "Valoriza X **menos** que o mercado cobra → comprar **mais Y e menos X**.",
+     "rotulo": "Condição",
+     "texto": "**TMS = Px/Py** (inclinação da CI = inclinação da RO).",
      "sub": []
     },
     {
-     "rotulo": "Aplicação",
-     "texto": "TMS (3) > Px/Py (2/2 = **1**): o mercado pede só 1 de Y por 1 de X, enquanto ela aceita dar 3 de Y → **comprar mais X**.",
-     "sub": []
-    },
-    {
-     "rotulo": "Equilíbrio",
-     "texto": "**TMS = Px/Py**: cesta ótima de máxima satisfação.",
+     "rotulo": "Acima da RO",
+     "texto": "Cesta **inacessível**: não cabe na renda.",
      "sub": []
     }
    ],
    "distratores": [
     {
-     "frase": "Com TMS > Px/Py, a cesta já é ótima",
-     "porque": "O ótimo exige **igualdade**; havendo diferença, ainda dá para aumentar a satisfação remanejando o consumo."
-    },
-    {
-     "frase": "Ana deve comprar mais Y e menos X",
-     "porque": "X está mais barato no mercado (custa 1 de Y) do que a valoração subjetiva dela (vale 3 de Y)."
+     "frase": "A melhor cesta está na CI mais alta de todas",
+     "porque": "precisa **caber no orçamento**."
     }
    ],
    "fonte": "Modelo: prova de 20/11 (questões 1 a 3). O livro do notebook não traz teoria do consumidor; conteúdo padrão da disciplina."
@@ -4524,63 +4735,63 @@
   "code": "CONS-30",
   "assunto": "consumo",
   "category": "Teoria do consumo",
-  "subcategory": "TMS no ponto ótimo (cálculo)",
+  "subcategory": "Tangência e TMS = Px/Py (isto porque)",
   "difficulty": "Intermediária",
   "origem": "nova",
   "sourceLabel": "Modelo: prova de 20/11 (questões 1 a 3). O livro do notebook não traz teoria do consumidor; conteúdo padrão da disciplina.",
-  "prompt": "Questão - Escolha ótima\nUm consumidor gasta toda a renda de R$ 100,00 com X (R$ 10,00) e Y (R$ 5,00) e está na sua cesta ótima, com curvas de indiferença convexas. Qual é a TMS de X por Y nessa cesta?",
+  "prompt": "Questão - Equilíbrio do Consumidor\nAnalise as duas assertivas abaixo e, em seguida, escolha a opção CORRETA:\nNo ponto de equilíbrio do consumidor, a curva de indiferença tangencia a linha do orçamento.\nISTO PORQUE\nNesse ponto, a taxa em que o consumidor aceita trocar os bens (TMS) é igual à taxa que o mercado cobra (Px/Py).",
   "options": [
    {
     "letter": "A",
-    "text": "0,5",
-    "rationale": "Incorreta. 0,5 é Py/Px (razão invertida)."
+    "text": "As duas são verdadeiras, mas não se complementam.",
+    "rationale": "Incorreta. A segunda é justamente o que define a tangência."
    },
    {
     "letter": "B",
-    "text": "10",
-    "rationale": "Incorreta. 10 é o máximo de X (100/10), não a TMS."
+    "text": "A primeira é verdadeira e a segunda é falsa.",
+    "rationale": "Incorreta. A segunda está certa: no equilíbrio, TMS = Px/Py."
    },
    {
     "letter": "C",
-    "text": "20",
-    "rationale": "Incorreta. 20 é o máximo de Y (100/5)."
+    "text": "A primeira é falsa e a segunda é verdadeira.",
+    "rationale": "Incorreta. A primeira está certa."
    },
    {
     "letter": "D",
-    "text": "15",
-    "rationale": "Incorreta. 15 é a soma dos preços; não tem significado aqui."
+    "text": "As duas são falsas.",
+    "rationale": "Incorreta. As duas estão corretas."
    },
    {
     "letter": "E",
-    "text": "2",
-    "rationale": "CORRETA. No ótimo, TMS = Px/Py = 10/5 = 2."
+    "text": "As duas são verdadeiras e se complementam.",
+    "rationale": "CORRETA. Tangência quer dizer que as duas curvas têm a mesma inclinação nesse ponto: a da CI é a TMS e a da RO é Px/Py. A segunda explica a primeira."
    }
   ],
   "correctLetter": "E",
-  "clinicalPointers": "No ótimo (tangência): TMS = Px/Py.",
+  "clinicalPointers": "Tangência = mesma inclinação: TMS (CI) = Px/Py (RO).",
   "ficha": {
-   "titulo": "TMS no equilíbrio",
+   "titulo": "Por que há tangência no equilíbrio",
    "topicos": [
     {
-     "rotulo": "Condição",
-     "texto": "**TMS = Px/Py** na cesta ótima.",
+     "rotulo": "Inclinação da CI",
+     "texto": "**TMS** (troca que o consumidor aceita).",
      "sub": []
     },
     {
-     "rotulo": "Conta",
-     "texto": "10/5 = **2**.",
+     "rotulo": "Inclinação da RO",
+     "texto": "**Px/Py** (troca que o mercado cobra).",
      "sub": []
     },
     {
-     "rotulo": "Não confundir",
-     "texto": "R/Px e R/Py são os **interceptos**, não a TMS.",
+     "rotulo": "Equilíbrio",
+     "texto": "As duas são **iguais**: a CI **tangencia** a RO.",
      "sub": []
     }
    ],
    "distratores": [
     {
-     "frase": "No ótimo, TMS = Py/Px",
-     "porque": "o preço do bem do eixo **horizontal** (X) vai em cima."
+     "frase": "As duas são verdadeiras, mas não se complementam",
+     "porque": "a igualdade **TMS = Px/Py** é o que forma a tangência."
     }
    ],
    "fonte": "Modelo: prova de 20/11 (questões 1 a 3). O livro do notebook não traz teoria do consumidor; conteúdo padrão da disciplina."
@@ -4660,63 +4871,63 @@
   "code": "CONS-32",
   "assunto": "consumo",
   "category": "Teoria do consumo",
-  "subcategory": "Formato da CI: substitutos e complementares perfeitos",
-  "difficulty": "Avançada",
+  "subcategory": "Por que a CI é negativamente inclinada",
+  "difficulty": "Básica",
   "origem": "nova",
   "sourceLabel": "Modelo: prova de 20/11 (questões 1 a 3). O livro do notebook não traz teoria do consumidor; conteúdo padrão da disciplina.",
-  "prompt": "Questão - Formatos de Curvas de Indiferença\nPara um consumidor, uma caneta azul e uma caneta preta são substitutas perfeitas (troca 1 por 1). Já o pé esquerdo e o pé direito de um sapato são complementares perfeitos. Como são as curvas de indiferença em cada caso?",
+  "prompt": "Questão - Curvas de Indiferença (CI)\nPor que uma curva de indiferença é negativamente inclinada (desce da esquerda para a direita)? Marque a opção CORRETA:",
   "options": [
    {
     "letter": "A",
-    "text": "Canetas: retas com TMS constante. Sapatos: em forma de L.",
-    "rationale": "CORRETA. Substitutos perfeitos: o consumidor troca sempre na mesma taxa → CI reta e TMS constante. Complementares perfeitos: só vale usar juntos → CI em L (um pé extra sozinho não aumenta a satisfação)."
+    "text": "Para ganhar mais de um bem e manter a satisfação, o consumidor precisa abrir mão do outro.",
+    "rationale": "CORRETA. Na mesma CI a satisfação é igual. Se a cesta ganha X, precisa perder Y para não ficar melhor: por isso a curva desce."
    },
    {
     "letter": "B",
-    "text": "Canetas: em forma de L. Sapatos: retas com TMS constante.",
-    "rationale": "Incorreta. Inverteu os dois casos."
+    "text": "Porque o consumidor sempre gasta toda a sua renda, sem deixar sobrar dinheiro no fim do mês.",
+    "rationale": "Incorreta. Gastar a renda toda é sobre a linha do orçamento, não sobre a CI."
    },
    {
     "letter": "C",
-    "text": "Canetas: convexas com TMS decrescente. Sapatos: em forma de L.",
-    "rationale": "Incorreta. Para substitutos perfeitos a TMS não cai; é constante."
+    "text": "Porque, quando o preço de um bem aumenta, a quantidade comprada desse bem diminui.",
+    "rationale": "Incorreta. Isso é a lei da demanda, outro assunto."
    },
    {
     "letter": "D",
-    "text": "Canetas: retas com TMS constante. Sapatos: convexas e suaves.",
-    "rationale": "Incorreta. Complementares perfeitos não aceitam troca: a CI tem um canto (L)."
+    "text": "Porque a satisfação do consumidor diminui à medida que ele consome mais dos dois bens.",
+    "rationale": "Incorreta. Com \"mais é melhor\", consumir mais aumenta a satisfação."
    },
    {
     "letter": "E",
-    "text": "Nos dois casos as curvas são convexas, com TMS decrescente.",
-    "rationale": "Incorreta. Esses dois casos são as exceções à CI convexa comum."
+    "text": "Porque as curvas de indiferença de um mesmo consumidor nunca podem se cruzar entre si.",
+    "rationale": "Incorreta. É verdade que não se cruzam, mas isso não explica a inclinação."
    }
   ],
   "correctLetter": "A",
-  "clinicalPointers": "Substitutos perfeitos → retas. Complementares perfeitos → L. Caso comum → convexa.",
+  "clinicalPointers": "CI desce porque ganhar um bem exige perder o outro para ficar com a mesma satisfação.",
   "ficha": {
-   "titulo": "Casos especiais de CI",
+   "titulo": "Inclinação negativa da CI",
    "topicos": [
     {
-     "rotulo": "Substitutos perfeitos",
-     "texto": "Troca na **mesma taxa** sempre → CI **reta**, **TMS constante**.",
+     "rotulo": "Motivo",
+     "texto": "Mesma satisfação: **ganhou X, perde Y**.",
      "sub": []
     },
     {
-     "rotulo": "Complementares perfeitos",
-     "texto": "Usados **juntos em proporção fixa** → CI em **L**.",
+     "rotulo": "Base",
+     "texto": "Hipótese de que **mais é melhor**.",
      "sub": []
     },
     {
-     "rotulo": "Caso comum",
-     "texto": "CI **convexa**, TMS **decrescente**.",
+     "rotulo": "Formato",
+     "texto": "Além de descer, a CI é **convexa** (a TMS diminui).",
      "sub": []
     }
    ],
    "distratores": [
     {
-     "frase": "Complementares perfeitos têm CI reta",
-     "porque": "reta é dos **substitutos** perfeitos; complementares têm CI em **L**."
+     "frase": "A CI desce por causa da lei da demanda",
+     "porque": "a CI vem das **preferências**, não de preços."
     }
    ],
    "fonte": "Modelo: prova de 20/11 (questões 1 a 3). O livro do notebook não traz teoria do consumidor; conteúdo padrão da disciplina."
@@ -4906,63 +5117,58 @@
   "code": "PROD-20",
   "assunto": "producao",
   "category": "Teoria da produção",
-  "subcategory": "Tabela de produção: completar a partir da Pme e da Pmg",
-  "difficulty": "Avançada",
+  "subcategory": "PMg abaixo da PMe (isto porque)",
+  "difficulty": "Intermediária",
   "origem": "nova",
   "sourceLabel": "Vasconcellos, Economia Micro e Macro, cap. 5 (Produção) · modelo: prova de 20/11 (questões 4, 5 e 7).",
-  "prompt": "Questão - Completando a tabela\nUma oficina tem Pme de 20 unidades com 2 trabalhadores. O 3º trabalhador tem Pmg de 14 unidades. Qual é o PT com 2 trabalhadores e a Pme com 3, respectivamente?",
+  "prompt": "Questão - Produtividade Média\nAnalise as duas assertivas abaixo e, em seguida, escolha a opção CORRETA:\nQuando a produtividade marginal (PMg) é menor que a produtividade média (PMe), a PMe diminui.\nISTO PORQUE\nO trabalhador a mais produz menos que a média dos anteriores e puxa a média para baixo.",
   "options": [
    {
     "letter": "A",
-    "text": "40 e 14",
-    "rationale": "Incorreta. 14 é a Pmg do 3º, não a Pme."
+    "text": "As duas são verdadeiras, mas não se complementam.",
+    "rationale": "Incorreta. A segunda explica a primeira."
    },
    {
     "letter": "B",
-    "text": "20 e 18",
-    "rationale": "Incorreta. 20 é a Pme com 2, não o PT."
+    "text": "A primeira é verdadeira e a segunda é falsa.",
+    "rationale": "Incorreta. A segunda está certa."
    },
    {
     "letter": "C",
-    "text": "54 e 18",
-    "rationale": "Incorreta. 54 é o PT com 3 trabalhadores, não com 2."
+    "text": "A primeira é falsa e a segunda é verdadeira.",
+    "rationale": "Incorreta. A primeira está certa."
    },
    {
     "letter": "D",
-    "text": "40 e 34",
-    "rationale": "Incorreta. 34 = 20 + 14: somou a Pme com a Pmg."
+    "text": "As duas são falsas.",
+    "rationale": "Incorreta. As duas estão corretas."
    },
    {
     "letter": "E",
-    "text": "40 e 18",
-    "rationale": "CORRETA. PT(2) = 20 × 2 = 40. PT(3) = 40 + 14 = 54. Pme(3) = 54/3 = 18."
+    "text": "As duas são verdadeiras e se complementam.",
+    "rationale": "CORRETA. É como uma média de notas: se a nova nota é menor que a média, a média cai. A segunda é o motivo da primeira."
    }
   ],
   "correctLetter": "E",
-  "clinicalPointers": "PT = Pme × N. PT novo = PT anterior + Pmg. Pme nova = PT novo ÷ N novo.",
+  "clinicalPointers": "PMg < PMe → PMe cai (a nova \"nota\" está abaixo da média).",
   "ficha": {
-   "titulo": "Completar tabela com Pme e Pmg",
+   "titulo": "PMg abaixo da PMe",
    "topicos": [
     {
-     "rotulo": "Passo 1",
-     "texto": "PT(2) = Pme × N = 20 × 2 = **40**.",
+     "rotulo": "Regra",
+     "texto": "**PMg < PMe → PMe cai**; PMg > PMe → PMe sobe.",
      "sub": []
     },
     {
-     "rotulo": "Passo 2",
-     "texto": "PT(3) = PT(2) + Pmg = 40 + 14 = **54**.",
-     "sub": []
-    },
-    {
-     "rotulo": "Passo 3",
-     "texto": "Pme(3) = 54/3 = **18**. Caiu porque a Pmg (14) ficou **abaixo** da Pme (20).",
+     "rotulo": "Analogia",
+     "texto": "Média de notas: uma nota nova **abaixo** da média a **reduz**.",
      "sub": []
     }
    ],
    "distratores": [
     {
-     "frase": "PT novo = Pme + Pmg",
-     "porque": "PT novo = **PT anterior** + Pmg."
+     "frase": "Se a PMg é menor que a PMe, o PT diminui",
+     "porque": "o PT só cai com **PMg negativa**."
     }
    ],
    "fonte": "Vasconcellos, Economia Micro e Macro, cap. 5 (Produção) · modelo: prova de 20/11 (questões 4, 5 e 7)."
@@ -5287,63 +5493,63 @@
   "code": "PROD-25",
   "assunto": "producao",
   "category": "Teoria da produção",
-  "subcategory": "Rendimentos decrescentes na prática",
-  "difficulty": "Intermediária",
+  "subcategory": "Por que existe a lei dos rendimentos decrescentes",
+  "difficulty": "Básica",
   "origem": "nova",
   "sourceLabel": "Vasconcellos, Economia Micro e Macro, cap. 5 (Produção) · modelo: prova de 20/11 (questões 4, 5 e 7).",
-  "prompt": "Questão - Lei dos Rendimentos Decrescentes\nUm restaurante tem uma cozinha de tamanho fixo. O dono vai contratando mais cozinheiros e percebe que cada novo cozinheiro aumenta a produção de pratos menos que o anterior. O que explica isso?",
+  "prompt": "Questão - Lei dos Rendimentos Decrescentes (Curto Prazo)\nPor que, a partir de certo ponto, cada novo trabalhador produz menos que o anterior? Marque a opção CORRETA:",
   "options": [
    {
     "letter": "A",
-    "text": "Os novos cozinheiros contratados são sempre menos qualificados que os antigos.",
-    "rationale": "Incorreta. A lei supõe trabalhadores iguais; a queda vem do fator fixo, não da qualidade."
+    "text": "Porque os novos trabalhadores contratados são sempre menos qualificados do que os que já estavam na empresa.",
+    "rationale": "Incorreta. A lei supõe trabalhadores iguais; a causa é o fator fixo."
    },
    {
     "letter": "B",
-    "text": "O restaurante entrou em deseconomia de escala, porque aumentou todos os fatores.",
-    "rationale": "Incorreta. Só os cozinheiros aumentaram; a cozinha ficou fixa. Não é escala."
+    "text": "Porque a empresa aumentou todos os seus fatores ao mesmo tempo e entrou em deseconomia de escala.",
+    "rationale": "Incorreta. Aumentar todos os fatores é longo prazo (escala), não a lei."
    },
    {
     "letter": "C",
-    "text": "A demanda por pratos do restaurante caiu, e por isso a produção cresce menos.",
-    "rationale": "Incorreta. A lei é física (produção), não depende da demanda."
+    "text": "Porque a demanda pelo produto caiu e a empresa passou a vender menos do que conseguia produzir.",
+    "rationale": "Incorreta. A lei é física (produção) e não depende da demanda."
    },
    {
     "letter": "D",
-    "text": "O preço dos ingredientes subiu, e o custo marginal de cada prato aumentou.",
-    "rationale": "Incorreta. Preço de insumo é custo, não explica quantos pratos cada cozinheiro produz."
+    "text": "Porque o preço dos insumos subiu e cada unidade produzida passou a custar mais para a empresa.",
+    "rationale": "Incorreta. Preço de insumo é custo; não explica quanto cada trabalhador produz."
    },
    {
     "letter": "E",
-    "text": "A cozinha é um fator fixo, e cada novo cozinheiro tem menos espaço e equipamento.",
-    "rationale": "CORRETA. É a lei dos rendimentos decrescentes: fator variável (cozinheiros) somado a um fator fixo (cozinha). A Pmg cai porque o fixo é dividido por mais gente."
+    "text": "Porque há pelo menos um fator fixo (ex.: o tamanho da fábrica), e cada novo trabalhador tem menos espaço e máquinas.",
+    "rationale": "CORRETA. É a lei dos rendimentos decrescentes: fator variável (trabalho) somado a um fator fixo. O fixo é dividido por mais gente e a PMg cai."
    }
   ],
   "correctLetter": "E",
-  "clinicalPointers": "Pmg caindo com um fator fixo = lei dos rendimentos decrescentes.",
+  "clinicalPointers": "Lei dos rendimentos decrescentes = fator variável + fator fixo → PMg cai.",
   "ficha": {
-   "titulo": "Rendimentos decrescentes no dia a dia",
+   "titulo": "Causa da lei dos rendimentos decrescentes",
    "topicos": [
     {
-     "rotulo": "Fixo",
-     "texto": "A **cozinha** (espaço e fogões).",
+     "rotulo": "Fator fixo",
+     "texto": "Tamanho da fábrica, máquinas: **não muda** no curto prazo.",
      "sub": []
     },
     {
-     "rotulo": "Variável",
-     "texto": "Os **cozinheiros**.",
+     "rotulo": "Fator variável",
+     "texto": "Trabalhadores: aumentam.",
      "sub": []
     },
     {
-     "rotulo": "Por que a Pmg cai",
-     "texto": "Cada novo cozinheiro divide o **mesmo espaço**; supõe-se que todos são **igualmente qualificados**.",
+     "rotulo": "Resultado",
+     "texto": "Cada novo trabalhador divide o **mesmo fator fixo**: a **PMg cai**.",
      "sub": []
     }
    ],
    "distratores": [
     {
-     "frase": "A Pmg cai porque os novos trabalhadores são piores",
-     "porque": "a lei supõe trabalhadores **iguais**; a causa é o **fator fixo**."
+     "frase": "A PMg cai porque os novos trabalhadores são piores",
+     "porque": "a lei supõe trabalhadores **iguais**."
     }
    ],
    "fonte": "Vasconcellos, Economia Micro e Macro, cap. 5 (Produção) · modelo: prova de 20/11 (questões 4, 5 e 7)."
@@ -5355,63 +5561,93 @@
   "code": "PROD-26",
   "assunto": "producao",
   "category": "Teoria da produção",
-  "subcategory": "Rendimentos de escala com triplicação (cálculo)",
+  "subcategory": "Rendimentos de escala na tabela",
   "difficulty": "Intermediária",
   "origem": "nova",
   "sourceLabel": "Vasconcellos, Economia Micro e Macro, cap. 5 (Produção) · modelo: prova de 20/11 (questões 4, 5 e 7).",
-  "prompt": "Questão - Rendimentos de Escala\nUma empresa triplica todos os seus fatores de produção, e a produção sobe de 50 para 200 unidades. Que tipo de rendimento de escala ela apresenta?",
+  "prompt": "Questão - Rendimentos de Escala\nO quadro abaixo mostra três empresas que aumentaram TODOS os seus fatores de produção. Classifique, respectivamente, os rendimentos de escala das empresas A, B e C:",
+  "visual": {
+   "type": "table",
+   "headers": [
+    "Empresa",
+    "Fatores (antes → depois)",
+    "Produção (antes → depois)"
+   ],
+   "rows": [
+    [
+     "A",
+     "10 → 20",
+     "100 → 200"
+    ],
+    [
+     "B",
+     "10 → 20",
+     "100 → 250"
+    ],
+    [
+     "C",
+     "10 → 30",
+     "90 → 150"
+    ]
+   ]
+  },
   "options": [
    {
     "letter": "A",
-    "text": "Constantes, pois a produção e os fatores aumentaram ao mesmo tempo.",
-    "rationale": "Incorreta. Constantes exigiriam produção ×3 (150 unidades)."
+    "text": "Crescente; crescente; decrescente",
+    "rationale": "Incorreta. A cresceu na mesma proporção dos fatores: constante."
    },
    {
     "letter": "B",
-    "text": "Decrescentes, pois a produção cresceu 150 unidades e os fatores, 3 vezes.",
-    "rationale": "Incorreta. Compare proporções: ×4 contra ×3. Não subtraia unidades de fatores."
+    "text": "Constante; decrescente; crescente",
+    "rationale": "Incorreta. Inverteu B e C."
    },
    {
     "letter": "C",
-    "text": "Crescentes, pois a produção quadruplicou e os fatores triplicaram.",
-    "rationale": "CORRETA. Fatores ×3; produção 200/50 = ×4. Produção cresceu mais que proporcionalmente: rendimentos crescentes (economias de escala)."
+    "text": "Constante; crescente; decrescente",
+    "rationale": "CORRETA. A: fatores ×2, produção ×2 (constante). B: fatores ×2, produção ×2,5 (crescente). C: fatores ×3, produção ×1,67 (decrescente)."
    },
    {
     "letter": "D",
-    "text": "Crescentes, pois a produção triplicou junto com todos os fatores.",
-    "rationale": "Incorreta. A produção não triplicou; quadruplicou (50 → 200)."
+    "text": "Constante; crescente; crescente",
+    "rationale": "Incorreta. C triplicou os fatores e a produção não chegou a dobrar: decrescente."
    },
    {
     "letter": "E",
-    "text": "Não dá para saber, porque falta o preço dos fatores de produção.",
-    "rationale": "Incorreta. Rendimento de escala é conceito físico; não precisa de preços."
+    "text": "Crescente; constante; decrescente",
+    "rationale": "Incorreta. A é constante e B é crescente."
    }
   ],
   "correctLetter": "C",
-  "clinicalPointers": "Compare o multiplicador da produção com o multiplicador dos fatores.",
+  "clinicalPointers": "Compare quantas vezes a produção aumentou com quantas vezes os fatores aumentaram.",
   "ficha": {
-   "titulo": "Classificar escala por multiplicadores",
+   "titulo": "Classificar escala pela tabela",
    "topicos": [
     {
-     "rotulo": "Fatores",
-     "texto": "**×3**.",
+     "rotulo": "Passo",
+     "texto": "Divida depois ÷ antes para **fatores** e para **produção**.",
      "sub": []
     },
     {
-     "rotulo": "Produção",
-     "texto": "200 ÷ 50 = **×4**.",
+     "rotulo": "A",
+     "texto": "×2 e ×2: **constante**.",
      "sub": []
     },
     {
-     "rotulo": "Regra",
-     "texto": "×4 > ×3 → **crescentes**. Igual → constantes. Menor → decrescentes.",
+     "rotulo": "B",
+     "texto": "×2 e ×2,5: **crescente**.",
+     "sub": []
+    },
+    {
+     "rotulo": "C",
+     "texto": "×3 e ×1,67: **decrescente**.",
      "sub": []
     }
    ],
    "distratores": [
     {
-     "frase": "Escala depende do preço dos fatores",
-     "porque": "é relação **física** entre fatores e produção."
+     "frase": "Se a produção aumentou, o rendimento é crescente",
+     "porque": "compare com o aumento dos **fatores**."
     }
    ],
    "fonte": "Vasconcellos, Economia Micro e Macro, cap. 5 (Produção) · modelo: prova de 20/11 (questões 4, 5 e 7)."
@@ -5632,72 +5868,98 @@
   "code": "PROD-30",
   "assunto": "producao",
   "category": "Teoria da produção",
-  "subcategory": "Nova Pme depois de um trabalhador a mais (cálculo)",
-  "difficulty": "Avançada",
+  "subcategory": "Completar PT e PMe na tabela (cálculo)",
+  "difficulty": "Intermediária",
   "origem": "nova",
   "sourceLabel": "Vasconcellos, Economia Micro e Macro, cap. 5 (Produção) · modelo: prova de 20/11 (questões 4, 5 e 7).",
-  "prompt": "Questão - Pme e Pmg\nCom 5 trabalhadores, a Pme de uma fábrica é 20 unidades. O 6º trabalhador tem Pmg de 14 unidades. Qual é a nova Pme e o que aconteceu com ela?",
+  "prompt": "Questão - Tabela de Produção\nNo quadro abaixo faltam os dados do 6º trabalhador. Com base na PMg informada, calcule o PT e a PMe com 6 trabalhadores, respectivamente.",
+  "visual": {
+   "type": "table",
+   "headers": [
+    "N",
+    "PT",
+    "PMe",
+    "PMg"
+   ],
+   "rows": [
+    [
+     "3",
+     "66",
+     "22",
+     "-"
+    ],
+    [
+     "4",
+     "84",
+     "21",
+     "18"
+    ],
+    [
+     "5",
+     "100",
+     "20",
+     "16"
+    ],
+    [
+     "6",
+     "",
+     "",
+     "14"
+    ]
+   ]
+  },
   "options": [
    {
     "letter": "A",
-    "text": "17; caiu, porque é a média entre a Pme (20) e a Pmg (14).",
-    "rationale": "Incorreta. Não é média simples entre 20 e 14; a Pme é PT/N."
+    "text": "114 e 14",
+    "rationale": "Incorreta. 14 é a PMg, não a PMe."
    },
    {
     "letter": "B",
-    "text": "19; subiu, porque o PT aumentou com o novo trabalhador.",
-    "rationale": "Incorreta. O PT subiu, mas a Pme caiu (19 < 20)."
+    "text": "100 e 19",
+    "rationale": "Incorreta. 100 é o PT com 5 trabalhadores."
    },
    {
     "letter": "C",
-    "text": "34; subiu, porque somou a Pme com a Pmg do novo trabalhador.",
-    "rationale": "Incorreta. Somar Pme com Pmg não tem significado."
+    "text": "128 e 21,3",
+    "rationale": "Incorreta. Somou 14 duas vezes; o PT novo é 100 + 14."
    },
    {
     "letter": "D",
-    "text": "20; ficou igual, porque a Pme não depende da Pmg.",
-    "rationale": "Incorreta. A Pme muda sempre que a Pmg é diferente dela."
+    "text": "14 e 19",
+    "rationale": "Incorreta. 14 é a PMg, não o PT."
    },
    {
     "letter": "E",
-    "text": "19; caiu, porque a Pmg (14) ficou abaixo da Pme (20).",
-    "rationale": "CORRETA. PT(5) = 20 × 5 = 100. PT(6) = 100 + 14 = 114. Pme(6) = 114/6 = 19. Pmg abaixo da Pme puxa a média para baixo."
+    "text": "114 e 19",
+    "rationale": "CORRETA. PT(6) = PT(5) + PMg = 100 + 14 = 114. PMe(6) = 114/6 = 19."
    }
   ],
   "correctLetter": "E",
-  "clinicalPointers": "Volte ao PT (Pme × N), some a Pmg e divida pelo novo N.",
+  "clinicalPointers": "PT novo = PT anterior + PMg. PMe = PT ÷ N.",
   "ficha": {
-   "titulo": "Recalcular a Pme",
+   "titulo": "Do PMg para o PT",
    "topicos": [
     {
-     "rotulo": "PT antes",
-     "texto": "20 × 5 = **100**.",
+     "rotulo": "PT",
+     "texto": "**PT anterior + PMg** = 100 + 14 = **114**.",
      "sub": []
     },
     {
-     "rotulo": "PT depois",
-     "texto": "100 + 14 = **114**.",
-     "sub": []
-    },
-    {
-     "rotulo": "Pme nova",
+     "rotulo": "PMe",
      "texto": "114 ÷ 6 = **19**.",
      "sub": []
     },
     {
-     "rotulo": "Por que caiu",
-     "texto": "A Pmg da nova unidade (14) é **menor que a média anterior** (20), puxando a nova média para baixo.",
+     "rotulo": "Leitura",
+     "texto": "A PMe caiu (20 → 19) porque a **PMg (14) está abaixo da PMe**.",
      "sub": []
     }
    ],
    "distratores": [
     {
-     "frase": "Se o PT sobe, a Pme sobe",
-     "porque": "A Pme só sobe se a **Pmg for maior que a Pme**."
-    },
-    {
-     "frase": "A nova Pme é 14",
-     "porque": "14 é a **Pmg** do 6º trabalhador, não a média de todos."
+     "frase": "O PT com 6 é a PMg do 6º",
+     "porque": "a PMg é só o **acréscimo**; some ao PT anterior."
     }
    ],
    "fonte": "Vasconcellos, Economia Micro e Macro, cap. 5 (Produção) · modelo: prova de 20/11 (questões 4, 5 e 7)."
@@ -5709,96 +5971,110 @@
   "code": "PROD-31",
   "assunto": "producao",
   "category": "Teoria da produção",
-  "subcategory": "Encontro de Pmg e Pme na tabela",
-  "difficulty": "Avançada",
+  "subcategory": "PMe máxima e PMg máxima na tabela",
+  "difficulty": "Intermediária",
   "origem": "nova",
   "sourceLabel": "Vasconcellos, Economia Micro e Macro, cap. 5 (Produção) · modelo: prova de 20/11 (questões 4, 5 e 7).",
-  "prompt": "Questão - Pmg e Pme na tabela\nCom base na tabela, com quantos trabalhadores a Pme é máxima e o que acontece a partir do trabalhador seguinte?",
+  "prompt": "Questão - Tabela de Produção\nDe acordo com o quadro abaixo, com quantos trabalhadores a PMe é máxima e com quantos a PMg é máxima, respectivamente?",
   "visual": {
    "type": "table",
    "headers": [
     "N",
-    "PT"
+    "PT",
+    "PMe",
+    "PMg"
    ],
    "rows": [
     [
      "1",
+     "10",
+     "10",
      "10"
     ],
     [
      "2",
-     "26"
+     "26",
+     "13",
+     "16"
     ],
     [
      "3",
-     "42"
+     "40",
+     "13,33",
+     "14"
     ],
     [
      "4",
-     "52"
+     "52",
+     "13",
+     "12"
     ],
     [
      "5",
-     "58"
+     "58",
+     "11,6",
+     "6"
+    ],
+    [
+     "6",
+     "60",
+     "10",
+     "2"
     ]
    ]
   },
   "options": [
    {
     "letter": "A",
-    "text": "Com 2; a partir do 3º, a Pmg fica abaixo da Pme e a Pme cai.",
-    "rationale": "Incorreta. Com 2 a Pme é 13; o 3º tem Pmg 16 > 13 e a Pme ainda sobe para 14."
+    "text": "2 e 3",
+    "rationale": "Incorreta. Inverteu: a PMe máxima é com 3 e a PMg máxima é no 2º."
    },
    {
     "letter": "B",
-    "text": "Com 5; o PT é máximo e por isso a Pme também é máxima.",
-    "rationale": "Incorreta. O PT não está no máximo (ainda sobe), e Pme máxima não coincide com PT máximo."
+    "text": "6 e 2",
+    "rationale": "Incorreta. Com 6 o PT é o maior, mas a PMe é a menor (10)."
    },
    {
     "letter": "C",
-    "text": "Com 3; a partir do 4º, a Pmg fica abaixo da Pme e a Pme cai.",
-    "rationale": "CORRETA. Pme: 10, 13, 14, 13, 11,6 → máxima com 3. Pmg: 10, 16, 16, 10, 6. No 4º, Pmg (10) < Pme (14) e a Pme cai para 13."
+    "text": "3 e 2",
+    "rationale": "CORRETA. Maior PMe = 13,33 (3 trabalhadores). Maior PMg = 16 (2º trabalhador). O máximo da PMg vem antes do máximo da PMe."
    },
    {
     "letter": "D",
-    "text": "Com 3; a partir do 4º, a Pmg fica negativa e o PT cai.",
-    "rationale": "Incorreta. A Pmg do 4º é 10, positiva; o PT ainda sobe."
+    "text": "3 e 3",
+    "rationale": "Incorreta. No 3º a PMg (14) já caiu em relação ao 2º (16)."
    },
    {
     "letter": "E",
-    "text": "Com 4; a partir do 5º, a Pmg fica acima da Pme e a Pme sobe.",
-    "rationale": "Incorreta. Com 4 a Pme já caiu (13); a Pmg do 5º (6) está abaixo dela."
+    "text": "2 e 2",
+    "rationale": "Incorreta. Com 2 a PMe (13) é menor que com 3 (13,33)."
    }
   ],
   "correctLetter": "C",
-  "clinicalPointers": "Pme máxima onde a Pmg deixa de ser maior que a Pme.",
+  "clinicalPointers": "Procure o maior valor em cada coluna. A PMg atinge o máximo antes da PMe.",
   "ficha": {
-   "titulo": "Pme máxima na tabela",
+   "titulo": "Máximos na tabela de produção",
    "topicos": [
     {
-     "rotulo": "Pme",
-     "texto": "10, 13, **14** (máxima no 3º), 13, 11,6.",
+     "rotulo": "PMg máxima",
+     "texto": "**2º** trabalhador (16).",
      "sub": []
     },
     {
-     "rotulo": "Pmg",
-     "texto": "10, 16, 16, **10**, 6.",
+     "rotulo": "PMe máxima",
+     "texto": "**3** trabalhadores (13,33).",
      "sub": []
     },
     {
-     "rotulo": "Leitura",
-     "texto": "Pme é máxima no 3º (14 unidades). A partir do 4º trabalhador, **Pmg (10) < Pme (13)**, fazendo a Pme declinar.",
+     "rotulo": "Ordem",
+     "texto": "Máximo da **PMg** → máximo da **PMe** → máximo do **PT**.",
      "sub": []
     }
    ],
    "distratores": [
     {
-     "frase": "A Pme é máxima onde o PT é máximo",
-     "porque": "O máximo da Pme vem **antes** do máximo do PT."
-    },
-    {
-     "frase": "A Pme é máxima no 2º trabalhador",
-     "porque": "No 2º a Pme é 13, enquanto no 3º atinge o valor de **14**."
+     "frase": "A PMe é máxima onde o PT é máximo",
+     "porque": "o máximo da PMe vem **antes** do máximo do PT."
     }
    ],
    "fonte": "Vasconcellos, Economia Micro e Macro, cap. 5 (Produção) · modelo: prova de 20/11 (questões 4, 5 e 7)."
@@ -5810,96 +6086,143 @@
   "code": "CUST-11",
   "assunto": "custos",
   "category": "Teoria dos custos de produção",
-  "subcategory": "CFMe e CVMe a partir do CT (cálculo)",
+  "subcategory": "Tabela de custos de produção (estilo da prova)",
   "difficulty": "Intermediária",
   "origem": "nova",
   "sourceLabel": "Vasconcellos, Economia Micro e Macro, cap. 6 (Custos de produção) · modelo: prova de 20/11 (questões 8 e 9).",
-  "prompt": "Questão - Custos médios\nA tabela mostra o custo total de uma empresa no curto prazo. Qual é o Custo Fixo Médio com 4 unidades e o Custo Variável Médio com 5 unidades, respectivamente?",
+  "prompt": "Questão - Tabela de Custos de Produção\nDe acordo com a tabela de Custos de Produção abaixo, pede-se respectivamente:\nI) Qual o Custo Fixo Médio quando a firma produzir 2 unidades?\nII) Qual o Custo Variável Médio quando a firma produzir 4 unidades?\nIII) Qual o Custo Médio quando a firma produzir 6 unidades?\nIV) Qual o Custo Marginal quando a firma produzir 5 unidades?",
   "visual": {
    "type": "table",
    "headers": [
     "Quantidade",
-    "CT (R$)"
+    "CF",
+    "CV",
+    "CT",
+    "CFMe",
+    "CVMe",
+    "CMe",
+    "CMg"
    ],
    "rows": [
     [
-     "0",
-     "40"
-    ],
-    [
      "1",
-     "60"
+     "50",
+     "10",
+     "60",
+     "50",
+     "10",
+     "60",
+     "-"
     ],
     [
      "2",
-     "75"
+     "50",
+     "18",
+     "68",
+     "",
+     "9",
+     "34",
+     "8"
     ],
     [
      "3",
-     "85"
+     "50",
+     "24",
+     "74",
+     "16,67",
+     "8",
+     "24,67",
+     "6"
     ],
     [
      "4",
-     "100"
+     "50",
+     "32",
+     "82",
+     "12,5",
+     "",
+     "20,5",
+     "8"
     ],
     [
      "5",
-     "125"
+     "50",
+     "45",
+     "95",
+     "10",
+     "9",
+     "19",
+     ""
+    ],
+    [
+     "6",
+     "50",
+     "60",
+     "110",
+     "8,33",
+     "10",
+     "",
+     "15"
     ]
    ]
   },
   "options": [
    {
     "letter": "A",
-    "text": "10 e 17",
-    "rationale": "CORRETA. CFT = CT(0) = 40 → CFMe(4) = 40/4 = 10. CVT(5) = 125 - 40 = 85 → CVMe(5) = 85/5 = 17."
+    "text": "25; 8; 18,33; 13",
+    "rationale": "CORRETA. CFMe(2) = 50/2 = 25. CVMe(4) = 32/4 = 8. CMe(6) = 110/6 ≈ 18,33. CMg(5) = 95 - 82 = 13."
    },
    {
     "letter": "B",
-    "text": "25 e 25",
-    "rationale": "Incorreta. 25 é o CMe com 4 e com 5 unidades (100/4 e 125/5), não o CFMe nem o CVMe."
+    "text": "25; 9; 18,33; 15",
+    "rationale": "Incorreta. 9 é o CVMe com 5 unidades e 15 é o CMg da 6ª."
    },
    {
     "letter": "C",
-    "text": "10 e 25",
-    "rationale": "Incorreta. O CFMe está certo, mas 25 é o CMe com 5, não o CVMe."
+    "text": "50; 8; 110; 13",
+    "rationale": "Incorreta. 50 é o CF e 110 é o CT; o pedido são valores médios."
    },
    {
     "letter": "D",
-    "text": "40 e 85",
-    "rationale": "Incorreta. 40 e 85 são totais (CFT e CVT), não médios."
+    "text": "25; 8; 19; 13",
+    "rationale": "Incorreta. 19 é o CMe com 5 unidades, não com 6."
    },
    {
     "letter": "E",
-    "text": "8 e 17",
-    "rationale": "Incorreta. 8 é o CFMe com 5 unidades (40/5), não com 4."
+    "text": "16,67; 8; 18,33; 8",
+    "rationale": "Incorreta. 16,67 é o CFMe com 3 e 8 é o CMg da 4ª."
    }
   ],
   "correctLetter": "A",
-  "clinicalPointers": "CFT = CT com Q = 0. CVT = CT - CFT. Médio = total ÷ Q.",
+  "clinicalPointers": "Médio = total ÷ quantidade. CMg = CT atual - CT anterior.",
   "ficha": {
-   "titulo": "Do CT para CFMe e CVMe",
+   "titulo": "Tabela de custos — preencher as lacunas",
    "topicos": [
     {
-     "rotulo": "CFT",
-     "texto": "CT com produção zero: **40**.",
+     "rotulo": "CFMe",
+     "texto": "**CF ÷ Q** = 50/2 = **25**.",
      "sub": []
     },
     {
-     "rotulo": "CFMe(4)",
-     "texto": "40 ÷ 4 = **10**.",
+     "rotulo": "CVMe",
+     "texto": "**CV ÷ Q** = 32/4 = **8**.",
      "sub": []
     },
     {
-     "rotulo": "CVMe(5)",
-     "texto": "(125 - 40) ÷ 5 = **17**.",
+     "rotulo": "CMe",
+     "texto": "**CT ÷ Q** = 110/6 ≈ **18,33**.",
+     "sub": []
+    },
+    {
+     "rotulo": "CMg",
+     "texto": "**CT(Q) - CT(Q-1)** = 95 - 82 = **13**.",
      "sub": []
     }
    ],
    "distratores": [
     {
-     "frase": "CVMe = CT ÷ Q",
-     "porque": "isso é o **CMe**; o CVMe usa só o **CVT**."
+     "frase": "CMe = CT",
+     "porque": "o médio é sempre o total **dividido por Q**."
     }
    ],
    "fonte": "Vasconcellos, Economia Micro e Macro, cap. 6 (Custos de produção) · modelo: prova de 20/11 (questões 8 e 9)."
@@ -5911,42 +6234,89 @@
   "code": "CUST-12",
   "assunto": "custos",
   "category": "Teoria dos custos de produção",
-  "subcategory": "Completar CT e CMg (cálculo)",
+  "subcategory": "Completar CT e CMg na tabela",
   "difficulty": "Intermediária",
   "origem": "nova",
   "sourceLabel": "Vasconcellos, Economia Micro e Macro, cap. 6 (Custos de produção) · modelo: prova de 20/11 (questões 8 e 9).",
-  "prompt": "Questão - Custo total e marginal\nUma empresa tem custo fixo total de R$ 100,00. O custo variável total é R$ 30,00 com 1 unidade, R$ 50,00 com 2, R$ 66,00 com 3 e R$ 90,00 com 4. Qual é o custo total com 3 unidades e o custo marginal da 3ª unidade, respectivamente?",
+  "prompt": "Questão - Custo Total e Custo Marginal\nNa tabela abaixo, o custo fixo total (CFT) é de R$ 100,00. Calcule o Custo Total (CT) e o Custo Marginal (CMg) quando a firma produz 3 unidades, respectivamente.",
+  "visual": {
+   "type": "table",
+   "headers": [
+    "Quantidade",
+    "CFT",
+    "CVT",
+    "CT",
+    "CMg"
+   ],
+   "rows": [
+    [
+     "0",
+     "100",
+     "0",
+     "100",
+     "-"
+    ],
+    [
+     "1",
+     "100",
+     "30",
+     "130",
+     "30"
+    ],
+    [
+     "2",
+     "100",
+     "50",
+     "150",
+     "20"
+    ],
+    [
+     "3",
+     "100",
+     "66",
+     "",
+     ""
+    ],
+    [
+     "4",
+     "100",
+     "90",
+     "190",
+     "24"
+    ]
+   ]
+  },
   "options": [
    {
     "letter": "A",
-    "text": "R$ 66,00 e R$ 16,00",
+    "text": "66; 16",
     "rationale": "Incorreta. 66 é o CVT; faltou somar o CFT."
    },
    {
     "letter": "B",
-    "text": "R$ 166,00 e R$ 24,00",
-    "rationale": "Incorreta. 24 é o CMg da 4ª unidade (90 - 66)."
+    "text": "166; 24",
+    "rationale": "Incorreta. 24 é o CMg da 4ª unidade."
    },
    {
     "letter": "C",
-    "text": "R$ 166,00 e R$ 55,33",
-    "rationale": "Incorreta. 55,33 é o CMe com 3 unidades (166/3), não o CMg."
+    "text": "166; 55,33",
+    "rationale": "Incorreta. 55,33 é o CMe com 3 unidades (166/3)."
    },
    {
     "letter": "D",
-    "text": "R$ 166,00 e R$ 16,00",
-    "rationale": "CORRETA. CT(3) = 100 + 66 = 166. CMg(3) = CVT(3) - CVT(2) = 66 - 50 = 16 (o custo fixo não entra no CMg)."
+    "text": "166; 16",
+    "rationale": "CORRETA. CT(3) = CFT + CVT = 100 + 66 = 166. CMg(3) = 166 - 150 = 16 (o mesmo que 66 - 50)."
    },
    {
     "letter": "E",
-    "text": "R$ 150,00 e R$ 16,00",
-    "rationale": "Incorreta. 150 = CT(2); o CT com 3 é 166."
+    "text": "150; 16",
+    "rationale": "Incorreta. 150 é o CT com 2 unidades."
    }
   ],
   "correctLetter": "D",
-  "clinicalPointers": "CT = CFT + CVT. CMg pode ser calculado pelo CT ou pelo CVT: dá o mesmo.",
+  "clinicalPointers": "CT = CFT + CVT. CMg = CT atual - CT anterior.",
   "ficha": {
-   "titulo": "CT e CMg com CFT dado",
+   "titulo": "CT e CMg na tabela",
    "topicos": [
     {
      "rotulo": "CT",
@@ -5955,14 +6325,14 @@
     },
     {
      "rotulo": "CMg",
-     "texto": "**ΔCVT** = 66 - 50 = **16** (= ΔCT, porque o CFT não muda).",
+     "texto": "**ΔCT** = 166 - 150 = **16** (o CFT não muda e some na conta).",
      "sub": []
     }
    ],
    "distratores": [
     {
-     "frase": "O CMg inclui o custo fixo",
-     "porque": "o CFT é igual nas duas linhas e **se cancela**."
+     "frase": "O CT é igual ao CVT",
+     "porque": "o CT inclui o **custo fixo**."
     }
    ],
    "fonte": "Vasconcellos, Economia Micro e Macro, cap. 6 (Custos de produção) · modelo: prova de 20/11 (questões 8 e 9)."
@@ -5974,105 +6344,110 @@
   "code": "CUST-13",
   "assunto": "custos",
   "category": "Teoria dos custos de produção",
-  "subcategory": "CMg igual ao CMe no mínimo (tabela)",
-  "difficulty": "Avançada",
+  "subcategory": "Mínimo do CMg e mínimo do CMe na tabela",
+  "difficulty": "Intermediária",
   "origem": "nova",
   "sourceLabel": "Vasconcellos, Economia Micro e Macro, cap. 6 (Custos de produção) · modelo: prova de 20/11 (questões 8 e 9).",
-  "prompt": "Questão - CMe e CMg na tabela\nCom base na tabela, em que quantidade o custo marginal se iguala ao custo médio, e o que esse ponto representa?",
+  "prompt": "Questão - Custo Médio e Custo Marginal\nDe acordo com a tabela abaixo, em que quantidade o Custo Marginal é mínimo e em que quantidade o Custo Médio é mínimo, respectivamente?",
   "visual": {
    "type": "table",
    "headers": [
     "Quantidade",
-    "CT (R$)"
+    "CT",
+    "CMe",
+    "CMg"
    ],
    "rows": [
     [
      "1",
-     "50"
+     "50",
+     "50",
+     "-"
     ],
     [
      "2",
-     "70"
+     "70",
+     "35",
+     "20"
     ],
     [
      "3",
-     "84"
+     "84",
+     "28",
+     "14"
     ],
     [
      "4",
-     "100"
+     "102",
+     "25,5",
+     "18"
     ],
     [
      "5",
-     "125"
+     "125",
+     "25",
+     "23"
     ],
     [
      "6",
-     "156"
+     "156",
+     "26",
+     "31"
     ]
    ]
   },
   "options": [
    {
     "letter": "A",
-    "text": "Em 3 unidades (CMg = 14), que é o mínimo do custo médio.",
-    "rationale": "Incorreta. Em 3 o CMg é mínimo (14), mas o CMe (28) ainda está caindo."
+    "text": "5 e 3",
+    "rationale": "Incorreta. Inverteu os dois mínimos."
    },
    {
     "letter": "B",
-    "text": "Em 5 unidades (CMg = CMe = 25), que é o mínimo do custo médio.",
-    "rationale": "CORRETA. CMe: 50, 35, 28, 25, 25, 26. CMg: -, 20, 14, 16, 25, 31. Na 5ª, CMg = 25 = CMe: é o mínimo do CMe; depois o CMg (31) passa o CMe e ele sobe."
+    "text": "3 e 5",
+    "rationale": "CORRETA. Menor CMg = 14 (3 unidades). Menor CMe = 25 (5 unidades). O mínimo do CMg vem antes do mínimo do CMe; depois, o CMg (31) passa o CMe e ele sobe."
    },
    {
     "letter": "C",
-    "text": "Em 6 unidades (CMg = 31), que é o máximo do custo médio.",
-    "rationale": "Incorreta. Em 6 o CMg (31) já está acima do CMe (26), que começou a subir."
+    "text": "3 e 6",
+    "rationale": "Incorreta. Com 6 unidades o CMe já subiu (26)."
    },
    {
     "letter": "D",
-    "text": "Em 4 unidades (CMg = 16), que é o máximo do lucro da empresa.",
-    "rationale": "Incorreta. Em 4 o CMg (16) ainda está abaixo do CMe (25); e lucro precisa de receita."
+    "text": "1 e 5",
+    "rationale": "Incorreta. Com 1 unidade não há CMg na tabela."
    },
    {
     "letter": "E",
-    "text": "Em 1 unidade (CMe = 50), que é o mínimo do custo marginal.",
-    "rationale": "Incorreta. Na 1ª unidade não há CMg calculável pela tabela."
+    "text": "2 e 4",
+    "rationale": "Incorreta. Com 2 o CMg é 20 e com 4 o CMe é 25,5."
    }
   ],
   "correctLetter": "B",
-  "clinicalPointers": "CMg corta o CMe no mínimo do CMe. Calcule as duas colunas e procure a igualdade.",
+  "clinicalPointers": "Procure o menor valor em cada coluna. O mínimo do CMg vem antes do mínimo do CMe.",
   "ficha": {
-   "titulo": "Onde CMg = CMe",
+   "titulo": "Mínimos de CMg e CMe",
    "topicos": [
     {
-     "rotulo": "CMe",
-     "texto": "50, 35, 28, 25, **25**, 26.",
+     "rotulo": "CMg mínimo",
+     "texto": "**3** unidades (14).",
      "sub": []
     },
     {
-     "rotulo": "CMg",
-     "texto": "-, 20, 14, 16, **25**, 31 (a 1ª unidade não tem CMg: falta o CT com Q = 0).",
+     "rotulo": "CMe mínimo",
+     "texto": "**5** unidades (25).",
      "sub": []
     },
     {
-     "rotulo": "Leitura",
-     "texto": "CMg = CMe na **5ª** unidade (25): **mínimo do CMe**.",
-     "sub": []
-    },
-    {
-     "rotulo": "Não confundir",
-     "texto": "O **mínimo do CMg** (3ª unidade, 14) vem antes do mínimo do CMe.",
+     "rotulo": "Regra",
+     "texto": "Enquanto **CMg < CMe**, o CMe cai; quando o CMg passa o CMe, o CMe **sobe**.",
      "sub": []
     }
    ],
    "distratores": [
     {
-     "frase": "O mínimo do CMe é onde o CMg é mínimo",
-     "porque": "É onde o CMg **cruza** o CMe."
-    },
-    {
-     "frase": "CMg = CMe na 4ª unidade",
-     "porque": "Na 4ª unidade CMe é 25 e CMg é 16; eles só se igualam na **5ª unidade** (25)."
+     "frase": "O CMe é mínimo onde o CMg é mínimo",
+     "porque": "o mínimo do CMe vem **depois**, onde o CMg o alcança."
     }
    ],
    "fonte": "Vasconcellos, Economia Micro e Macro, cap. 6 (Custos de produção) · modelo: prova de 20/11 (questões 8 e 9)."
@@ -6084,63 +6459,63 @@
   "code": "CUST-14",
   "assunto": "custos",
   "category": "Teoria dos custos de produção",
-  "subcategory": "Pmg caindo e CMg subindo",
-  "difficulty": "Avançada",
+  "subcategory": "PMg caindo e CMg subindo (isto porque)",
+  "difficulty": "Intermediária",
   "origem": "nova",
   "sourceLabel": "Vasconcellos, Economia Micro e Macro, cap. 6 (Custos de produção) · modelo: prova de 20/11 (questões 8 e 9).",
-  "prompt": "Questão - Produção e custos\nUma empresa paga o mesmo salário a cada trabalhador. Com a lei dos rendimentos decrescentes, cada novo trabalhador produz menos que o anterior. O que acontece com o custo marginal?",
+  "prompt": "Questão - Produção e Custos\nAnalise as duas assertivas abaixo e, em seguida, escolha a opção CORRETA:\nNo curto prazo, quando a produtividade marginal do trabalho diminui (lei dos rendimentos decrescentes), o custo marginal aumenta.\nISTO PORQUE\nCada unidade a mais passa a exigir mais horas de trabalho pagas para ser produzida.",
   "options": [
    {
     "letter": "A",
-    "text": "Cai, porque a empresa paga o mesmo salário a todos os trabalhadores.",
-    "rationale": "Incorreta. Salário igual com Pmg menor encarece a unidade extra."
+    "text": "As duas são verdadeiras, mas não se complementam.",
+    "rationale": "Incorreta. A segunda é o motivo da primeira."
    },
    {
     "letter": "B",
-    "text": "Fica constante, porque o salário pago a cada trabalhador não muda.",
-    "rationale": "Incorreta. O salário é igual, mas cada trabalhador produz menos: o custo por unidade extra sobe."
+    "text": "A primeira é verdadeira e a segunda é falsa.",
+    "rationale": "Incorreta. A segunda está certa."
    },
    {
     "letter": "C",
-    "text": "Cai, porque o custo fixo é dividido por mais unidades produzidas.",
-    "rationale": "Incorreta. Isso descreve o CFMe, não o CMg."
+    "text": "A primeira é falsa e a segunda é verdadeira.",
+    "rationale": "Incorreta. A primeira está certa."
    },
    {
     "letter": "D",
-    "text": "Sobe, porque o custo fixo total aumenta com cada nova contratação.",
-    "rationale": "Incorreta. Trabalhador é custo variável; o CFT não muda."
+    "text": "As duas são falsas.",
+    "rationale": "Incorreta. As duas estão corretas."
    },
    {
     "letter": "E",
-    "text": "Sobe, porque cada unidade extra exige mais horas de trabalho pagas.",
-    "rationale": "CORRETA. Mesmo salário, menos produção por trabalhador → cada unidade extra custa mais. Pmg caindo ↔ CMg subindo (lei dos custos crescentes)."
+    "text": "As duas são verdadeiras e se complementam.",
+    "rationale": "CORRETA. Se cada trabalhador produz menos, é preciso mais trabalho (pago) para cada unidade extra: o CMg sobe. É a lei dos custos crescentes; a segunda explica a primeira."
    }
   ],
   "correctLetter": "E",
-  "clinicalPointers": "CMg = salário ÷ Pmg. Pmg cai → CMg sobe.",
+  "clinicalPointers": "PMg cai → CMg sobe (lei dos custos crescentes).",
   "ficha": {
-   "titulo": "Espelho Pmg ↔ CMg",
+   "titulo": "PMg e CMg são espelhos",
    "topicos": [
     {
-     "rotulo": "Fórmula",
-     "texto": "**CMg = w ÷ Pmg** (w = salário).",
-     "sub": []
-    },
-    {
-     "rotulo": "Pmg sobe",
+     "rotulo": "PMg sobe",
      "texto": "CMg **cai**.",
      "sub": []
     },
     {
-     "rotulo": "Pmg cai",
-     "texto": "CMg **sobe**: é a **lei dos custos crescentes**.",
+     "rotulo": "PMg cai",
+     "texto": "CMg **sobe**.",
+     "sub": []
+    },
+    {
+     "rotulo": "Nome",
+     "texto": "Nos custos, a lei dos rendimentos decrescentes vira **lei dos custos crescentes**.",
      "sub": []
     }
    ],
    "distratores": [
     {
-     "frase": "Salário constante deixa o CMg constante",
-     "porque": "o CMg depende também da **Pmg**."
+     "frase": "PMg menor deixa o CMg menor",
+     "porque": "menos produção por trabalhador **encarece** cada unidade extra."
     }
    ],
    "fonte": "Vasconcellos, Economia Micro e Macro, cap. 6 (Custos de produção) · modelo: prova de 20/11 (questões 8 e 9)."
@@ -6292,63 +6667,63 @@
   "code": "CUST-17",
   "assunto": "custos",
   "category": "Teoria dos custos de produção",
-  "subcategory": "Custo médio de longo prazo como envoltória",
-  "difficulty": "Avançada",
+  "subcategory": "Custos no longo prazo (I, II, III)",
+  "difficulty": "Básica",
   "origem": "nova",
   "sourceLabel": "Vasconcellos, Economia Micro e Macro, cap. 6 (Custos de produção) · modelo: prova de 20/11 (questões 8 e 9).",
-  "prompt": "Questão - Custos de longo prazo\nSobre a curva de custo médio de longo prazo (CMeLP), marque a opção CORRETA:",
+  "prompt": "Questão - Análise dos Custos de Produção no Longo Prazo\nSobre os custos no longo prazo, avalie as frases:\nI. No longo prazo não existe custo fixo (a empresa pode mudar todos os seus fatores).\nII. A curva de custo médio de longo prazo tem formato de U por causa das economias e das deseconomias de escala.\nIII. No longo prazo, a empresa não consegue mudar o tamanho da sua fábrica.",
   "options": [
    {
     "letter": "A",
-    "text": "Ela é a soma das curvas de custo médio de curto prazo de todos os tamanhos de fábrica.",
-    "rationale": "Incorreta. Não é soma: é o contorno inferior das curvas de curto prazo."
+    "text": "Apenas I está correta.",
+    "rationale": "Incorreta. A II também está correta."
    },
    {
     "letter": "B",
-    "text": "Ela só existe quando a empresa tem pelo menos um fator de produção fixo.",
-    "rationale": "Incorreta. Longo prazo não tem fator fixo."
+    "text": "Apenas II e III estão corretas.",
+    "rationale": "Incorreta. A III está errada."
    },
    {
     "letter": "C",
-    "text": "Ela mostra os custos que a empresa já pagou, e não o seu planejamento futuro.",
-    "rationale": "Incorreta. O livro diz o contrário: custos de longo prazo são horizonte de planejamento."
+    "text": "Apenas III está correta.",
+    "rationale": "Incorreta. A III é a errada."
    },
    {
     "letter": "D",
-    "text": "Ela envolve as curvas de curto prazo e mostra o menor custo médio para cada quantidade.",
-    "rationale": "CORRETA. No longo prazo a empresa escolhe o tamanho de fábrica mais barato para cada quantidade. A CMeLP é a envoltória (por baixo) das curvas de curto prazo."
+    "text": "Apenas I e II estão corretas.",
+    "rationale": "CORRETA. I e II estão certas. A III está errada: no longo prazo a empresa pode mudar tudo, inclusive o tamanho da fábrica."
    },
    {
     "letter": "E",
-    "text": "Ela sempre fica acima de todas as curvas de custo médio de curto prazo.",
-    "rationale": "Incorreta. Ela fica abaixo ou tangente às curvas de curto prazo, nunca acima."
+    "text": "Todas as afirmativas estão corretas.",
+    "rationale": "Incorreta. A III está errada."
    }
   ],
   "correctLetter": "D",
-  "clinicalPointers": "CMeLP = envoltória: o melhor tamanho de fábrica para cada quantidade.",
+  "clinicalPointers": "Longo prazo: tudo variável, sem custo fixo; U por economias → deseconomias de escala.",
   "ficha": {
-   "titulo": "CMe de longo prazo — envoltória",
+   "titulo": "Custos de longo prazo",
    "topicos": [
     {
-     "rotulo": "Ideia",
-     "texto": "Cada tamanho de fábrica tem uma curva de **curto prazo**.",
+     "rotulo": "Sem custo fixo",
+     "texto": "**Todos** os fatores variam.",
      "sub": []
     },
     {
-     "rotulo": "Longo prazo",
-     "texto": "A empresa escolhe a fábrica de **menor custo médio** para cada quantidade.",
+     "rotulo": "Formato em U",
+     "texto": "Desce com **economias** de escala; sobe com **deseconomias**.",
      "sub": []
     },
     {
-     "rotulo": "Resultado",
-     "texto": "A CMeLP é o **contorno por baixo** das curvas de curto prazo; é **planejamento**.",
+     "rotulo": "Fábrica",
+     "texto": "Pode **mudar de tamanho** no longo prazo.",
      "sub": []
     }
    ],
    "distratores": [
     {
-     "frase": "A CMeLP é a soma das curvas de curto prazo",
-     "porque": "é a **envoltória** (contorno inferior)."
+     "frase": "No longo prazo o tamanho da fábrica é fixo",
+     "porque": "isso é **curto prazo**."
     }
    ],
    "fonte": "Vasconcellos, Economia Micro e Macro, cap. 6 (Custos de produção) · modelo: prova de 20/11 (questões 8 e 9)."
@@ -6563,63 +6938,108 @@
   "code": "CUST-21",
   "assunto": "custos",
   "category": "Teoria dos custos de produção",
-  "subcategory": "CT e CMe a partir do CFT e CVMe (cálculo)",
+  "subcategory": "Completar CV, CT e CMe na tabela",
   "difficulty": "Intermediária",
   "origem": "nova",
   "sourceLabel": "Vasconcellos, Economia Micro e Macro, cap. 6 (Custos de produção) · modelo: prova de 20/11 (questões 8 e 9).",
-  "prompt": "Questão - Custo médio\nUma empresa tem custo fixo total de R$ 200,00. Produzindo 40 unidades, seu custo variável médio é R$ 15,00. Qual é o custo total e o custo médio, respectivamente?",
+  "prompt": "Questão - Tabela de Custos\nA tabela abaixo mostra os custos de uma empresa com custo fixo de R$ 200,00. Calcule o Custo Variável (CV), o Custo Total (CT) e o Custo Médio (CMe) quando a firma produz 40 unidades, respectivamente.",
+  "visual": {
+   "type": "table",
+   "headers": [
+    "Quantidade",
+    "CF",
+    "CV",
+    "CT",
+    "CVMe",
+    "CMe"
+   ],
+   "rows": [
+    [
+     "10",
+     "200",
+     "200",
+     "400",
+     "20",
+     "40"
+    ],
+    [
+     "20",
+     "200",
+     "320",
+     "520",
+     "16",
+     "26"
+    ],
+    [
+     "30",
+     "200",
+     "450",
+     "650",
+     "15",
+     "21,67"
+    ],
+    [
+     "40",
+     "200",
+     "",
+     "",
+     "15",
+     ""
+    ]
+   ]
+  },
   "options": [
    {
     "letter": "A",
-    "text": "R$ 800,00 e R$ 20,00",
-    "rationale": "CORRETA. CVT = 15 × 40 = 600. CT = 200 + 600 = 800. CMe = 800/40 = 20 (= CFMe 5 + CVMe 15)."
+    "text": "600; 800; 20",
+    "rationale": "CORRETA. CV = CVMe × Q = 15 × 40 = 600. CT = 200 + 600 = 800. CMe = 800/40 = 20."
    },
    {
     "letter": "B",
-    "text": "R$ 600,00 e R$ 15,00",
-    "rationale": "Incorreta. 600 é o CVT e 15 é o CVMe; faltou o custo fixo."
+    "text": "600; 800; 15",
+    "rationale": "Incorreta. 15 é o CVMe; o CMe inclui o custo fixo (800/40 = 20)."
    },
    {
     "letter": "C",
-    "text": "R$ 800,00 e R$ 15,00",
-    "rationale": "Incorreta. O CT está certo, mas 15 é o CVMe, não o CMe."
+    "text": "215; 800; 20",
+    "rationale": "Incorreta. Somou o CF com o CVMe (200 + 15), misturando total com médio."
    },
    {
     "letter": "D",
-    "text": "R$ 215,00 e R$ 5,38",
-    "rationale": "Incorreta. Somou o CFT com o CVMe, misturando total com médio."
+    "text": "600; 600; 15",
+    "rationale": "Incorreta. 600 é o CV; o CT soma o CF (800)."
    },
    {
     "letter": "E",
-    "text": "R$ 600,00 e R$ 20,00",
-    "rationale": "Incorreta. 600 é o CVT; o CT inclui os 200 fixos."
+    "text": "800; 1.000; 25",
+    "rationale": "Incorreta. Somou o CF duas vezes."
    }
   ],
   "correctLetter": "A",
-  "clinicalPointers": "CVT = CVMe × Q. CT = CFT + CVT. CMe = CT ÷ Q.",
+  "clinicalPointers": "CV = CVMe × Q. CT = CF + CV. CMe = CT ÷ Q.",
   "ficha": {
-   "titulo": "Montar CT e CMe",
+   "titulo": "Do CVMe para CV, CT e CMe",
    "topicos": [
     {
-     "rotulo": "CVT",
-     "texto": "15 × 40 = **600**.",
+     "rotulo": "CV",
+     "texto": "**CVMe × Q** = 15 × 40 = **600**.",
      "sub": []
     },
     {
      "rotulo": "CT",
-     "texto": "200 + 600 = **800**.",
+     "texto": "**CF + CV** = 200 + 600 = **800**.",
      "sub": []
     },
     {
      "rotulo": "CMe",
-     "texto": "800 ÷ 40 = **20** = CFMe (5) + CVMe (15).",
+     "texto": "**CT ÷ Q** = 800/40 = **20** (= CFMe 5 + CVMe 15).",
      "sub": []
     }
    ],
    "distratores": [
     {
-     "frase": "CT = CFT + CVMe",
-     "porque": "some o **CVT**, não o CVMe."
+     "frase": "CMe = CVMe",
+     "porque": "o CMe inclui também o **custo fixo médio**."
     }
    ],
    "fonte": "Vasconcellos, Economia Micro e Macro, cap. 6 (Custos de produção) · modelo: prova de 20/11 (questões 8 e 9)."
@@ -6631,62 +7051,87 @@
   "code": "CUST-22",
   "assunto": "custos",
   "category": "Teoria dos custos de produção",
-  "subcategory": "Economias, rendimentos constantes e deseconomias no CMeLP",
-  "difficulty": "Avançada",
+  "subcategory": "Economias e deseconomias de escala na tabela",
+  "difficulty": "Intermediária",
   "origem": "nova",
   "sourceLabel": "Vasconcellos, Economia Micro e Macro, cap. 6 (Custos de produção) · modelo: prova de 20/11 (questões 8 e 9).",
-  "prompt": "Questão - Custos no longo prazo\nO custo médio de longo prazo de uma empresa é R$ 10,00 com 100 unidades, R$ 8,00 com 200, R$ 8,00 com 300 e R$ 9,00 com 400. Marque a opção CORRETA:",
+  "prompt": "Questão - Custos de Longo Prazo\nA tabela mostra o Custo Médio de Longo Prazo (CMeLP) de uma empresa. Classifique, respectivamente, o que acontece nos trechos de 100 para 200, de 200 para 300 e de 300 para 400 unidades:",
+  "visual": {
+   "type": "table",
+   "headers": [
+    "Quantidade",
+    "CMeLP (R$)"
+   ],
+   "rows": [
+    [
+     "100",
+     "10,00"
+    ],
+    [
+     "200",
+     "8,00"
+    ],
+    [
+     "300",
+     "8,00"
+    ],
+    [
+     "400",
+     "9,00"
+    ]
+   ]
+  },
   "options": [
    {
     "letter": "A",
-    "text": "Deseconomias de escala de 100 a 200; constantes de 200 a 300; economias de 300 a 400.",
+    "text": "Deseconomias de escala; rendimentos constantes; economias de escala",
     "rationale": "Incorreta. Inverteu economias e deseconomias."
    },
    {
     "letter": "B",
-    "text": "Economias de escala de 100 a 300; deseconomias de escala de 300 a 400.",
-    "rationale": "Incorreta. De 200 a 300 o custo médio não muda: são rendimentos constantes."
+    "text": "Economias de escala; economias de escala; deseconomias de escala",
+    "rationale": "Incorreta. De 200 para 300 o custo médio não muda: rendimentos constantes."
    },
    {
     "letter": "C",
-    "text": "Rendimentos decrescentes do fator variável de 100 a 200 e crescentes depois.",
-    "rationale": "Incorreta. Longo prazo fala de escala, não de fator variável."
+    "text": "Rendimentos constantes; economias de escala; deseconomias de escala",
+    "rationale": "Incorreta. De 100 para 200 o custo médio cai: economias de escala."
    },
    {
     "letter": "D",
-    "text": "Economias de escala de 100 a 200; constantes de 200 a 300; deseconomias de 300 a 400.",
-    "rationale": "CORRETA. CMeLP cai (10 → 8): economias. Fica igual (8 → 8): constantes. Sobe (8 → 9): deseconomias."
+    "text": "Economias de escala; rendimentos constantes; deseconomias de escala",
+    "rationale": "CORRETA. CMeLP cai (10 → 8): economias de escala. Fica igual (8 → 8): rendimentos constantes. Sobe (8 → 9): deseconomias de escala."
    },
    {
     "letter": "E",
-    "text": "Economias de escala em toda a faixa, porque a produção sempre aumentou.",
-    "rationale": "Incorreta. O que importa é o custo médio, que sobe no final."
+    "text": "Economias de escala; deseconomias de escala; rendimentos constantes",
+    "rationale": "Incorreta. Trocou o 2º e o 3º trecho."
    }
   ],
   "correctLetter": "D",
-  "clinicalPointers": "CMeLP caindo = economias. Plano = constantes. Subindo = deseconomias.",
+  "clinicalPointers": "CMeLP cai = economia; fica igual = constante; sobe = deseconomia.",
   "ficha": {
    "titulo": "Ler escala pelo CMeLP",
    "topicos": [
     {
      "rotulo": "Cai",
-     "texto": "**Economias de escala** (10 → 8).",
+     "texto": "**Economias de escala**.",
      "sub": []
     },
     {
-     "rotulo": "Plano",
-     "texto": "**Rendimentos constantes** (8 → 8).",
+     "rotulo": "Igual",
+     "texto": "**Rendimentos constantes**.",
      "sub": []
     },
     {
      "rotulo": "Sobe",
-     "texto": "**Deseconomias de escala** (8 → 9).",
+     "texto": "**Deseconomias de escala**.",
      "sub": []
     }
    ],
    "distratores": [
     {
-     "frase": "Se a produção aumenta, há economias de escala",
+     "frase": "Se a produção aumenta, há economia de escala",
      "porque": "olhe o **custo médio**, não a produção."
     }
    ],
@@ -6699,63 +7144,104 @@
   "code": "CUST-23",
   "assunto": "custos",
   "category": "Teoria dos custos de produção",
-  "subcategory": "CMg acima do CMe faz o CMe subir (cálculo)",
-  "difficulty": "Avançada",
+  "subcategory": "CMg e CMe da 5ª unidade (tabela)",
+  "difficulty": "Intermediária",
   "origem": "nova",
   "sourceLabel": "Vasconcellos, Economia Micro e Macro, cap. 6 (Custos de produção) · modelo: prova de 20/11 (questões 8 e 9).",
-  "prompt": "Questão - CMe e CMg\nProduzindo 50 unidades, o custo médio de uma empresa é R$ 12,00. Ao produzir a 51ª unidade, o custo total passa a ser R$ 615,00. Qual é o custo marginal da 51ª unidade e o que acontece com o custo médio?",
+  "prompt": "Questão - Custo Marginal e Custo Médio\nDe acordo com a tabela abaixo, qual o Custo Marginal da 5ª unidade e o Custo Médio quando a firma produz 5 unidades, respectivamente?",
+  "visual": {
+   "type": "table",
+   "headers": [
+    "Quantidade",
+    "CT",
+    "CMe",
+    "CMg"
+   ],
+   "rows": [
+    [
+     "1",
+     "20",
+     "20",
+     "-"
+    ],
+    [
+     "2",
+     "30",
+     "15",
+     "10"
+    ],
+    [
+     "3",
+     "36",
+     "12",
+     "6"
+    ],
+    [
+     "4",
+     "48",
+     "12",
+     "12"
+    ],
+    [
+     "5",
+     "65",
+     "",
+     ""
+    ]
+   ]
+  },
   "options": [
    {
     "letter": "A",
-    "text": "R$ 15,00; o custo médio cai, porque a produção aumentou.",
-    "rationale": "Incorreta. Produção maior não garante CMe menor; com CMg > CMe, o CMe sobe."
+    "text": "13; 17",
+    "rationale": "Incorreta. Trocou a ordem pedida."
    },
    {
     "letter": "B",
-    "text": "R$ 15,00; o custo médio sobe, porque o CMg ficou acima dele.",
-    "rationale": "CORRETA. CT(50) = 12 × 50 = 600. CMg = 615 - 600 = 15. Como 15 > 12, o CMe sobe (615/51 ≈ 12,06)."
+    "text": "17; 13",
+    "rationale": "CORRETA. CMg(5) = 65 - 48 = 17. CMe(5) = 65/5 = 13. Como o CMg (17) ficou acima do CMe anterior (12), o CMe subiu."
    },
    {
     "letter": "C",
-    "text": "R$ 12,06; o custo médio sobe, porque o CT aumentou.",
-    "rationale": "Incorreta. 12,06 é o novo CMe, não o CMg."
+    "text": "65; 13",
+    "rationale": "Incorreta. 65 é o CT, não o CMg."
    },
    {
     "letter": "D",
-    "text": "R$ 615,00; o custo médio sobe para R$ 615,00.",
-    "rationale": "Incorreta. 615 é o CT, não o CMg."
+    "text": "17; 12",
+    "rationale": "Incorreta. 12 é o CMe com 4 unidades."
    },
    {
     "letter": "E",
-    "text": "R$ 3,00; o custo médio cai, porque o CMg ficou abaixo dele.",
-    "rationale": "Incorreta. 3 é a diferença entre 15 e 12; o CMg é 15."
+    "text": "5; 13",
+    "rationale": "Incorreta. 5 é a quantidade, não o CMg."
    }
   ],
   "correctLetter": "B",
-  "clinicalPointers": "Volte ao CT (CMe × Q), calcule o CMg e compare com o CMe.",
+  "clinicalPointers": "CMg = CT atual - CT anterior. CMe = CT ÷ Q.",
   "ficha": {
-   "titulo": "CMg x CMe numa conta",
+   "titulo": "CMg acima do CMe faz o CMe subir",
    "topicos": [
     {
-     "rotulo": "CT(50)",
-     "texto": "12 × 50 = **600**.",
+     "rotulo": "CMg(5)",
+     "texto": "65 - 48 = **17**.",
      "sub": []
     },
     {
-     "rotulo": "CMg(51)",
-     "texto": "615 - 600 = **15**.",
+     "rotulo": "CMe(5)",
+     "texto": "65 ÷ 5 = **13**.",
      "sub": []
     },
     {
-     "rotulo": "CMe novo",
-     "texto": "615 ÷ 51 ≈ **12,06**: subiu porque **CMg > CMe**.",
+     "rotulo": "Leitura",
+     "texto": "CMg (17) **acima** do CMe (12) → o CMe **sobe** (12 → 13).",
      "sub": []
     }
    ],
    "distratores": [
     {
-     "frase": "Mais produção sempre reduz o custo médio",
-     "porque": "só se o **CMg** ficar **abaixo** do CMe."
+     "frase": "CMg da 5ª = CT ÷ 5",
+     "porque": "isso é o **CMe**; o CMg é a **diferença** entre CTs."
     }
    ],
    "fonte": "Vasconcellos, Economia Micro e Macro, cap. 6 (Custos de produção) · modelo: prova de 20/11 (questões 8 e 9)."
@@ -7293,72 +7779,63 @@
   "code": "LUC-12",
   "assunto": "lucro",
   "category": "Maximização de lucros",
-  "subcategory": "RMg quando o preço precisa cair (cálculo)",
-  "difficulty": "Avançada",
+  "subcategory": "Receita marginal: definição",
+  "difficulty": "Básica",
   "origem": "nova",
   "sourceLabel": "Vasconcellos, Economia Micro e Macro, cap. 7 (Estruturas de mercado, questões 1, 3 e 7) · modelo: prova de 20/11 (questão 6).",
-  "prompt": "Questão - Receita Marginal\nPara vender mais, uma empresa precisa baixar o preço: vende 1 unidade a R$ 20,00, 2 unidades a R$ 18,00 cada e 3 unidades a R$ 16,00 cada. Qual é a receita marginal da 3ª unidade?",
+  "prompt": "Questão - Receita Marginal (RMg)\nSobre a receita marginal de uma empresa, marque a opção CORRETA:",
   "options": [
    {
     "letter": "A",
-    "text": "R$ 12,00",
-    "rationale": "CORRETA. RT(2) = 2 × 18 = 36. RT(3) = 3 × 16 = 48. RMg = 48 - 36 = 12. Fica abaixo do preço (16) porque, para vender a 3ª, o preço das outras duas também caiu."
+    "text": "É quanto a receita total aumenta quando a empresa vende uma unidade a mais.",
+    "rationale": "CORRETA. RMg = ΔRT/ΔQ: a receita extra de vender mais uma unidade. Com preço fixo, é igual ao preço."
    },
    {
     "letter": "B",
-    "text": "R$ 16,00",
-    "rationale": "Incorreta. 16 é o preço; aqui a RMg é menor que o preço."
+    "text": "É a receita total dividida pela quantidade vendida (receita por unidade).",
+    "rationale": "Incorreta. Isso é a receita média."
    },
    {
     "letter": "C",
-    "text": "R$ 48,00",
-    "rationale": "Incorreta. 48 é a receita total com 3 unidades."
+    "text": "É o lucro que a empresa obtém em cada unidade que ela consegue vender.",
+    "rationale": "Incorreta. Lucro por unidade é preço menos custo médio."
    },
    {
     "letter": "D",
-    "text": "R$ 2,00",
-    "rationale": "Incorreta. 2 é quanto o preço caiu por unidade."
+    "text": "É o preço do produto multiplicado pela quantidade total vendida no período.",
+    "rationale": "Incorreta. Isso é a receita total (RT = P × Q)."
    },
    {
     "letter": "E",
-    "text": "R$ 18,00",
-    "rationale": "Incorreta. 18 é o preço com 2 unidades."
+    "text": "É quanto o custo total aumenta quando a empresa produz uma unidade a mais.",
+    "rationale": "Incorreta. Isso é o custo marginal (CMg)."
    }
   ],
   "correctLetter": "A",
-  "clinicalPointers": "Calcule RT em cada quantidade (P × Q) e subtraia. Se o preço cai para vender mais, RMg < P.",
+  "clinicalPointers": "RMg = receita extra de uma unidade a mais. CMg = custo extra de uma unidade a mais.",
   "ficha": {
-   "titulo": "RMg com preço caindo",
+   "titulo": "Receita marginal",
    "topicos": [
     {
-     "rotulo": "RT",
-     "texto": "1×20 = **20**; 2×18 = **36**; 3×16 = **48**.",
+     "rotulo": "Definição",
+     "texto": "**RMg = ΔRT ÷ ΔQ**: receita extra de **uma unidade a mais**.",
      "sub": []
     },
     {
-     "rotulo": "RMg da 3ª",
-     "texto": "ΔRT = 48 - 36 = **R$ 12,00**.",
+     "rotulo": "Preço fixo",
+     "texto": "**RMg = P**.",
      "sub": []
     },
     {
-     "rotulo": "Por que RMg < P",
-     "texto": "Para vender mais uma unidade, a empresa **baixa o preço de todas** as unidades anteriores.",
-     "sub": []
-    },
-    {
-     "rotulo": "Compare",
-     "texto": "Em concorrência perfeita o preço não cai com a quantidade: **RMg = P**.",
+     "rotulo": "Não confundir",
+     "texto": "RT = P × Q; receita média = RT ÷ Q; **CMg** é o custo extra.",
      "sub": []
     }
    ],
    "distratores": [
     {
-     "frase": "RMg é sempre igual ao preço",
-     "porque": "Só quando o preço é **constante** (tomadora de preços); com demanda negativamente inclinada, **RMg < P**."
-    },
-    {
-     "frase": "A RMg da 3ª unidade é R$ 16,00",
-     "porque": "R$ 16,00 é o **novo preço** (RMe); a RMg desconta a perda de receita nas unidades anteriores."
+     "frase": "RMg = RT ÷ Q",
+     "porque": "isso é a **receita média**."
     }
    ],
    "fonte": "Vasconcellos, Economia Micro e Macro, cap. 7 (Estruturas de mercado, questões 1, 3 e 7) · modelo: prova de 20/11 (questão 6)."
@@ -7370,62 +7847,97 @@
   "code": "LUC-13",
   "assunto": "lucro",
   "category": "Maximização de lucros",
-  "subcategory": "Quantas unidades produzir com RMg constante",
+  "subcategory": "Quantidade que maximiza o lucro (RMg = CMg)",
   "difficulty": "Intermediária",
   "origem": "nova",
   "sourceLabel": "Vasconcellos, Economia Micro e Macro, cap. 7 (Estruturas de mercado, questões 1, 3 e 7) · modelo: prova de 20/11 (questão 6).",
-  "prompt": "Questão - Condição de maximização de lucro\nUma empresa tem receita marginal constante de R$ 50,00. O custo marginal das unidades é: 1ª = R$ 30,00; 2ª = R$ 35,00; 3ª = R$ 42,00; 4ª = R$ 50,00; 5ª = R$ 61,00. Quantas unidades ela deve produzir para maximizar o lucro?",
+  "prompt": "Questão - Condição de Maximização de Lucro\nA tabela mostra a Receita Marginal (RMg) e o Custo Marginal (CMg) de cada unidade produzida por uma empresa. Quantas unidades maximizam o lucro e qual é o CMg nesse ponto, respectivamente?",
+  "visual": {
+   "type": "table",
+   "headers": [
+    "Unidade",
+    "RMg (R$)",
+    "CMg (R$)"
+   ],
+   "rows": [
+    [
+     "1ª",
+     "50,00",
+     "30,00"
+    ],
+    [
+     "2ª",
+     "50,00",
+     "35,00"
+    ],
+    [
+     "3ª",
+     "50,00",
+     "42,00"
+    ],
+    [
+     "4ª",
+     "50,00",
+     "50,00"
+    ],
+    [
+     "5ª",
+     "50,00",
+     "61,00"
+    ]
+   ]
+  },
   "options": [
    {
     "letter": "A",
-    "text": "1 unidade.",
+    "text": "1; 30,00",
     "rationale": "Incorreta. A 1ª tem o menor CMg, mas as seguintes ainda aumentam o lucro."
    },
    {
     "letter": "B",
-    "text": "3 unidades.",
-    "rationale": "Incorreta. A 4ª ainda tem RMg = CMg: é onde vale a condição de lucro máximo."
+    "text": "3; 42,00",
+    "rationale": "Incorreta. A 4ª ainda tem RMg = CMg; é ali que vale a condição de lucro máximo."
    },
    {
     "letter": "C",
-    "text": "5 unidades.",
-    "rationale": "Incorreta. A 5ª custa 61 e rende 50: reduz o lucro."
+    "text": "5; 61,00",
+    "rationale": "Incorreta. A 5ª tem CMg > RMg: diminui o lucro."
    },
    {
     "letter": "D",
-    "text": "4 unidades.",
-    "rationale": "CORRETA. Produz enquanto RMg ≥ CMg: 1ª a 3ª aumentam o lucro, a 4ª tem RMg = CMg (lucro máximo), a 5ª (61 > 50) reduziria o lucro."
+    "text": "4; 50,00",
+    "rationale": "CORRETA. Produz enquanto RMg ≥ CMg. Até a 3ª, RMg > CMg (o lucro aumenta). Na 4ª, RMg = CMg = 50 (lucro máximo). A 5ª custa 61 e rende 50: reduziria o lucro."
    },
    {
     "letter": "E",
-    "text": "2 unidades.",
-    "rationale": "Incorreta. A 3ª ainda acrescenta lucro (50 - 42 = 8)."
+    "text": "4; 42,00",
+    "rationale": "Incorreta. Com 4 unidades o CMg é 50, não 42."
    }
   ],
   "correctLetter": "D",
-  "clinicalPointers": "Pare na última unidade com CMg ≤ RMg.",
+  "clinicalPointers": "Lucro máximo: RMg = CMg. Pare antes da unidade em que CMg > RMg.",
   "ficha": {
-   "titulo": "Escolher Q com RMg e CMg",
+   "titulo": "Lucro máximo pela tabela de RMg e CMg",
    "topicos": [
     {
-     "rotulo": "Ganho por unidade",
-     "texto": "RMg - CMg: 20, 15, 8, **0**, -11.",
+     "rotulo": "RMg > CMg",
+     "texto": "Vale produzir: o lucro **aumenta**.",
      "sub": []
     },
     {
-     "rotulo": "Decisão",
-     "texto": "Produza até a **4ª** (RMg = CMg).",
+     "rotulo": "RMg = CMg",
+     "texto": "**Lucro máximo** (4ª unidade, 50).",
      "sub": []
     },
     {
-     "rotulo": "Na tabela",
-     "texto": "Se não houver igualdade exata, pare antes da unidade com **CMg > RMg**.",
+     "rotulo": "CMg > RMg",
+     "texto": "Não produzir: o lucro **cai** (5ª unidade).",
      "sub": []
     }
    ],
    "distratores": [
     {
-     "frase": "Produza onde o CMg é mínimo",
+     "frase": "Produza onde o CMg é menor",
      "porque": "o critério é **RMg = CMg**."
     }
    ],

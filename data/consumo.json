@@ -429,45 +429,45 @@
    }
   },
   {
-   "s": "Hipóteses da preferência: transitividade",
+   "s": "Hipóteses da preferência: transitividade (I, II, III)",
    "d": "B",
-   "q": "Questão - Transitividade\nAna prefere a cesta A à cesta B e prefere a cesta B à cesta C. Se as preferências de Ana são transitivas, marque a opção CORRETA:",
+   "q": "Questão - Hipóteses da Preferência\nSobre como os consumidores ordenam as cestas, leia as frases abaixo e marque a opção CORRETA:\nI. Preferências completas: o consumidor sempre consegue comparar duas cestas (prefere uma ou acha as duas iguais).\nII. Preferências transitivas: se ele prefere A a B e prefere B a C, então prefere A a C (as escolhas são coerentes).\nIII. Pela transitividade, o consumidor pode preferir C a A mesmo preferindo A a B e B a C (as escolhas podem andar em círculo).",
    "a": [
-    "Ana prefere a cesta A à cesta C.",
-    "Ana prefere a cesta C à cesta A.",
-    "Ana é indiferente entre as cestas A e C.",
-    "Não dá para dizer nada sobre A e C.",
-    "A cesta B é a melhor das três para Ana."
+    "Somente I e II são verdadeiras.",
+    "Somente a I é verdadeira.",
+    "Somente II e III são verdadeiras.",
+    "Todas são verdadeiras.",
+    "Nenhuma é verdadeira."
    ],
    "j": [
-    "Transitividade: A>B e B>C implicam A>C.",
-    "Isso contraria a transitividade (seria uma preferência incoerente, circular).",
-    "Pela transitividade, A é estritamente preferida a C, não indiferente.",
-    "A transitividade existe justamente para permitir essa conclusão.",
-    "A é preferida a B, então B não é a melhor."
+    "I e II definem completude e transitividade. A III está errada: preferir C a A seria uma escolha circular, que viola a transitividade.",
+    "A II também está correta.",
+    "A III está errada e a I está correta.",
+    "A III está errada.",
+    "I e II estão corretas."
    ],
    "c": 0,
-   "p": "Transitividade = coerência em cadeia: A>B, B>C → A>C.",
+   "p": "Transitividade: A > B e B > C → A > C. Escolha em círculo viola a hipótese.",
    "ficha": {
-    "titulo": "Transitividade — coerência das escolhas",
+    "titulo": "Transitividade — escolhas coerentes",
     "topicos": [
      {
       "rotulo": "Regra",
-      "texto": "Se **A>B** e **B>C**, então **A>C**."
+      "texto": "Se **A > B** e **B > C**, então **A > C**."
      },
      {
-      "rotulo": "Para que serve",
-      "texto": "Garante que as escolhas não sejam **circulares** e que as curvas de indiferença **não se cruzem**."
+      "rotulo": "Escolha circular",
+      "texto": "A > B > C > A **viola** a transitividade."
+     },
+     {
+      "rotulo": "Completude",
+      "texto": "O consumidor **sempre compara** duas cestas (pode ser indiferente)."
      }
     ],
     "distratores": [
      {
-      "frase": "Com A>B e B>C, nada se pode concluir sobre A e C",
-      "porque": "A transitividade garante formalmente **A>C**."
-     },
-     {
       "frase": "O consumidor pode preferir C a A mesmo preferindo A a B e B a C",
-      "porque": "Preferir C a A geraria um **ciclo de escolhas**, violando diretamente a transitividade."
+      "porque": "isso é uma escolha **circular**, proibida pela transitividade."
      }
     ]
    }
@@ -701,49 +701,79 @@
    }
   },
   {
-   "s": "Taxa marginal de substituição: cálculo na CI",
+   "s": "TMS na tabela de cestas (cálculo)",
    "d": "I",
-   "q": "Questão - Calculando a TMS\nSobre uma mesma curva de indiferença, um consumidor passa da cesta (X = 2; Y = 10) para a cesta (X = 3; Y = 7) e depois para a cesta (X = 4; Y = 5). Qual é a TMS em cada trecho e o que isso mostra?",
+   "q": "Questão - Taxa Marginal de Substituição (TMS)\nA tabela abaixo mostra cestas que estão na mesma curva de indiferença (dão a mesma satisfação). A TMS é quanto de Y o consumidor aceita trocar para ganhar 1 unidade a mais de X. Qual é a TMS na passagem da cesta A para a B e da cesta C para a D, respectivamente?",
+   "t": {
+    "headers": [
+     "Cesta",
+     "Bem X",
+     "Bem Y",
+     "TMS"
+    ],
+    "rows": [
+     [
+      "A",
+      "1",
+      "12",
+      "-"
+     ],
+     [
+      "B",
+      "2",
+      "8",
+      ""
+     ],
+     [
+      "C",
+      "3",
+      "5",
+      ""
+     ],
+     [
+      "D",
+      "4",
+      "3",
+      ""
+     ]
+    ]
+   },
    "a": [
-    "3 e depois 2; a TMS decrescente mostra que a CI é convexa.",
-    "3 e depois 2; a TMS decrescente mostra que a CI é côncava.",
-    "2 e depois 3; a TMS crescente mostra que a CI é convexa.",
-    "7 e depois 5; a TMS mostra a quantidade de Y em cada cesta.",
-    "1 e depois 1; a TMS constante mostra que a CI é uma reta."
+    "4 e 2",
+    "8 e 3",
+    "4 e 3",
+    "3 e 2",
+    "12 e 5"
    ],
    "j": [
-    "1º trecho: ΔY = 10-7 = 3 para ΔX = 1 → TMS 3. 2º trecho: 7-5 = 2 para ΔX = 1 → TMS 2. Cai ao longo da curva: CI convexa.",
-    "Os números estão certos, mas TMS decrescente gera curva convexa (encurvada para a origem), não côncava.",
-    "Inverteu a ordem: a TMS começa em 3 e cai para 2.",
-    "7 e 5 são as quantidades de Y nas cestas, não quanto de Y foi cedido.",
-    "X aumentou 1 a cada trecho, mas Y caiu 3 e depois 2. A TMS não é 1."
+    "A → B: Y cai de 12 para 8 (cede 4) para ganhar 1 de X → TMS = 4. C → D: Y cai de 5 para 3 (cede 2) → TMS = 2.",
+    "8 e 3 são quantidades de Y nas cestas B e D, não o quanto foi cedido.",
+    "3 é a TMS de B para C (8 - 5), não de C para D.",
+    "3 é a TMS de B para C; a de A para B é 4.",
+    "12 e 5 são as quantidades de Y nas cestas A e C."
    ],
    "c": 0,
-   "p": "TMS = quanto Y caiu ÷ quanto X subiu. Se cai ao longo da curva → CI convexa.",
+   "p": "TMS = quanto Y diminuiu ÷ quanto X aumentou, entre as duas cestas pedidas.",
    "ficha": {
-    "titulo": "TMS — cálculo e convexidade",
+    "titulo": "TMS na tabela de cestas",
     "topicos": [
      {
       "rotulo": "Conta",
-      "texto": "TMS = **ΔY/ΔX** em módulo. (2;10)→(3;7): 3/1 = **3**. (3;7)→(4;5): 2/1 = **2**."
+      "texto": "TMS = **queda de Y ÷ aumento de X**."
      },
      {
-      "rotulo": "TMS decrescente",
-      "texto": "Quanto **mais X** o consumidor já tem, **menos Y** aceita ceder por mais uma unidade de X."
+      "rotulo": "Trechos",
+      "texto": "A→B: **4**; B→C: **3**; C→D: **2**."
      },
      {
-      "rotulo": "Forma da curva",
-      "texto": "TMS decrescente → CI **convexa** à origem."
+      "rotulo": "Leitura",
+      "texto": "A TMS **diminui** ao longo da curva: a CI é **convexa**."
      }
     ],
     "distratores": [
      {
-      "frase": "TMS decrescente gera CI côncava",
-      "porque": "gera curva **convexa** (bojo voltado para a origem)."
-     },
-     {
-      "frase": "A TMS é a quantidade de Y na cesta",
-      "porque": "é a **variação** de Y, não o nível."
+      "frase": "A TMS é a quantidade de Y da cesta",
+      "porque": "é o quanto Y **diminuiu**, não o valor de Y."
      }
     ]
    }
